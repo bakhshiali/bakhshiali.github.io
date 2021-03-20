@@ -153,7 +153,7 @@ Certificates
 
 |  									|University\Institute  |
 |:--------|:-------:|
-|* Advanced Search & reference resources and software (Mendeley, endnote, …) |
+|* Advanced Search & reference resources and software (Mendeley, endnote, …) |Tabriz University|
 |* C# programming |Tabriz University|
 |* Catia |Technical and Vocational Training Organization |
 |* LAMMPS |IUST|
@@ -166,7 +166,7 @@ Certificates
 |* Nano standardization |Anabizz Company|
 |* Nano certificate (nano mark) |Anabizz Company|
 |* Safety and health course of working with nanomaterials|Anabizz Company & Iran Nano Safety Network (INSN)|
-|* Raman spectrometer }IUST-Teksan company}
+|* Raman spectrometer |IUST-Teksan company|
 |* programmable logic controllers (PLCs)|IUST- School of Mechanical Engineering|
 |* Optical Systems Design Course (OSLO,…)|Tabriz University|
 |* Membrane and Nano filtration technology|Research Institute of Petroleum Industry|
