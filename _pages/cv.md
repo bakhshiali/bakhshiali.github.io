@@ -21,6 +21,7 @@ Contact Info
 
 Identity
 ======
+
 |:--------|:--------|
 |Date of birth: |22/11/1995|
 |Marital status: |single|
@@ -136,6 +137,7 @@ Services, leaderships & Memberships
 
 Languages
 ======
+
 |  									|Level  |
 |:--------|:-------:|
 |* Azeri and Azerbaijani Turkish    |Mother tongue    |
@@ -148,6 +150,7 @@ Languages
 
 Certificates
 ======
+
 |  									|University\Institute  |
 |:--------|:-------:|
 |* Advanced Search & reference resources and software (Mendeley, endnote, …) |
@@ -205,6 +208,7 @@ Research activities
 
 Softwares
 ======
+
 |								|level|
 |* Lammps, OpenBabel, PackMOL 	|Professional|
 |* Mendeley, Endnote, … 		|Professional|
