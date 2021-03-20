@@ -19,7 +19,7 @@ Now - 2021-2023
 ======
 I'd experienced industrial projects, Group Leading, StartUps and etc. As a national rule for males, I had to take Military order (service) as scientific research assistant from 2021 for 2 years. IF there is a Full founded PhD position in Nanobiotechnology and you wish I deserve it, please Let me know.
 
-My updated CV links : https://bakhshiali.github.io/cv | <a href="https://drive.google.com/file/d/1yzwVKTL5s4ySonpsOCyoiAnbgx32Harb/view?usp=sharing">PDF version</a>
+My updated CV links : <a href="https://bakhshiali.github.io/cv">https://bakhshiali.github.io/cv</a> | <a href="https://drive.google.com/file/d/1yzwVKTL5s4ySonpsOCyoiAnbgx32Harb/view?usp=sharing">PDF version</a>
 
 As a researcher, if you are interested in and want me to cooperate in papers, books & patents, contact me (please don’t hesitate).
 
