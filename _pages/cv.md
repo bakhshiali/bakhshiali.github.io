@@ -12,12 +12,11 @@ redirect_from:
 Contact Info
 ======
 |Tel: 		| 0098-9014122529|
-
 |Email 1: 	|alibakhshi255255@gmail.com|
 |Email 2:	|ali_bakhshi@nt.iust.ac.ir|
 |GitHub: 	|https://github.com/bakhshiali|
 |LinkedIn:	|https://www.linkedin.com/in/ali-bakhshi-/5056aa149|
-|Address: 	|Tehran, Iran | London, UK|
+|Address: 	|Tehran, Iran and London, UK|
 
 Identity
 ======
