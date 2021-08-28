@@ -172,6 +172,7 @@ Certificates
 |* Understanding Cancer Metastasis |Coursera|
 |* Introduction to the Biology of Cancer |Coursera|
 |* Introduction to Breast Cancer |Coursera|
+|* Basic to advance bioinformatics |Royan Institute|
 
 Research activities
 ======
