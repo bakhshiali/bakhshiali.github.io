@@ -112,7 +112,6 @@ Publications
 Patents
 ======
 * Magnetic field sensors based on tapered optical fiber (Iran-Declaration No.44529517252986)
-* Strategic nanofiber (Iran-in progress)
   
 Talks
 ======
@@ -128,12 +127,7 @@ Teaching
   
 Services, leaderships & Memberships
 ======
-* Member of IPM Plasma Group
-* Member of Industrialization Group
-* Head of Molecular Dynamics Group
-* Head of Spectrophotometer Group
-* Member of National Library of Iran
-* Member of Iranian Society of Nanomedicine
+* 
 
 Languages
 ======
