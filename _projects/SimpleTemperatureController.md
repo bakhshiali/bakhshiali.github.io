@@ -1,4 +1,14 @@
- SMT160
+---
+title: "Simple Temperature Controller"
+collection: projects
+type: "Undergraduate projects"
+permalink: /projects/SimpleTemperatureController
+venue: ""
+date: 
+location: "Tabriz, Iran"
+---
+
+SMT160
 
 The SMT160-30 is a three terminal integrated temperature sensor, with a duty-cycle output. Two terminals are used for the power supply of 5 Volts and the third terminal carries the output signal. A duty cycle modulated output is used because this output is interpretable by a micro-processor without A-D converter, while the analogue information is still available.
 
