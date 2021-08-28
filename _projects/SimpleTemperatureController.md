@@ -3,8 +3,8 @@ title: "Simple Temperature Controller"
 collection: projects
 type: "Undergraduate projects"
 permalink: /projects/SimpleTemperatureController
-venue: ""
-date: 
+venue: "Tabriz"
+date: 2017
 location: "Tabriz, Iran"
 ---
 
