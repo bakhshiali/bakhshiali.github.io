@@ -217,7 +217,7 @@ defaults:
   # _projects
   - scope:
       path: ""
-      type: teaching
+      type: projects
     values:
       layout: single
       author_profile: true
