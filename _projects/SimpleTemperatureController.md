@@ -4,7 +4,7 @@ collection: projects
 type: "Undergraduate projects"
 permalink: /projects/SimpleTemperatureController
 venue: "Tabriz"
-date: 2017
+date: 2017-1-1
 location: "Tabriz, Iran"
 ---
 
