@@ -29,17 +29,17 @@ Identity
 
 Education
 ======
-* Research assistant
+* Research assistant  
 	Nanotechnology-Nanomaterials "Iran University of Science and Technology (IUST)” (2020-2021)
-* Master of Science
+* Master of Science  
 	Nanotechnology-Nanomaterials "Iran University of Science and Technology" (2018-2020)
 	Project: Manufacturing and evaluation of optical fiber based magnetic field sensor containing graphene-magnetite hybrid coating
-* Bachelor of Science
+* Bachelor of Science  
 	Engineering Physics-Plasma, Laser, Solid State "University of Tabriz" (2014-2018)
 	Project: The mechanism of plasma enhanced chemical vapor deposition (PECVD) and its applications
-* High school
+* High school  
 	Graduate of Mathematics and Physics, Shahid Hemmat State High School, District 19
-* Middle school
+* Middle school  
 	Graduate of "Shahriar" State middle school (Mianeh-east Azerbaijan)
 
 Work experience
