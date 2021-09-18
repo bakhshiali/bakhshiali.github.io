@@ -22,10 +22,10 @@ temp = (duty cycle -0.32)/0.0047
 
 In practice to measure the temperature we will use ATmega16 microcontroller, 74LS245 buffer, 4514 decoder, BC337 transistors and 8*16 LED matrix so the code is similar to below :
 <pre>
-#include &ltmega16.h&gt  <!-- &gt == >, &lt == <---!>
-#include &ltdelay.h&gt  
-#include &ltmath.h&gt  
-#include &ltstdlib.h&gt  
+#include <mega16.h>
+#include <delay.h>  
+#include ltmath.h>  
+#include <stdlib.h>  
 unsigned char  prt1=0,prt2=0,count=0;
 signed char    num=0;    
 unsigned long pw1=0,sp1=0,h=0;   
