@@ -1,5 +1,5 @@
 ---
-title: "Simple Temperature Controller"
+title: "Simple Temperature Controller (SMT160)"
 collection: projects
 type: "Undergraduate projects"
 permalink: /projects/SimpleTemperatureController
