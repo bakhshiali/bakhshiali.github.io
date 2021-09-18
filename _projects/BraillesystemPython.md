@@ -30,7 +30,7 @@ I impressed by Mr Braille’s works and as social responsibility, I couldn’t i
 
 Code 1 : python Translator
 In simplest way We will use two corresponding list and by searching characters of input string then combining them, entire statement will be translated (converted or encode/decoded).
-
+<pre>
 braille = ['⠴','⠂','⠆','⠒','⠲','⠢','⠖','⠶','⠦','⠔',
 			'⠁','⠃','⠉','⠙','⠑','⠋','⠛','⠓','⠊','⠚',
 			'⠅','⠇','⠍','⠝','⠕','⠏','⠟','⠗','⠎','⠞',
@@ -64,3 +64,4 @@ Out[3]: ‘hi, i am ali bakhshi.’
 5) OCR (Optical character recognition)
 6) STT (Speech to text)
 7) Machine Learning algorithms (Better Predictions)
+</pre>
