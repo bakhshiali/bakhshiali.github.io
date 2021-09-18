@@ -29,6 +29,8 @@ Identity
 
 Education
 ======
+* Researcher/Research Asistant  
+	Nanobiotechnology & Nanotechnology "IPM (Institute For Research In Fundamental Sciences)" (2021/6/22-2023/6/22)  
 * Research assistant  
 	Nanotechnology-Nanomaterials "Iran University of Science and Technology (IUST)” (2020-2021)
 * Master of Science  
@@ -44,38 +46,38 @@ Education
 
 Work experience
 ======
-* Research and Development
-   Azar-Sky Company 2013-2021 (7 years) -R&D
-	Color removal of industrial wastewater
-	Development of dyeing methods for natural and synthetic fibers
-	Development of mechanization of dyeing systems
-	Reverse Engineering
-	Application and website development
-	Product design
-* Consulting and automation
-   Azerbaijan Electrical Power Company 1397-1396 (2 years)
-	Automation engineer and programmer
-	Industrial automation
-	UPS support units
-* University
-   IUST, Faculty of advanced Technologies
-	Secretary of the (college) students' scientific association (2 years), the distinguished (top) student, rank 42 national entrance exam
-   University of Tabriz, Faculty of Physics
-	Active member of the Scientific Association, Talented student (among the top educational students)
-* University magazines
-   Journal of Steel and Concrete 2020 (1 year)
-	Head of graphic design
-   Journal of Technologists 2019 (2 year)
-	Managing Director and Editor
-* Iran Nanotechnology Innovation Council (INIC)
-   INIC 2019-2021 (2 years)
-	Representative of INIC in IUST
-	Industrialization Center for Applied Nanotechnology (ICAN) Ambassador
-* Startup
-   Tabriz University of Medical Sciences and Pharmacy
-	Online doctor, plant image processing, herbal medicine database
-   Raman sensor in pharmaceutical industry (IUST)
-   Air purification-Nano filters (INIC - Nano Startup Program)
+* Research and Development  
+   Azar-Sky Company 2013-2021 (7 years) -R&D  
+	Color removal of industrial wastewater  
+	Development of dyeing methods for natural and synthetic fibers  
+	Development of mechanization of dyeing systems  
+	Reverse Engineering  
+	Application and website development  
+	Product design  
+* Consulting and automation  
+   Azerbaijan Electrical Power Company 1397-1396 (2 years)  
+	Automation engineer and programmer  
+	Industrial automation  
+	UPS support units  
+* University  
+   IUST, Faculty of advanced Technologies  
+	Secretary of the (college) students' scientific association (2 years), the distinguished (top) student, rank 42 national entrance exam  
+   University of Tabriz, Faculty of Physics  
+	Active member of the Scientific Association, Talented student (among the top educational students)  
+* University magazines  
+   Journal of Steel and Concrete 2020 (1 year)  
+	Head of graphic design  
+   Journal of Technologists 2019 (2 year)  
+	Managing Director and Editor  
+* Iran Nanotechnology Innovation Council (INIC)  
+   INIC 2019-2021 (2 years)  
+	Representative of INIC in IUST  
+	Industrialization Center for Applied Nanotechnology (ICAN) Ambassador  
+* Startup  
+   Tabriz University of Medical Sciences and Pharmacy  
+	Online doctor, plant image processing, herbal medicine database  
+   Raman sensor in pharmaceutical industry (IUST)  
+   Air purification-Nano filters (INIC - Nano Startup Program)  
    
 Skills
 ======
