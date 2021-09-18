@@ -1,8 +1,8 @@
 ---
-title: "Simple Temperature Controller (SMT160)"
+title: "Removing Carpet and Waste Water Dyes"
 collection: projects
 type: "Undergraduate projects"
-permalink: /projects/SimpleTemperatureController
+permalink: /projects/RemovingCarpetandWasteWaterDyes
 venue: "Tehran"
 date: 2017-1-1
 location: "Tehran, Iran"
