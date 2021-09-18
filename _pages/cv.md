@@ -148,6 +148,7 @@ Certificates
 
 |  									|University\Institute  |
 |:--------|:-------:|
+|* Basic to advance bioinformatics |Royan Institute|
 |* Advanced Search & reference resources and software (Mendeley, endnote, …) |Tabriz University|
 |* C# programming |Tabriz University|
 |* Catia |Technical and Vocational Training Organization |
