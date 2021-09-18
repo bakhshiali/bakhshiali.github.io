@@ -12,6 +12,9 @@ Here we were taking a deeper look at Nano Photonic Materials.
 
 Princples
 ======
-1) Introduction (History, Physics, Classifications"
-2) NanoMaterial Synthesis (Chemical and Physical methods, Novel methods)
-3) NanoMaterial Application in Photonics (Sensors, NEMS/MEMS (NOEMS/MOEMS))
+1) Introduction (History, Physics, Classifications"  
+2) NanoMaterial Synthesis (Chemical and Physical methods, Novel methods)  
+3) NanoMaterial Application in Photonics (Sensors, NEMS/MEMS (NOEMS/MOEMS))  
+
+![socialqta.jpg](/images/projects/socialqta.jpg)
+Nano Photonic Materials Poster in Persian
