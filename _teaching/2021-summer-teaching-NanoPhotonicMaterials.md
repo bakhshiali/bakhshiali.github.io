@@ -16,5 +16,5 @@ Princples
 2) NanoMaterial Synthesis (Chemical and Physical methods, Novel methods)  
 3) NanoMaterial Application in Photonics (Sensors, NEMS/MEMS (NOEMS/MOEMS))  
 
-![socialqta.jpg](/images/projects/socialqta.jpg)
+![socialqta.jpg](/images/teachings/socialqta.jpg)
 Nano Photonic Materials Poster in Persian
