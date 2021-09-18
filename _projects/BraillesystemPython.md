@@ -49,19 +49,20 @@ def Braille2English(BrailleText) :
 	return ''.join([English[braille.index(fi)] for ch in BrailleText for fi in braille if ch == fi])
 def English2Braiile(EnglishText) :
 	return ''.join([braille[English.index(fi)] for ch in EnglishText for fi in English if ch == fi])
-I’d tried the code in Jupyter Notebook and got the results as :
-In [2] : English2Braiile(‘hi, i am ali bakhshi.’)
-Out[2]: ‘⠓⠊⠠⠀⠊⠀⠁⠍⠀⠁⠇⠊⠀⠃⠁⠅⠓⠎⠓⠊⠨’
+</pre>
+I’d tried the code in Jupyter Notebook and got the results as :  
+In [2] : English2Braiile(‘hi, i am ali bakhshi.’)  
+Out[2]: ‘⠓⠊⠠⠀⠊⠀⠁⠍⠀⠁⠇⠊⠀⠃⠁⠅⠓⠎⠓⠊⠨’  
 
 In  [3]: Braille2English(‘⠓⠊⠠⠀⠊⠀⠁⠍⠀⠁⠇⠊⠀⠃⠁⠅⠓⠎⠓⠊⠨’)
 Out[3]: ‘hi, i am ali bakhshi.’
 
-#future developments :
-1) improvement of characters
-2) adding more languages, uni-codes
-3) GUI design
-4) TTS (Text to speech)
-5) OCR (Optical character recognition)
-6) STT (Speech to text)
-7) Machine Learning algorithms (Better Predictions)
-</pre>
+#future developments :  
+1) improvement of characters  
+2) adding more languages, uni-codes  
+3) GUI design  
+4) TTS (Text to speech)  
+5) OCR (Optical character recognition)  
+6) STT (Speech to text)  
+7) Machine Learning algorithms (Better Predictions)  
+
