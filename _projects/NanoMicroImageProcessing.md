@@ -19,7 +19,7 @@ fiber optic image processing with ccd camera
 
 2nd try was with a motorized ccd and had better magnification. Here, ccd feedback wire to motor were broken and I had to design a interface with atmega 8 to control pulses as voltages was 5-12 volts. Below images show better improvements in boundary detection (Red Lines).
 
-![FiberIP2.JPG](/images/projects/FiberIP2.JPG)
+![FiberIP2.jpg](/images/projects/FiberIP2.jpg)
 fiber optic image processing with motorized ccd camera
 
 CCDs are perfect but I had low resolution as seen in above pictures, I took a canon camera with CMOS technology then connected it to my laptop and programmed it to get data. Results were fascinating, when I converted images into gray scale, lower noise were appeared and I removed noise canceling lines, respectively. Results were like below.
