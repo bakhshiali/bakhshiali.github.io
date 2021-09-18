@@ -22,6 +22,8 @@ duty cycle = TH/T0;
 
 temp = (duty cycle -0.32)/0.0047
 
+![smt160-timing.png](/images/projects/smt160-timing.png)
+
 In practice to measure the temperature we will use ATmega16 microcontroller, 74LS245 buffer, 4514 decoder, BC337 transistors and 8*16 LED matrix so the code is similar to below :
 <pre>
 #include "mega16.h"  
