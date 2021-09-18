@@ -29,7 +29,6 @@ Identity
 
 Education
 ======
-<pre>
 * Research assistant
 	Nanotechnology-Nanomaterials "Iran University of Science and Technology (IUST)” (2020-2021)
 * Master of Science
@@ -42,8 +41,7 @@ Education
 	Graduate of Mathematics and Physics, Shahid Hemmat State High School, District 19
 * Middle school
 	Graduate of "Shahriar" State middle school (Mianeh-east Azerbaijan)
-{: .text-justify}
-</pre>
+
 Work experience
 ======
 * Research and Development
