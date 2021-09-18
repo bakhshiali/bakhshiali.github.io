@@ -12,6 +12,8 @@ SMT160
 
 The SMT160-30 is a three terminal integrated temperature sensor, with a duty-cycle output. Two terminals are used for the power supply of 5 Volts and the third terminal carries the output signal. A duty cycle modulated output is used because this output is interpretable by a micro-processor without A-D converter, while the analogue information is still available.
 
+![smt160.png](/images/projects/smt160.png)
+
 An easy way of measuring a duty cycle is to use a microcontroller. It is only necessary to connect the sensors output to one of the microcontrollers inputs. With help of a small program it is possible to sense that input wether it is high or low. The speed of this sampling is limited due to the instruction time of the controller. So to achieve the wished accuracy it is necessary to sample over more than one sensor period. This way of working has also the advantage to filter noise. From the theory of signal processing it can be derived that there is a fixed ratio between the sensors signal frequency, the sampling rate and the sampling noise.
 
 with SMT160 we could measure temperature from -45 °C to +130 °C . Output Pulse of sensor is similar to below timing chart, in this special case T0 is constant so we will measure TH and TL by duty cycles :
