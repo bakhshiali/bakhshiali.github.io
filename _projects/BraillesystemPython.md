@@ -16,7 +16,7 @@ Braille system Python
 
 Louis Braille was a French educator, catholic priest and inventor of a system of reading and writing for use by the blind or visually impaired. His system remains virtually unchanged to this day, and is known worldwide simply as braille.
 
-<b>Braille Design, ⠃⠗⠁⠊⠇⠇⠑</b>
+<b>Braille Design, ⠃⠗⠁⠊⠇⠇⠑</b>  
 Braille worked tirelessly on his ideas, and his system was largely completed by 1824, when he was fifteen years old. From Barbier’s night writing, he innovated by simplifying its form and maximizing its efficiency. He made uniform columns for each letter, and he reduced the twelve raised dots to six. He published his system in 1829, and by the second edition in 1837 he had discarded the dashes because they were too difficult to read. Crucially, Braille’s smaller cells were capable of being recognized as letters with a single touch of a finger.
 
 Braille created his own raised-dot system by using an awl, the same kind of implement which had blinded him. In the process of designing his system, he also designed an ergonomic interface for using it, based on Barbier’s own slate and stylus tools. By soldering two metal strips across the slate, he created a secure area for the stylus which would keep the lines straight and readable.
