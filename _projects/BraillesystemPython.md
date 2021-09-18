@@ -54,7 +54,7 @@ I’d tried the code in Jupyter Notebook and got the results as :
 In [2] : English2Braiile(‘hi, i am ali bakhshi.’)  
 Out[2]: ‘⠓⠊⠠⠀⠊⠀⠁⠍⠀⠁⠇⠊⠀⠃⠁⠅⠓⠎⠓⠊⠨’  
 
-In  [3]: Braille2English(‘⠓⠊⠠⠀⠊⠀⠁⠍⠀⠁⠇⠊⠀⠃⠁⠅⠓⠎⠓⠊⠨’)
+In  [3]: Braille2English(‘⠓⠊⠠⠀⠊⠀⠁⠍⠀⠁⠇⠊⠀⠃⠁⠅⠓⠎⠓⠊⠨’)  
 Out[3]: ‘hi, i am ali bakhshi.’
 
 #future developments :  
