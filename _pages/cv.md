@@ -29,7 +29,7 @@ Identity
 
 Education
 ======
-* Researcher/Research Asistant  
+* Researcher/Research Assistant  
 	Nanobiotechnology & Nanotechnology "IPM (Institute For Research In Fundamental Sciences)" (2021/6/22-2023/6/22)  
 * Research assistant  
 	Nanotechnology-Nanomaterials "Iran University of Science and Technology (IUST)” (2020-2021)
