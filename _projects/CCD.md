@@ -22,7 +22,7 @@ In a CCD for capturing images, there is a photoactive region (an epitaxial layer
 
 An image is projected through a lens onto the capacitor array (the photoactive region), causing each capacitor to accumulate an electric charge proportional to the light intensity at that location. A one-dimensional array, used in line-scan cameras, captures a single slice of the image, whereas a two-dimensional array, used in video and still cameras, captures a two-dimensional picture corresponding to the scene projected onto the focal plane of the sensor. Once the array has been exposed to the image, a control circuit causes each capacitor to transfer its contents to its neighbor (operating as a shift register). The last capacitor in the array dumps its charge into a charge amplifier, which converts the charge into a voltage. By repeating this process, the controlling circuit converts the entire contents of the array in the semiconductor to a sequence of voltages. In a digital device, these voltages are then sampled, digitized, and usually stored in memory; in an analog device (such as an analog video camera), they are processed into a continuous analog signal (e.g. by feeding the output of the charge amplifier into a low-pass filter), which is then processed and fed out to other circuits for transmission, recording, or other processing.
 
-![CCD_charge_transfer_animation.gif](/images/projects/CCD_charge_transfer_animation.gif)
+![CCD_charge_transfer_animation.gif](/images/projects/CCD_charge_transfer_animation.gif)  
 The charge packets (electrons, blue) are collected in potential wells (yellow) created by applying positive voltage at the gate electrodes (G). Applying positive voltage to the gate electrode in the correct sequence transfers the charge packets.
 Architecture
 1) Frame transfer CCD
@@ -106,19 +106,20 @@ The source code for the linear CCD application is very carefully crafted in plac
 To calibrate, start by setting the VR2 pot so that the voltage on pin 12 of the ADC0820 is close to 5.0V. Set VR3 such that the voltage on pin 11 of the ADC0820 is 0V. Then cover the CCD with electrical tape in a room with dimmed lighting. The tape will come off without damaging the CCD. Adjust pot VR1 to get the lowest voltage you can get on pin 1 of the ADC0820. Adjust it back up so that the voltage just begins to rise. It may be anywhere from 0.65V to 0.75V. That adjusts the lowest signal to be just measurable by the ADC. Remove the electrical tape, but keep it handy. We’ll use it again. Cover the CCD with a dark cloth under dimmed room lighting so the CCD just barely saturates (a scope helps) and adjust the 2kΩ VR2 Vref(+) pot and readout a frame. Adjust until the digital value is 255, and then back off a little to 253 – 255. Then cover the CCD using the electrical tape, and adjust the 10k VR3 Vref(-) pot so the lowest digital reading just hits 1 or 2 ADU. You must adjust the pots in that order because they interact with each other. That is by design. The maximum voltage you can put on Vref(-) is the voltage on Vref(+), and the minimum is ground, so changing Vref(+) changes the range of Vref(-).
 
 ![TCD1304-Sampler.png](/images/projects/TCD1304-Sampler.png)
-python Output
-A few lines up from the end of the python code is a line:
-app = Application(master=root, port=”/dev/tty.usbserial-00000000″, exposure=50)
-It should match your serial port. If you are using Windows, change that to:
-app = Application(master=root, port=”COM3″, exposure=50)
+python Output  
+
+A few lines up from the end of the python code is a line:  
+app = Application(master=root, port=”/dev/tty.usbserial-00000000″, exposure=50)  
+It should match your serial port. If you are using Windows, change that to:  
+app = Application(master=root, port=”COM3″, exposure=50)  
 
 Make it match the serial port you are using. When you run the program it draws a graph of the CCD output, but also makes a file in the program directory named ‘ccd.csv’. That file can be imported into a spreadsheet application for further processing.
 The commands are:
 
-Sample – Read the CCD and put the trace on the screen.
-Clear – Clear all traces from the screen.
-Quit – End the program (you need to do this to keep from generating an error on exit).
-Samples – How many scans to average together (removes noise).
-Exposure – An integer value from 1 to 1000. The milliseconds to expose.
-Baseline – Makes a zero second exposure to subtract from other exposures.
-notes : Be careful to keep the digital and analog wiring away from each other where possible. Use 0.1µF bypass capacitors at every Vcc connection. Keep all of the digital wires as short as practical to keep them from radiating more than necessary. Be especially careful when routing the Mclk and SH signals near analog areas.
+Sample – Read the CCD and put the trace on the screen.  
+Clear – Clear all traces from the screen.  
+Quit – End the program (you need to do this to keep from generating an error on exit).  
+Samples – How many scans to average together (removes noise).  
+Exposure – An integer value from 1 to 1000. The milliseconds to expose.  
+Baseline – Makes a zero second exposure to subtract from other exposures.  
+notes : Be careful to keep the digital and analog wiring away from each other where possible. Use 0.1µF bypass capacitors at every Vcc connection. Keep all of the digital wires as short as practical to keep them from radiating more than necessary. Be especially careful when routing the Mclk and SH signals near analog areas.  
