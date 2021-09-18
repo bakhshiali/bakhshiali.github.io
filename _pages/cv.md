@@ -42,6 +42,7 @@ Education
 	Graduate of Mathematics and Physics, Shahid Hemmat State High School, District 19
 * Middle school
 	Graduate of "Shahriar" State middle school (Mianeh-east Azerbaijan)
+{: .text-justify}
 </pre>
 Work experience
 ======
