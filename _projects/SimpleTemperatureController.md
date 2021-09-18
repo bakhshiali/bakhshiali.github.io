@@ -52,29 +52,29 @@ flash unsigned char temp_text[]={
 63,96,96,96,32,112,216,112,0,96,192,204,120,0,0,0};  
 //_____________________________________________________        
 void main(){  
-float t=0.0;  
-signed int loop,refresh,code;  
-PORTA=0x00;  
-DDRA=0xFF;  
-PORTC=0x00;  
-DDRC=0x0F;  
-PORTD.2=1;  
-DDRD.2=0;  
-TCCR1A=0x00;  
-TCCR1B=0x02;  
-TCNT1H=0x00;  
-TCNT1L=0x00;  
+    float t=0.0;  
+    signed int loop,refresh,code;  
+    PORTA=0x00;  
+    DDRA=0xFF;  
+    PORTC=0x00;  
+    DDRC=0x0F;  
+    PORTD.2=1;  
+    DDRD.2=0;  
+    TCCR1A=0x00;  
+    TCCR1B=0x02;  
+    TCNT1H=0x00;  
+    TCNT1L=0x00;  
 //--------------------------------------  
-for(code=104;code>8;code--){  
-for(refresh=0;refresh<100;refresh++){  
-for(loop=0;loop<16;loop++){  
-PORTC=loop;  
-PORTA=~text_micro[abs(code-loop)];  
-delay_us(100);  
-PORTA=0XFF;  
+    for(code=104;code>8;code--){  
+        for(refresh=0;refresh<100;refresh++){  
+            for(loop=0;loop<16;loop++){  
+                PORTC=loop;  
+                PORTA=~text_micro[abs(code-loop)];  
+                delay_us(100);  
+                PORTA=0XFF;  
+            }  
+          }  
     }  
-  }  
-}  
 PORTA=0XFF;  
 //------------------------------------  
 while(1){  
