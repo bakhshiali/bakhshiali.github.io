@@ -12,6 +12,8 @@ TEC
 
 Thermoelectric cooling uses the Peltier effect to create a heat flux between the junction of two different types of materials. A Peltier cooler, heater, or thermoelectric heat pump is a solid-state active heat pump which transfers heat from one side of the device to the other, with consumption of electrical energy, depending on the direction of the current. Such an instrument is also called a Peltier device, Peltier heat pump, solid state refrigerator, or thermoelectric cooler (TEC). It can be used either for heating or for cooling, although in practice the main application is cooling. It can also be used as a temperature controller that either heats or cools.
 
+![Thermoelectric-cooling.png](/images/projects/Thermoelectric-cooling.png)
+
 Energy given by temperature difference  = Seebeck coefficient * grad(Temperature)
 
 By making fire we are able to charge a smartphone.
@@ -28,3 +30,4 @@ Notes :
 
 TEC numbers indicate it’s features as size and current that shown in below image.
 
+![tec-info.png](/images/projects/tec-info.png)
