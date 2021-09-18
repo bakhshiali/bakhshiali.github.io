@@ -2,7 +2,7 @@
 title: "C# programming"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2017-autumn-teaching-C#
+permalink: /teaching/2017-autumn-teaching-CSharp
 venue: "Tabriz University, Faculty of Physics"
 date: 2017-09-11
 location: "Tabriz, Iran"
