@@ -33,6 +33,9 @@
     }
   }
 }
+.text-justify {
+  text-align: justify;
+}
 
 .page__title {
   margin-top: 0;
@@ -398,7 +401,4 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
-}
-.text-justify {
-  text-align: justify;
 }
