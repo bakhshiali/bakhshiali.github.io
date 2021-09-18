@@ -29,7 +29,7 @@ In practice to measure the temperature we will use ATmega16 microcontroller, 74L
 unsigned char  prt1=0,prt2=0,count=0;
 signed char    num=0;    
 unsigned long pw1=0,sp1=0,h=0;   
-flash unsigned char num0[]={126,129,129,129,126}; 
+flash unsigned char num0[]={126,129,129,129,126};<br>
 flash unsigned char num1[]={0,130,255,128,0};  
 flash unsigned char num2[]={198,161,145,137,134};
 flash unsigned char num3[]={66,129,137,137,118};
