@@ -3,9 +3,9 @@ title: "Python Image Processing"
 collection: projects
 type: "Undergraduate projects"
 permalink: /projects/PythonImageProcessing
-venue: "Tabriz"
+venue: "Tehran"
 date: 2017-1-1
-location: "Tabriz, Iran"
+location: "Tehrsn, Iran"
 ---
 
 Python Image Processing
