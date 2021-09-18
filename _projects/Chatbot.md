@@ -17,7 +17,7 @@ The term “ChatterBot” was originally coined by Michael Mauldin (creator of t
 ![chatbot.png](/images/projects/chatbot.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_CSvzXmb7BI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<bre>
+<pre>
 In above video I’d to use my Persian accent! 😃
 Interesting bot, but you need to add more codes as you wish to make it better. I’m talking with these bots when I’m alone. Hope you enjoy!
 using System;
@@ -142,4 +142,5 @@ namespace AI2
         }
     }
 }
-  </bre>
+</pre>
+    
