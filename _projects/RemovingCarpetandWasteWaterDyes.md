@@ -18,5 +18,5 @@ Indigo dye is an organic compound with a distinctive blue color. Historically, i
 
 ![Indigo.png](/images/projects/Indigo.png)
 
-![carpet.png](/images/projects/carpet.png)
+![carpet.jpg](/images/projects/carpet.jpg)
 color removed from wool (brownish) and cotton (white)
