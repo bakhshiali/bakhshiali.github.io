@@ -2,7 +2,7 @@
 title: "Simple Temperature Controller (LM35)"
 collection: projects
 type: "Undergraduate projects"
-permalink: /projects/SimpleTemperatureController
+permalink: /projects/SimpleTemperatureController2
 venue: "Tabriz"
 date: 2017-1-1
 location: "Tabriz, Iran"
