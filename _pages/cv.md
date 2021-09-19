@@ -158,7 +158,7 @@ Certificates
 |* Journalism & reportage |IUST| - |
 |* Meta-analysis and data mining |IUST| - |
 |* DLS Results Analysis |Bim Gostar Taban Company| [Persian](/files/certifications/DLS.jpg) |
-|* Inductively coupled plasma spectroscopy (ICP)|Bim Gostar Taban Company| - |
+|* Inductively coupled plasma spectroscopy (ICP)|Bim Gostar Taban Company| [Persian](/files/certifications/ICP.jpg) |
 |* Nano standardization |Anabizz Company| [Persian](/files/certifications/NanoStandardization.jpg) |
 |* Nano certificate (nano mark) |Anabizz Company| [Persian](/files/certifications/NanoCertificateNanoMark.jpg) |
 |* Safety and health course of working with nanomaterials|Anabizz Company & Iran Nano Safety Network (INSN)| [Persian](/files/certifications/SafetyAndHealthCourseWorkingWithNanomaterials.jpg) |
@@ -176,6 +176,7 @@ Certificates
 |* Introduction to Breast Cancer |Coursera| - |
 |* Basic to advance bioinformatics |Royan Institute| [English](/files/certifications/bioinformatics.png) |
 |* Advanced Photonics Congress | OSA | [English](/files/certifications/bioinformatics.png) |
+|* Regenerative Medicine & Tissue Engineering | Royan Institute | [English](/files/certifications/RegenerativeMedicineAndTissueEngineering.png) |
 
 Research activities
 ======
