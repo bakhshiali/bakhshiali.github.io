@@ -147,34 +147,34 @@ Languages
 Certificates
 ======
 
-|  									|University\Institute  |
+|  									|University\Institute  | Ref. |
 |:--------|:-------:|
-|* Advanced Search & reference resources and software (Mendeley, endnote, …) |Tabriz University|
-|* C# programming |Tabriz University|
-|* Catia |Technical and Vocational Training Organization |
-|* LAMMPS |IUST|
-|* Molecular Dynamics| IUST|
-|* HSE |IUST|
-|* Journalism & reportage |IUST|
-|* Meta-analysis and data mining |IUST|
-|* DLS Results Analysis |Bim Gostar Taban Company|
-|* Inductively coupled plasma spectroscopy (ICP)|Bim Gostar Taban Company|
-|* Nano standardization |Anabizz Company|
-|* Nano certificate (nano mark) |Anabizz Company|
-|* Safety and health course of working with nanomaterials|Anabizz Company & Iran Nano Safety Network (INSN)|
-|* Raman spectrometer |IUST-Teksan company|
-|* programmable logic controllers (PLCs)|IUST- School of Mechanical Engineering|
-|* Optical Systems Design Course (OSLO,…)|Tabriz University|
-|* Membrane and Nano filtration technology|Research Institute of Petroleum Industry|
-|* Nano porous materials in catalysts and photocatalysts|Research Institute of Petroleum Industry|
-|* Legal issues of patent|Tehran university- Law Association|
-|* Nanotechnology Economy Forum |INIC|
-|* Nano-startup courses |INIC|
-|* Bioinformatics Methods |Coursera|
-|* Understanding Cancer Metastasis |Coursera|
-|* Introduction to the Biology of Cancer |Coursera|
-|* Introduction to Breast Cancer |Coursera|
-|* Basic to advance bioinformatics |Royan Institute|
+|* Advanced Search & reference resources and software (Mendeley, endnote, …) |Tabriz University| - |
+|* C# programming |Tabriz University| - |
+|* Catia |Technical and Vocational Training Organization | [Persian](./files/certifications/catia.png)|
+|* LAMMPS |IUST| - |
+|* Molecular Dynamics| IUST| - |
+|* HSE |IUST| - |
+|* Journalism & reportage |IUST| - |
+|* Meta-analysis and data mining |IUST| - |
+|* DLS Results Analysis |Bim Gostar Taban Company| - |
+|* Inductively coupled plasma spectroscopy (ICP)|Bim Gostar Taban Company| - |
+|* Nano standardization |Anabizz Company| - |
+|* Nano certificate (nano mark) |Anabizz Company| - |
+|* Safety and health course of working with nanomaterials|Anabizz Company & Iran Nano Safety Network (INSN)| - |
+|* Raman spectrometer |IUST-Teksan company| - |
+|* programmable logic controllers (PLCs)|IUST- School of Mechanical Engineering| - |
+|* Optical Systems Design Course (OSLO,…)|Tabriz University| - |
+|* Membrane and Nano filtration technology|Research Institute of Petroleum Industry| - |
+|* Nano porous materials in catalysts and photocatalysts|Research Institute of Petroleum Industry| - |
+|* Legal issues of patent|Tehran university- Law Association| - |
+|* Nanotechnology Economy Forum |INIC| - |
+|* Nano-startup courses |INIC| - |
+|* Bioinformatics Methods |Coursera| - |
+|* Understanding Cancer Metastasis |Coursera| - |
+|* Introduction to the Biology of Cancer |Coursera| - |
+|* Introduction to Breast Cancer |Coursera| - |
+|* Basic to advance bioinformatics |Royan Institute| - |
 
 Research activities
 ======
