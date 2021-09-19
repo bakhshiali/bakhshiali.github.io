@@ -151,7 +151,7 @@ Certificates
 |:--------|:-------:|
 |* Advanced Search & reference resources and software (Mendeley, endnote, …) |Tabriz University| - |
 |* C# programming |Tabriz University| - |
-|* Catia |Technical and Vocational Training Organization | [Persian](./files/certifications/catia.png)|
+|* Catia |Technical and Vocational Training Organization | [Persian]({{site.baseurl}}{%/files/certifications/catia.png%})|
 |* LAMMPS |IUST| - |
 |* Molecular Dynamics| IUST| - |
 |* HSE |IUST| - |
