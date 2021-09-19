@@ -154,16 +154,16 @@ Certificates
 |* Catia |Technical and Vocational Training Organization | [Persian](/files/certifications/catia.png)|
 |* LAMMPS |IUST| - |
 |* Molecular Dynamics| IUST| - |
-|* HSE |IUST| - |
+|* HSE |IUST| [Persian](/files/certifications/HSE.jpg) |
 |* Journalism & reportage |IUST| - |
 |* Meta-analysis and data mining |IUST| - |
-|* DLS Results Analysis |Bim Gostar Taban Company| - |
+|* DLS Results Analysis |Bim Gostar Taban Company| [Persian](/files/certifications/DLS.jpg) |
 |* Inductively coupled plasma spectroscopy (ICP)|Bim Gostar Taban Company| - |
 |* Nano standardization |Anabizz Company| - |
 |* Nano certificate (nano mark) |Anabizz Company| - |
 |* Safety and health course of working with nanomaterials|Anabizz Company & Iran Nano Safety Network (INSN)| - |
 |* Raman spectrometer |IUST-Teksan company| - |
-|* programmable logic controllers (PLCs)|IUST- School of Mechanical Engineering| - |
+|* programmable logic controllers (PLCs)|IUST- School of Mechanical Engineering| [English](/files/certifications/PLC.jpg) |
 |* Optical Systems Design Course (OSLO,…)|Tabriz University| - |
 |* Membrane and Nano filtration technology|Research Institute of Petroleum Industry| - |
 |* Nano porous materials in catalysts and photocatalysts|Research Institute of Petroleum Industry| - |
@@ -174,7 +174,7 @@ Certificates
 |* Understanding Cancer Metastasis |Coursera| - |
 |* Introduction to the Biology of Cancer |Coursera| - |
 |* Introduction to Breast Cancer |Coursera| - |
-|* Basic to advance bioinformatics |Royan Institute| - |
+|* Basic to advance bioinformatics |Royan Institute| [English](/files/certifications/bioinformatics.png) |
 
 Research activities
 ======
