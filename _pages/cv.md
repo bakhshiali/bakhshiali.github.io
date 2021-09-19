@@ -176,6 +176,7 @@ Certificates
 |* Introduction to Breast Cancer |Coursera| - |
 |* Basic to advance bioinformatics |Royan Institute| [English](/files/certifications/bioinformatics.png) |
 |* Advanced Photonics Congress | OSA | [English](/files/certifications/bioinformatics.png) |
+
 Research activities
 ======
 * fabrication of atmospheric cold plasma system for surface modification
