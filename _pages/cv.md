@@ -159,10 +159,10 @@ Certificates
 |* Meta-analysis and data mining |IUST| - |
 |* DLS Results Analysis |Bim Gostar Taban Company| [Persian](/files/certifications/DLS.jpg) |
 |* Inductively coupled plasma spectroscopy (ICP)|Bim Gostar Taban Company| - |
-|* Nano standardization |Anabizz Company| - |
-|* Nano certificate (nano mark) |Anabizz Company| - |
-|* Safety and health course of working with nanomaterials|Anabizz Company & Iran Nano Safety Network (INSN)| - |
-|* Raman spectrometer |IUST-Teksan company| - |
+|* Nano standardization |Anabizz Company| [Persian](/files/certifications/NanoStandardization.jpg) |
+|* Nano certificate (nano mark) |Anabizz Company| [Persian](/files/certifications/NanoCertificateNanoMark.jpg) |
+|* Safety and health course of working with nanomaterials|Anabizz Company & Iran Nano Safety Network (INSN)| [Persian](/files/certifications/SafetyAndHealthCourseWorkingWithNanomaterials.jpg) |
+|* Raman spectrometer |IUST-Teksan company| [Persian](/files/certifications/raman.jpg) |
 |* programmable logic controllers (PLCs)|IUST- School of Mechanical Engineering| [English](/files/certifications/PLC.jpg) |
 |* Optical Systems Design Course (OSLO,…)|Tabriz University| - |
 |* Membrane and Nano filtration technology|Research Institute of Petroleum Industry| - |
@@ -175,7 +175,7 @@ Certificates
 |* Introduction to the Biology of Cancer |Coursera| - |
 |* Introduction to Breast Cancer |Coursera| - |
 |* Basic to advance bioinformatics |Royan Institute| [English](/files/certifications/bioinformatics.png) |
-
+|* Advanced Photonics Congress | OSA | [English](/files/certifications/bioinformatics.png) |
 Research activities
 ======
 * fabrication of atmospheric cold plasma system for surface modification
