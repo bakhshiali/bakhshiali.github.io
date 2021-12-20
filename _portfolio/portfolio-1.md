@@ -9,7 +9,7 @@ collection: portfolio
 <link rel="stylesheet" href="css/styletimeline.css">
 <script src='https://github.com/bakhshiali/bakhshiali.github.io/blob/main/assets/js/swiper.min.js'></script>
 <script src="https://github.com/bakhshiali/bakhshiali.github.io/blob/main/assets/js/function.js"></script>
-
+<code>
 <div class="container">
   <div class="timeline">
     <div class="swiper-container">
@@ -57,3 +57,4 @@ collection: portfolio
     </div>
   </div>
 </div>
+</code>
