@@ -7,8 +7,8 @@ collection: portfolio
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css'>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800'>
 <link rel="stylesheet" href="https://github.com/bakhshiali/bakhshiali.github.io/blob/main/assets/css/styletimeline.css">
-<script src="{{https://github.com/}}{%bakhshiali/bakhshiali.github.io/blob/main/assets/js/swiper.min.js%}"></script>
-<script src="{{https://github.com/}}{%bakhshiali/bakhshiali.github.io/blob/main/assets/js/function.js%}"></script>
+<script src="{{base_path}}/assets/js/swiper.min.js"></script>
+<script src="{{base_path}}/assets/js/function.js"></script>
 <div class="container">
   <div class="timeline">
     <div class="swiper-container">
