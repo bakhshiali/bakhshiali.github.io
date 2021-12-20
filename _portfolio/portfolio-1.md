@@ -7,7 +7,6 @@ collection: portfolio
 <link rel="stylesheet" href="{{https://cdnjs.cloudflare.com}}/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 <link rel="stylesheet" href="{{https://fonts.googleapis.com}}/css?family=Open+Sans:300,400,700,800">
 <link rel="stylesheet" href="{{base_path}}/assets/css/styletimeline.css">
-<script src="{{base_path}}/assets/js/swiper.min.js"></script>
 <script src="{{base_path}}/assets/js/function.js"></script>
 <div class="container">
   <div class="timeline">
