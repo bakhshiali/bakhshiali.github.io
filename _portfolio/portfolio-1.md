@@ -3,6 +3,8 @@ title: "Portfolio"
 excerpt: "A Short description of portfolio<br/><img src='/images/alibakhshi.jpg'>"
 collection: portfolio
 ---
+<script src='https://github.com/bakhshiali/bakhshiali.github.io/blob/main/assets/js/swiper.min.js'></script>
+<script src="https://github.com/bakhshiali/bakhshiali.github.io/blob/main/assets/js/function.js"></script>
 
 <div class="container">
   <div class="timeline">
