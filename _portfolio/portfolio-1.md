@@ -5,7 +5,7 @@ collection: portfolio
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="{{base_path}}/assets/css/slider/styletimeline.css">
+<link rel="stylesheet" href="{{base_path}}/assets/css/styletimeline.css">
 <div class="container">
   <div class="timeline">
     <div class="swiper-container">
