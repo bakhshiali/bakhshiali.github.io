@@ -22,7 +22,7 @@
 }
 .timeline .swiper-container {
   height: 600px;
-  width: 75% !important;
+  width: 100% !important;
   position: relative;
   margin-right:0;
 }
