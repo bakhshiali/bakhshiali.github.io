@@ -1,4 +1,4 @@
-
+.page{padding-right:5%;}
 .container {
   height: 95%;
 }
@@ -52,7 +52,7 @@
 .timeline .swiper-slide-content {
   position: absolute;
   text-align: center;
-  width: 70%;
+  width: 100%;
   max-width: 310px;
   right: 50%;
   top: 13%;
