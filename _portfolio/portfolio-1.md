@@ -49,8 +49,13 @@ collection: portfolio
       </div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
-      <div class="swiper-pagination"></div>
-    </div>
+    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+	  <span class="swiper-pagination-bullet swiper-pagination-bullet-active">2000</span>
+	  <span class="swiper-pagination-bullet">2002</span>
+	  <span class="swiper-pagination-bullet">2003</span>
+	  <span class="swiper-pagination-bullet">2005</span>
+	  <span class="swiper-pagination-bullet">2009</span>
+	  <span class="swiper-pagination-bullet">2012</span></div>    </div>
   </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
