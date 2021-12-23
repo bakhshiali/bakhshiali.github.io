@@ -1,6 +1,5 @@
 ---
 title: "Portfolio"
-excerpt: "A Short description of portfolio<br/><img src='/images/alibakhshi.jpg'>"
 collection: portfolio
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
