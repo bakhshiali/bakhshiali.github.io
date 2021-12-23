@@ -1,11 +1,11 @@
 ---
-title: "Projects Timeline"
+title: "Experiences Timeline"
 collection: portfolio
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="{{base_path}}/assets/css/styletimeline.css">
-<h1>Educational timeline</h1>
+<h1>Experiences timeline</h1>
 <div class="container">
   <div class="timeline">
     <div class="swiper-container">
