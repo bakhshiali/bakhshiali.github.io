@@ -5,14 +5,16 @@ collection: portfolio
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="{{base_path}}/assets/css/styletimeline.css">
+<h1>Educational timeline</h1>
 <div class="container">
   <div class="timeline">
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide" style="background-image: url(https://picsum.photos/1920/500?random=1);" data-year="2000">
-          <div class="swiper-slide-content"><span class="timeline-year">2000</span>
-            <h4 class="timeline-title">Your Event Title</h4>
-            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="swiper-slide-content"><span class="timeline-year">2001-2007</span>
+            <h4 class="timeline-title">Elementary school</h4>
+            <p class="timeline-text">Tohid governmental leading school-Iran, east Azerbayjan, Miyaneh, Gundogdu Village.
+            </p>
           </div>
         </div>
         <div class="swiper-slide" style="background-image: url(https://picsum.photos/1920/500?random=2);" data-year="2002">
