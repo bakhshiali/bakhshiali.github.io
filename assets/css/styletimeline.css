@@ -193,7 +193,7 @@
   }
   .timeline .swiper-slide-content {
     right: 30%;
-    top: 50%;
+    top: 35%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
     width: 70%;
