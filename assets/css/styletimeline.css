@@ -51,7 +51,7 @@
 }
 .timeline .swiper-slide-content {
   position: absolute;
-  text-align: center;
+  text-align: left;
   width: 100%;
   max-width: 70%;
   right: 50%;
