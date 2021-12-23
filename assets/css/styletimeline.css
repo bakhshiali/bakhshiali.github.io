@@ -53,7 +53,7 @@
   position: absolute;
   text-align: center;
   width: 100%;
-  max-width: 310px;
+  max-width: 70%;
   right: 50%;
   top: 13%;
   -webkit-transform: translate(50%, 0);
@@ -196,9 +196,9 @@
     top: 50%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
-    width: 310px;
+    width: 70%;
     font-size: 11px;
-    text-align: right;
+    text-align: left;
   }
   .timeline .swiper-slide .timeline-year {
     margin-bottom: 0;
