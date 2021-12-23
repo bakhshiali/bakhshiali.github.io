@@ -1,5 +1,5 @@
 ---
-title: "Educational Timeline"
+title: "Certifications Timeline"
 collection: portfolio
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
