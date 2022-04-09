@@ -8,17 +8,15 @@ redirect_from:
   - "/contact.html"
 ---
 
-### Email:
+### Emails:
 
 alibakhshi255255@gmail.com
+ali_bakhshi@alumni.iust.ac.ir
+ali_bakhshi@ipm.ir
 
 ### Website:
 
 https://bakhshiali.com/
-
-### Address:
-
-Tehran, IRAN | London, UK
 
 ### Researchgate:
 
@@ -38,7 +36,7 @@ https://www.instagram.com/alibakhshi255255/
 
 ### Linkedin:
 
-https://www.linkedin.com/in/ali-bakhshi-5056aa149/
+https://www.linkedin.com/in/ali-bakhshi-/
 
 ### Skype:
 
