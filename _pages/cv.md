@@ -15,9 +15,9 @@ Contact Info
 |Tel: 		| 0098-9014122529|
 |Email 1: 	|alibakhshi255255@gmail.com|
 |Email 2:	|ali_bakhshi@alumni.iust.ac.ir|
+|Email 3:	|ali_bakhshi@ipm.ir|
 |GitHub: 	|https://github.com/bakhshiali|
 |LinkedIn:	|https://www.linkedin.com/in/ali-bakhshi-/5056aa149|
-|Address: 	|Tehran, Iran and London, UK|
 
 Identity
 ======
@@ -25,7 +25,6 @@ Identity
 |:--------|:--------|
 |Date of birth: |22/11/1995|
 |Marital status: |single|
-|Country: |UK, Iran|
 
 Education
 ======
@@ -113,7 +112,7 @@ Publications
 
 Patents
 ======
-* Magnetic field sensors based on tapered optical fiber (Iran-Declaration No.44529517252986)
+* Magnetic field sensors based on tapered optical fiber (Iran-Patent No. : 105387)
   
 Talks
 ======
@@ -129,8 +128,9 @@ Teaching
   
 Services, leaderships & Memberships
 ======
-* 
-
+* International Federation of Inventors' Associations (IFIA), Inv. membership
+* Iranian Inventors Association
+* National Library of Iran
 Languages
 ======
 
@@ -237,6 +237,7 @@ Softwares
 
 Honors
 ======
+* Inventor legal title (Inv. Ali Bakhshi), International Federation of Inventors' Associations (IFIA)
 * Top student of Tabriz (3 years)
 * Selected rank of the 14th Scientific Festival of Distinguished, Innovative and Inventive Students (2010)
 * Talented Student (Tabriz university)
