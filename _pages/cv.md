@@ -16,8 +16,7 @@ Contact Info
 |Email 1: 	|alibakhshi255255@gmail.com|
 |Email 2:	|ali_bakhshi@alumni.iust.ac.ir|
 |Email 3:	|ali_bakhshi@ipm.ir|
-|GitHub: 	|https://github.com/bakhshiali|
-|LinkedIn:	|https://www.linkedin.com/in/ali-bakhshi-/5056aa149|
+|LinkedIn:	|https://www.linkedin.com/in/ali-bakhshi-/|
 
 Identity
 ======
