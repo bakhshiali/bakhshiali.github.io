@@ -1,11 +1,11 @@
 ---
-permalink: /Patents/
+permalink: /patents/
 title: "Patents Info"
 excerpt: "This is a page not in th emain menu"
 author_profile: true
 redirect_from: 
-  - "/Patents_info/"
-  - "/Patents.html"
+  - "/patents_info/"
+  - "/patents.html"
 ---
 
 1)  Magnetic field sensors based on tapered optical fiber
