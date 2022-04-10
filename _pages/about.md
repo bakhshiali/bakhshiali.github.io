@@ -21,9 +21,10 @@ I'd experienced industrial projects, Group Leading, StartUps and etc. As a natio
 
 My updated CV links : <a href="https://bakhshiali.github.io/cv">https://bakhshiali.github.io/cv</a> | <a href="https://drive.google.com/file/d/1yzwVKTL5s4ySonpsOCyoiAnbgx32Harb/view?usp=sharing">PDF version</a><br>
 <span id="badgeCont624"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont624&rid=ACK-9170-2022"></script></span>
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>              
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="ali-bakhshi-" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ir.linkedin.com/in/ali-bakhshi-?trk=profile-badge">ali bakhshi</a></div><br>
+
               
 As a researcher, if you are interested in and want me to cooperate in papers, books & patents, contact me (please don’t hesitate).
 
 As a researcher, I eager to participate in scientific assosiations, Labs, Industries and etc., It will be my pleasure and honor to help.<br>
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>              
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="ali-bakhshi-" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ir.linkedin.com/in/ali-bakhshi-?trk=profile-badge">ali bakhshi</a></div><br>
