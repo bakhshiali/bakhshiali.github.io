@@ -27,6 +27,4 @@ My updated CV links : <a href="https://bakhshiali.github.io/cv">https://bakhshia
 As a researcher, if you are interested in and want me to cooperate in papers, books & patents, contact me (please don’t hesitate).
 
 As a researcher, I eager to participate in scientific assosiations, Labs, Industries and etc., It will be my pleasure and honor to help.<br>
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>              
-<span><div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="ali-bakhshi-" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ir.linkedin.com/in/ali-bakhshi-?trk=profile-badge"></a></div></span>
-<br>
+
