@@ -28,4 +28,5 @@ As a researcher, if you are interested in and want me to cooperate in papers, bo
 
 As a researcher, I eager to participate in scientific assosiations, Labs, Industries and etc., It will be my pleasure and honor to help.<br>
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>              
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="ali-bakhshi-" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ir.linkedin.com/in/ali-bakhshi-?trk=profile-badge">ali bakhshi</a></div><br>
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="ali-bakhshi-" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ir.linkedin.com/in/ali-bakhshi-?trk=profile-badge">ali bakhshi</a></div>
+<br>
