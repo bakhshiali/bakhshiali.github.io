@@ -24,3 +24,4 @@ My updated CV links : <a href="https://bakhshiali.github.io/cv">https://bakhshia
 As a researcher, if you are interested in and want me to cooperate in papers, books & patents, contact me (please don’t hesitate).
 
 As a researcher, I eager to participate in scientific assosiations, Labs, Industries and etc., It will be my pleasure and honor to help.
+<span id="badgeCont624"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont624&rid=ACK-9170-2022"></script></span>
