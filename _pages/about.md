@@ -22,7 +22,19 @@ I'd experienced industrial projects, Group Leading, StartUps and etc. As a natio
 My updated CV links : <a href="https://bakhshiali.github.io/cv">https://bakhshiali.github.io/cv</a> | <a href="https://drive.google.com/file/d/1yzwVKTL5s4ySonpsOCyoiAnbgx32Harb/view?usp=sharing">PDF version</a> 
 <br>
 <span id="badgeCont624"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont624&rid=ACK-9170-2022"></script></span>
-
+ <a
+    id="cy-effective-orcid-url"
+    class="underline"
+     href="https://orcid.org/0000-0001-9825-0806"
+     target="orcid.widget"
+     rel="me noopener noreferrer"
+     style="vertical-align: top">
+     <img
+        src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
+        style="width: 1em; margin-inline-start: 0.5em"
+        alt="ORCID iD icon"/>
+      https://orcid.org/0000-0001-9825-0806
+    </a>
               
 As a researcher, if you are interested in and want me to cooperate in papers, books & patents, contact me (please don’t hesitate).
 
