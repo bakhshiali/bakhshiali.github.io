@@ -111,7 +111,8 @@ Publications
 
 Patents
 ======
-* Magnetic field sensors based on tapered optical fiber (Iran-Patent No. : 105387)
+* Magnetic field sensors based on tapered optical fiber (Iran-Patent No. : 105387, Year: 2021)
+* Nanofiber concentrator portable electrospinning device (Iran-Patent No. : 106728, Year: 2022)
   
 Talks
 ======
@@ -179,28 +180,34 @@ Certificates
 
 Research activities
 ======
-* fabrication of atmospheric cold plasma system for surface modification
-* Synthesis of chitosan and derivative oligosaccharides (IUST)
-* artificial intelligence for breast cancer detection from CT scan images
-* artificial intelligence to identify diabetic retina
-* Synthesis of graphene-magnetite nanocomposites (IUST)
-* Synthesis of graphene based aerogels and hydrogels (IUST)
-* Fabrication of optical fiber tapering system by heat-tensile method (IUST)
-* Fabric diameter image processing system using CCD Camera and PXR800 (IUST-Faculty of Physics)
-* fiber optic spectrum analyzer system (IUST)
-* Fabrication of 3D printer and simple CNC (University of Tabriz)
-* Plasma jet bullet analysis system with tcd1304 and bpv10 sensor (University of Tabriz)
-* Simulation of NEMS and MEMS devices in targeted drug delivery including peristaltic and piezoelectric pump, μNeedle, membrane, degradable matrix and capacitive acceleration sensor (IUST)
-* Simulation of CO2 and H2S absorption in ordered porous carbon and CNT (IUST)
-* Simulation of graphene membrane with Nano pores created by oxygen plasma for water treatment (IUST)
-* Simulation of single photon emitter quantum dot PbS in nanowire (IUST)
+* siRNA related review article
+* Tisue Engineering related Book translation-10 chapter (English-Persion, Royan Institute)
+* Fabrication of Nanofiber concentrator portable electrospinning device (Patent)
+* Artificial intelligence for 4 band resistor-color decoder
+* Plasma-assisted spark discharge nanoparticle synthesis (RA at IPM)
+* Fabrication of atmospheric cold plasma system for surface modification
+* Synthesis of chitosan and derivative oligosaccharides (IUST university-M.Sc)
+* Artificial intelligence for breast cancer detection from CT scan images
+* Artificial intelligence to identify diabetic retina (RA at IPM)
+* Synthesis of graphene-magnetite nanocomposites (IUST university-M.Sc)
+* Synthesis of graphene based aerogels and hydrogels (IUST university-M.Sc)
+* Fabrication of Magnetic field sensors based on tapered optical fiber (IUST university-M.Sc-Patent)
+* Fabrication of optical fiber tapering system by heat-tensile method (IUST university-M.Sc)
+* Fabric diameter image processing system using CCD Camera and PXR800 (IUST university-M.Sc-Faculty of Physics)
+* fiber optic spectrum analyzer system (IUST university-M.Sc)
+* Fabrication of a 3D printer and simple CNC (University of Tabriz-B.Sc)
+* Plasma jet bullet analysis system with tcd1304 and bpv10 sensor (University of Tabriz-B.Sc)
+* Simulation of NEMS and MEMS devices in targeted drug delivery including peristaltic and piezoelectric pump, μNeedle, membrane, degradable matrix and capacitive acceleration sensor (IUST university-M.Sc)
+* Simulation of CO2 and H2S absorption in ordered porous carbon and CNT (IUST university-M.Sc)
+* Simulation of graphene membrane with Nano pores created by oxygen plasma for water treatment (IUST university-M.Sc)
+* Simulation of single photon emitter quantum dot PbS in nanowire (IUST university-M.Sc)
 * Fabrication and launch of CanSat satellite to study the Earth's atmosphere and taking images of earthquake and flood damaged areas (Toka Flight Control Systems Company - Dr. Dalvand)
 * Removal of indigo dye from cellulose, protein and mineral wastewater and fibers (Azar-Sky Company)
 * Simulation and fabrication of high voltage systems
 * Set up a network penetration testing laboratory
 * Biodegradable and self-healing coatings (ongoing)
 * Braille translator in Python to solve the problems of the blind
-* fabrication of a charging system to convert fire heat into electricity using TEC
+* Fabrication of a charging system to convert fire heat into electricity using TEC
 * Programming of an intelligent robot (voice and command analysis bot)
 * Temperature control by lm35 and SMT160 sensors using atmega 32
 
@@ -237,15 +244,17 @@ Softwares
 Honors
 ======
 * Inventor legal title (Inv. Ali Bakhshi), International Federation of Inventors' Associations (IFIA)
-* Top student of Tabriz (3 years)
+* Top student of Tabriz UUniversity (3 years-B.Sc)
 * Selected rank of the 14th Scientific Festival of Distinguished, Innovative and Inventive Students (2010)
 * Talented Student (Tabriz university)
 * Rank 42 national nano entrance exam
 * National Nanotechnology Competition(rank 77)
-* Distinguished educational student 2019
+* Distinguished educational student 2019 (2 years-M.Sc)
+... For detailed views, we could check my linkedin: [Linkedin] (https://www.linkedin.com/in/ali-bakhshi-)
 
 Social and extracurricular activities
 ======
+* Patent Analysis
 * Nano and quantum teaching
 * Study of biology and genetics
 * Website, application and program design
