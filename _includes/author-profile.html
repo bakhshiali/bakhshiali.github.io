@@ -115,6 +115,12 @@
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i> Impactstory</a></li>
       {% endif %}
+      {% if author.publons %} {% comment %} publons {% endcomment %}
+        <li><a href="{{ author.publons }}"><i class="ai ai-publons ai-fw"></i> Publons</a></li>
+      {% endif %}
+      {% if author.academia %} {% comment %} academia {% endcomment %}
+        <li><a href="{{ author.academia }}"><i class="ai ai-academia ai-fw"></i> Academia</a></li>
+      {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
       {% endif %}
@@ -127,17 +133,11 @@
       {% if author.scopus %} {% comment %} scopus {% endcomment %}
         <li><a href="{{ author.scopus }}"><i class="ai ai-orcid-square ai-fw"></i> Scopus</a></li>
       {% endif %}
-      {% if author.publons %} {% comment %} publons {% endcomment %}
-        <li><a href="{{ author.publons }}"><i class="ai ai-publons ai-fw"></i> Publons</a></li>
-      {% endif %}
       {% if author.usern %} {% comment %} usern {% endcomment %}
         <li><a href="{{ author.usern }}"><i class="ai ai-orcid-square ai-fw"></i> Usern</a></li>
       {% endif %}
       {% if author.irangn %} {% comment %} irangn {% endcomment %}
         <li><a href="{{ author.irangn }}"><i class="ai ai-orcid-square ai-fw"></i> Irangn</a></li>
-      {% endif %}
-      {% if author.academia %} {% comment %} academia {% endcomment %}
-        <li><a href="{{ author.academia }}"><i class="ai ai-academia ai-fw"></i> Academia</a></li>
       {% endif %}
       {% if author.civilica %} {% comment %} civilica {% endcomment %}
         <li><a href="{{ author.civilica }}"><i class="ai ai-orcid-square ai-fw"></i> Civilica</a></li>
