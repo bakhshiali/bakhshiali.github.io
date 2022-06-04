@@ -159,7 +159,18 @@
     }
   }
 }
-
+/* grid-box*/
+.grid__box {
+   background-color: #F8F8F882;
+   box-shadow: 2px 2px 4px 4px lightblue;
+   border-radius: 1em;
+   padding-left: 0.5em;
+   padding-bottom: 0.25em;
+}
+.grid__box:hover {
+   background-color: #F5F5F582;
+   box-shadow: 2px 2px 6px 6px blue;
+}
 
 /*
    Features
