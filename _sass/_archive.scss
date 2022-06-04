@@ -41,7 +41,9 @@
 .archive__item {
    background-color: #F8F8F882;
    box-shadow: 2px 2px 4px 4px lightblue;
-     border-radius: 25px;
+   border-radius: 1em;
+   pading-left: 0.5em;
+   pading-bottom: 0.25em;
 }
 .archive__item-title {
   margin-bottom: 0.25em;
