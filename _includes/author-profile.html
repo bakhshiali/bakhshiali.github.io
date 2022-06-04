@@ -121,10 +121,15 @@
       {% if author.ifia %}
         <li><a href="{{ author.ifia }}"><i class="ai ai-orcid-square ai-fw"></i> IFIA</a></li>
       {% endif %}
-      {% if author.irinventors %}
+      {% if author.irinventors %} {% comment %} irinventors {% endcomment %}
         <li><a href="{{ author.irinventors }}"><i class="ai ai-orcid-square ai-fw"></i> irinventors</a></li>
       {% endif %}
-
+      {% if author.scopus %} {% comment %} scopus {% endcomment %}
+        <li><a href="{{ author.scopus }}"><i class="ai ai-orcid-square ai-fw"></i> Scopus</a></li>
+      {% endif %}
+      {% if author.publons %} {% comment %} scopus {% endcomment %}
+        <li><a href="{{ author.publons }}"><i class="ai ai-orcid-square ai-fw"></i> Scopus</a></li>
+      {% endif %}
     </ul>
   </div>
 </div>
