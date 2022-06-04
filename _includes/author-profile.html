@@ -112,6 +112,9 @@
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
       {% endif %}
+      {% if author.scopus %} {% comment %} scopus {% endcomment %}
+        <li><a href="{{ author.scopus }}"><i class="ai ai-scopus-square ai-fw"></i> Scopus</a></li>
+      {% endif %}
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i> Impactstory</a></li>
       {% endif %}
@@ -129,9 +132,6 @@
       {% endif %}
       {% if author.irinventors %} {% comment %} irinventors {% endcomment %}
         <li><a href="{{ author.irinventors }}"><i class="ai icon-user ai-fw"></i> Irinventors</a></li>
-      {% endif %}
-      {% if author.scopus %} {% comment %} scopus {% endcomment %}
-        <li><a href="{{ author.scopus }}"><i class="ai icon-user ai-fw"></i> Scopus</a></li>
       {% endif %}
       {% if author.usern %} {% comment %} usern {% endcomment %}
         <li><a href="{{ author.usern }}"><i class="ai icon-user ai-fw"></i> Usern</a></li>
