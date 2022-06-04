@@ -22,8 +22,8 @@
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
 }
-.ai-ifia:before{
-  content: "https://upload.wikimedia.org/wikipedia/en/2/24/Ifia_logo.jpeg";
+.ai-user:before{
+  content: "\e976";
 }
 .ai-academia:before {
   content: "\e800";
