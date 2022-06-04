@@ -113,7 +113,11 @@ author:
   scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57213951714"
   publons          : "https://publons.com/researcher/4281677/ali-bakhshi/"
   usern            : "https://usern.tums.ac.ir/User/CV/AliBakhshi"
-  Irangn           : "https://www.irangn.ir/profile.php?mid=11103"
+  irangn           : "https://www.irangn.ir/profile.php?mid=11103"
+  academia         : "https://ipm-institute.academia.edu/alibakhshi"
+  civilica         : "https://civilica.com/p/241671/"
+  elmnet           : "https://elmnet.ir/eid/W-0060-2525"
+  
 # Reading Files
 include:
   - .htaccess
