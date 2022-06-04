@@ -22,8 +22,8 @@
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
 }
-.icon-user-tie:before {
-  content: "\e976";
+.icon-user:before {
+  content: "\e971";
 }
 .ai-academia:before {
   content: "\e800";
