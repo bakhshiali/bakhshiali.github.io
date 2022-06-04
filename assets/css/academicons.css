@@ -22,6 +22,9 @@
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
 }
+.ai-ifia:before{
+  content: "https://upload.wikimedia.org/wikipedia/en/2/24/Ifia_logo.jpeg";
+}
 .ai-academia:before {
   content: "\e800";
 }
@@ -186,9 +189,11 @@
 }
 .ai-researchgate:before {
   content: "\e854";
+  color: #0cb;
 }
 .ai-researchgate-square:before {
   content: "\e855";
+  color: #0cb;
 }
 .ai-scirate:before {
   content: "\e856";
