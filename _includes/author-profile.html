@@ -112,9 +112,6 @@
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
       {% endif %}
-      {% if author.scopus %} {% comment %} scopus {% endcomment %}
-        <li><a href="{{ author.scopus }}"><i class="ai ai-scopus ai-fw"></i> Scopus</a></li>
-      {% endif %}
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i> Impactstory</a></li>
       {% endif %}
@@ -126,6 +123,9 @@
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
+      {% endif %}
+      {% if author.scopus %} {% comment %} scopus {% endcomment %}
+        <li><a href="{{ author.scopus }}"><i class="ai ai-scopus ai-fw"></i> Scopus</a></li>
       {% endif %}
       {% if author.ifia %}
         <li><a href="{{ author.ifia }}"><i class="ai icon-user ai-fw"></i> IFIA</a></li>
