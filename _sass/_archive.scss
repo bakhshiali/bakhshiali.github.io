@@ -82,6 +82,8 @@
 }
 
 .archive__item:hover {
+   background-color: #F5F5F582;
+   box-shadow: 2px 2px 6px 6px blue;
   .archive__item-teaser {
     box-shadow: 0 0 10px rgba(#000, 0.25);
   }
