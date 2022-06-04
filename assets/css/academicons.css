@@ -22,7 +22,7 @@
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
 }
-.ai-user:before{
+.icon-user-tie:before {
   content: "\e976";
 }
 .ai-academia:before {
