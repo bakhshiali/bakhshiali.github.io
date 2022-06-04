@@ -117,7 +117,10 @@
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
-{% endif %}
+      {% endif %}
+      {% if author.impactstory %}
+        <li><a href="{{ author.ifia }}"><i class="ai ai-orcid-square ai-fw"></i> IFIA</a></li>
+      {% endif %}
     </ul>
   </div>
 </div>
