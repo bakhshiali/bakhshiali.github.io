@@ -37,37 +37,37 @@ Education
 	 
 * Master of Science  
 	(2018-2020)<br>
-	 Nanotechnology-Nanomaterials "Iran University of Science and Technology", Tehran, Iran<br>
-	 Project: Manufacturing and evaluation of optical fiber based magnetic field sensor containing graphene-magnetite hybrid coating
+	 &nbsp; Nanotechnology-Nanomaterials "Iran University of Science and Technology", Tehran, Iran<br>
+	 &nbsp; &nbsp; Project: Manufacturing and evaluation of optical fiber based magnetic field sensor containing graphene-magnetite hybrid coating
 	 
 * Bachelor of Science  
 	(2014-2018)<br>
-	 Engineering Physics-Plasma, Laser, Solid State "University of Tabriz", Tabriz, Iran<br>
-	 Project: The mechanism of plasma enhanced chemical vapor deposition (PECVD) and its applications
+	 &nbsp; Engineering Physics-Plasma, Laser, Solid State "University of Tabriz", Tabriz, Iran<br>
+	 &nbsp; &nbsp; Project: The mechanism of plasma enhanced chemical vapor deposition (PECVD) and its applications
 	
 * High school  
 	(2012-2014)<br>
 	 &nbsp; Graduate of Mathematics and Physics, Shahid Hemmat governmental leading school (magnet school), District 19, Tehran, Iran<br>
 	(2010-2012)<br>
-	 Graduate of Mathematics and Physics, Shahid Bakeri governmental leading school (magnet school), Mianeh, east Azerbaijan, Iran
+	 &nbsp; Graduate of Mathematics and Physics, Shahid Bakeri governmental leading school (magnet school), Mianeh, east Azerbaijan, Iran
 	
 * Middle school  
 	(2007-2010)<br>
-	 Graduate of "Ostad Shahriar" governmental leading school (magnet school), Mianeh, east Azerbaijan, Iran
+	 &nbsp; Graduate of "Ostad Shahriar" governmental leading school (magnet school), Mianeh, east Azerbaijan, Iran
 * Elementary school
 	(2001-2007)
-	 Graduate of "Tohid" governmental leading school, Gundughdi village, east Azerbaijan, Iran
+	 &nbsp; Graduate of "Tohid" governmental leading school, Gundughdi village, east Azerbaijan, Iran
 
 Work experience
 ======
 * Research and Development  
-   Azar-Sky Company 2013-2021 (7 years) -R&D  
-	Color removal of industrial wastewater  
-	Development of dyeing methods for natural and synthetic fibers  
-	Development of mechanization of dyeing systems  
-	Reverse Engineering  
-	Application and website development  
-	Product design  
+   &nbsp; Azar-Sky Company 2013-2021 (7 years) -R&D  
+	&nbsp;&nbsp; Color removal of industrial wastewater  
+	&nbsp;&nbsp; Development of dyeing methods for natural and synthetic fibers  
+	&nbsp;&nbsp; Development of mechanization of dyeing systems  
+	&nbsp;&nbsp; Reverse Engineering  
+	&nbsp;&nbsp; Application and website development  
+	&nbsp;&nbsp; Product design  
 * Consulting and automation  
    Azerbaijan Electrical Power Company 1397-1396 (2 years)  
 	Automation engineer and programmer  
