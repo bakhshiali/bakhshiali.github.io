@@ -39,7 +39,7 @@ layout: default
         {% elsif page.collection == 'projects' %}
           <p> {{ page.type }}, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.collection == 'patents' %}
-          <p> Issued {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p> Issued {{ page.date | default: "1900-01-01" | date: "%Y-%M-%D" }} </p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
