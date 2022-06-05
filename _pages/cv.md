@@ -369,7 +369,6 @@ Honors & Awards & Grants
 * Research Grants  
   &nbsp;&nbsp;&nbsp;&nbsp; B.Sc.,  2014 + M.Sc. 2018 + Azar Sky Co., 2013 + IPM, 2021  
 * Selected rank of the 14th Scientific Festival of Distinguished, Innovative and Inventive Students, 2010  
-... For detailed views, we could check my linkedin: [Linkedin] (https://www.linkedin.com/in/ali-bakhshi-)
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
@@ -386,4 +385,6 @@ Social and extracurricular activities
 * Analysis of nanomaterials
 * Analysis of disk diffusion, real time PCR, MBC, MIC, …
 * Genetic data mining (Bleeding-edge)
-* Robotic competitions refereeing
+* Robotic competitions refereeing  
+  
+... For detailed views, we could check my linkedin: <a href="https://www.linkedin.com/in/ali-bakhshi-">Linkedin</a>
