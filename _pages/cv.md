@@ -111,15 +111,12 @@ Publications
 
 Patents
 ======
+<ul>{% for post in site.patents %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 * Magnetic field sensors based on tapered optical fiber (Iran-Patent No. : 105387, Year: 2021)
 * Nanofiber concentrator portable electrospinning device (Iran-Patent No. : 106728, Year: 2022)
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching %}
@@ -131,6 +128,7 @@ Services, leaderships & Memberships
 * International Federation of Inventors' Associations (IFIA), Inv. membership
 * Iranian Inventors Association
 * National Library of Iran
+
 Languages
 ======
 
