@@ -29,34 +29,34 @@ Education
 ======
 * Researcher/Research Assistant  
 	(2021/6/22-2023/6/22)  
-	 &nbsp; Nanobiotechnology & Nanotechnology, "IPM (Institute For Research In Fundamental Sciences)", Tehran, Iran
+	 &nbsp;&nbsp; Nanobiotechnology & Nanotechnology, "IPM (Institute For Research In Fundamental Sciences)", Tehran, Iran
 	
 * Research assistant  
 	(2020-2021)  
-	 &nbsp; Nanotechnology-Nanomaterials "Iran University of Science and Technology (IUST)”, Tehran, Iran
+	 &nbsp;&nbsp; Nanotechnology-Nanomaterials "Iran University of Science and Technology (IUST)”, Tehran, Iran
 	 
 * Master of Science  
 	(2018-2020)  
 	 &nbsp; Nanotechnology-Nanomaterials "Iran University of Science and Technology", Tehran, Iran  
-	 &nbsp; &nbsp; Project: Manufacturing and evaluation of optical fiber based magnetic field sensor containing graphene-magnetite hybrid coating
+	 &nbsp; &nbsp;&nbsp; Project: Manufacturing and evaluation of optical fiber based magnetic field sensor containing graphene-magnetite hybrid coating
 	 
 * Bachelor of Science  
 	(2014-2018)  
 	 &nbsp; Engineering Physics-Plasma, Laser, Solid State "University of Tabriz", Tabriz, Iran  
-	 &nbsp; &nbsp; Project: The mechanism of plasma enhanced chemical vapor deposition (PECVD) and its applications
+	 &nbsp;&nbsp;&nbsp; Project: The mechanism of plasma enhanced chemical vapor deposition (PECVD) and its applications
 	
 * High school  
 	(2012-2014)  
 	 &nbsp; Graduate of Mathematics and Physics, Shahid Hemmat governmental leading school (magnet school), District 19, Tehran, Iran  
 	(2010-2012)<br>
-	 &nbsp; Graduate of Mathematics and Physics, Shahid Bakeri governmental leading school (magnet school), Mianeh, east Azerbaijan, Iran
+	 &nbsp;&nbsp; Graduate of Mathematics and Physics, Shahid Bakeri governmental leading school (magnet school), Mianeh, east Azerbaijan, Iran
 	
 * Middle school  
 	(2007-2010)  
-	 &nbsp; Graduate of "Ostad Shahriar" governmental leading school (magnet school), Mianeh, east Azerbaijan, Iran
+	 &nbsp;&nbsp; Graduate of "Ostad Shahriar" governmental leading school (magnet school), Mianeh, east Azerbaijan, Iran
 * Elementary school
 	(2001-2007)
-	 &nbsp; Graduate of "Tohid" governmental leading school, Gundughdi village, east Azerbaijan, Iran
+	 &nbsp;&nbsp;&nbsp; Graduate of "Tohid" governmental leading school, Gundughdi village, east Azerbaijan, Iran
 
 Work experience
 ======
