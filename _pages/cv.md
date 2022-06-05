@@ -47,7 +47,7 @@ Education
 	
 * High school  
 	(2012-2014)<br>
-	 &nbsp Graduate of Mathematics and Physics, Shahid Hemmat governmental leading school (magnet school), District 19, Tehran, Iran<br>
+	 &nbsp; Graduate of Mathematics and Physics, Shahid Hemmat governmental leading school (magnet school), District 19, Tehran, Iran<br>
 	(2010-2012)<br>
 	 Graduate of Mathematics and Physics, Shahid Bakeri governmental leading school (magnet school), Mianeh, east Azerbaijan, Iran
 	
