@@ -47,13 +47,15 @@ My updated CV links : <a href="https://bakhshiali.github.io/cv">https://bakhshia
         alt="ORCID iD icon"/>
       https://orcid.org/0000-0001-9825-0806
     </a>
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
               
-As a researcher, if you are interested in and want me to cooperate in papers, books & patents, contact me (please don’t hesitate).
+As a researcher, if you are interested in and want me to cooperate in papers, books & patents, contact me (please don’t hesitate).  
 
 As a researcher, I eager to participate in scientific assosiations, Labs, Industries and etc., It will be my pleasure and honor to help.<br>
+
 <div class="wrapper">
 	<div class="divider div-transparent div-tab-down"></div>
 </div>
