@@ -129,7 +129,7 @@ Skills
   &nbsp;&nbsp;&nbsp;&nbsp; Industrial Design (Catia, SolidWorks, ...)  
   &nbsp;&nbsp;&nbsp;&nbsp; Industrial control and instrumentation (PLCs, PIDs, P&IDs, Sensors, ...)  
   &nbsp;&nbsp;&nbsp;&nbsp; Production line (CNC (turning, milling, ...), Molding, Stamping, ...)  
-*Biotechnology  
+* Biotechnology  
   &nbsp;&nbsp;&nbsp;&nbsp; 3D printing + Nanofibers  
   &nbsp;&nbsp;&nbsp;&nbsp; Bioinformatics  
   &nbsp;&nbsp;&nbsp;&nbsp; Microfluidics  
