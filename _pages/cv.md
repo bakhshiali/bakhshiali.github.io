@@ -298,15 +298,22 @@ Softwares
 |* Unity engine 				|Basic|
 |* Methyl Primer Express, MetaDiSc, target, signalp, primer3, primer blast, ArgusLab, SnapGene, Gene Runner, Beacon Designer|Basic|
 
-Honors
+Honors & Awards & Grants
 ======
-* Inventor legal title (Inv. Ali Bakhshi), International Federation of Inventors' Associations (IFIA)
-* Top student of Tabriz UUniversity (3 years-B.Sc)
-* Selected rank of the 14th Scientific Festival of Distinguished, Innovative and Inventive Students (2010)
-* Talented Student (Tabriz university)
-* Rank 42 national nano entrance exam
-* National Nanotechnology Competition(rank 77)
-* Distinguished educational student 2019 (2 years-M.Sc)  
+* Inventor legal title (Inv. Ali Bakhshi), International Federation of Inventors' Associations (IFIA), 2022
+* Patent Score (5.8 out of 10), Iranian Research Organization for Science and Technology, 2022
+* National entrance exam of higher education (PhD)
+  &nbsp;&nbsp;&nbsp;&nbsp; Nanotechnology-nanomaterials, rank 19th, 2021  
+  &nbsp;&nbsp;&nbsp;&nbsp; Materials Engineering and Metallurgy, rank 196th, 2020  
+* Distinguished student (educational), 2019 (2 years-M.Sc)
+* National Nanotechnology Competition(rank 77), 2019
+* Rank 42th, national nano entrance exam, 2018
+* Top student of Tabriz University, 2015 (3 years-B.Sc)
+* Tutution waiver  
+  &nbsp;&nbsp;&nbsp;&nbsp; Elementary, Guidance, High schools + B.Sc. + M.Sci.  
+* Research Grants  
+  &nbsp;&nbsp;&nbsp;&nbsp; B.Sc.,  2014 + M.Sc. 2018 + Azar Sky Co., 2013 + IPM, 2021  
+* Selected rank of the 14th Scientific Festival of Distinguished, Innovative and Inventive Students, 2010  
 ... For detailed views, we could check my linkedin: [Linkedin] (https://www.linkedin.com/in/ali-bakhshi-)
 
 Social and extracurricular activities
