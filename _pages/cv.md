@@ -79,8 +79,8 @@ Work experience
 	&nbsp;&nbsp;&nbsp;&nbsp; Researcher (~2.5 years)  
    &nbsp; University of Tabriz, Faculty of Physics  
 	&nbsp;&nbsp;&nbsp;&nbsp; Active member of the Scientific Association, Talented student (among the top educational students)  
-   &nbsp; Bussiness Incubation center of Azad University South-Tehran Branch, 2020
-        &nbsp;&nbsp;&nbsp;&nbsp; Researcher (8 months)
+   &nbsp; Bussiness Incubation center of Azad University South-Tehran Branch, 2020  
+        &nbsp;&nbsp;&nbsp;&nbsp; Researcher (8 months)  
 * University magazines  
    &nbsp; Journal of Steel and Concrete, 2020 (1 year)  
 	&nbsp;&nbsp;&nbsp;&nbsp; Graphic designer  
