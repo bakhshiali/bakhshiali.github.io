@@ -114,8 +114,6 @@ Patents
 <ul>{% for post in site.patents %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-* Magnetic field sensors based on tapered optical fiber (Iran-Patent No. : 105387, Year: 2021)
-* Nanofiber concentrator portable electrospinning device (Iran-Patent No. : 106728, Year: 2022)
 
 Teaching
 ======
