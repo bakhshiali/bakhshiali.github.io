@@ -47,7 +47,7 @@ Education
 	
 * High school  
 	(2012-2014)<br>
-	 Graduate of Mathematics and Physics, Shahid Hemmat governmental leading school (magnet school), District 19, Tehran, Iran<br>
+	 &nbsp Graduate of Mathematics and Physics, Shahid Hemmat governmental leading school (magnet school), District 19, Tehran, Iran<br>
 	(2010-2012)<br>
 	 Graduate of Mathematics and Physics, Shahid Bakeri governmental leading school (magnet school), Mianeh, east Azerbaijan, Iran
 	
@@ -60,7 +60,6 @@ Education
 
 Work experience
 ======
-<div>
 * Research and Development  
    Azar-Sky Company 2013-2021 (7 years) -R&D  
 	Color removal of industrial wastewater  
@@ -93,7 +92,6 @@ Work experience
 	Online doctor, plant image processing, herbal medicine database  
    Raman sensor in pharmaceutical industry (IUST)  
    Air purification-Nano filters (INIC - Nano Startup Program)  
-</div>
 	
 Skills
 ======
