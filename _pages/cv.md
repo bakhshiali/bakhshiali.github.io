@@ -29,11 +29,11 @@ Education
 ======
 * Researcher/Research Assistant  
 	(2021/6/22-2023/6/22)  
-	 Nanobiotechnology & Nanotechnology, "IPM (Institute For Research In Fundamental Sciences)", Tehran, Iran
+	 &nbsp; Nanobiotechnology & Nanotechnology, "IPM (Institute For Research In Fundamental Sciences)", Tehran, Iran
 	
 * Research assistant  
 	(2020-2021)  
-	 Nanotechnology-Nanomaterials "Iran University of Science and Technology (IUST)”, Tehran, Iran
+	 &nbsp; Nanotechnology-Nanomaterials "Iran University of Science and Technology (IUST)”, Tehran, Iran
 	 
 * Master of Science  
 	(2018-2020)  
@@ -60,33 +60,36 @@ Education
 
 Work experience
 ======
-* Research and Development  
-   &nbsp; Azar-Sky Company 2013-2021 (7 years) -R&D  
-	&nbsp;&nbsp; Color removal of industrial wastewater  
-	&nbsp;&nbsp; Development of dyeing methods for natural and synthetic fibers  
-	&nbsp;&nbsp; Development of mechanization of dyeing systems  
-	&nbsp;&nbsp; Reverse Engineering  
-	&nbsp;&nbsp; Application and website development  
-	&nbsp;&nbsp; Product design  
+* Research and Development (R&D)  
+   &nbsp; Azar-Sky Company, 2013-2021 (~8.5 years) -R&D  
+	&nbsp;&nbsp;&nbsp;&nbsp; Color removal of industrial wastewater  
+	&nbsp;&nbsp;&nbsp;&nbsp; Development of dyeing methods for natural and synthetic fibers  
+	&nbsp;&nbsp;&nbsp;&nbsp; Development of mechanization of dyeing systems  
+	&nbsp;&nbsp;&nbsp;&nbsp; Reverse Engineering  
+	&nbsp;&nbsp;&nbsp;&nbsp; Application and website development  
+	&nbsp;&nbsp;&nbsp;&nbsp; Product design  
 * Consulting and automation  
-   &nbsp;Azerbaijan Electrical Power Company 1397-1396 (2 years)  
-	&nbsp;&nbsp; Automation engineer and programmer  
-	&nbsp;&nbsp; Industrial automation  
-	&nbsp;&nbsp; UPS support units  
+   &nbsp;Azerbaijan Electrical Power Company, 2016 (~2 years)  
+	&nbsp;&nbsp;&nbsp;&nbsp; Automation engineer and programmer  
+	&nbsp;&nbsp;&nbsp;&nbsp; Industrial automation  
+	&nbsp;&nbsp;&nbsp;&nbsp; UPS support units  
 * University  
-   &nbsp; IUST, Faculty of advanced Technologies  
-	&nbsp;&nbsp; Secretary of the (college) students' scientific association (2 years), the distinguished (top) student, rank 42 national entrance exam  
+   &nbsp; IUST, Faculty of advanced Technologies 2018  
+	&nbsp;&nbsp;&nbsp;&nbsp; Scientific Assosiation Secretary (2 years)  
+	&nbsp;&nbsp;&nbsp;&nbsp; Researcher (~2.5 years)
    &nbsp; University of Tabriz, Faculty of Physics  
-	&nbsp;&nbsp; Active member of the Scientific Association, Talented student (among the top educational students)  
+	&nbsp;&nbsp;&nbsp;&nbsp; Active member of the Scientific Association, Talented student (among the top educational students)  
+   &nbsp; Bussiness Incubation center of Azad University South-Tehran Branch, 2020
+        &nbsp;&nbsp;&nbsp;&nbsp; Researcher (8 months)
 * University magazines  
-   &nbsp; Journal of Steel and Concrete 2020 (1 year)  
-	&nbsp;&nbsp; Head of graphic design  
-   &nbsp; Journal of Technologists 2019 (2 year)  
-	&nbsp;&nbsp; Managing Director and Editor  
+   &nbsp; Journal of Steel and Concrete, 2020 (1 year)  
+	&nbsp;&nbsp;&nbsp;&nbsp; Graphic designer  
+   &nbsp; Journal of Technologists, 2019 (2 years)  
+	&nbsp;&nbsp;&nbsp;&nbsp; Managing Director and Editor  
 * Iran Nanotechnology Innovation Council (INIC)  
-   &nbsp; INIC 2019-2021 (2 years)  
-	&nbsp;&nbsp; Representative of INIC in IUST  
-	&nbsp;&nbsp; Industrialization Center for Applied Nanotechnology (ICAN) Ambassador  
+   &nbsp; INIC, 2019-2021 (2 years)  
+	&nbsp;&nbsp;&nbsp;&nbsp; Representative of INIC in IUST  
+	&nbsp;&nbsp;&nbsp;&nbsp; Industrialization Center for Applied Nanotechnology (ICAN) Ambassador  
 * Startups  
    &nbsp; [spinFiber](https://sites.google.com/view/spinfiber/)  
    &nbsp;&nbsp;&nbsp;&nbsp; Aim: commercialization of handheld electrospinning patent  
