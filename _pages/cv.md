@@ -303,7 +303,7 @@ Honors
 * Talented Student (Tabriz university)
 * Rank 42 national nano entrance exam
 * National Nanotechnology Competition(rank 77)
-* Distinguished educational student 2019 (2 years-M.Sc)
+* Distinguished educational student 2019 (2 years-M.Sc)  
 ... For detailed views, we could check my linkedin: [Linkedin] (https://www.linkedin.com/in/ali-bakhshi-)
 
 Social and extracurricular activities
