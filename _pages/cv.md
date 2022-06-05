@@ -18,12 +18,20 @@ Contact Info
 |Email 3:	|ali_bakhshi@ipm.ir|
 |LinkedIn:	|https://www.linkedin.com/in/ali-bakhshi-/|
 
+<div class="wrapper">
+	<div class="divider div-transparent div-dot"></div>
+</div>
+
 Identity
 ======
 
 |:--------|:--------|
 |Date of birth: |22/11/1995|
 |Marital status: |single|
+
+<div class="wrapper">
+	<div class="divider div-transparent div-dot"></div>
+</div>
 
 Education
 ======
