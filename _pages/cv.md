@@ -55,7 +55,7 @@ Education
 	(2007-2010)  
 	 &nbsp;&nbsp; Graduate of "Ostad Shahriar" governmental leading school (magnet school), Mianeh, east Azerbaijan, Iran
 * Elementary school
-	(2001-2007)
+	(2001-2007)  
 	 &nbsp;&nbsp;&nbsp; Graduate of "Tohid" governmental leading school, Gundughdi village, east Azerbaijan, Iran
 
 Work experience
