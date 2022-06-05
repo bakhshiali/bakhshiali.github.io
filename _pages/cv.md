@@ -302,7 +302,7 @@ Honors & Awards & Grants
 ======
 * Inventor legal title (Inv. Ali Bakhshi), International Federation of Inventors' Associations (IFIA), 2022
 * Patent Score (5.8 out of 10), Iranian Research Organization for Science and Technology, 2022
-* National entrance exam of higher education (PhD)
+* National entrance exam of higher education (PhD)  
   &nbsp;&nbsp;&nbsp;&nbsp; Nanotechnology-nanomaterials, rank 19th, 2021  
   &nbsp;&nbsp;&nbsp;&nbsp; Materials Engineering and Metallurgy, rank 196th, 2020  
 * Distinguished student (educational), 2019 (2 years-M.Sc)
