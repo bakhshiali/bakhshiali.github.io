@@ -17,18 +17,22 @@ Contact Info
 |Email 2:	|ali_bakhshi@alumni.iust.ac.ir|
 |Email 3:	|ali_bakhshi@ipm.ir|
 |LinkedIn:	|https://www.linkedin.com/in/ali-bakhshi-/|
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+
 Identity
 ======
 
 |:--------|:--------|
 |Date of birth: |22/11/1995|
 |Marital status: |single|
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+
 Education
 ======
 * Researcher/Research Assistant  
@@ -61,9 +65,11 @@ Education
 * Elementary school
 	(2001-2007)  
 	 &nbsp;&nbsp;&nbsp; Graduate of "Tohid" governmental leading school, Gundughdi village, east Azerbaijan, Iran
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+
 Work experience
 ======
 * Research and Development (R&D)  
@@ -115,9 +121,11 @@ Work experience
    &nbsp; nanoFilter-Air purification  
    &nbsp;&nbsp;&nbsp;&nbsp; Aim: reusable car cabin air filter  
    &nbsp;&nbsp;&nbsp;&nbsp; INIC - Nano Startup Program, 2017  
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+
 Skills
 ======
 * Nanotechnogy  
@@ -155,9 +163,11 @@ Skills
   &nbsp;&nbsp;&nbsp;&nbsp; Carpet whitening/Stone-washed techniques  
   &nbsp;&nbsp;&nbsp;&nbsp; Carpet Design + automated machines  
 * Research methods and scientometrics (R + Python)  
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+
 Interests
 ======
 * Nano biotechnology
@@ -167,34 +177,42 @@ Interests
 * Self-healing
 * EEG, ECG and... Signals
 * Molecular 3D printing (modified DNA, etc.)
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 * Wikipedia articles (nanotechnology, biotechnology, quantum physics, …)
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+
 Patents
 ======
 <ul>{% for post in site.patents %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>  
+
 Services, leaderships & Memberships
 ======
 * Self-desired Teacher for poors, ~2014-now
@@ -204,9 +222,11 @@ Services, leaderships & Memberships
 * Iranian researchers network, researcher member, 2022-now 
 * National Library of Iran, 2018-now
 * Iranian Society of NanomedicineIranian Society of Nanomedicine, 2019-2020
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+
 Languages
 ======
 
@@ -219,9 +239,11 @@ Languages
 |* German 							|Intermediate|
 |* Arabic 							|Intermediate|
 |* Hebrew							|Basic!|
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+
 Certificates
 ======
 
@@ -255,9 +277,11 @@ Certificates
 |* Basic to advance bioinformatics |Royan Institute| [English](/files/certifications/bioinformatics.png) |
 |* Advanced Photonics Congress | OSA | [English](/files/certifications/bioinformatics.png) |
 |* Regenerative Medicine & Tissue Engineering | Royan Institute | [English](/files/certifications/RegenerativeMedicineAndTissueEngineering.png) |
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+
 Research activities
 ======
 * siRNA related review article
@@ -290,9 +314,11 @@ Research activities
 * Fabrication of a charging system to convert fire heat into electricity using TEC
 * Programming of an intelligent robot (voice and command analysis bot)
 * Temperature control by lm35 and SMT160 sensors using atmega 32
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+
 Softwares
 ======
 
@@ -322,9 +348,11 @@ Softwares
 |* Abaqus, Fluent 				|Basic|
 |* Unity engine 				|Basic|
 |* Methyl Primer Express, MetaDiSc, target, signalp, primer3, primer blast, ArgusLab, SnapGene, Gene Runner, Beacon Designer|Basic|
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+
 Honors & Awards & Grants
 ======
 * Inventor legal title (Inv. Ali Bakhshi), International Federation of Inventors' Associations (IFIA), 2022
@@ -342,9 +370,11 @@ Honors & Awards & Grants
   &nbsp;&nbsp;&nbsp;&nbsp; B.Sc.,  2014 + M.Sc. 2018 + Azar Sky Co., 2013 + IPM, 2021  
 * Selected rank of the 14th Scientific Festival of Distinguished, Innovative and Inventive Students, 2010  
 ... For detailed views, we could check my linkedin: [Linkedin] (https://www.linkedin.com/in/ali-bakhshi-)
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+
 Social and extracurricular activities
 ======
 * Patent Analysis
