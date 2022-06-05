@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /patents/
 title: "Patents Info"
 excerpt: "This is a page not in the main menu"
