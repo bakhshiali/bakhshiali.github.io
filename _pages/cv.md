@@ -28,22 +28,39 @@ Identity
 Education
 ======
 * Researcher/Research Assistant  
-	Nanobiotechnology & Nanotechnology "IPM (Institute For Research In Fundamental Sciences)" (2021/6/22-2023/6/22)  
+	(2021/6/22-2023/6/22)<br>
+	 Nanobiotechnology & Nanotechnology, "IPM (Institute For Research In Fundamental Sciences)", Tehran, Iran
+	
 * Research assistant  
-	Nanotechnology-Nanomaterials "Iran University of Science and Technology (IUST)” (2020-2021)
+	(2020-2021)<br>
+	 Nanotechnology-Nanomaterials "Iran University of Science and Technology (IUST)”, Tehran, Iran
+	 
 * Master of Science  
-	Nanotechnology-Nanomaterials "Iran University of Science and Technology" (2018-2020)
-	Project: Manufacturing and evaluation of optical fiber based magnetic field sensor containing graphene-magnetite hybrid coating
+	(2018-2020)<br>
+	 Nanotechnology-Nanomaterials "Iran University of Science and Technology", Tehran, Iran<br>
+	 Project: Manufacturing and evaluation of optical fiber based magnetic field sensor containing graphene-magnetite hybrid coating
+	 
 * Bachelor of Science  
-	Engineering Physics-Plasma, Laser, Solid State "University of Tabriz" (2014-2018)
-	Project: The mechanism of plasma enhanced chemical vapor deposition (PECVD) and its applications
+	(2014-2018)<br>
+	 Engineering Physics-Plasma, Laser, Solid State "University of Tabriz", Tabriz, Iran<br>
+	 Project: The mechanism of plasma enhanced chemical vapor deposition (PECVD) and its applications
+	
 * High school  
-	Graduate of Mathematics and Physics, Shahid Hemmat State High School, District 19
+	(2012-2014)<br>
+	 Graduate of Mathematics and Physics, Shahid Hemmat governmental leading school (magnet school), District 19, Tehran, Iran<br>
+	(2010-2012)<br>
+	 Graduate of Mathematics and Physics, Shahid Bakeri governmental leading school (magnet school), Mianeh, east Azerbaijan, Iran
+	
 * Middle school  
-	Graduate of "Shahriar" State middle school (Mianeh-east Azerbaijan)
+	(2007-2010)<br>
+	 Graduate of "Ostad Shahriar" governmental leading school (magnet school), Mianeh, east Azerbaijan, Iran
+* Elementary school
+	(2001-2007)
+	 Graduate of "Tohid" governmental leading school, Gundughdi village, east Azerbaijan, Iran
 
 Work experience
 ======
+<div>
 * Research and Development  
    Azar-Sky Company 2013-2021 (7 years) -R&D  
 	Color removal of industrial wastewater  
@@ -58,9 +75,9 @@ Work experience
 	Industrial automation  
 	UPS support units  
 * University  
-   IUST, Faculty of advanced Technologies  
+   IUST, Faculty of advanced Technologies  <br>
 	Secretary of the (college) students' scientific association (2 years), the distinguished (top) student, rank 42 national entrance exam  
-   University of Tabriz, Faculty of Physics  
+   University of Tabriz, Faculty of Physics  <br>
 	Active member of the Scientific Association, Talented student (among the top educational students)  
 * University magazines  
    Journal of Steel and Concrete 2020 (1 year)  
@@ -76,7 +93,8 @@ Work experience
 	Online doctor, plant image processing, herbal medicine database  
    Raman sensor in pharmaceutical industry (IUST)  
    Air purification-Nano filters (INIC - Nano Startup Program)  
-   
+</div>
+	
 Skills
 ======
 * Fabrication of analysis and production of nanomaterials systems
