@@ -89,23 +89,23 @@ Work experience
 	&nbsp;&nbsp; Industrialization Center for Applied Nanotechnology (ICAN) Ambassador  
 * Startups  
    &nbsp; [spinFiber](https://sites.google.com/view/spinfiber/)  
-   &nbsp;&nbsp; Aim: commercialization of handheld electrospinning patent  
-   &nbsp;&nbsp; Self-funded, 2019  
+   &nbsp;&nbsp;&nbsp;&nbsp; Aim: commercialization of handheld electrospinning patent  
+   &nbsp;&nbsp;&nbsp;&nbsp; Self-funded, 2019  
    &nbsp; [fiberSense](https://sites.google.com/view/fibersense/)  
-   &nbsp;&nbsp; Aim: commercialization of optical fiber-based sensors  
-   &nbsp;&nbsp; IUST, 2018  
+   &nbsp;&nbsp;&nbsp;&nbsp; Aim: commercialization of optical fiber-based sensors  
+   &nbsp;&nbsp;&nbsp;&nbsp; IUST, 2018  
    &nbsp; online doctor, plant image processing, herbal medicine database  
-   &nbsp;&nbsp; Aim: online AI-based platform for tele-medicine, services and centralized management  
-   &nbsp;&nbsp; Tabriz University of Medical Sciences and Pharmacy, 2018  
+   &nbsp;&nbsp;&nbsp;&nbsp; Aim: online AI-based platform for tele-medicine, services and centralized management  
+   &nbsp;&nbsp;&nbsp;&nbsp; Tabriz University of Medical Sciences and Pharmacy, 2018  
    &nbsp; RamanQC  
-   &nbsp;&nbsp; Aim: Tablet quality control + Raman sensor in pharmaceutical industry  
-   &nbsp;&nbsp; IUST, 2017  
+   &nbsp;&nbsp;&nbsp;&nbsp; Aim: Tablet quality control + Raman sensor in pharmaceutical industry  
+   &nbsp;&nbsp;&nbsp;&nbsp; IUST, 2017  
    &nbsp; quietCoat  
-   &nbsp;&nbsp; Aim: noise cancelling/sound proofing + flame retardant coatings and colors  
-   &nbsp;&nbsp; IKCO + INIC, 2017  
+   &nbsp;&nbsp;&nbsp;&nbsp; Aim: noise cancelling/sound proofing + flame retardant coatings and colors  
+   &nbsp;&nbsp;&nbsp;&nbsp; IKCO + INIC, 2017  
    &nbsp; nanoFilter-Air purification  
-   &nbsp;&nbsp; Aim: reusable car cabin air filter  
-   &nbsp;&nbsp; INIC - Nano Startup Program, 2017  
+   &nbsp;&nbsp;&nbsp;&nbsp; Aim: reusable car cabin air filter  
+   &nbsp;&nbsp;&nbsp;&nbsp; INIC - Nano Startup Program, 2017  
     
 	
 Skills
