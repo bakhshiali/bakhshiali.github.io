@@ -28,31 +28,31 @@ Identity
 Education
 ======
 * Researcher/Research Assistant  
-	(2021/6/22-2023/6/22)<br>
+	(2021/6/22-2023/6/22)  
 	 Nanobiotechnology & Nanotechnology, "IPM (Institute For Research In Fundamental Sciences)", Tehran, Iran
 	
 * Research assistant  
-	(2020-2021)<br>
+	(2020-2021)  
 	 Nanotechnology-Nanomaterials "Iran University of Science and Technology (IUST)”, Tehran, Iran
 	 
 * Master of Science  
-	(2018-2020)<br>
-	 &nbsp; Nanotechnology-Nanomaterials "Iran University of Science and Technology", Tehran, Iran<br>
+	(2018-2020)  
+	 &nbsp; Nanotechnology-Nanomaterials "Iran University of Science and Technology", Tehran, Iran  
 	 &nbsp; &nbsp; Project: Manufacturing and evaluation of optical fiber based magnetic field sensor containing graphene-magnetite hybrid coating
 	 
 * Bachelor of Science  
-	(2014-2018)<br>
-	 &nbsp; Engineering Physics-Plasma, Laser, Solid State "University of Tabriz", Tabriz, Iran<br>
+	(2014-2018)  
+	 &nbsp; Engineering Physics-Plasma, Laser, Solid State "University of Tabriz", Tabriz, Iran  
 	 &nbsp; &nbsp; Project: The mechanism of plasma enhanced chemical vapor deposition (PECVD) and its applications
 	
 * High school  
-	(2012-2014)<br>
-	 &nbsp; Graduate of Mathematics and Physics, Shahid Hemmat governmental leading school (magnet school), District 19, Tehran, Iran<br>
+	(2012-2014)  
+	 &nbsp; Graduate of Mathematics and Physics, Shahid Hemmat governmental leading school (magnet school), District 19, Tehran, Iran  
 	(2010-2012)<br>
 	 &nbsp; Graduate of Mathematics and Physics, Shahid Bakeri governmental leading school (magnet school), Mianeh, east Azerbaijan, Iran
 	
 * Middle school  
-	(2007-2010)<br>
+	(2007-2010)  
 	 &nbsp; Graduate of "Ostad Shahriar" governmental leading school (magnet school), Mianeh, east Azerbaijan, Iran
 * Elementary school
 	(2001-2007)
@@ -69,29 +69,44 @@ Work experience
 	&nbsp;&nbsp; Application and website development  
 	&nbsp;&nbsp; Product design  
 * Consulting and automation  
-   Azerbaijan Electrical Power Company 1397-1396 (2 years)  
-	Automation engineer and programmer  
-	Industrial automation  
-	UPS support units  
+   &nbsp;Azerbaijan Electrical Power Company 1397-1396 (2 years)  
+	&nbsp;&nbsp; Automation engineer and programmer  
+	&nbsp;&nbsp; Industrial automation  
+	&nbsp;&nbsp; UPS support units  
 * University  
-   IUST, Faculty of advanced Technologies  <br>
-	Secretary of the (college) students' scientific association (2 years), the distinguished (top) student, rank 42 national entrance exam  
-   University of Tabriz, Faculty of Physics  <br>
-	Active member of the Scientific Association, Talented student (among the top educational students)  
+   &nbsp; IUST, Faculty of advanced Technologies  
+	&nbsp;&nbsp; Secretary of the (college) students' scientific association (2 years), the distinguished (top) student, rank 42 national entrance exam  
+   &nbsp; University of Tabriz, Faculty of Physics  
+	&nbsp;&nbsp; Active member of the Scientific Association, Talented student (among the top educational students)  
 * University magazines  
-   Journal of Steel and Concrete 2020 (1 year)  
-	Head of graphic design  
-   Journal of Technologists 2019 (2 year)  
-	Managing Director and Editor  
+   &nbsp; Journal of Steel and Concrete 2020 (1 year)  
+	&nbsp;&nbsp; Head of graphic design  
+   &nbsp; Journal of Technologists 2019 (2 year)  
+	&nbsp;&nbsp; Managing Director and Editor  
 * Iran Nanotechnology Innovation Council (INIC)  
-   INIC 2019-2021 (2 years)  
-	Representative of INIC in IUST  
-	Industrialization Center for Applied Nanotechnology (ICAN) Ambassador  
-* Startup  
-   Tabriz University of Medical Sciences and Pharmacy  
-	Online doctor, plant image processing, herbal medicine database  
-   Raman sensor in pharmaceutical industry (IUST)  
-   Air purification-Nano filters (INIC - Nano Startup Program)  
+   &nbsp; INIC 2019-2021 (2 years)  
+	&nbsp;&nbsp; Representative of INIC in IUST  
+	&nbsp;&nbsp; Industrialization Center for Applied Nanotechnology (ICAN) Ambassador  
+* Startups  
+   &nbsp; [spinFiber](https://sites.google.com/view/spinfiber/)  
+   &nbsp;&nbsp; Aim: commercialization of handheld electrospinning patent  
+   &nbsp;&nbsp; Self-funded, 2019  
+   &nbsp; [fiberSense](https://sites.google.com/view/fibersense/)  
+   &nbsp;&nbsp; Aim: commercialization of optical fiber-based sensors  
+   &nbsp;&nbsp; IUST, 2018  
+   &nbsp; online doctor, plant image processing, herbal medicine database  
+   &nbsp;&nbsp; Aim: online AI-based platform for tele-medicine, services and centralized management  
+   &nbsp;&nbsp; Tabriz University of Medical Sciences and Pharmacy, 2018  
+   &nbsp; RamanQC  
+   &nbsp;&nbsp; Aim: Tablet quality control + Raman sensor in pharmaceutical industry  
+   &nbsp;&nbsp; IUST, 2017  
+   &nbsp; quietCoat  
+   &nbsp;&nbsp; Aim: noise cancelling/sound proofing + flame retardant coatings and colors  
+   &nbsp;&nbsp; IKCO + INIC, 2017  
+   &nbsp; nanoFilter-Air purification  
+   &nbsp;&nbsp; Aim: reusable car cabin air filter  
+   &nbsp;&nbsp; INIC - Nano Startup Program, 2017  
+    
 	
 Skills
 ======
