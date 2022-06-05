@@ -12,7 +12,7 @@ redirect_from:
 Contact Info
 ======
 
-|Tel: 		| - |
+|Tel: 		| 0098-9014122529 |
 |Email 1: 	|alibakhshi255255@gmail.com|
 |Email 2:	|ali_bakhshi@alumni.iust.ac.ir|
 |Email 3:	|ali_bakhshi@ipm.ir|
