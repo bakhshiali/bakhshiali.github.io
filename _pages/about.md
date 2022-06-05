@@ -9,11 +9,19 @@ redirect_from:
 ---
 If you want to go fast, go alone. If you want to go far, go together.
 
+<div class="wrapper">
+	<div class="divider div-transparent div-stopper"></div>
+</div>
+
 Academic Education Background - 2014-2020
 ======
 I hold an M.Sc in Nanotechnology-Nanomaterial from Iran University of Science and Technology (IUST) [2018-2020].
 
 My B.sc field was Engineering Physics (Condensed Matter-Plasma-Laser) from Tabriz University (Iran) [2014-2018].
+
+<div class="wrapper">
+	<div class="divider div-transparent div-stopper"></div>
+</div>
 
 Now - 2021-2023
 ======
