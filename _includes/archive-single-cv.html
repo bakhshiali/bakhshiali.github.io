@@ -40,7 +40,7 @@
       <p style="padding-left: 1em"> Published in {{post.venue}}, {{post.date | date:"%Y-%m-%d"}} </p>
     {% endif %}
     {% if  post.collection == "teaching" %}
-      <p style="padding-left: 1em"> Location: {{post.venue}}, {{post.date | date:"%Y-%m-%d"}} </p>
+      <p style="padding-left: 1em">{{post.venue}}, {{post.date | date:"%Y-%m-%d"}} </p>
     {% endif %}
     
     {% if post.read_time %}
