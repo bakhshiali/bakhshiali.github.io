@@ -221,7 +221,7 @@ Services, leaderships & Memberships
 * Iranian Inventors Association, 2022-now
 * Iranian researchers network, researcher member, 2022-now 
 * National Library of Iran, 2018-now
-* Iranian Society of NanomedicineIranian Society of Nanomedicine, 2019-2020
+* Iranian Society of Nanomedicine, 2019-2020
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
