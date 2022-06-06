@@ -77,7 +77,7 @@ location: "Tabriz, Iran"
 
 <figure>
   <img src="/images/projects/SONY_ICX024AK_10A_1988_494kpix_CCD.jpg" alt="SONY_ICX024AK_10A_1988_494kpix_CCD.jpg" style="width:100%">
-  <figcaption align="center" style="margin-left:40%;">Sony 2/3″ CCD ICX024AK 10A 494496 (816*606) pixels CCD removed from Sony CCD-V88E video camera from 1988, with Yellow, Green and Cyan vertical stripe filter</figcaption>
+  <figcaption text-align="center">Sony 2/3″ CCD ICX024AK 10A 494496 (816*606) pixels CCD removed from Sony CCD-V88E video camera from 1988, with Yellow, Green and Cyan vertical stripe filter</figcaption>
 </figure> 
 
 <h2>Arduino 8-bit Spectrograph project</h2>
