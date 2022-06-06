@@ -9,7 +9,7 @@ location: "Tabriz, Iran"
 ---
 
 CCD array setup
-
+=====
 <p align="justify" style="padding-left: 1em">A charge-coupled device (CCD) is a device for the movement of electrical charge, usually from within the device to an area where the charge can be manipulated, for example conversion into a digital value. This is achieved by “shifting” the signals between stages within the device one at a time. CCDs move charge between capacitive bins in the device, with the shift allowing for the transfer of charge between bins.</p>
 
 ![TCD1304AP.jpg](/images/projects/TCD1304AP.jpg)
@@ -25,9 +25,12 @@ Basics of operation
 
 ![CCD_charge_transfer_animation.gif](/images/projects/CCD_charge_transfer_animation.gif)  
 <p align="justify" style="padding-left: 1em">The charge packets (electrons, blue) are collected in potential wells (yellow) created by applying positive voltage at the gate electrodes (G). Applying positive voltage to the gate electrode in the correct sequence transfers the charge packets.</p>
+
 Architecture
 =====
-1) Frame transfer CCD
+
+1.Frame transfer CCD  
+===
 <p align="justify" style="padding-left: 1em">The frame transfer CCD imager was the first imaging structure proposed for CCD Imaging by Michael Tompsett at Bell Laboratories. A frame transfer CCD is a specialized CCD, often used in astronomy and some professional video cameras, designed for high exposure efficiency and correctness.</p>
 
 <p align="justify" style="padding-left: 1em">The normal functioning of a CCD, astronomical or otherwise, can be divided into two phases: exposure and readout. During the first phase, the CCD passively collects incoming photons, storing electrons in its cells. After the exposure time is passed, the cells are read out one line at a time. During the readout phase, cells are shifted down the entire area of the CCD. While they are shifted, they continue to collect light. Thus, if the shifting is not fast enough, errors can result from light that falls on a cell holding charge during the transfer. These errors are referred to as “vertical smear” and cause a strong light source to create a vertical line above and below its exact location. In addition, the CCD cannot be used to collect light while it is being read out. Unfortunately, a faster shifting requires a faster readout, and a faster readout can introduce errors in the cell charge measurement, leading to a higher noise level.</p>
@@ -36,7 +39,8 @@ Architecture
 
 The disadvantage of such a CCD is the higher cost: the cell area is basically doubled, and more complex control electronics are needed.
 
-2) Intensified charge-coupled device  
+2.Intensified charge-coupled device 
+=== 
 An intensified charge-coupled device (ICCD) is a CCD that is optically connected to an image intensifier that is mounted in front of the CCD.  
 
 <p align="justify" style="padding-left: 1em">An image intensifier includes three functional elements: a photocathode, a micro-channel plate (MCP) and a phosphor screen. These three elements are mounted one close behind the other in the mentioned sequence. The photons which are coming from the light source fall onto the photocathode, thereby generating photoelectrons. The photoelectrons are accelerated towards the MCP by an electrical control voltage, applied between photocathode and MCP. The electrons are multiplied inside of the MCP and thereafter accelerated towards the phosphor screen. The phosphor screen finally converts the multiplied electrons back to photons which are guided to the CCD by a fiber optic or a lens.</p>
@@ -49,7 +53,8 @@ An intensified charge-coupled device (ICCD) is a CCD that is optically connected
 
 ICCDs are used in night vision devices and in various scientific applications.  
 
-3) Electron-multiplying CCD  
+3.Electron-multiplying CCD  
+===
 <p align="justify" style="padding-left: 1em">An electron-multiplying CCD (EMCCD, also known as an L3Vision CCD, a product commercialized by e2v Ltd., GB, L3CCD or Impactron CCD, a now-discontinued product offered in the past by Texas Instruments) is a charge-coupled device in which a gain register is placed between the shift register and the output amplifier. The gain register is split up into a large number of stages. In each stage, the electrons are multiplied by impact ionization in a similar way to an avalanche diode. The gain probability at every stage of the register is small (P < 2%), but as the number of elements is large (N > 500), the overall gain can be very high</p>
 
 g = (1 + P)^N  
@@ -64,6 +69,7 @@ g = (1 + P)^N
 <p align="justify" style="padding-left: 1em">In terms of noise, commercial EMCCD cameras typically have clock-induced charge (CIC) and dark current (dependent on the extent of cooling) that together lead to an effective readout noise ranging from 0.01 to 1 electrons per pixel read. However, recent improvements in EMCCD technology have led to a new generation of cameras capable of producing significantly less CIC, higher charge transfer efficiency and an EM gain 5 times higher than what was previously available. These advances in low-light detection lead to an effective total background noise of 0.001 electrons per pixel read, a noise floor unmatched by any other low-light imaging device.</p>
 
 Color cameras  
+===
 <p align="justify" style="padding-left: 1em">Digital color cameras generally use a Bayer mask over the CCD. Each square of four pixels has one filtered red, one blue, and two green (the human eye is more sensitive to green than either red or blue). The result of this is that luminance information is collected at every pixel, but the color resolution is lower than the luminance resolution.</p>
 
 <p align="justify" style="padding-left: 1em">Better color separation can be reached by three-CCD devices (3CCD) and a dichroic beam splitter prism, that splits the image into red, green and blue components. Each of the three CCDs is arranged to respond to a particular color. Many professional video camcorders, and some semi-professional camcorders, use this technique, although developments in competing CMOS technology have made CMOS sensors, both with beam-splitters and bayer filters, increasingly popular in high-end video and digital cinema cameras. Another advantage of 3CCD over a Bayer mask device is higher quantum efficiency (and therefore higher light sensitivity for a given aperture size). This is because in a 3CCD device most of the light entering the aperture is captured by a sensor, while a Bayer mask absorbs a high proportion (about 2/3) of the light falling on each CCD pixel.</p>
