@@ -11,8 +11,10 @@ location: "Tabriz, Iran"
 <h2>CCD array setup</h2>
 <p align="justify" style="padding-left: 1em">A charge-coupled device (CCD) is a device for the movement of electrical charge, usually from within the device to an area where the charge can be manipulated, for example conversion into a digital value. This is achieved by “shifting” the signals between stages within the device one at a time. CCDs move charge between capacitive bins in the device, with the shift allowing for the transfer of charge between bins.</p>
 
-![TCD1304AP.jpg](/images/projects/TCD1304AP.jpg)
-tcd1304ap
+<figure>
+  <img src="/images/projects/TCD1304AP.jpg" alt="TCD1304AP.jpg" style="width:100%">
+  <figcaption style="margin-left:40%;">tcd1304ap</figcaption>
+</figure> 
 
 <p align="justify" style="padding-left: 1em"> In recent years CCD has become a major technology for digital imaging. In a CCD image sensor, pixels are represented by p-dopedmetal-oxide-semiconductors (MOS) capacitors. These capacitors are biased above the threshold for inversion when image acquisition begins, allowing the conversion of incoming photons into electron charges at the semiconductor-oxide interface; the CCD is then used to read out these charges. Although CCDs are not the only technology to allow for light detection, CCD image sensors are widely used in professional, medical, and scientific applications where high-quality image data are required. In applications with less exacting quality demands, such as consumer and professional digital cameras, active pixel sensors, also known as complementary metal-oxide-semiconductors (CMOS) are generally used; the large quality advantage CCDs enjoyed early on has narrowed over time. </p>
 
@@ -21,7 +23,11 @@ tcd1304ap
 
 <p align="justify" style="padding-left: 1em">An image is projected through a lens onto the capacitor array (the photoactive region), causing each capacitor to accumulate an electric charge proportional to the light intensity at that location. A one-dimensional array, used in line-scan cameras, captures a single slice of the image, whereas a two-dimensional array, used in video and still cameras, captures a two-dimensional picture corresponding to the scene projected onto the focal plane of the sensor. Once the array has been exposed to the image, a control circuit causes each capacitor to transfer its contents to its neighbor (operating as a shift register). The last capacitor in the array dumps its charge into a charge amplifier, which converts the charge into a voltage. By repeating this process, the controlling circuit converts the entire contents of the array in the semiconductor to a sequence of voltages. In a digital device, these voltages are then sampled, digitized, and usually stored in memory; in an analog device (such as an analog video camera), they are processed into a continuous analog signal (e.g. by feeding the output of the charge amplifier into a low-pass filter), which is then processed and fed out to other circuits for transmission, recording, or other processing.</p>
 
-![CCD_charge_transfer_animation.gif](/images/projects/CCD_charge_transfer_animation.gif)  
+<figure>
+  <img src="/images/projects/CCD_charge_transfer_animation.gif" alt="CCD_charge_transfer_animation.gif" style="width:100%">
+  <figcaption style="margin-left:40%;">CCD Charge Transfer presentation</figcaption>
+</figure> 
+
 <p align="justify" style="padding-left: 1em">The charge packets (electrons, blue) are collected in potential wells (yellow) created by applying positive voltage at the gate electrodes (G). Applying positive voltage to the gate electrode in the correct sequence transfers the charge packets.</p>
 
 <h2>Architecture</h2>
@@ -69,8 +75,10 @@ tcd1304ap
 
 <p align="justify" style="padding-left: 1em">For still scenes, for instance in microscopy, the resolution of a Bayer mask device can be enhanced by microscanning technology. During the process of color co-site sampling, several frames of the scene are produced. Between acquisitions, the sensor is moved in pixel dimensions, so that each point in the visual field is acquired consecutively by elements of the mask that are sensitive to the red, green and blue components of its color. Eventually every pixel in the image has been scanned at least once in each color and the resolution of the three channels become equivalent (the resolutions of red and blue channels are quadrupled while the green channel is doubled).</p>
 
-![SONY_ICX024AK_10A_1988_494kpix_CCD.jpg](/images/projects/SONY_ICX024AK_10A_1988_494kpix_CCD.jpg)
-Sony 2/3″ CCD ICX024AK 10A 494496 (816*606) pixels CCD removed from Sony CCD-V88E video camera from 1988, with Yellow, Green and Cyan vertical stripe filter
+<figure>
+  <img src="/images/projects/SONY_ICX024AK_10A_1988_494kpix_CCD.jpg" alt="SONY_ICX024AK_10A_1988_494kpix_CCD.jpg" style="width:100%">
+  <figcaption align="center" style="margin-left:40%;">Sony 2/3″ CCD ICX024AK 10A 494496 (816*606) pixels CCD removed from Sony CCD-V88E video camera from 1988, with Yellow, Green and Cyan vertical stripe filter</figcaption>
+</figure> 
 
 <h2>Arduino 8-bit Spectrograph project</h2>
 <p align="justify" style="padding-left: 1em">The goal of this project is to make the electronics for a spectrograph using an ATmega1284P running Arduino code and a TCD1304AP linear array CCD. The digitization is 8-bit.</p>
@@ -86,8 +94,11 @@ Sony 2/3″ CCD ICX024AK 10A 494496 (816*606) pixels CCD removed from Sony CCD-V
 <h3>Linear Array CCD</h3>
 <p align="justify" style="padding-left: 1em">The CCD is a Toshiba TCD1304AP 3648 pixel linear CCD sensor which requires only a single supply voltage. The sensor is driven by the microcontroller, and the analog output is buffered by a transistor and inverted and amplified by an op-amp before being digitized by the ADC0820.</p>
 
-![spectrograph-1284.png](/images/projects/spectrograph-1284.png)
-schematic board
+<figure>
+  <img src="/images/projects/spectrograph-1284.png" alt="spectrograph-1284.png" style="width:100%">
+  <figcaption style="margin-left:40%;">Schematic board</figcaption>
+</figure> 
+
 
 <h3>software</h3>
 <p align="justify" style="padding-left: 1em">Use the MightyCore boards manager plugin by MCUdude. The board will be ATmega1284 and the variant will be the 1284 or the 1284P, depending on which one you have. Pinout is “standard” and the frequency is 16MHz. You can add the MightyCore boards to the boards manager by adding the following url to the “Additional Boards Manager URLs” textbox in Arduino preferences.</p>
@@ -108,17 +119,19 @@ schematic board
 
 <figure>
   <img src="/images/projects/TCD1304-Sampler.png" alt="TCD1304-Sampler.png" style="width:100%">
-  <figcaption align="justify" style="padding-left: 1em;text-align: center;">Python Output</figcaption>
+  <figcaption style="margin-left:40%;">Python Output</figcaption>
 </figure> 
 
-<p align="justify" style="padding-left: 1em">A few lines up from the end of the python code is a line:  
+<p align="justify" style="padding-left: 1em">
+A few lines up from the end of the python code is a line:  
 app = Application(master=root, port=”/dev/tty.usbserial-00000000″, exposure=50)  
 It should match your serial port. If you are using Windows, change that to:  
-app = Application(master=root, port=”COM3″, exposure=50)  
+app = Application(master=root, port=”COM3″, exposure=50) </p> 
 
-<Make it match the serial port you are using. When you run the program it draws a graph of the CCD output, but also makes a file in the program directory named ‘ccd.csv’. That file can be imported into a spreadsheet application for further processing.
-The commands are:  
+<p align="justify" style="padding-left: 1em">Make it match the serial port you are using. When you run the program it draws a graph of the CCD output, but also makes a file in the program directory named ‘ccd.csv’. That file can be imported into a spreadsheet application for further processing.
+The commands are:  </p>
   
+<p align="justify" style="padding-left: 1em">
 Sample – Read the CCD and put the trace on the screen.  
 Clear – Clear all traces from the screen.  
 Quit – End the program (you need to do this to keep from generating an error on exit).  
