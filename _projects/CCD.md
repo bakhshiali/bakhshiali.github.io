@@ -33,10 +33,10 @@ tcd1304ap
 
 <p align="justify" style="padding-left: 1em">A frame transfer CCD solves both problems: it has a shielded, not light sensitive, area containing as many cells as the area exposed to light. Typically, this area is covered by a reflective material such as aluminium. When the exposure time is up, the cells are transferred very rapidly to the hidden area. Here, safe from any incoming light, cells can be read out at any speed one deems necessary to correctly measure the cells’ charge. At the same time, the exposed part of the CCD is collecting light again, so no delay occurs between successive exposures.</p>
 
-The disadvantage of such a CCD is the higher cost: the cell area is basically doubled, and more complex control electronics are needed.
+<p align="justify" style="padding-left: 1em">The disadvantage of such a CCD is the higher cost: the cell area is basically doubled, and more complex control electronics are needed.</p>
 
 <h3>2.Intensified charge-coupled device</h3> 
-An intensified charge-coupled device (ICCD) is a CCD that is optically connected to an image intensifier that is mounted in front of the CCD.  
+<p align="justify" style="padding-left: 1em">An intensified charge-coupled device (ICCD) is a CCD that is optically connected to an image intensifier that is mounted in front of the CCD.</p>
 
 <p align="justify" style="padding-left: 1em">An image intensifier includes three functional elements: a photocathode, a micro-channel plate (MCP) and a phosphor screen. These three elements are mounted one close behind the other in the mentioned sequence. The photons which are coming from the light source fall onto the photocathode, thereby generating photoelectrons. The photoelectrons are accelerated towards the MCP by an electrical control voltage, applied between photocathode and MCP. The electrons are multiplied inside of the MCP and thereafter accelerated towards the phosphor screen. The phosphor screen finally converts the multiplied electrons back to photons which are guided to the CCD by a fiber optic or a lens.</p>
 
@@ -46,12 +46,12 @@ An intensified charge-coupled device (ICCD) is a CCD that is optically connected
 
 <p align="justify" style="padding-left: 1em">ICCD cameras are in general somewhat higher in price than EMCCD cameras because they need the expensive image intensifier. On the other hand, EMCCD cameras need a cooling system to cool the EMCCD chip down to temperatures around 170 K. This cooling system adds additional costs to the EMCCD camera and often yields heavy condensation problems in the application.</p>
 
-ICCDs are used in night vision devices and in various scientific applications.  
+<p align="justify" style="padding-left: 1em">ICCDs are used in night vision devices and in various scientific applications.</p> 
 
 <h3>3.Electron-multiplying CCD</h3>
 <p align="justify" style="padding-left: 1em">An electron-multiplying CCD (EMCCD, also known as an L3Vision CCD, a product commercialized by e2v Ltd., GB, L3CCD or Impactron CCD, a now-discontinued product offered in the past by Texas Instruments) is a charge-coupled device in which a gain register is placed between the shift register and the output amplifier. The gain register is split up into a large number of stages. In each stage, the electrons are multiplied by impact ionization in a similar way to an avalanche diode. The gain probability at every stage of the register is small (P < 2%), but as the number of elements is large (N > 500), the overall gain can be very high</p>
 
-g = (1 + P)^N  
+<p align="justify" style="padding-left: 1em">g = (1 + P)^N </p>
 <p align="justify" style="padding-left: 1em">,with single input electrons giving many thousands of output electrons. Reading a signal from a CCD gives a noise background, typically a few electrons. In an EMCCD, this noise is superimposed on many thousands of electrons rather than a single electron; the devices’ primary advantage is thus their negligible readout noise. It is to be noted that the use of avalanche breakdown for amplification of photo charges had already been described in the U.S. Patent 3,761,744 in 1973 by George E. Smith/Bell Telephone Laboratories. </p>
 
 <p align="justify" style="padding-left: 1em">EMCCDs show a similar sensitivity to intensified CCDs (ICCDs). However, as with ICCDs, the gain that is applied in the gain register is stochastic and the exact gain that has been applied to a pixel’s charge is impossible to know. At high gains (> 30), this uncertainty has the same effect on the signal-to-noise ratio (SNR) as halving the quantum efficiency (QE) with respect to operation with a gain of unity. However, at very low light levels (where the quantum efficiency is most important), it can be assumed that a pixel either contains an electron — or not. This removes the noise associated with the stochastic multiplication at the risk of counting multiple electrons in the same pixel as a single electron. To avoid multiple counts in one pixel due to coincident photons in this mode of operation, high frame rates are essential.</p>
@@ -94,29 +94,29 @@ schematic board
 
 <p align="justify" style="padding-left: 1em">Then just open the Boards Manager under Tools->Board->Boards Manager and go to the bottom to install the MightyCore boards. The selection of boards will increase considerably to include all of the ATmegaxx4 chips, ATmega16/32, and ATmega8535. Additional programmers will appear, too, and you should use one of them with the MightyCore.</p>
 
-You will need an AVR programmer to burn the Arduino bootloader into the ATmega1284.
+<p align="justify" style="padding-left: 1em">You will need an AVR programmer to burn the Arduino bootloader into the ATmega1284.</p>
 
 <p align="justify" style="padding-left: 1em">The source code for the linear CCD application is very carefully crafted in places to maintain the phase relationship between all of the CCD clocks and stay true to the specification. It takes a logic analyzer to measure the results of any code changes in the “readLine()” function.</p>
-
+<p align="justify" style="padding-left: 1em">
 1) TCD1304Ap datasheet  
 2) ATmega 1284p datasheet  
 3) python code  
 4) Arduino code  
 5) MightyCore  
-6) Calibration  
+6) Calibration</p>
 <p align="justify" style="padding-left: 1em">To calibrate, start by setting the VR2 pot so that the voltage on pin 12 of the ADC0820 is close to 5.0V. Set VR3 such that the voltage on pin 11 of the ADC0820 is 0V. Then cover the CCD with electrical tape in a room with dimmed lighting. The tape will come off without damaging the CCD. Adjust pot VR1 to get the lowest voltage you can get on pin 1 of the ADC0820. Adjust it back up so that the voltage just begins to rise. It may be anywhere from 0.65V to 0.75V. That adjusts the lowest signal to be just measurable by the ADC. Remove the electrical tape, but keep it handy. We’ll use it again. Cover the CCD with a dark cloth under dimmed room lighting so the CCD just barely saturates (a scope helps) and adjust the 2kΩ VR2 Vref(+) pot and readout a frame. Adjust until the digital value is 255, and then back off a little to 253 – 255. Then cover the CCD using the electrical tape, and adjust the 10k VR3 Vref(-) pot so the lowest digital reading just hits 1 or 2 ADU. You must adjust the pots in that order because they interact with each other. That is by design. The maximum voltage you can put on Vref(-) is the voltage on Vref(+), and the minimum is ground, so changing Vref(+) changes the range of Vref(-).</p>
 
 <figure>
   <img src="/images/projects/TCD1304-Sampler.png" alt="TCD1304-Sampler.png" style="width:100%">
-  <figcaption>Python Output</figcaption>
+  <figcaption align="justify" style="padding-left: 1em;text-align: center;">Python Output</figcaption>
 </figure> 
 
-A few lines up from the end of the python code is a line:  
+<p align="justify" style="padding-left: 1em">A few lines up from the end of the python code is a line:  
 app = Application(master=root, port=”/dev/tty.usbserial-00000000″, exposure=50)  
 It should match your serial port. If you are using Windows, change that to:  
 app = Application(master=root, port=”COM3″, exposure=50)  
 
-<p align="justify" style="padding-left: 1em">Make it match the serial port you are using. When you run the program it draws a graph of the CCD output, but also makes a file in the program directory named ‘ccd.csv’. That file can be imported into a spreadsheet application for further processing.</p>
+<Make it match the serial port you are using. When you run the program it draws a graph of the CCD output, but also makes a file in the program directory named ‘ccd.csv’. That file can be imported into a spreadsheet application for further processing.
 The commands are:  
   
 Sample – Read the CCD and put the trace on the screen.  
@@ -125,4 +125,4 @@ Quit – End the program (you need to do this to keep from generating an error o
 Samples – How many scans to average together (removes noise).  
 Exposure – An integer value from 1 to 1000. The milliseconds to expose.  
 Baseline – Makes a zero second exposure to subtract from other exposures.  
-notes : Be careful to keep the digital and analog wiring away from each other where possible. Use 0.1µF bypass capacitors at every Vcc connection. Keep all of the digital wires as short as practical to keep them from radiating more than necessary. Be especially careful when routing the Mclk and SH signals near analog areas.  
+notes : Be careful to keep the digital and analog wiring away from each other where possible. Use 0.1µF bypass capacitors at every Vcc connection. Keep all of the digital wires as short as practical to keep them from radiating more than necessary. Be especially careful when routing the Mclk and SH signals near analog areas.</p>
