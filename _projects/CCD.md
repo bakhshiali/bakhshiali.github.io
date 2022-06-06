@@ -8,7 +8,8 @@ date: 2017-1-1
 location: "Tabriz, Iran"
 ---
 
-<h2>CCD array setup</h2>
+CCD array setup
+=====
 <p align="justify" style="padding-left: 1em">A charge-coupled device (CCD) is a device for the movement of electrical charge, usually from within the device to an area where the charge can be manipulated, for example conversion into a digital value. This is achieved by “shifting” the signals between stages within the device one at a time. CCDs move charge between capacitive bins in the device, with the shift allowing for the transfer of charge between bins.</p>
 
 <figure>
