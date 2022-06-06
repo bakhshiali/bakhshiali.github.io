@@ -77,7 +77,7 @@ location: "Tabriz, Iran"
 
 <figure>
   <img src="/images/projects/SONY_ICX024AK_10A_1988_494kpix_CCD.jpg" alt="SONY_ICX024AK_10A_1988_494kpix_CCD.jpg" style="width:100%">
-  <figcaption text-align="center">Sony 2/3″ CCD ICX024AK 10A 494496 (816*606) pixels CCD removed from Sony CCD-V88E video camera from 1988, with Yellow, Green and Cyan vertical stripe filter</figcaption>
+  <figcaption style="text-align: center">Sony 2/3″ CCD ICX024AK 10A 494496 (816*606) pixels CCD removed from Sony CCD-V88E video camera from 1988, with Yellow, Green and Cyan vertical stripe filter</figcaption>
 </figure> 
 
 <h2>Arduino 8-bit Spectrograph project</h2>
@@ -108,13 +108,14 @@ location: "Tabriz, Iran"
 <p align="justify" style="padding-left: 1em">You will need an AVR programmer to burn the Arduino bootloader into the ATmega1284.</p>
 
 <p align="justify" style="padding-left: 1em">The source code for the linear CCD application is very carefully crafted in places to maintain the phase relationship between all of the CCD clocks and stay true to the specification. It takes a logic analyzer to measure the results of any code changes in the “readLine()” function.</p>
-<p align="justify" style="padding-left: 1em">
-1) TCD1304Ap datasheet  
-2) ATmega 1284p datasheet  
-3) python code  
-4) Arduino code  
-5) MightyCore  
-6) Calibration</p>
+<ul align="justify" style="padding-left: 1em">
+    <li>TCD1304Ap datasheet</li>
+    <li>ATmega 1284p datasheet</li>
+    <li>python code</li>
+    <li>Arduino code</li>
+    <li>MightyCore</li>
+    <li>Calibration</li>
+</ul>
 <p align="justify" style="padding-left: 1em">To calibrate, start by setting the VR2 pot so that the voltage on pin 12 of the ADC0820 is close to 5.0V. Set VR3 such that the voltage on pin 11 of the ADC0820 is 0V. Then cover the CCD with electrical tape in a room with dimmed lighting. The tape will come off without damaging the CCD. Adjust pot VR1 to get the lowest voltage you can get on pin 1 of the ADC0820. Adjust it back up so that the voltage just begins to rise. It may be anywhere from 0.65V to 0.75V. That adjusts the lowest signal to be just measurable by the ADC. Remove the electrical tape, but keep it handy. We’ll use it again. Cover the CCD with a dark cloth under dimmed room lighting so the CCD just barely saturates (a scope helps) and adjust the 2kΩ VR2 Vref(+) pot and readout a frame. Adjust until the digital value is 255, and then back off a little to 253 – 255. Then cover the CCD using the electrical tape, and adjust the 10k VR3 Vref(-) pot so the lowest digital reading just hits 1 or 2 ADU. You must adjust the pots in that order because they interact with each other. That is by design. The maximum voltage you can put on Vref(-) is the voltage on Vref(+), and the minimum is ground, so changing Vref(+) changes the range of Vref(-).</p>
 
 <figure>
