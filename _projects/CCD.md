@@ -13,7 +13,7 @@ location: "Tabriz, Iran"
 
 <figure>
   <img src="/images/projects/TCD1304AP.jpg" alt="TCD1304AP.jpg" style="width:100%">
-  <figcaption style="text-align: center">tcd1304ap</figcaption>
+  <figcaption style="text-align: center; padding-left:45%;">tcd1304ap</figcaption>
 </figure> 
 
 <p align="justify" style="padding-left: 1em"> In recent years CCD has become a major technology for digital imaging. In a CCD image sensor, pixels are represented by p-dopedmetal-oxide-semiconductors (MOS) capacitors. These capacitors are biased above the threshold for inversion when image acquisition begins, allowing the conversion of incoming photons into electron charges at the semiconductor-oxide interface; the CCD is then used to read out these charges. Although CCDs are not the only technology to allow for light detection, CCD image sensors are widely used in professional, medical, and scientific applications where high-quality image data are required. In applications with less exacting quality demands, such as consumer and professional digital cameras, active pixel sensors, also known as complementary metal-oxide-semiconductors (CMOS) are generally used; the large quality advantage CCDs enjoyed early on has narrowed over time. </p>
@@ -25,7 +25,7 @@ location: "Tabriz, Iran"
 
 <figure>
   <img src="/images/projects/CCD_charge_transfer_animation.gif" alt="CCD_charge_transfer_animation.gif" style="width:100%">
-  <figcaption style="text-align: center">CCD Charge Transfer presentation</figcaption>
+  <figcaption style="text-align: center; padding-left:45%;">CCD Charge Transfer presentation</figcaption>
 </figure> 
 
 <p align="justify" style="padding-left: 1em">The charge packets (electrons, blue) are collected in potential wells (yellow) created by applying positive voltage at the gate electrodes (G). Applying positive voltage to the gate electrode in the correct sequence transfers the charge packets.</p>
@@ -96,7 +96,7 @@ location: "Tabriz, Iran"
 
 <figure>
   <img src="/images/projects/spectrograph-1284.png" alt="spectrograph-1284.png" style="width:100%">
-  <figcaption style="text-align: center">Schematic board</figcaption>
+  <figcaption style="text-align: center; padding-left:45%;">Schematic board</figcaption>
 </figure> 
 
 
@@ -120,7 +120,7 @@ location: "Tabriz, Iran"
 
 <figure>
   <img src="/images/projects/TCD1304-Sampler.png" alt="TCD1304-Sampler.png" style="width:100%">
-  <figcaption style="text-align: center">Python Output</figcaption>
+  <figcaption style="text-align: center; padding-left:45%;">Python Output</figcaption>
 </figure> 
 
 <p align="justify" style="padding-left: 1em">
