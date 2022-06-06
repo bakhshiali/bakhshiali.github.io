@@ -124,19 +124,23 @@ location: "Tabriz, Iran"
 </figure> 
 
 <p align="justify" style="padding-left: 1em">
-A few lines up from the end of the python code is a line:  
-app = Application(master=root, port=”/dev/tty.usbserial-00000000″, exposure=50)  
-It should match your serial port. If you are using Windows, change that to:  
+A few lines up from the end of the python code is a line:  <br>
+app = Application(master=root, port=”/dev/tty.usbserial-00000000″, exposure=50)  <br>
+It should match your serial port. If you are using Windows, change that to:  <br>
 app = Application(master=root, port=”COM3″, exposure=50) </p> 
 
 <p align="justify" style="padding-left: 1em">Make it match the serial port you are using. When you run the program it draws a graph of the CCD output, but also makes a file in the program directory named ‘ccd.csv’. That file can be imported into a spreadsheet application for further processing.
 The commands are:  </p>
   
 <p align="justify" style="padding-left: 1em">
-Sample – Read the CCD and put the trace on the screen.  
-Clear – Clear all traces from the screen.  
-Quit – End the program (you need to do this to keep from generating an error on exit).  
-Samples – How many scans to average together (removes noise).  
-Exposure – An integer value from 1 to 1000. The milliseconds to expose.  
-Baseline – Makes a zero second exposure to subtract from other exposures.  
-notes : Be careful to keep the digital and analog wiring away from each other where possible. Use 0.1µF bypass capacitors at every Vcc connection. Keep all of the digital wires as short as practical to keep them from radiating more than necessary. Be especially careful when routing the Mclk and SH signals near analog areas.</p>
+Sample – Read the CCD and put the trace on the screen.<br>  
+Clear – Clear all traces from the screen.  <br>
+Quit – End the program (you need to do this to keep from generating an error on exit).  <br>
+Samples – How many scans to average together (removes noise).  <br>
+Exposure – An integer value from 1 to 1000. The milliseconds to expose.  <br>
+Baseline – Makes a zero second exposure to subtract from other exposures.  <br>
+
+notes : <br>
+Be careful to keep the digital and analog wiring away from each other where possible. Use 0.1µF bypass capacitors at every Vcc connection.<br>
+Keep all of the digital wires as short as practical to keep them from radiating more than necessary.<br>
+Be especially careful when routing the Mclk and SH signals near analog areas.</p>
