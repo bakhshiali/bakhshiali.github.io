@@ -10,8 +10,8 @@ location: "Tabriz, Iran"
 
 <h2>Braille system improvement with Python</h2>
 
-<figure style="margin-left:50%;">
-  <img src="/images/projects/LouisBraille.jpg" alt="LouisBraille.jpg" style="width:20%">
+<figure>
+  <img src="/images/projects/LouisBraille.jpg" alt="LouisBraille.jpg" style="width:30%;margin-left:50%;">
   <figcaption style="text-align: center;">Louis Braille, genius</figcaption>
 </figure> 
 
