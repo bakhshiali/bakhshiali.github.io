@@ -8,16 +8,21 @@ date: 2017-1-1
 location: "Tabriz, Iran"
 ---
 
-Chatbot
+<h2>What is Chatbot?</h2>
 
-A chatbot (also known as a smartbot, talkbot, chatterbot, Bot, IM bot, interactive agent, Conversational interface or Artificial Conversational Entity) is a computer program or an artificial intelligence which conducts a conversation via auditory or textual methods. Such programs are often designed to convincingly simulate how a human would behave as a conversational partner, thereby passing the Turing test. Chatbots are typically used in dialog systems for various practical purposes including customer service or information acquisition. Some chatterbots use sophisticated natural language processing systems, but many simpler systems scan for keywords within the input, then pull a reply with the most matching keywords, or the most similar wording pattern, from a database.
+<p align="justify" style="padding-left: 1em">A chatbot (also known as a smartbot, talkbot, chatterbot, Bot, IM bot, interactive agent, Conversational interface or Artificial Conversational Entity) is a computer program or an artificial intelligence which conducts a conversation via auditory or textual methods. Such programs are often designed to convincingly simulate how a human would behave as a conversational partner, thereby passing the Turing test. Chatbots are typically used in dialog systems for various practical purposes including customer service or information acquisition. Some chatterbots use sophisticated natural language processing systems, but many simpler systems scan for keywords within the input, then pull a reply with the most matching keywords, or the most similar wording pattern, from a database.</p>
 
-The term “ChatterBot” was originally coined by Michael Mauldin (creator of the first Verbot, Julia) in 1994 to describe these conversational programs. Today, most chatbots are either accessed via virtual assistants such as Google Assistant and Amazon Alexa, via messaging apps such as Facebook Messenger or WeChat, or via individual organizations’ apps and websites. Chatbots can be classified into usage categories such as conversational commerce (e-commerce via chat), analytics, communication, customer support, design, developer tools, education, entertainment, finance, food, games, health, HR, marketing, news, personal, productivity, shopping, social, sports, travel and utilities.
+<p align="justify" style="padding-left: 1em">The term “ChatterBot” was originally coined by Michael Mauldin (creator of the first Verbot, Julia) in 1994 to describe these conversational programs. Today, most chatbots are either accessed via virtual assistants such as Google Assistant and Amazon Alexa, via messaging apps such as Facebook Messenger or WeChat, or via individual organizations’ apps and websites. Chatbots can be classified into usage categories such as conversational commerce (e-commerce via chat), analytics, communication, customer support, design, developer tools, education, entertainment, finance, food, games, health, HR, marketing, news, personal, productivity, shopping, social, sports, travel and utilities.</p>
 
-![chatbot.png](/images/projects/chatbot.png)
+<h2>How to create chatbot?</h2>
+
+<figure>
+  <img src="/images/projects/chatbot.png" alt="chatbot.png" style="width:100%">
+  <figcaption style="text-align: center; padding-left:45%;">C# Chatbot</figcaption>
+</figure> 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_CSvzXmb7BI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<pre>
+<pre align="justify" style="padding-left: 1em">
 In above video I’d to use my Persian accent! 😃
 Interesting bot, but you need to add more codes as you wish to make it better. I’m talking with these bots when I’m alone. Hope you enjoy!
 using System;
