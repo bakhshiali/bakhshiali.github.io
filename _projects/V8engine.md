@@ -19,7 +19,6 @@ location: "Tabriz, Iran"
 <figure>
   <img src="/images/projects/V8-engine.png" alt="V8-engine.png" style="width:100%">
   <figcaption style="text-align: center; padding-left:45%;">V8 Engine</figcaption>
-</figure> 
-![V8-engine.png](/images/projects/V8-engine.png)
+</figure>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DMCPZG9XkhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
