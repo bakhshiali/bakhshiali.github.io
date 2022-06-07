@@ -21,7 +21,7 @@ As explained in ” https://bakhshiali.com/skills/gaussview/ ” we have several
   <li>Non-destructive Tablets, Gel-caps, and Liquid Formulation Analysis</li>
 <ul>
 <figure>
-  <img src="/images/projects/ramanAI.png" alt="ramanAI.png" style="width:100%">
+  <img src="/images/projects/ramanAI.jpg" alt="ramanAI.jpg" style="width:100%">
   <figcaption style="text-align: center; padding-left:45%;">supervised learning plan of Raman Shifts</figcaption>
 </figure>
 
