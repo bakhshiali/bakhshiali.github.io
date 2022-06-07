@@ -19,7 +19,7 @@ As explained in ” https://bakhshiali.com/skills/gaussview/ ” we have several
   <li>Raw Material Identification on the Dock, at the Dispensary, and at the Hopper</li>
   <li>Real-time Monitoring of Granulation, Blending, Drying, and Coating</li>
   <li>Non-destructive Tablets, Gel-caps, and Liquid Formulation Analysis</li>
-<ul>
+</ul>
 <figure>
   <img src="/images/projects/ramanAI.jpg" alt="ramanAI.jpg" style="width:100%">
   <figcaption style="text-align: center; padding-left:45%;">supervised learning plan of Raman Shifts</figcaption>
