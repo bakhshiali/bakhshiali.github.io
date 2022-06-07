@@ -8,7 +8,7 @@ date: 2017-1-1
 location: "Tabriz, Iran"
 ---
 
-<h2>Braille system Python</h2>
+<h2>Braille system improvement with Python</h2>
 
 <p align="justify" style="padding-left: 1em"><b>Louis Braille, genius</b></p>
 
@@ -30,7 +30,7 @@ location: "Tabriz, Iran"
 
 <h4>Code 1 : python Translator</h4>
 <p align="justify" style="padding-left: 1em">In simplest way We will use two corresponding list and by searching characters of input string then combining them, entire statement will be translated (converted or encode/decoded).</p>
-<pre>
+<pre align="justify" style="padding-left: 1em">
 braille = ['⠴','⠂','⠆','⠒','⠲','⠢','⠖','⠶','⠦','⠔',
 			'⠁','⠃','⠉','⠙','⠑','⠋','⠛','⠓','⠊','⠚',
 			'⠅','⠇','⠍','⠝','⠕','⠏','⠟','⠗','⠎','⠞',
@@ -55,7 +55,7 @@ In [2] : English2Braiile(‘hi, i am ali bakhshi.’)  <br>
 Out[2]: ‘⠓⠊⠠⠀⠊⠀⠁⠍⠀⠁⠇⠊⠀⠃⠁⠅⠓⠎⠓⠊⠨’  <br><br>
 
 In  [3]: Braille2English(‘⠓⠊⠠⠀⠊⠀⠁⠍⠀⠁⠇⠊⠀⠃⠁⠅⠓⠎⠓⠊⠨’)  <br>
-Out[3]: ‘hi, i am ali bakhshi.’</p><br>
+Out[3]: ‘hi, i am ali bakhshi.’</p>
 
 <p align="justify" style="padding-left: 1em">#future developments :  </p>
  <ol>
