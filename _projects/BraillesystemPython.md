@@ -10,10 +10,10 @@ location: "Tabriz, Iran"
 
 <h2>Braille system improvement with Python</h2>
 
-<figure>
-  <img src="/images/projects/LouisBraille.jpg" alt="LouisBraille.jpg" style="width:30%;margin-left:50%;">
-  <figcaption style="text-align: center;margin-left:57%;">Louis Braille, genius</figcaption>
-</figure> 
+
+<img src="/images/projects/LouisBraille.jpg" alt="LouisBraille.jpg" style="width:30%;margin-left:50%;">
+<figcaption style="text-align: center;margin-left:57%;">Louis Braille, genius</figcaption>
+ 
 
 <p align="justify" style="padding-left: 1em">Louis Braille was a French educator, catholic priest and inventor of a system of reading and writing for use by the blind or visually impaired. His system remains virtually unchanged to this day, and is known worldwide simply as braille.</p>
 
