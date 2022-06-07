@@ -14,7 +14,7 @@ location: "Tehran, Iran"
 
 Natural dyes are dyes or colorants derived from plants, invertebrates, or minerals. The majority of natural dyes are vegetable dyes from plant sources roots, berries, bark, leaves, and wood and other biological sources such as fungi and lichens.<br>
 
-Indigo dye is an organic compound with a distinctive blue color. Historically, indigo was a natural dye extracted from the leaves of certain plants, and this process was important economically because blue dyes were once rare. A large percentage of indigo dye produced today, several thousand tonnes each year, is synthetic. It is the blue often associated with denim cloth and blue jeans.>/p>
+Indigo dye is an organic compound with a distinctive blue color. Historically, indigo was a natural dye extracted from the leaves of certain plants, and this process was important economically because blue dyes were once rare. A large percentage of indigo dye produced today, several thousand tonnes each year, is synthetic. It is the blue often associated with denim cloth and blue jeans.</p>
 <figure>
   <img src="/images/projects/Indigo.png" alt="Indigo.png" style="width:100%">
   <figcaption style="text-align: center; padding-left:45%;">indigo structure</figcaption>
