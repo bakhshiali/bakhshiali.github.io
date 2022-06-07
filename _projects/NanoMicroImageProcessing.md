@@ -20,7 +20,7 @@ location: "Tehran, Iran"
 <p align="justify" style="padding-left: 1em">2nd try was with a motorized ccd and had better magnification. Here, ccd feedback wire to motor were broken and I had to design a interface with atmega 8 to control pulses as voltages was 5-12 volts. Below images show better improvements in boundary detection (Red Lines).</p>
 
 <figure>
-  <img src="/images/projects/FiberIP2.JPG" alt="FiberIP2.JPG" style="width:100%">
+  <img src="/images/projects/FiberIP2.jpg" alt="FiberIP2.jpg" style="width:100%">
   <figcaption style="text-align: center; padding-left:45%;">fiber optic image processing with motorized ccd camera</figcaption>
 </figure> 
 
@@ -35,7 +35,7 @@ location: "Tehran, Iran"
 
 <figure>
   <img src="/images/projects/FiberIP4.JPG" alt="FiberIP4.JPG" style="width:100%">
-  <figcaption style="text-align: center; padding-left:45%;">fiber optic image processing with Canon Camera (CMOS Technology) without background noise</figcaption>
+  <figcaption style="text-align: center;">fiber optic image processing with Canon Camera (CMOS Technology) without background noise</figcaption>
 </figure> 
 
 <p align="justify" style="padding-left: 1em">Optical fibers are transparent that makes picturing difficult. Lights, vibrations, any movements and etc. need to be canceled to get best quality. We need to get pictures in same distances to prevent any errors in scaling. Actual diameter is proportion of initial diameter and in the way to get that we have to find initial and current diameter pixels in vertical distance between optimum red boundaries. In this case we have actual diameters as tapering fibers and we could control waist diameter of sensors to enhance reproducibility and repeatability of them.</p>
