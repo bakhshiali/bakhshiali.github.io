@@ -8,24 +8,32 @@ date: 2017-1-1
 location: "Tabriz, Iran"
 ---
 
-SMT160
+<h2>SMT160</h2>
 
-The SMT160-30 is a three terminal integrated temperature sensor, with a duty-cycle output. Two terminals are used for the power supply of 5 Volts and the third terminal carries the output signal. A duty cycle modulated output is used because this output is interpretable by a micro-processor without A-D converter, while the analogue information is still available.
+<p align="justify" style="padding-left: 1em">The SMT160-30 is a three terminal integrated temperature sensor, with a duty-cycle output. Two terminals are used for the power supply of 5 Volts and the third terminal carries the output signal. A duty cycle modulated output is used because this output is interpretable by a micro-processor without A-D converter, while the analogue information is still available.</p>
 
-![smt160.png](/images/projects/smt160.png)
+<figure>
+  <img src="/images/projects/smt160.png" alt="smt160.png" style="width:100%">
+  <figcaption style="text-align: center; padding-left:45%;">smt160</figcaption>
+</figure> 
 
-An easy way of measuring a duty cycle is to use a microcontroller. It is only necessary to connect the sensors output to one of the microcontrollers inputs. With help of a small program it is possible to sense that input wether it is high or low. The speed of this sampling is limited due to the instruction time of the controller. So to achieve the wished accuracy it is necessary to sample over more than one sensor period. This way of working has also the advantage to filter noise. From the theory of signal processing it can be derived that there is a fixed ratio between the sensors signal frequency, the sampling rate and the sampling noise.
+<p align="justify" style="padding-left: 1em">An easy way of measuring a duty cycle is to use a microcontroller. It is only necessary to connect the sensors output to one of the microcontrollers inputs. With help of a small program it is possible to sense that input wether it is high or low. The speed of this sampling is limited due to the instruction time of the controller. So to achieve the wished accuracy it is necessary to sample over more than one sensor period. This way of working has also the advantage to filter noise. From the theory of signal processing it can be derived that there is a fixed ratio between the sensors signal frequency, the sampling rate and the sampling noise.</p>
 
-with SMT160 we could measure temperature from -45 °C to +130 °C . Output Pulse of sensor is similar to below timing chart, in this special case T0 is constant so we will measure TH and TL by duty cycles :
+<p align="justify" style="padding-left: 1em">with SMT160 we could measure temperature from -45 °C to +130 °C . Output Pulse of sensor is similar to below timing chart, in this special case T0 is constant so we will measure TH and TL by duty cycles :<br><br>
 
-duty cycle = TH/T0;
+duty cycle = TH/T0;<br><br>
 
-temp = (duty cycle -0.32)/0.0047
+temp = (duty cycle -0.32)/0.0047</p>
+
+<figure>
+  <img src="/images/projects/SMT160-timing.png" alt="SMT160-timing.png" style="width:100%">
+  <figcaption style="text-align: center; padding-left:45%;">SMT160timing</figcaption>
+</figure> 
 
 ![SMT160-timing.png](/images/projects/SMT160-timing.png)
 
-In practice to measure the temperature we will use ATmega16 microcontroller, 74LS245 buffer, 4514 decoder, BC337 transistors and 8*16 LED matrix so the code is similar to below :
-<pre>
+<p align="justify" style="padding-left: 1em">In practice to measure the temperature we will use ATmega16 microcontroller, 74LS245 buffer, 4514 decoder, BC337 transistors and 8*16 LED matrix so the code is similar to below :</p>
+<pre align="justify" style="padding-left: 1em">
 #include "mega16.h"  
 #include "delay.h"  
 #include "math.h"  
@@ -176,3 +184,4 @@ void main(){
      };  
 }  
 </pre>
+<a href="https://bakhshiali.github.io/projects/SimpleTemperatureController2">LM35 temperature sensor page</a>
