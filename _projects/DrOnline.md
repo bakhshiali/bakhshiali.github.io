@@ -8,14 +8,18 @@ date: 2017-1-1
 location: "Tehran, Iran"
 ---
 
-Dr Online
+<h2>Dr Online startup</h2>
 
-The healthcare industry changes all the time to accommodate new research findings and integrate new treatments.There are positive and negative effects of this change.
+<p align="justify" style="padding-left: 1em">The healthcare industry changes all the time to accommodate new research findings and integrate new treatments.There are positive and negative effects of this change.</p>
 
-![drOnlineLogo.png](/images/projects/drOnlineLogo.png)
-DrOnline Logo
+<figure>
+  <img src="/images/projects/drOnlineLogo.png" alt="drOnlineLogo.png" style="width:100%">
+  <figcaption style="text-align: center; padding-left:45%;">DrOnline Logo</figcaption>
+</figure> 
 
-For patients, many of these changes are positive, translating to better access to doctors, better communication with medical providers, greater personalization of care to meet the individual’s needs and less expense. However, not every healthcare problem can be solved by a virtual doctor.
+<p align="justify" style="padding-left: 1em">For patients, many of these changes are positive, translating to better access to doctors, better communication with medical providers, greater personalization of care to meet the individual’s needs and less expense. However, not every healthcare problem can be solved by a virtual doctor.</p>
 
-![drOnlineAppl.png](/images/projects/drOnlineAppl.png)
-DrOnline Application & website GUI
+<figure>
+  <img src="/images/projects/drOnlineAppl.png" alt="drOnlineAppl.png" style="width:100%">
+  <figcaption style="text-align: center; padding-left:45%;">DrOnline Application & website GUI</figcaption>
+</figure> 
