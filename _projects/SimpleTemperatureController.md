@@ -27,10 +27,8 @@ temp = (duty cycle -0.32)/0.0047</p>
 
 <figure>
   <img src="/images/projects/SMT160-timing.png" alt="SMT160-timing.png" style="width:100%">
-  <figcaption style="text-align: center; padding-left:45%;">SMT160timing</figcaption>
+  <figcaption style="text-align: center; padding-left:45%;">SMT160 Timing</figcaption>
 </figure> 
-
-![SMT160-timing.png](/images/projects/SMT160-timing.png)
 
 <p align="justify" style="padding-left: 1em">In practice to measure the temperature we will use ATmega16 microcontroller, 74LS245 buffer, 4514 decoder, BC337 transistors and 8*16 LED matrix so the code is similar to below :</p>
 <pre align="justify" style="padding-left: 1em">
