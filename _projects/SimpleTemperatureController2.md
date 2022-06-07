@@ -8,15 +8,18 @@ date: 2017-1-1
 location: "Tabriz, Iran"
 ---
 
-LM35
+<h2>LM35</h2>
 
-The LM35 series are precision integrated-circuit temperature sensors, whose output voltage is linearly proportional to the Celsius (Centigrade) temperature. The LM35 thus has an advantage over linear temperature sensors calibrated in ° Kelvin, as the user is not required to subtract a large constant voltage from its output to obtain convenient Centigrade scaling. The LM35 does not require any external calibration or trimming to provide typical accuracies of ±1⁄4°C at room temperature and ±3⁄4°C over a full −55 to +150°C temperature range.
+<p align="justify" style="padding-left: 1em">The LM35 series are precision integrated-circuit temperature sensors, whose output voltage is linearly proportional to the Celsius (Centigrade) temperature. The LM35 thus has an advantage over linear temperature sensors calibrated in ° Kelvin, as the user is not required to subtract a large constant voltage from its output to obtain convenient Centigrade scaling. The LM35 does not require any external calibration or trimming to provide typical accuracies of ±1⁄4°C at room temperature and ±3⁄4°C over a full −55 to +150°C temperature range.</p>
 
-![LM35.png](/images/projects/LM35.png)
+<figure>
+  <img src="/images/projects/LM35.png" alt="LM35.png" style="width:100%">
+  <figcaption style="text-align: center; padding-left:45%;">LM35</figcaption>
+</figure> 
 
-Low cost is assured by trimming and calibration at the wafer level. The LM35’s low output impedance, linear output, and precise inherent calibration make interfacing to readout or control circuitry especially easy. It can be used with single power supplies, or with plus and minus supplies. As it draws only 60 μA from its supply, it has very low self-heating, less than 0.1°C in still air. The LM35 is rated to operate over a −55° to +150°C temperature range, while the LM35C is rated for a −40° to +110°C range (−10° with improved accuracy).
+<p align="justify" style="padding-left: 1em">Low cost is assured by trimming and calibration at the wafer level. The LM35’s low output impedance, linear output, and precise inherent calibration make interfacing to readout or control circuitry especially easy. It can be used with single power supplies, or with plus and minus supplies. As it draws only 60 μA from its supply, it has very low self-heating, less than 0.1°C in still air. The LM35 is rated to operate over a −55° to +150°C temperature range, while the LM35C is rated for a −40° to +110°C range (−10° with improved accuracy).</p>
 
-<pre>
+<pre align="justify" style="padding-left: 1em">
 #include "mega16.h"
 #include "stdio.h"
 #include "delay.h"
@@ -80,3 +83,4 @@ void main(){
   };
 } 
 </pre>
+<a href="https://bakhshiali.github.io/projects/SimpleTemperatureController">SMT160 temperature sensor page</a>
