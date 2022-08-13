@@ -4,7 +4,7 @@ collection: projects
 type: "Undergraduate projects"
 permalink: /projects/SimpleCNCmachine(xyz)
 venue: "Tabriz"
-date: 2017-1-1
+date: 2015-1-1
 location: "Tabriz, Iran"
 ---
 
