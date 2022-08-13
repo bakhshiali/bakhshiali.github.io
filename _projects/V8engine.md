@@ -1,5 +1,5 @@
 ---
-title: "V8 engine"
+title: "simple V8 engine modeling"
 collection: projects
 type: "Undergraduate projects"
 permalink: /projects/V8engine
