@@ -188,8 +188,8 @@ Publications
   {% endfor %}</ul>
 * Wikipedia articles (nanotechnology, biotechnology, quantum physics, …)
 
-sumbitted:<br>
-* The effect of GO–Fe3O4 hybrid coating on the magnetic field detection by a tapered optical fiber sensor
+submitted:<br>
+* The effect of GO–Fe$_{3}$O$_{4}$ hybrid coating on the magnetic field detection by a tapered optical fiber sensor
 * Microfluidic-based nanosystems for theranostic of cancers: A min-review
 * curcumin drug delivery systems: A review
 note: real title of 3rd paper would differ!
@@ -328,7 +328,7 @@ Research activities
 * Fabrication of a 3D printer and simple CNC (University of Tabriz-B.Sc)
 * Plasma jet bullet analysis system with tcd1304 and bpv10 sensor (University of Tabriz-B.Sc)
 * Simulation of NEMS and MEMS devices in targeted drug delivery including peristaltic and piezoelectric pump, μNeedle, membrane, degradable matrix and capacitive acceleration sensor (IUST university-M.Sc)
-* Simulation of CO2 and H2S absorption in ordered porous carbon and CNT (IUST university-M.Sc)
+* Simulation of CO$_{2}$ and H$_{2}$S absorption in ordered porous carbon and CNT (IUST university-M.Sc)
 * Simulation of graphene membrane with Nano pores created by oxygen plasma for water treatment (IUST university-M.Sc)
 * Simulation of single photon emitter quantum dot PbS in nanowire (IUST university-M.Sc)
 * Fabrication and launch of CanSat satellite to study the Earth's atmosphere and taking images of earthquake and flood damaged areas (Toka Flight Control Systems Company - Dr. Dalvand)
