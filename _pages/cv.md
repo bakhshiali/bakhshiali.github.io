@@ -207,7 +207,7 @@ Under preparation:
 * Nanofiber concentrator electrospinning device
 
 Books:<br>
-* Tissue Engineering related Book translation-10 chapter-under editting (English-Persion, Dr. Reza Moghadasali, Royan Institute)
+* Tissue Engineering related Book translation-10 chapter-under editing (English-Persion, Dr. Reza Moghadasali, Royan Institute)
 * Nanotechnology and Quantum computers (persian)-3 of 7 chapters parepared
 
 Patents
@@ -220,8 +220,8 @@ Patents
 	<div class="divider div-transparent div-dot"></div>
 </div>
 Filled (Issuing):
-1) Novel industrial system of chitin and chitosan extraction, 2022
-2) Novel Cold Plasma system in agriculture field, 2022
+* Novel industrial system of chitin and chitosan extraction, 2022
+* Novel Cold Plasma system in agriculture field, 2022
 note: real title of issuing patents would differ! 
 
 Teaching
@@ -264,7 +264,7 @@ Languages
 	<div class="divider div-transparent div-dot"></div>
 </div>
 
-Certificates
+Certificates (only the notable ones)
 ======
 
 |  									|University\Institute  | Ref. |
@@ -297,6 +297,9 @@ Certificates
 |* Basic to advance bioinformatics |Royan Institute| [English](/files/certifications/bioinformatics.png) |
 |* Advanced Photonics Congress | OSA | [English](/files/certifications/bioinformatics.png) |
 |* Regenerative Medicine & Tissue Engineering | Royan Institute | [English](/files/certifications/RegenerativeMedicineAndTissueEngineering.png) |
+|* Introduction to the Biology of Cancer |Coursera| - |
+|* Editing Books with International Publishers |USERN |1400C12R06 |
+|* Skilled weaver (Kilim and Carpet weaving (knotting) and repairing)Skilled weaver (Kilim and Carpet weaving (knotting) and repairing) |Aras co. |6820 |
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
@@ -304,15 +307,16 @@ Certificates
 
 Research activities
 ======
+* Plasma Spectrum analyzer software (self-desired) 
 * Friction Reduction of SS and Ni-Ti orthodontic wires (RA at IPM)
 * Production and development of mechanical properties of PMMA polymer with thicknesses over 2 cm (RA at IPM)
 * Production of chitosan-polyvinyl alcohol antibacterial nanofibers-antimicrobial properties against fungi (Candida), Gram-positive (Staphylococcus) and Gram-negative (Klebsiella) bacteria (RA at IPM)
 * Fabrication of Nanofiber concentrator portable electrospinning device-sub 50 nm-drug delivery (Patent)
-* Artificial intelligence for 4 band resistor-color decoder
+* Artificial intelligence for 4 band resistor-color decoder (self-desired)
 * Plasma-assisted (spark discharge) nanoparticle synthesis (RA at IPM)
 * Fabrication of atmospheric cold plasma system for surface modification
 * Synthesis of chitosan and derivative oligosaccharides (IUST university-M.Sc)
-* Artificial intelligence for breast cancer detection from CT scan images
+* Artificial intelligence for breast cancer detection from CT scan images (self-desired)
 * Artificial intelligence to identify diabetic retina (RA at IPM)
 * Synthesis of graphene-magnetite nanocomposites (IUST university-M.Sc)
 * Synthesis of graphene based aerogels and hydrogels (IUST university-M.Sc)
@@ -328,13 +332,13 @@ Research activities
 * Simulation of single photon emitter quantum dot PbS in nanowire (IUST university-M.Sc)
 * Fabrication and launch of CanSat satellite to study the Earth's atmosphere and taking images of earthquake and flood damaged areas (Toka Flight Control Systems Company - Dr. Dalvand)
 * Removal of indigo dye from cellulose, protein and mineral wastewater and fibers (Azar-Sky Company)
-* Simulation and fabrication of high voltage systems
-* Set up a network penetration testing laboratory
+* Simulation and fabrication of high voltage systems (self-desired)
+* Set up a network penetration testing laboratory (self-desired)
 * Biodegradable and self-healing coatings (ongoing)
-* Braille translator in Python to solve the problems of the blind
-* Fabrication of a charging system to convert fire heat into electricity using TEC
-* Programming of an intelligent robot (voice and command analysis bot)
-* Temperature control by lm35 and SMT160 sensors using atmega 32
+* Braille translator in Python to solve the problems of the blind (self desired)
+* Fabrication of a charging system to convert fire heat into electricity using TEC (University of Tabriz-B.Sc)
+* Programming of an intelligent robot (voice and command analysis bot) (University of Tabriz-B.Sc) (ongoing)
+* Temperature control by lm35 and SMT160 sensors using atmega 32 (University of Tabriz-B.Sc)
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
@@ -348,7 +352,7 @@ Softwares
 |* Mendeley, Endnote, … 		|Professional|
 |* Catia, Solid works, … 		|Professional|
 |* Office 						|Professional|
-|* Python, HTML, C#, Tensor Flow |Professional|
+|* Python, HTML, C#, Tensor Flow, Scikit-learn, keras, PyTorch |Professional|
 |* Tia Portal Siemens, WinCC 	|Professional|
 |* Proteus, Altium designer, Pspice, … |Professional|
 |* Origin, spss 				|Professional|
