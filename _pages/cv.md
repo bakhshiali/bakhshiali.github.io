@@ -192,23 +192,23 @@ Publications
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
-sumbitted:
-1) The effect of GO–Fe3O4 hybrid coating on the magnetic field detection by a tapered optical fiber sensor
-2) Microfluidic-based nanosystems for theranostic of cancers: A min-review
-3) curcumin drug delivery systems: A review
+sumbitted:<br>
+* The effect of GO–Fe3O4 hybrid coating on the magnetic field detection by a tapered optical fiber sensor
+* Microfluidic-based nanosystems for theranostic of cancers: A min-review
+* curcumin drug delivery systems: A review
 note: real title of 3rd paper would differ!
 
 Never published:
-1) Air purifiers to protect against corona virus: a review
-2) Diabetic retinopathy diagnosis using image processing methods
+* Air purifiers to protect against corona virus: a review
+* Diabetic retinopathy diagnosis using image processing methods
 
 Under preparation:
-1) Mechanical & thermal properties of nanowires : a molecular dynamics study
-2) Nanofiber concentrator electrospinning device
+* Mechanical & thermal properties of nanowires : a molecular dynamics study
+* Nanofiber concentrator electrospinning device
 
-Books (under editting):
-1) Tissue Engineering related Book translation-10 chapter (English-Persion, Dr. Reza Moghadasali, Royan Institute)
-2) Nanotechnology and Quantum computers (persian)-3 of 7 chapters
+Books:<br>
+* Tissue Engineering related Book translation-10 chapter-under editting (English-Persion, Dr. Reza Moghadasali, Royan Institute)
+* Nanotechnology and Quantum computers (persian)-3 of 7 chapters parepared
 
 Patents
 ======
