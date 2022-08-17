@@ -197,6 +197,7 @@ note: real title of 3rd paper would differ!
 Never published:
 * Air purifiers to protect against corona virus: a review
 * Diabetic retinopathy diagnosis using image processing methods
+* Chitosan-PVA nanofibers antibacterial activity against resistant bacteria
 
 Under preparation:
 * Mechanical & thermal properties of nanowires : a molecular dynamics study
