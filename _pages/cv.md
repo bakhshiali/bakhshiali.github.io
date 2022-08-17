@@ -257,7 +257,7 @@ Languages
 |:--------|:-------:|
 |* Azeri and Azerbaijani Turkish    |Mother tongue    |
 |* Persian   						|Mother tongue    |
-|* English 							|Professional (IELTS degree 5.5 2012)|
+|* English 							|Professional (IELTS degree 5 2012)|
 |* Turkish 							|Intermediate|
 |* Arabic 							|basic|
 |* German 							|basic|
