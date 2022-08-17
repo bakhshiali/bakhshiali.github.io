@@ -174,6 +174,7 @@ Interests
 * Nano-biotechnology (Genetic Engineering, Stem Cells, Lab on chip, Self-healing, Biomedical Signals, ...)
 * Quantum technology (Qubits, quantum AI, ...)
 * Cold Plasma technology (surface modification, wound healing, PAW, water/air purifiers, ...)
+* Machine learning (Big data, ANN, ...)
 * Molecular 3D printing (modified DNA, etc.)
 
 <div class="wrapper">
