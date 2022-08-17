@@ -192,6 +192,23 @@ Publications
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+sumbitted:
+1) The effect of GO–Fe3O4 hybrid coating on the magnetic field detection by a tapered optical fiber sensor
+2) Microfluidic-based nanosystems for theranostic of cancers: A min-review
+3) curcumin drug delivery systems: A review
+note: real title of 3rd paper would differ!
+
+Never published:
+1) Air purifiers to protect against corona virus: a review
+2) Diabetic retinopathy diagnosis using image processing methods
+
+Under preparation:
+1) Mechanical & thermal properties of nanowires : a molecular dynamics study
+2) Nanofiber concentrator electrospinning device
+
+Books (under editting):
+1) Tissue Engineering related Book translation-10 chapter (English-Persion, Dr. Reza Moghadasali, Royan Institute)
+2) Nanotechnology and Quantum computers (persian)-3 of 7 chapters
 
 Patents
 ======
@@ -202,6 +219,10 @@ Patents
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+Filled (Issuing):
+1) Novel industrial system of chitin and chitosan extraction, 2022
+2) Novel Cold Plasma system in agriculture field, 2022
+note: real title of issuing patents would differ! 
 
 Teaching
 ======
@@ -236,9 +257,8 @@ Languages
 |* Persian   						|Mother tongue    |
 |* English 							|Professional (IELTS degree 5.5 2012)|
 |* Turkish 							|Intermediate|
-|* German 							|Intermediate|
-|* Arabic 							|Intermediate|
-|* Hebrew							|Basic!|
+|* Arabic 							|basic|
+|* German 							|basic|
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
@@ -284,11 +304,12 @@ Certificates
 
 Research activities
 ======
-* siRNA related review article
-* Tisue Engineering related Book translation-10 chapter (English-Persion, Royan Institute)
-* Fabrication of Nanofiber concentrator portable electrospinning device (Patent)
+* Friction Reduction of SS and Ni-Ti orthodontic wires (RA at IPM)
+* Production and development of mechanical properties of PMMA polymer with thicknesses over 2 cm (RA at IPM)
+* Production of chitosan-polyvinyl alcohol antibacterial nanofibers-antimicrobial properties against fungi (Candida), Gram-positive (Staphylococcus) and Gram-negative (Klebsiella) bacteria (RA at IPM)
+* Fabrication of Nanofiber concentrator portable electrospinning device-sub 50 nm-drug delivery (Patent)
 * Artificial intelligence for 4 band resistor-color decoder
-* Plasma-assisted spark discharge nanoparticle synthesis (RA at IPM)
+* Plasma-assisted (spark discharge) nanoparticle synthesis (RA at IPM)
 * Fabrication of atmospheric cold plasma system for surface modification
 * Synthesis of chitosan and derivative oligosaccharides (IUST university-M.Sc)
 * Artificial intelligence for breast cancer detection from CT scan images
@@ -297,8 +318,8 @@ Research activities
 * Synthesis of graphene based aerogels and hydrogels (IUST university-M.Sc)
 * Fabrication of Magnetic field sensors based on tapered optical fiber (IUST university-M.Sc-Patent)
 * Fabrication of optical fiber tapering system by heat-tensile method (IUST university-M.Sc)
-* Fabric diameter image processing system using CCD Camera and PXR800 (IUST university-M.Sc-Faculty of Physics)
-* fiber optic spectrum analyzer system (IUST university-M.Sc)
+* Fiber's diameter image processing system using CCD Camera and PXR800 (IUST university-M.Sc-Faculty of Physics)
+* Optical fiber-spectrum analyzer system (IUST university-M.Sc)
 * Fabrication of a 3D printer and simple CNC (University of Tabriz-B.Sc)
 * Plasma jet bullet analysis system with tcd1304 and bpv10 sensor (University of Tabriz-B.Sc)
 * Simulation of NEMS and MEMS devices in targeted drug delivery including peristaltic and piezoelectric pump, μNeedle, membrane, degradable matrix and capacitive acceleration sensor (IUST university-M.Sc)
@@ -387,4 +408,4 @@ Social and extracurricular activities
 * Genetic data mining (Bleeding-edge)
 * Robotic competitions refereeing  
   
-... For detailed views, we could check my linkedin: <a href="https://www.linkedin.com/in/ali-bakhshi-">Linkedin</a>
+... For detailed views, we can check my linkedin: <a href="https://www.linkedin.com/in/ali-bakhshi-">Linkedin</a>
