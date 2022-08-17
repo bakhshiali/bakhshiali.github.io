@@ -216,8 +216,8 @@ Patents
   {% endfor %}</ul>
 
 Filled (Issuing):
-* Novel industrial system of chitin and chitosan extraction, 2022
-* Novel Cold Plasma system in agriculture field, 2022
+* Chitin and Chitosan extraction, 2022
+* Novel Cold Plasma system, 2022
 note: real title of issuing patents would differ! 
 
 <div class="wrapper">
