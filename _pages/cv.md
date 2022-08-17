@@ -170,12 +170,10 @@ Skills
 
 Interests
 ======
-* Nano biotechnology
-* Genetic Engineering
-* Stem Cells
-* Lab on chip
-* Self-healing
-* EEG, ECG and... Signals
+* Nanotechnology
+* Nano-biotechnology (Genetic Engineering, Stem Cells, Lab on chip, Self-healing, Biomedical Signals, ...)
+* Quantum technology (Qubits, quantum AI, ...)
+* Cold Plasma technology (surface modification, wound healing, PAW, water/air purifiers, ...)
 * Molecular 3D printing (modified DNA, etc.)
 
 <div class="wrapper">
@@ -189,9 +187,6 @@ Publications
   {% endfor %}</ul>
 * Wikipedia articles (nanotechnology, biotechnology, quantum physics, …)
 
-<div class="wrapper">
-	<div class="divider div-transparent div-dot"></div>
-</div>
 sumbitted:<br>
 * The effect of GO–Fe3O4 hybrid coating on the magnetic field detection by a tapered optical fiber sensor
 * Microfluidic-based nanosystems for theranostic of cancers: A min-review
@@ -210,19 +205,24 @@ Books:<br>
 * Tissue Engineering related Book translation-10 chapter-under editing (English-Persion, Dr. Reza Moghadasali, Royan Institute)
 * Nanotechnology and Quantum computers (persian)-3 of 7 chapters parepared
 
+<div class="wrapper">
+	<div class="divider div-transparent div-dot"></div>
+</div>
+
 Patents
 ======
 <ul>{% for post in site.patents %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-<div class="wrapper">
-	<div class="divider div-transparent div-dot"></div>
-</div>
 Filled (Issuing):
 * Novel industrial system of chitin and chitosan extraction, 2022
 * Novel Cold Plasma system in agriculture field, 2022
 note: real title of issuing patents would differ! 
+
+<div class="wrapper">
+	<div class="divider div-transparent div-dot"></div>
+</div>
 
 Teaching
 ======
