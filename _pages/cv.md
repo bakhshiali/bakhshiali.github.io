@@ -191,8 +191,7 @@ Publications
 submitted:<br>
 * The effect of GO–Fe3O4 hybrid coating on the magnetic field detection by a tapered optical fiber sensor
 * Microfluidic-based nanosystems for theranostic of cancers: A min-review
-* curcumin drug delivery systems: A review <br>
-note: real title of 3rd paper would differ!
+* Curcumin delivery and co-delivery based on nanomaterials as a nano-platform for cancer therapy : a comprehensive review<br>
 
 Never published:
 * Air purifiers to protect against corona virus: a review
@@ -204,7 +203,7 @@ Under preparation:
 * Nanofiber concentrator electrospinning device
 
 Books:<br>
-* Tissue Engineering related Book translation-10 chapter-under editing (English-Persion, Dr. Reza Moghadasali, Royan Institute)
+* Principles of Regenerative Medicine, 3rd ed.-10 chapter-under editing (English-Persion, Dr. Reza Moghadasali, Royan Institute)
 * Nanotechnology and Quantum computers (persian)-3 of 7 chapters parepared
 
 <div class="wrapper">
@@ -240,11 +239,11 @@ Services, leaderships & Memberships
 ======
 * Self-desired Teacher for poors, ~2014-now
 * StartUps leadership (fiberSense, spinFiber, and etc.), 2017-now
+* National Library of Iran, 2018-now
+* Iranian Society of Nanomedicine, 2019-2020
 * International Federation of Inventors' Associations (IFIA), Inv. membership, 2022-now
 * Iranian Inventors Association, 2022-now
 * Iranian researchers network, researcher member, 2022-now 
-* National Library of Iran, 2018-now
-* Iranian Society of Nanomedicine, 2019-2020
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
