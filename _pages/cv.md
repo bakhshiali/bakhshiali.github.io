@@ -216,10 +216,21 @@ Patents
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Filled (Issuing):
+Filed (Issuing):
 * Chitin and Chitosan extraction, 2022
 * Novel Cold Plasma system, 2022 <br>
-note: real title of issuing patents would differ! 
+note: real title of issuing patents would differ! <br>
+
+Never filed:<br>
+* Plasma-assisted cross-link of two polymers (IPM)
+* Controllable spark discharge-assisted nanoparticle/nano-alloy synthesis device (IPM)
+* Smart food spoilage sensing device (IPM)
+* PMMA polymer formula (IPM)
+* Optical fiber tapering device (IUST)
+* CCD array spectrum analyzer (Tabriz) <br>
+
+Trade secrets:<br>
+* Dye removal from woven fabrics (Azar sky co.)
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
@@ -403,7 +414,10 @@ Honors & Awards & Grants
 
 Social and extracurricular activities
 ======
+* Patent filing and drafter
 * Patent Analysis
+* Study of Quantum computers
+* Innovation in Cold plasma technologies
 * Nano and quantum teaching
 * Study of biology and genetics
 * Website, application and program design
