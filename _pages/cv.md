@@ -203,7 +203,7 @@ Under preparation:
 * Nanofiber concentrator electrospinning device
 
 Books:<br>
-* Principles of Regenerative Medicine, 3rd ed.-10 chapter-under editing (English-Persion, Dr. Reza Moghadasali, Royan Institute)
+* Principles of Regenerative Medicine, 3rd ed.-10 chapter-under editing (English-Persian, Dr. Reza Moghadasali, Royan Institute)
 * Nanotechnology and Quantum computers (persian)-3 of 7 chapters parepared
 
 <div class="wrapper">
