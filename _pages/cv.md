@@ -222,15 +222,25 @@ Filed (Issuing):
 note: real title of issuing patents would differ! <br>
 
 Never filed:<br>
-* Plasma-assisted cross-link of two polymers (IPM)
+* Plasma-assisted cross-link of polymers (idea-level) (IPM)
+* Plasma-assisted electrospinning (idea-level) (IPM)
+* Fabrication of multi-nozzle solution blow electrospinning (SBS) (IPM)
 * Controllable spark discharge-assisted nanoparticle/nano-alloy synthesis device (IPM)
-* Smart food spoilage sensing device (IPM)
-* PMMA polymer formula (IPM)
-* Optical fiber tapering device (IUST)
-* CCD array spectrum analyzer (Tabriz) <br>
+* Smart food spoilage label & sensing device (IPM)
+* Thick PMMA polymer formulation (IPM)
+* Industrial level agricultural PAW production design (IPM)
+* Reusable microneedle patch (idea-concept route) (self-desired)
+* Fabrication of precise optical fiber tapering device (IUST)
+* Optical fiber tapering system using motorized CCD and image processing (IUST)
+* Raman-based quality control of pharmaceutical products (BP and idea level) (IUST)
+* Special shoes to run on sands (design level) (IUST)
+* Air purifier filter & gadget using plasma + titania (idea-level) (INIC & Iran khodro)
+* Medical plants/herbs AI & database (IUST-Tabriz medical university)
+* CCD array spectrum & plasma bullet analyzer (Tabriz) <br>
+note: real name of inventions would differ! <br>
 
 Trade secrets:<br>
-* Dye removal from woven fabrics (Azar sky co.)
+* Dye removal from woven fabrics & waste water (Azar sky co.)
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
