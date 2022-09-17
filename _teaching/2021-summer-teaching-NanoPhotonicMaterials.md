@@ -10,7 +10,7 @@ location: "Virtual classroom"
 
 Here we were taking a deeper look at Nano Photonic Materials.
 
-Princples
+Principles
 ======
 1) Introduction (History, Physics, Classifications"  
 2) NanoMaterial Synthesis (Chemical and Physical methods, Novel methods)  
