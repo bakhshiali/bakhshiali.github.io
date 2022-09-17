@@ -12,17 +12,17 @@ Here we talked & discussed about necessities of Patent with practical experience
 
 Titles
 ======
-1) Intellectual Property (IP)
-2) Patent and Invention conditions
-3) Evaluation & Arbitration
-4) Patent search
-5) Filing steps
-6) Files (Descriptions, CADs, Claims, Abstract)
-7) Case follow up (IP Office)
-8) Official Newspaper
-9) Annual renewal fee
-10) Advantages of Patent
-11) Confirmation of authenticity
+1) Intellectual Property (IP) <br>
+2) Patent and Invention conditions <br>
+3) Evaluation & Arbitration <br>
+4) Patent search <br>
+5) Filing steps <br>
+6) Files (Descriptions, CADs, Claims, Abstract) <br>
+7) Case follow up (IP Office) <br>
+8) Official Newspaper <br>
+9) Annual renewal fee <br>
+10) Advantages of Patent <br>
+11) Confirmation of authenticity <br>
 
 ![PatentIntro2022.png](/images/teachings/PatentIntro2022.png)
 "Patent Basics Introduction" Poster in Persian
