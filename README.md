@@ -10,11 +10,11 @@ Tel			: +98-901-4122529
 
 WhatsApp	: +98-901-4122529
 
-Websites  	: https://bakhshiali.com | https://bakhshiali.github.io
+Websites  	: https://bakhshiali.github.io
 
-Instagram	: https://www.instagram.com/alibakhshi255255/
+Instagram	: https://instagram.com/ali.bakhshi1995/
 
-Linkedin	: https://www.linkedin.com/in/ali-bakhshi-5056aa149/
+Linkedin	: https://www.linkedin.com/in/ali-bakhshi-/
 
 Facebook	: https://www.facebook.com/profile.php?id=100017730216353
 
