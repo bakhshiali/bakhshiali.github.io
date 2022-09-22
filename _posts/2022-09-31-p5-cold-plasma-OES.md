@@ -30,7 +30,8 @@ optical emission spectra (OES) of plasma.<br>
 sample data: Argon plasma reference data: NIST Argon peaks-observed wavelength 
 in air<br>
 Link to code (my Github):<br>
-<a href="https://github.com/bakhshiali/LabCodes/blob/main/Plasma/ArgonPlasmaSpectrumAnalysis.ipynb">Argon Plasma Spectrum Analysis</a>
+<a href="https://github.com/bakhshiali/LabCodes/blob/main/Plasma/ArgonPlasmaSpectrumAnalysis.ipynb">Argon Plasma Spectrum Analysis</a><br>
+<img src="https://github.com/bakhshiali/LabCodes/blob/main/Plasma/ArgonPlasmaSpectrumAnalysis.png"  alt="Argon Plasma Spectrum Analysis Image">
 
 Isn't it cool?
 ------
