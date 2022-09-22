@@ -26,11 +26,11 @@ find the unknown peaks using NIST database.
 Code
 ======
 I tried to write a code to locate peaks of cold plasma for accurate analysis of 
-optical emission spectra (OES) of plasma.
+optical emission spectra (OES) of plasma.<br>
 sample data: Argon plasma reference data: NIST Argon peaks-observed wavelength 
-in air
-Link to code (my Github):
-https://github.com/bakhshiali/LabCodes/blob/main/Plasma/ArgonPlasmaSpectrumAnalysis.ipynb
+in air<br>
+Link to code (my Github):<br>
+<a href="https://github.com/bakhshiali/LabCodes/blob/main/Plasma/ArgonPlasmaSpectrumAnalysis.ipynb">Argon Plasma Spectrum Analysis</a>
 
 Isn't it cool?
 ------
