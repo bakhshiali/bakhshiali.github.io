@@ -1,7 +1,7 @@
 ---
 title: 'Nano simulation'
 date: 2021-03-20
-permalink: /posts/2021/03/p4/
+permalink: /posts/2021/03/blog-post-molecular-dynamics/
 tags:
   - cool posts
   - category1
@@ -31,7 +31,6 @@ for Developers :
 Do What you like under LAMMPS License as in GNU Public License.
 
 <a href="https://github.com/bakhshiali/Nano-Simulation">Github Link.</a>
-<a href="https://bakhshiali.com/course-list/m-sc-nanotechnology/modeling-and-simulation-of-nano-systems/lectures/">My Website Link.</a>
 
 Isn't it cool?
 ------
