@@ -8,6 +8,8 @@ tags:
   - category2
 ---
 
+MD simulation
+
 Molecular dynamics (MD)
 ======
 Molecular dynamics (MD) is a computer simulation method for studying the physical movements of atoms and molecules. The atoms and molecules are allowed to interact for a fixed period of time, giving a view of the dynamic evolution of the system.
