@@ -31,7 +31,7 @@ sample data: Argon plasma reference data: NIST Argon peaks-observed wavelength
 in air<br>
 Link to code (my Github):<br>
 <a href="https://github.com/bakhshiali/LabCodes/blob/main/Plasma/ArgonPlasmaSpectrumAnalysis.ipynb">Argon Plasma Spectrum Analysis</a><br>
-[https://github.com/bakhshiali/LabCodes/blob/main/Plasma/ArgonPlasmaSpectrumAnalysis.png](https://github.com/bakhshiali/LabCodes/blob/00990d771ae83457f51ba9a407d81661b467d3cc/Plasma/ArgonPlasmaSpectrumAnalysis.png)
+<img src="https://raw.githubusercontent.com/bakhshiali/LabCodes/00990d771ae83457f51ba9a407d81661b467d3cc/Plasma/ArgonPlasmaSpectrumAnalysis.png" alt="Argon Plasma Spectrum Analysis Image">
 
 Isn't it cool?
 ------
