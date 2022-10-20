@@ -30,7 +30,7 @@ I'd experienced industrial projects, Group Leading, StartUps and etc. As a natio
 <div class="wrapper">
 	<div class="divider div-transparent div-arrow-down"></div>
 </div>
-
+Google Scholar: <a href="https://scholar.google.co.in/citations?hl=en&user=JHn_W_wAAAAJ">https://scholar.google.co.in/citations?hl=en&user=JHn_W_wAAAAJ</a><br>
 My updated CV links : <a href="https://bakhshiali.github.io/cv">https://bakhshiali.github.io/cv</a> 
 <br>
 <span id="badgeCont624"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont624&rid=ACK-9170-2022"></script></span>
