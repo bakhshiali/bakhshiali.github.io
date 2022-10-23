@@ -6,6 +6,8 @@ permalink: /projects/RamanSensor
 venue: "Tehran"
 date: 2017-1-1
 location: "Tehran, Iran"
+toc: true
+toc_sticky: true
 ---
 
 <h2>Raman Sensor-medical application</h2>
