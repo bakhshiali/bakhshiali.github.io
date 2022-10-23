@@ -6,6 +6,8 @@ permalink: /projects/Simpleandroidprograms
 venue: "Tabriz"
 date: 2017-1-1
 location: "Tabriz, Iran"
+toc: true
+toc_sticky: true
 ---
 
 <h2>Simple android programs</h2>
