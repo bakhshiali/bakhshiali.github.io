@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<meta name="description" content="This website is about Inv. Ali Bakhshi. Here, we share our projects, patents, researches and scientific papers; AI , nanotech, biotech, quantum, and cold plasma!"/>
+<meta name="description" content="This website is about Inv. Ali Bakhshi. Here, we share our projects, patents, researches and scientific papers; AI, nanotech, biotech, quantum, and cold plasma!"/>
 If you want to go fast, go alone. If you want to go far, go together.
 
 <div class="wrapper">
