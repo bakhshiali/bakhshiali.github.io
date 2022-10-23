@@ -6,6 +6,8 @@ permalink: /projects/Chatbot
 venue: "Tabriz"
 date: 2016-1-1
 location: "Tabriz, Iran"
+toc: true
+toc_sticky: true
 ---
 
 <h2>What is Chatbot?</h2>
