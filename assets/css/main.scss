@@ -40,3 +40,17 @@
         margin-bottom: 0 !important;
     }
 }
+.hatena {
+    &:before {
+        content: "B!";
+        font-family: Verdana;
+		font-style: normal;
+        font-weight: bold;
+    }
+}
+
+.page__share {
+	.btn {
+		width : calc(96% / 6);
+    }
+}
