@@ -72,9 +72,4 @@ ul.social-icons {
 div.page__footer-copyright {
     grid-column-start: 2;
     grid-column-end: 2;
-@include breakpoint(max-width ($large - 1px)) {
-    .toc__list, .nav__list {
-        display: inline-grid;
-        margin-bottom: 0 !important;
-    }
 }
