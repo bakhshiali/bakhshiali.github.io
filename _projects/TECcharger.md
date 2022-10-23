@@ -6,6 +6,8 @@ permalink: /projects/TECcharger
 venue: "Tabriz"
 date: 2014-1-1
 location: "Tabriz, Iran"
+toc: true
+toc_sticky: true
 ---
 
 <h2>TEC</h2>
