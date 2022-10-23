@@ -1,0 +1,8 @@
+<nav class="toc__list" markdown="1">
+<input id="ac-toclist" name="accordion-toclist" type="checkbox" />
+<label for="ac-toclist">Toggle &quot;{{ page.toc_label | default: site.data.ui-text[site.locale].toc_label }}&quot;</label>
+<div class="toc__items">
+    <header><a href="#"><h4 class="toc__title" style="padding-left: 0;"><i class="fas fa-book"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label }}</h4></a></header>
+	  {% include toc.html sanitize=true html=content h_min=2 h_max=3 class="" %}
+</div>
+</nav>
