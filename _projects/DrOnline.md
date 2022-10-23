@@ -6,6 +6,8 @@ permalink: /projects/DrOnline
 venue: "Tehran"
 date: 2017-1-1
 location: "Tehran, Iran"
+toc: true
+toc_sticky: true
 ---
 
 <h2>Dr Online startup</h2>
