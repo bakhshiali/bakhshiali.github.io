@@ -6,6 +6,8 @@ permalink: /projects/NanoMicroImageProcessing
 venue: "Tehran"
 date: 2017-1-1
 location: "Tehran, Iran"
+toc: true
+toc_sticky: true
 ---
 
 <h2>How to image Nano/Micro-scale and process Nano/Micro Images?</h2>
