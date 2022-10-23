@@ -66,6 +66,18 @@ $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
 $info-color                 : #52adc8;
 
+$focus-color: $primary-color !default;
+$active-color: mix(#fff, $primary-color, 80%) !default;
+$muted-text-color: mix(#fff, $text-color, 20%) !default;
+$form-background-color: $lighter-gray !default;
+$footer-background-color: $lighter-gray !default;
+
+/* YIQ color contrast */
+$yiq-contrasted-dark-default: $dark-gray !default;
+$yiq-contrasted-light-default: #fff !default;
+$yiq-contrasted-threshold: 175 !default;
+$yiq-debug: false !default;
+
 /* customize */
 $pocket-color: #ef4056 !default;
 $hatena-color: #008fde !default;
@@ -120,14 +132,14 @@ $medium                     : 768px !default;
 $medium-wide                : 900px !default;
 $large                      : 925px !default;
 $x-large                    : 1280px !default;
+$max-width: $x-large !default;
 
 /*
    Grid
    ========================================================================== */
-
-$right-sidebar-width-narrow : 0px;
-$right-sidebar-width        : 0px;
-$right-sidebar-width-wide   : 0px;
+$right-sidebar-width-narrow : 200px;
+$right-sidebar-width        : 300px;
+$right-sidebar-width-wide   : 400px;
 
 $susy: (
   columns: 12,
