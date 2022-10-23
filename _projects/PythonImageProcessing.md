@@ -6,6 +6,8 @@ permalink: /projects/PythonImageProcessing
 venue: "Tehran"
 date: 2017-1-1
 location: "Tehrsn, Iran"
+toc: true
+toc_sticky: true
 ---
 
 <h2>Python Image Processing project</h2>
