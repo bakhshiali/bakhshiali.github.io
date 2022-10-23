@@ -13,9 +13,7 @@
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            {% if link.url contains 'https://www' %}
-              {% assign domain = '' %}
-              {% else %}
+            {% if link.url contains 'https://www.' %}
               {% assign domain = base_path %}
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
