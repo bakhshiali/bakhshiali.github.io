@@ -100,15 +100,15 @@
 
 .list__item {
   @include breakpoint($medium) {
-    padding-right: $right-sidebar-width-narrow;
+    padding-right: 0;
   }
 
   @include breakpoint($large) {
-    padding-right: $right-sidebar-width;
+    padding-right: 0;
   }
 
   @include breakpoint($x-large) {
-    padding-right: $right-sidebar-width-wide;
+    padding-right: 0;
   }
 
   .page__meta {
