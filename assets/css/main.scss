@@ -35,10 +35,6 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 @include breakpoint(max-width ($large - 1px)) {
-    .toc__list, .nav__list {
-        display: inline-grid;
-        margin-bottom: 0 !important;
-    }
 }
 .hatena {
     &:before {
