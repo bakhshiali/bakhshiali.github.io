@@ -6,6 +6,8 @@ permalink: /projects/BraillesystemPython
 venue: "Tabriz"
 date: 2019-1-1
 location: "Tabriz, Iran"
+toc: true
+toc_sticky: true
 ---
 
 <h2>Braille system improvement with Python</h2>
