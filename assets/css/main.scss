@@ -54,3 +54,21 @@
 		width : calc(96% / 6);
     }
 }
+div.footer-wrapper {
+    display: inline-grid !important;
+    grid-template-columns: 120px 1fr;
+    grid-template-rows: 60px;
+}
+img.qr-code {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin: 0 !important;
+}
+ul.social-icons {
+    grid-column-start: 2;
+    grid-column-end: 1;
+    padding: 20px 0;
+}
+div.page__footer-copyright {
+    grid-column-start: 2;
+    grid-column-end: 2;
