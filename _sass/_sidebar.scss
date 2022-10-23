@@ -57,11 +57,29 @@
     float: right;
     width: $right-sidebar-width-narrow;
     margin-left: span(0.5 of 12);
+     margin-right: -1.1 * $right-sidebar-width-narrow;
     z-index: 10;
+     
+    &.sticky {
+      @include clearfix();
+      position: -webkit-sticky;
+      position: sticky;
+      top: 2em;
+      float: right;
+
+      .toc {
+        .toc__menu {
+          overflow-y: auto;
+          max-height: calc(100vh - 7em);
+        }
+      }
+    }
+     
   }
 
   @include breakpoint($x-large) {
     width: $right-sidebar-width;
+     margin-right: -1.6 * $right-sidebar-width-narrow;
   }
 }
 
