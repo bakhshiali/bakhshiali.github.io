@@ -6,6 +6,8 @@ permalink: /projects/RemovingCarpetandWasteWaterDyes
 venue: "Tehran"
 date: 2014-1-1
 location: "Tehran, Iran"
+toc: true
+toc_sticky: true
 ---
 
 <h2>Removing Carpet and Waste Water Dyes reaerch</h2>
