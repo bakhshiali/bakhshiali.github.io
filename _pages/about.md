@@ -13,8 +13,7 @@ If you want to go fast, go alone. If you want to go far, go together.
 	<div class="divider div-transparent div-stopper"></div>
 </div>
 
-Academic Education Background - 2014-2020
-======
+<h2>Academic Education Background - 2014-2020</h2>
 I hold an M.Sc in Nanotechnology-Nanomaterial from Iran University of Science and Technology (IUST) [2018-2020].
 
 My B.sc field was Engineering Physics (Condensed Matter-Plasma-Laser) from Tabriz University (Iran) [2014-2018].
@@ -23,8 +22,7 @@ My B.sc field was Engineering Physics (Condensed Matter-Plasma-Laser) from Tabri
 	<div class="divider div-transparent div-stopper"></div>
 </div>
 
-Now - 2021-2023
-======
+<h2>Now - 2021-2023</h2>
 I'd experienced industrial projects, Group Leading, StartUps and etc. As a national rule for males, I work as scientific research assistant from 2021 for 2 years (2021/6/22-2023/6/22) at IPM (Institute For Research In Fundamental Sciences). <b>IF there is a fully funded PhD position in Nanobiotechnology/Nanotechnology and you wish I deserve it, please Let me know.</b>
 
 <div class="wrapper">
