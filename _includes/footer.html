@@ -1,6 +1,6 @@
 {% include base_path %}
 <div class="footer-wrapper">
-<img class="qr-code" src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&margin=5&data={{ site.url }}" alt="QRcode">
+<img class="qr-code" src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&margin=5&data={{base_path}}" alt="QRcode">
 <div class="page__footer-follow">
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
