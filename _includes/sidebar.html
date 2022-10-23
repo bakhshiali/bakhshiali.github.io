@@ -23,3 +23,9 @@
   {% endif %}
   </div>
 {% endif %}
+{% if page.toc %}
+  {% include toc_list %}
+{% endif %}
+{% if page.sidebar.nav %}
+  {% include nav_list nav=page.sidebar.nav %}
+{% endif %}
