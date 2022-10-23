@@ -6,6 +6,8 @@ permalink: /projects/SimpleCNCmachine(xyz)
 venue: "Tabriz"
 date: 2015-1-1
 location: "Tabriz, Iran"
+toc: true
+toc_sticky: true
 ---
 
 <h2>What is simple CNC machine (x y z)?</h2>
