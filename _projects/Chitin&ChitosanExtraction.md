@@ -6,6 +6,8 @@ permalink: /projects/Chitin&Chitosan
 venue: "Tehran"
 date: 2020-09-01
 location: "Tehran, Iran"
+toc: true
+toc_sticky: true
 ---
 <h2>What is Chitin & Chitosan?</h2>
 
