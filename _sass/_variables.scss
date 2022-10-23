@@ -156,3 +156,24 @@ $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
+
+/* social icons*/
+
+.social-icons {
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: $text-color;
+  }
+...
+/* customize */
+  .fa-get-pocket {
+	color: $pocket-color;
+  }
+  .fa-hatena {
+   color: $hatena-color;
+  }
+  .fa-blogger {
+	color: $blogger-color;
+  }
