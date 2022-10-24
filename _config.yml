@@ -42,6 +42,15 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+#search engine
+earch                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : "google" # lunr (default), algolia, google
+
+google:
+  search_engine_id       : "e77a3b0749d5e4a34" # YOUR_SEARCH_ENGINE_ID
+  instant_search         : true # false (default), true
+
 # SEO Related
 google_site_verification : 8zNyYjOg5-GGGWPIp1hdLJdLgxnN3nu-qJnzYR_5NFY
 bing_site_verification   : 1687ADCFF6103A3A8F09F4E13F95DB4E
