@@ -189,7 +189,6 @@ Publications
 * Wikipedia articles (nanotechnology, biotechnology, quantum physics, …)
 
 submitted:<br>
-* The effect of GO–Fe3O4 hybrid coating on the magnetic field detection by a tapered optical fiber sensor
 * Microfluidic-based nanosystems for theranostic of cancers: A min-review
 * Curcumin delivery and co-delivery based on nanomaterials as a nano-platform for cancer therapy : a comprehensive review<br>
 
