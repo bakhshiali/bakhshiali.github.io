@@ -189,19 +189,19 @@ Publications
 * Wikipedia articles (nanotechnology, biotechnology, quantum physics, …)
 
 submitted:<br>
-* Microfluidic-based nanosystems for theranostic of cancers: A min-review
-* Curcumin delivery and co-delivery based on nanomaterials as a nano-platform for cancer therapy : a comprehensive review<br>
+* 
 
 Never published:
 * Air purifiers to protect against corona virus: a review
 * Chitosan-PVA nanofibers antibacterial activity against resistant bacteria
+* Microfluidic-based nanosystems for theranostic of cancers: A min-review
 
 Under preparation:
 * Mechanical & thermal properties of nanowires : a molecular dynamics study
 * Nanofiber concentrator electrospinning device
 
 Books:<br>
-* Principles of Regenerative Medicine, 3rd ed.-10 chapter-under editing (English-Persian, Dr. Reza Moghadasali, Royan Institute)
+* Principles of Regenerative Medicine, 3rd ed.-10 chapter-under editing (English-to-Persian translation, Dr. Reza Moghadasali, Royan Institute)
 * Nanotechnology and Quantum computers (persian)-3 of 7 chapters parepared
 
 <div class="wrapper">
