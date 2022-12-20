@@ -371,7 +371,7 @@ Softwares
 |* Lammps, OpenBabel, PackMOL 	|Professional|
 |* Mendeley, Endnote, … 		|Professional|
 |* Catia, Solid works, … 		|Professional|
-|* Office 						|Professional|
+|* Office, Open Office, Libre Office, … 						|Professional|
 |* Python, HTML, C#, Tensor Flow, Scikit-learn, keras, PyTorch |Professional|
 |* Tia Portal Siemens, WinCC 	|Professional|
 |* Proteus, Altium designer, Pspice, … |Professional|
