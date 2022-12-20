@@ -319,7 +319,7 @@ Certificates (only the notable ones)
 |* Regenerative Medicine & Tissue Engineering | Royan Institute | [English](/files/certifications/RegenerativeMedicineAndTissueEngineering.png) |
 |* Introduction to the Biology of Cancer |Coursera| - |
 |* Editing Books with International Publishers |USERN |1400C12R06 |
-|* Skilled weaver (Kilim and Carpet weaving (knotting) and repairing)Skilled weaver (Kilim and Carpet weaving (knotting) and repairing) |Aras co. |6820 |
+|* Skilled weaver (Kilim and Carpet weaving (knotting) and repairing) |Aras co. |6820 |
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
