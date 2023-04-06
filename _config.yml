@@ -87,10 +87,11 @@ author:
   bio              : "Nichts kann uns stoppen. Nanotechnology, Biotechnology, R&D management, Plasma, Laser, ..."
   location         : ""
   employer         :
-  pubmed           : 
+  pubmed           : "https://www.ncbi.nlm.nih.gov/myncbi/ali.bakhshi.2/bibliography/public/"
   googlescholar    : "https://scholar.google.com/citations?user=JHn_W_wAAAAJ&hl=en"
   email            : "alibakhshi255255@gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Inv-Ali-Bakhshi"
+  grabcad          : "https://grabcad.com/ali.bakhshi-3"
   uri              : "https://bakhshiali.github.io/"
   bitbucket        :
   codepen          :
