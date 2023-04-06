@@ -124,6 +124,9 @@
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
       {% endif %}
+      {% if author.grabcad %} {% comment %} grabcad {% endcomment %}
+        <li><a href="{{ author.grabcad }}"><i class="ai ai-grabcad ai-fw"></i> GrabCad</a></li>
+      {% endif %}
       {% if author.scopus %} {% comment %} scopus {% endcomment %}
         <li><a href="{{ author.scopus }}"><i class="ai ai-scopus ai-fw"></i> Scopus</a></li>
       {% endif %}
