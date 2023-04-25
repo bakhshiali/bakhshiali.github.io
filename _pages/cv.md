@@ -189,20 +189,20 @@ Publications
 * Wikipedia articles (nanotechnology, biotechnology, quantum physics, …)
 
 submitted:<br>
-* 
+* Air purifiers to protect against corona virus: a review
+* Microfluidic-based nanosystems for theranostic of cancers: A min-review
+* Nanofiber concentrator electrospinning device
 
 Never published:
-* Air purifiers to protect against corona virus: a review
 * Chitosan-PVA nanofibers antibacterial activity against resistant bacteria
-* Microfluidic-based nanosystems for theranostic of cancers: A min-review
 
 Under preparation:
 * Mechanical & thermal properties of nanowires : a molecular dynamics study
-* Nanofiber concentrator electrospinning device
 
 Books:<br>
 * Principles of Regenerative Medicine, 3rd ed.-10 chapter-under editing (English-to-Persian translation, Dr. Reza Moghadasali, Royan Institute)
-* Nanotechnology and Quantum computers (persian)-3 of 7 chapters parepared
+* Nanotechnology and Quantum computers (Persian)-3 of 7 chapters parepared
+* From Research to Invention (Persian)
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
@@ -327,6 +327,7 @@ Certificates (only the notable ones)
 
 Research activities
 ======
+* Patent analysis/landscape, Energy storage: LiS, Na-ion, ... (RA at IPM - Dr. Kashani)
 * Plasma Spectrum analyzer software (self-desired) 
 * Friction Reduction of SS and Ni-Ti orthodontic wires (RA at IPM)
 * Production and development of mechanical properties of PMMA polymer with thicknesses over 2 cm (RA at IPM)
