@@ -201,8 +201,8 @@ Under preparation:
 
 Books:<br>
 * Principles of Regenerative Medicine, 3rd ed.-10 chapter-under editing (English-to-Persian translation, Dr. Reza Moghadasali, Royan Institute)
-* Nanotechnology and Quantum computers (Persian)-3 of 7 chapters parepared
-* From Research to Invention (Persian)
+* Nanotechnology and Quantum computers (Persian)-3 of 7 chapters are prepared
+* From Research to Invention (Persian)-3 of 20 chapters are prepared
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
