@@ -35,14 +35,6 @@ Identity
 
 Education
 ======
-* Researcher/Research Assistant  
-	(2021/6/22-2023/6/22)  
-	 &nbsp;&nbsp; Nanobiotechnology & Nanotechnology, "IPM (Institute For Research In Fundamental Sciences)", Tehran, Iran
-	
-* Research assistant  
-	(2020-2021)  
-	 &nbsp;&nbsp; Nanotechnology-Nanomaterials "Iran University of Science and Technology (IUST)”, Tehran, Iran
-	 
 * Master of Science  
 	(2018-2020)  
 	 &nbsp; Nanotechnology-Nanomaterials "Iran University of Science and Technology", Tehran, Iran  
@@ -72,6 +64,14 @@ Education
 
 Work experience
 ======
+* Researcher/Research Assistant  
+	(2021/6/22-2023/6/22)  
+	 &nbsp;&nbsp; Nanobiotechnology & Nanotechnology, "IPM (Institute For Research In Fundamental Sciences)", Tehran, Iran
+	
+* Research assistant  
+	(2020-2021)  
+	 &nbsp;&nbsp; Nanotechnology-Nanomaterials "Iran University of Science and Technology (IUST)”, Tehran, Iran
+	 
 * Research and Development (R&D)  
    &nbsp; Azar-Sky Company, 2013-2021 (~8.5 years) -R&D  
 	&nbsp;&nbsp;&nbsp;&nbsp; Color removal of industrial wastewater  
@@ -189,7 +189,6 @@ Publications
 * Wikipedia articles (nanotechnology, biotechnology, quantum physics, …)
 
 submitted:<br>
-* Air purifiers to protect against corona virus: a review
 * Microfluidic-based nanosystems for theranostic of cancers: A min-review
 * Nanofiber concentrator electrospinning device
 
@@ -265,7 +264,6 @@ Services, leaderships & Memberships
 * International Federation of Inventors' Associations (IFIA), Inv. membership, 2022-now
 * Iranian Inventors Association, 2022-now
 * Iranian researchers network, researcher member, 2022-now 
-* 
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
@@ -408,10 +406,11 @@ Honors & Awards & Grants
 * Inventor legal title (Inv. Ali Bakhshi), International Federation of Inventors' Associations (IFIA), 2022
 * Patent Score (5.8 out of 10), Iranian Research Organization for Science and Technology, 2022
 * National entrance exam of higher education (PhD)  
+  &nbsp;&nbsp;&nbsp;&nbsp; Nanotechnology-nanomaterials, rank 10th, 2023  
   &nbsp;&nbsp;&nbsp;&nbsp; Nanotechnology-nanomaterials, rank 19th, 2021  
   &nbsp;&nbsp;&nbsp;&nbsp; Materials Engineering and Metallurgy, rank 196th, 2020  
 * Distinguished student (educational), 2019 (2 years-M.Sc)
-* National Nanotechnology Competition(rank 77), 2019
+* National Nanotechnology Competition (rank 77), 2019
 * Rank 42th, national nano entrance exam, 2018
 * Top student of Tabriz University, 2015 (3 years-B.Sc)
 * Tutution waiver  
