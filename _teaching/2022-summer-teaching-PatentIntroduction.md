@@ -9,8 +9,9 @@ location: "Virtual classroom"
 ---
 
 Here we talked & discussed about necessities of Patent with practical experiences.
+We can download slides from <a href="https://www.slideshare.net/alibakhshi15/patent-introduction-persianpptx">SlideShares</a>.
 
-Titles
+Titles (1 session)
 ======
 1) Intellectual Property (IP) <br>
 2) Patent and Invention conditions <br>
