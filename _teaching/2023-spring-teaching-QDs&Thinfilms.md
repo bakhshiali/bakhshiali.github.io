@@ -10,7 +10,8 @@ location: "Virtual classroom"
 
 Here we were taking a deeper look at Quantum Dots and Thin films.
 We can download the slides from SlideShare (sessions <a href="https://www.slideshare.net/alibakhshi15/qdthinfilms1pptx">1</a>,
-<a href="https://www.slideshare.net/alibakhshi15/qdthinfilms2pptx">2</a>, <a href="https://www.slideshare.net/alibakhshi15/qdthinfilms3pptx">3</a>, 4, 5).
+<a href="https://www.slideshare.net/alibakhshi15/qdthinfilms2pptx">2</a>, <a href="https://www.slideshare.net/alibakhshi15/qdthinfilms3pptx">3</a>, 
+<a href="https://www.slideshare.net/alibakhshi15/qdthinfilms4pptx">4</a>, <a href="https://www.slideshare.net/alibakhshi15/qdthinfilms5pptx">5</a>).
 
 Principles (5 sessions)
 ======
