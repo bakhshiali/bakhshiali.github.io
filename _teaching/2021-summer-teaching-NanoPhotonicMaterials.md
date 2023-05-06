@@ -9,8 +9,16 @@ location: "Virtual classroom"
 ---
 
 Here we were taking a deeper look at Nano Photonic Materials.
+We can download the slides from SlideShare (sessions <a href="https://www.slideshare.net/alibakhshi15/nanophotonics-day1pptx">1</a>,
+<a href="https://www.slideshare.net/alibakhshi15/nanophotonics-day2pptx">2</a>, 
+  <a href="https://www.slideshare.net/alibakhshi15/nanophotonics-day3pptx">3</a>, 
+    <a href="https://www.slideshare.net/alibakhshi15/nanophotonics-day4pptx">4</a>, 
+      <a href="https://www.slideshare.net/alibakhshi15/nanophotonics-day5pptx">5</a>, 
+        <a href="https://www.slideshare.net/alibakhshi15/nanophotonics-day6pptx">6</a>, 
+          <a href="https://www.slideshare.net/alibakhshi15/nanophotonics-day7pptx">7</a>, 
+            <a href="https://www.slideshare.net/alibakhshi15/nanophotonics-day8pptx">8</a>).
 
-Principles
+Principles (8 sessions)
 ======
 1) Introduction (History, Physics, Classifications"  
 2) NanoMaterial Synthesis (Chemical and Physical methods, Novel methods)  
