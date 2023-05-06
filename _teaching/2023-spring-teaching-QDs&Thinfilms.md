@@ -9,8 +9,10 @@ location: "Virtual classroom"
 ---
 
 Here we were taking a deeper look at Quantum Dots and Thin films.
+We can download the slides from SlideShare (sessions <a href="https://www.slideshare.net/alibakhshi15/qdthinfilms1pptx">1</a>,
+2, 3, 4, 5).
 
-Principles (5 sections)
+Principles (5 sessions)
 ======
 1) An Introduction (History, Physics, Classifications)   
 2) Synthesis and coating methods (Chemical and Physical methods, Novel methods)  
