@@ -2,7 +2,7 @@
 title: "Quantum Dots and Thin films"
 collection: teaching
 type: "Workshop"
-permalink: /teaching/2021-summer-teaching-NanoPhotonicMaterials
+permalink: /teaching/2023-spring-teaching-QDs&Thinfilms.md
 venue: "Tabriz University, Faculty of Physics"
 date: 2023-04-26
 location: "Virtual classroom"
