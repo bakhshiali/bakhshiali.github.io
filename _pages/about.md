@@ -23,8 +23,8 @@ My B.sc field was Engineering Physics (Condensed Matter-Plasma-Laser) from Tabri
 	<div class="divider div-transparent div-stopper"></div>
 </div>
 
-<h2>Now - 2021-2023</h2>
-I'd experienced industrial projects, Group Leading, StartUps and etc. As a national rule for males, I work as scientific research assistant from 2021 for 2 years (2021/6/22-2023/6/22) at IPM (Institute For Research In Fundamental Sciences). <b>IF there is a fully funded PhD position in Nanobiotechnology/Nanotechnology and you wish I deserve it, please Let me know.</b>
+<h2>2021-2023</h2>
+I'd experienced industrial projects, Group Leading, StartUps and etc. As a national rule for males, I'd bee n working as scientific research assistant (RA) from 2021 for 2 years (2021/6/22-2023/6/22) at IPM (Institute For Research In Fundamental Sciences). <b>IF there is a fully funded PhD position in Nanobiotechnology/Nanotechnology and you wish I deserve it, please Let me know.</b>
 
 <div class="wrapper">
 	<div class="divider div-transparent div-arrow-down"></div>
