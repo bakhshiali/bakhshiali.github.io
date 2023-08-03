@@ -302,6 +302,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-remote-theme
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -348,3 +349,4 @@ compress_html:
     envs: development
 
 theme: jekyll-theme-cayman
+remote_theme: jekyll/jekyll-theme-cayman
