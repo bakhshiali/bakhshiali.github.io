@@ -19,5 +19,5 @@ Principles (6 sessions)
 5) Advanced applications (medicine, quantum computer, waveguide, transistor, etc.)
 6) Inventions and innovations
 
-![socialqta.jpg](/images/teachings/GrapheneWorld.jpg)
+![socialqta.jpg](/images/teachings/GrapheneWorld.png)
 Graphene World Poster in Persian
