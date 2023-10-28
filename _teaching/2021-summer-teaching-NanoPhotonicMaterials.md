@@ -25,4 +25,6 @@ Principles (8 sessions)
 3) NanoMaterial Application in Photonics (Sensors, NEMS/MEMS (NOEMS/MOEMS))  
 
 ![socialqta.jpg](/images/teachings/socialqta.jpg)
-Nano Photonic Materials Poster in Persian
+Nano Photonic Materials Poster in Persian <br>
+Workshop link in "Scientific Research Association of Quantum Technologies, Faculty of Physics, Tabriz University":<br>
+<a href="https://qsta.ir/nanophotonics/"> qsta </a><br>
