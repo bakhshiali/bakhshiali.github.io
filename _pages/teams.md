@@ -51,7 +51,7 @@ Outcomes : 1 silver medal (IFIA, Switzerland) and 1 invention
 </div>
 </div>
 {% endfor %}
-Outcomes : 1 VLC translation plugin, 1 conference paper and 1 Invention
+Outcomes : 1 <a href="https://github.com/bakhshiali/PeSuT">VLC translation plugin</a>, 1 conference paper and 1 Invention
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
@@ -66,7 +66,7 @@ Outcomes : 1 VLC translation plugin, 1 conference paper and 1 Invention
 </div>
 </div>
 {% endfor %}
-Outcomes : 1 patent and 1 translated book
+Outcomes : 1 <a href="https://bakhshiali.github.io/patent/3">patent</a> and 1 translated book
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
