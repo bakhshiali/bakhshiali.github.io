@@ -81,5 +81,5 @@ Outcomes : 1 patent and 1 translated book
 </div>
 </div>
 {% endfor %}   
-Outcomes : 1  patent and 1 silver medal (IFIA, Switzerland)
+Outcomes : 1  <a href="https://bakhshiali.github.io/patent/2">patent</a> and 1 <a href="https://www.researchgate.net/publication/373648994_Silver_medal_of_the_International_Invention_and_Innovation_Competition_2022_Switzerland_Geneva">silver medal</a> (IFIA, Switzerland)
 
