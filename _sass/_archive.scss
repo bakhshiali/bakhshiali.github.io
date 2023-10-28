@@ -93,7 +93,6 @@
   }
 }
 
-
 /*
    List view
    ========================================================================== */
@@ -171,7 +170,11 @@
    background-color: #F5F5F582;
    box-shadow: 2px 2px 6px 6px blue;
 }
-
+/* research team grid view*/
+.grid__team {
+  display: inline-grid;
+  grid-template-columns:  12em;
+}
 /*
    Features
    ========================================================================== */
