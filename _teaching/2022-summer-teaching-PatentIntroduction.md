@@ -26,4 +26,7 @@ Titles (1 session)
 11) Confirmation of authenticity <br>
 
 ![PatentIntro2022.png](/images/teachings/PatentIntro2022.png)
-"Patent Basics Introduction" Poster in Persian
+"Patent Basics Introduction" Poster in Persian <br>
+News about webinar:<br>
+<a href="https://www.isna.ir/news/1401062115873/%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%DB%8C-%D8%A8%D8%A7-%D9%85%D8%A8%D8%A7%D9%86%DB%8C-%D8%AB%D8%A8%D8%AA-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9"> isna </a><br>
+<a href="https://khabarfarsi.com/u/129337357"> khabarfarsi </a> <br>
