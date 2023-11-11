@@ -159,9 +159,11 @@ Interests
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+|Title|Publisher|Date|
+|:--------|:-------:|:-------:|{% for publication in site.publications reversed %}{% if publication.title %}
+| <a href="{{publication.url}}">{{publication.title}}</a> | {{publication.venue}} | {{publication.date  | date_to_long_string: "ordinal", "US"}} |{% endif %}{% endfor %}
+
 * Wikipedia articles (nanotechnology, biotechnology, quantum physics, …)
 
 submitted:<br>
@@ -185,9 +187,10 @@ Books:<br>
 
 Patents
 ======
-<ul>{% for post in site.patents %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+|Patent|Patent No.|Date|
+|:--------|:-------:|:-------:|{% for patent in site.patents reversed %}{% if patent.title %}
+| <a href="{{patent.url}}">{{patent.title}}</a> | <a href="{{patent.paperurl}}">{{patent.excerpt | split:'Patent No. : '}}</a> | {{patent.date  | date_to_long_string: "ordinal", "US"}} |{% endif %}{% endfor %}
 
 Filed (Issuing):
 * Novel Cold Plasma system, 2022 <br>
@@ -221,9 +224,10 @@ Trade secrets:<br>
 
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+|Title|Organization|Date|
+|:--------|:-------:|:-------:|{% for class in site.teaching reversed %}{% if class.title %}
+| <a href="{{class.url}}">{{class.title}}</a> | {{class.venue}} | {{class.date  | date_to_long_string: "ordinal", "US"}} |{% endif %}{% endfor %}
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
