@@ -22,23 +22,12 @@ Contact Info
 	<div class="divider div-transparent div-dot"></div>
 </div>
 
-Identity
-======
-
-|:--------|:--------|
-|Date of birth: |11/1995|
-|Marital status: |single|
-
-<div class="wrapper">
-	<div class="divider div-transparent div-dot"></div>
-</div>
-
 Education
 ======
-* Master of Science  
-	(2018-2020)  
-	 &nbsp; Nanotechnology-Nanomaterials "Iran University of Science and Technology", Tehran, Iran  
-	 &nbsp; &nbsp;&nbsp; Project: Manufacturing and evaluation of optical fiber based magnetic field sensor containing graphene-magnetite hybrid coating
+|Level|University / High scool  | GPA / Rank|Year|
+|:--------|:-------:|
+|M.Sc.	|Nanotechnology-Nanomaterials "Iran University of Science and Technology", Tehran, Iran<br>Project: Manufacturing and evaluation of optical fiber based magnetic field sensor containing graphene-magnetite hybrid coating, supervisor: Dr. Maisam
+Jalaly, score: high:=20  |17.48/20 (3.66/4.0), 1st student |(2018-2020)|
 	 
 * Bachelor of Science  
 	(2014-2018)  
