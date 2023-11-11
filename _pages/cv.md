@@ -13,6 +13,7 @@ Contact Info
 ======
 
 |Tel: 		| 0098-9014122529 |
+|:--------|:-------:|
 |Email 1: 	|alibakhshi255255@gmail.com|
 |Email 2:	|ali_bakhshi@alumni.iust.ac.ir|
 |Email 3:	|ali_bakhshi@ipm.ir|
@@ -24,28 +25,13 @@ Contact Info
 
 Education
 ======
-|Level|University / High scool  | GPA / Rank|Year|
-|:--------|:-------:|
-|M.Sc.	|Nanotechnology-Nanomaterials "Iran University of Science and Technology", Tehran, Iran<br>Project: Manufacturing and evaluation of optical fiber based magnetic field sensor containing graphene-magnetite hybrid coating, supervisor: Dr. Maisam
-Jalaly, score: high:=20  |17.48/20 (3.66/4.0), 1st student |(2018-2020)|
-	 
-* Bachelor of Science  
-	(2014-2018)  
-	 &nbsp; Engineering Physics-Plasma, Laser, Solid State "University of Tabriz", Tabriz, Iran  
-	 &nbsp;&nbsp;&nbsp; Project: The mechanism of plasma enhanced chemical vapor deposition (PECVD) and its applications
-	
-* High school  
-	(2012-2014)  
-	 &nbsp; Graduate of Mathematics and Physics, Shahid Hemmat governmental leading school (magnet school), District 19, Tehran, Iran  
-	(2010-2012)<br>
-	 &nbsp;&nbsp; Graduate of Mathematics and Physics, Shahid Bakeri governmental leading school (magnet school), Mianeh, east Azerbaijan, Iran
-	
-* Middle school  
-	(2007-2010)  
-	 &nbsp;&nbsp; Graduate of "Ostad Shahriar" governmental leading school (magnet school), Mianeh, east Azerbaijan, Iran
-* Elementary school
-	(2001-2007)  
-	 &nbsp;&nbsp;&nbsp; Graduate of "Tohid" governmental leading school, Gundughdi village, east Azerbaijan, Iran
+|Level|University / High scool  | GPA , Rank|Year|
+|:--------|:-------:|:-------:|:-------:|
+|M.Sc.	|"Iran University of Science and Technology", Tehran, Iran<br>Nanotechnology-Nanomaterials, Tuition Waiver, Research grant<br><b>Thesis</b>: Manufacturing and evaluation of optical fiber based magnetic field sensor containing graphene-magnetite hybrid coating <br> Supervisor: Dr. Maisam Jalaly, score: high:=20  |17.48/20 (3.66/4.0), 1st student |2018-2020| 
+|B.Sc.|"University of Tabriz", Tabriz, Iran<br>Engineering Physics (Plasma, Laser, Solid State)<br><b>Thesis</b>: The mechanism of plasma enhanced chemical vapor deposition (PECVD) and its applications<br>Supervisor: Dr. Laya Shahrassai, score: high:=20 |15.67/20 (3.28/4.0), 4th student |2014-2018| 
+|Pre-university<br>High school|Shahid Hemat governmental leading school (Magnet school), Tehran, Iran<br>Mathematics and Physics, Tuition Waiver|17.88/20 (3.84/4.0)<br>19.03/20 (4.0/4.0)|2014<br>2013|
+|High school| Shahid Bakeri governmental leading school*, Mianeh, East Azerbaijan<br>Mathematics and Physics, Tuition Waiver |-| 2010-2012|
+|Middle school| Ostad Shahriar, governmental leading school*, Mianeh, East Azerbaijan<br>1st rank student, Tuition Waiver|4.0/4.0, 1st student| 2007-2010|
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
@@ -203,8 +189,8 @@ Patents
   {% endfor %}</ul>
 
 Filed (Issuing):
-* Chitin and Chitosan extraction, 2022
 * Novel Cold Plasma system, 2022 <br>
+* Novel Ice-cream, 2023 <br>
 note: real title of issuing patents would differ! <br>
 
 Never filed:<br>
@@ -244,15 +230,16 @@ Teaching
 
 Services, leaderships & Memberships
 ======
-* Self-desired Teacher for poors, ~2014-now
-* StartUps leadership (fiberSense, spinFiber, and etc.), 2017-now
-* Grabcad Engineer, 2018-now
-* National Library of Iran, 2018-now
-* Github developer, 2019-now
-* Iranian Society of Nanomedicine, 2019-2020
-* International Federation of Inventors' Associations (IFIA), Inv. membership, 2022-now
-* Iranian Inventors Association, 2022-now
 * Iranian researchers network, researcher member, 2022-now 
+* Iranian Inventors Association, 2022-now
+* International Federation of Inventors' Associations (IFIA), Inv. membership, 2022-now
+* Iranian Society of Nanomedicine, 2019-2020
+* Github developer, 2019-now
+* National Library of Iran, 2018-now
+* Grabcad Engineer, 2018-now
+* StartUps leadership (fiberSense, spinFiber, and etc.), 2017-now
+* Self-desired Teacher for poors, ~2014-now
+
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
@@ -261,14 +248,14 @@ Services, leaderships & Memberships
 Languages
 ======
 
-|  									|Level  |
+|  								|Level  |
 |:--------|:-------:|
-|* Azeri and Azerbaijani Turkish    |Mother tongue    |
-|* Persian   						|Mother tongue    |
+|* Azeri and Azerbaijani Turkish                                |Mother tongue    |
+|* Persian   						        |Mother tongue    |
 |* English 							|Professional (IELTS score 5 2012)|
 |* Turkish 							|Intermediate|
 |* Arabic 							|basic|
-|* German 							|basic|
+|* Deutsch						        |basic|
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
@@ -391,6 +378,7 @@ Softwares
 
 Honors & Awards & Grants
 ======
+* Silver medal of 3rd "Inv." competition, International Federation of Inventors, Geneva, Switzerland, August 2023
 * Silver medal of 2nd "Inv." competition, International Federation of Inventors, Geneva, Switzerland, August 2022
 * Inventor legal title (Inv. Ali Bakhshi), International Federation of Inventors' Associations (IFIA), 2022
 * Patent Score (5.8 out of 10), Iranian Research Organization for Science and Technology, 2022
@@ -399,9 +387,9 @@ Honors & Awards & Grants
   &nbsp;&nbsp;&nbsp;&nbsp; Nanotechnology-nanomaterials, rank 19th, 2021  
   &nbsp;&nbsp;&nbsp;&nbsp; Materials Engineering and Metallurgy, rank 196th, 2020  
 * Distinguished student (educational), 2019 (2 years-M.Sc)
-* National Nanotechnology Competition (rank 77), 2019
+* National Nanotechnology Competition, Nanostartup program (rank 77), 2019
 * Rank 42th, national nano entrance exam, 2018
-* Top student of Tabriz University, 2015 (3 years-B.Sc)
+* Among top students of Tabriz University, 2014 (4 years-B.Sc)
 * Tutution waiver  
   &nbsp;&nbsp;&nbsp;&nbsp; Elementary, Guidance, High schools + B.Sc. + M.Sci.  
 * Research Grants  
