@@ -25,6 +25,7 @@ Contact Info
 
 Education
 ======
+
 |Level|University / High scool  | GPA , Rank|Year|
 |:--------|:-------:|:-------:|:-------:|
 |M.Sc.	|"Iran University of Science and Technology", Tehran, Iran<br>Nanotechnology-Nanomaterials, Tuition Waiver, Research grant<br><b>Thesis</b>: Manufacturing and evaluation of optical fiber based magnetic field sensor containing graphene-magnetite hybrid coating <br> Supervisor: Dr. Maisam Jalaly, score: high:=20  |17.48/20 (3.66/4.0), 1st student |2018-2020| 
