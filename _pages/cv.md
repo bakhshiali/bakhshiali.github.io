@@ -420,5 +420,17 @@ Social and extracurricular activities
 * Analysis of disk diffusion, real time PCR, MBC, MIC, …
 * Genetic data mining (Bleeding-edge)
 * Robotic competitions refereeing  
-  
+
+References
+======
+
+| Name | Position | Affiliation(s) |
+|:--------|:-------:|:-------:|
+|<a href="https://www.scopus.com/authid/detail.uri?authorId=36599143100">Dr. Abbas Rahdar</a>|Associate Professor|Department of Physics, University of Zabol, Zabol, Iran.|
+|<a href="https://www.researchgate.net/profile/Seyed-Morteza-Naghib">Dr. Seyed Morteza Naghib</a>|Associate Professor| Nanotechnology Department, School of Advanced Technologies, Iran University of Science and Technology (IUST),<br>And Motamed Cancer Institute (MCI), Tehran, Iran|
+|<a href="https://scholar.google.com/citations?hl=en&user=SPV6OPsAAAAJ">Dr. Maisam Jalaly</a>|Associate Professor| Nanotechnology Department, School of Advanced Technologies, Iran University of Science and Technology (IUST), Tehran, Iran.|
+|<a href="https://www.researchgate.net/profile/Laya-Shahrassai">Dr. Laya Shahrassai</a>|Assistant Professor|Faculty of Physics, University of Tabriz, 009841, Tabriz, Iran.|
+|<a href="https://www.researchgate.net/profile/Reza-Moghadasali">Dr. Reza Moghadasali</a>|Associate Professor|Department of Stem Cells and Developmental Biology, Royan Stem Cell Institute, Tehran, Iran|
+|<a href="https://www.researchgate.net/profile/Inv-Hossein-Shahin-Hasannezhad">Inv. Hossein (Shahin) Hasannezhad</a>|Researcher &amp; Inventor|International Federation of Inventors&#39; Associations (IFIA)<br>And University of Tehran Science &amp; Technology Park (UTSTP), Tehran, Iran|
+
 ... For detailed views, we can check my linkedin: <a href="https://www.linkedin.com/in/ali-bakhshi-">Linkedin</a>
