@@ -421,6 +421,10 @@ Social and extracurricular activities
 * Genetic data mining (Bleeding-edge)
 * Robotic competitions refereeing  
 
+<div class="wrapper">
+	<div class="divider div-transparent div-dot"></div>
+</div>
+
 References
 ======
 
