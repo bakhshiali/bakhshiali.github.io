@@ -36,7 +36,7 @@ Outcomes : Review Articles (Pending State)
 </div>
 {% endfor %}
 
-Outcomes : 2 ACS, 6 Elsevier and 1 Taylor and Francis
+Outcomes : (<a href="https://bakhshiali.github.io/publication/12">1</a>+1) ACS, 6 Elsevier and 1 Taylor and Francis
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
