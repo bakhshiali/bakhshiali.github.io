@@ -167,7 +167,6 @@ Publications
 * Wikipedia articles (nanotechnology, biotechnology, quantum physics, …)
 
 submitted:<br>
-* Microfluidic-based nanosystems for theranostic of cancers: A min-review
 * Nanofiber concentrator electrospinning device
 
 Never published:
