@@ -12,7 +12,7 @@ WhatsApp	: +98-901-4122529
 
 Websites  	: https://bakhshiali.github.io
 
-Instagram	: https://instagram.com/ali.bakhshi1995/
+Instagram	: https://instagram.com/ali_bakhshi1995/
 
 Linkedin	: https://www.linkedin.com/in/ali-bakhshi-/
 
