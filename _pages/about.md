@@ -9,7 +9,10 @@ redirect_from:
 ---
 <meta name="description" content="This website is about Inv. Ali Bakhshi. Here, we share our projects, patents, researches and scientific papers; AI, nanotech, biotech, quantum, and cold plasma!"/>
 If you want to go fast, go alone. If you want to go far, go together.
-
+<figure>
+	<img src="/images/projects/projectspanel.png" alt="projectspanel.png" style="width:100%">
+	<figcaption style="text-align: center; padding-left:45%;">Projects Panel</figcaption>
+</figure>
 <div class="wrapper">
 	<div class="divider div-transparent div-stopper"></div>
 </div>
