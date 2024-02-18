@@ -19,7 +19,7 @@ permalink: /teams/
   <i>{{ member.info }}</i>
 </div>
 </div>
-{% endfor %}
+{% endfor %}<br>
 Outcomes : 1 <a href="https://bakhshiali.github.io/patent/4">patent</a>
 
 <div class="wrapper">
