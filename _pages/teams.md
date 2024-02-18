@@ -42,7 +42,7 @@ permalink: /teams/
 </div>
 {% endfor %}<br>
 
-<p style="text-align: center">Outcomes : (<a href="https://bakhshiali.github.io/publication/12">1</a>+1+1) ACS, 6 Elsevier and 1 Taylor and Francis</p>
+<p style="text-align: center">Outcomes : (<a href="https://bakhshiali.github.io/publication/12">1</a>+1+1) ACS, 7 Elsevier and 1 Taylor and Francis</p>
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
