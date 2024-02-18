@@ -10,8 +10,8 @@ permalink: /teams/
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 
-<h2 style="text-align: center">MIP</h2>
-{%for member in site.data.teams.MIP %}
+<h2 style="text-align: center">Food Technology</h2>
+{%for member in site.data.teams.food %}
 <div class="grid__team">
 <div class="grid__box" style="text-align: center">
   <img src="{{member.photo}}" width="50%" />
@@ -20,7 +20,7 @@ permalink: /teams/
 </div>
 </div>
 {% endfor %}
-Outcomes : Review Articles (Pending State)
+Outcomes : 1 <a href="https://bakhshiali.github.io/patent/4">patent</a>
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
