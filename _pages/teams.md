@@ -17,6 +17,7 @@ permalink: /teams/
   <img src="{{member.photo}}" width="50%" />
   <h3 width="50%">{{ member.name }}</h3>
   <i>{{ member.info }}</i>
+  <a href="{{ member.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i></a>
 </div>
 </div>
 {% endfor %}<br>
