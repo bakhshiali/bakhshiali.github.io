@@ -28,7 +28,7 @@ permalink: /teams/
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 
-<h2 style="text-align: center">Biomedical Chapters</h2>
+<h2 style="text-align: center">Nanobiomedical Chapters</h2>
 {%for member in site.data.teams.book %}
 <div class="grid__team">
 <div class="grid__box" style="text-align: center">
