@@ -76,6 +76,7 @@ My updated CV links : <a href="https://bakhshiali.github.io/cv">https://bakhshia
 	<div class="divider div-transparent div-dot"></div>
 </div>
 <h2>Contact informations</h2>
+
 |Tel: 		| 0098-9014122529 |
 |:--------|:-------:|
 |Email 1: 	|alibakhshi255255@gmail.com|
