@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 <meta name="description" content="This website is about Inv. Ali Bakhshi. Here, we share our projects, patents, researches and scientific papers; AI, nanotech, biotech, quantum, and cold plasma."/>
-<h2>About Ali Bakhshi</h2>
 <figure>
 	<img src="/files/alibakhshi.jpg" alt="alibakhshi.jpg" style="width:10%">
 	<figcaption style="text-align: center; padding-left:45%;">Ali Bakhshi</figcaption>
@@ -30,9 +29,7 @@ He is an official member of the International Federation of Inventors Associatio
 
 <h2>Publications</h2>
 You can also find our articles on <a href="https://orcid.org/0000-0001-9825-0806">Orcid</a>, <a href="https://scholar.google.com/citations?user=JHn_W_wAAAAJ">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Ali-Bakhshi-6">Researchgate</a>, <a href="https://www.linkedin.com/in/ali-bakhshi-/">Linkedin</a>, <a href="https://www.ncbi.nlm.nih.gov/myncbi/ali.bakhshi.2/bibliography/public/">Pubmed</a>, <a href="https://publons.com/researcher/4281677/ali-bakhshi/">Publons</a>, <a href="https://www.webofscience.com/wos/author/rid/ACK-9170-2022">Web of Science</a>, and <a href="https://www.scopus.com/authid/detail.uri?authorId=57213951717">Scopus</a>. <br>
-|Title|Publisher|Date|
-|:--------|:-------:|:-------:|{% for publication in site.publications reversed %}{% if publication.title %}
-| <a href="{{publication.url}}">{{publication.title}}</a> | {{publication.venue}} | {{publication.date  | date_to_long_string: "ordinal", "US"}} |{% endif %}{% endfor %}
+
 <div class="wrapper">
 	<div class="divider div-transparent div-tab-down"></div>
 </div>
@@ -66,7 +63,7 @@ Most of our patents have been accomplished in startup teams where we can mention
 	<li>School of Physics, Institute For Research In Fundamental Sciences (IPM), Iran.</li>
 	<li>Motamed Cancer Institute, Iran.</li>
 </ol> <br>
-He has worked as Research assistant (RA) and Researcher at Iran university of science and technology (Now), Institute For Research In Fundamental Sciences (2021/6/22-2023/6/22), and Motamed Cancer Institute (Now). His works as a biotechnology author have been published in Taylor & Francis, ACS and Elsevier. His academic supervisors were <a href="https://www.scopus.com/authid/detail.uri?authorId=36599143100"></a>Prof. Dr. Abbas Rahdar, <a href="https://www.scopus.com/authid/detail.uri?authorId=49864154500">Dr. Seyed Morteza Naghib</a>, <a href="https://www.scopus.com/authid/detail.uri?authorId=26321629400">Dr. Maisam Jalaly</a>. <br>
+He has worked as Research assistant (RA) and Researcher at Iran university of science and technology (Now), Institute For Research In Fundamental Sciences (2021/6/22-2023/6/22), and Motamed Cancer Institute (Now). His works as a biotechnology author have been published in Taylor & Francis, ACS and Elsevier. His academic supervisors were <a href="https://www.scopus.com/authid/detail.uri?authorId=36599143100">Prof. Dr. Abbas Rahdar</a>, <a href="https://www.scopus.com/authid/detail.uri?authorId=49864154500">Dr. Seyed Morteza Naghib</a>, <a href="https://www.scopus.com/authid/detail.uri?authorId=26321629400">Dr. Maisam Jalaly</a>. <br>
 <b>If there is a fully funded PhD position in Nanobiotechnology/Nanotechnology and you wish we deserve it, please Let us know.</b>  
 
 <div class="wrapper">
