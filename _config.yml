@@ -70,18 +70,18 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: [https://www.researchgate.net/profile/Ali-Bakhshi-6, https://twitter.com/Ali65029491, 
-  https://www.facebook.com/profile.php?id=100017730216353, https://www.linkedin.com/in/ali-bakhshi-/, 
-  https://instagram.com/ali_bakhshi1995/, https://github.com/bakhshiali, 
-  https://scholar.google.com/citations?user=JHn_W_wAAAAJ&hl=en, https://orcid.org/0000-0001-9825-0806, 
-  https://publons.com/researcher/4281677/ali-bakhshi/, https://grabcad.com/ali.bakhshi-3, 
-  https://www.slideshare.net/alibakhshi15, https://www.scopus.com/authid/detail.uri?authorId=57213951717, 
-  https://usern.tums.ac.ir/User/CV/AliBakhshi, https://civilica.com/p/241671/,
-  https://figshare.com/authors/Ali_Bakhshi/12980129, https://www.growkudos.com/profile/ali_bakhshi_1,
-  https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5084916,
-  https://sciprofiles.com/profile/Ali-Bakhshi, https://en.everybodywiki.com/Ali_Bakhshi_(Researcher_and_Inventor),
-  https://www.flickr.com/photos/199068913@N05, https://bshams.academia.edu/AliBakhshi,
-  https://publons.com/researcher/ACK-9170-2022, http://loop.frontiersin.org/people/1585493/overview?referrer=orcid_profile]# An array of links to social media profiles
+  links: [https://www.researchgate.net/profile/Ali-Bakhshi-6, https://twitter.com/Ali65029491]+
+  [https://www.facebook.com/profile.php?id=100017730216353, https://www.linkedin.com/in/ali-bakhshi-/]+ 
+  [https://instagram.com/ali_bakhshi1995/, https://github.com/bakhshiali]+ 
+  [https://scholar.google.com/citations?user=JHn_W_wAAAAJ&hl=en, https://orcid.org/0000-0001-9825-0806] + 
+  [https://publons.com/researcher/4281677/ali-bakhshi/, https://grabcad.com/ali.bakhshi-3]+ 
+  [https://www.slideshare.net/alibakhshi15, https://www.scopus.com/authid/detail.uri?authorId=57213951717] + 
+  [https://usern.tums.ac.ir/User/CV/AliBakhshi, https://civilica.com/p/241671/]+ 
+  [https://figshare.com/authors/Ali_Bakhshi/12980129, https://www.growkudos.com/profile/ali_bakhshi_1]+ 
+  [https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5084916]+ 
+  [https://sciprofiles.com/profile/Ali-Bakhshi, https://en.everybodywiki.com/Ali_Bakhshi_(Researcher_and_Inventor)]+ 
+  [https://www.flickr.com/photos/199068913@N05, https://bshams.academia.edu/AliBakhshi]+ 
+  [https://publons.com/researcher/ACK-9170-2022, http://loop.frontiersin.org/people/1585493/overview?referrer=orcid_profile]# An array of links to social media profiles
 
 # Analytics
 analytics:
