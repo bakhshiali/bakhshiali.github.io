@@ -4,7 +4,6 @@ title: "About me"
 excerpt: "About Ali Bakhshi"
 author_profile: true
 author: "Ali Bakhshi"
-og_image: "/files/alibakhshi.jpg"
 redirect_from: 
   - /about/
   - /about.html
