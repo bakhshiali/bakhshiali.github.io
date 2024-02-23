@@ -3,6 +3,7 @@ permalink: /
 title: "About me"
 excerpt: "About me"
 author_profile: true
+author: "Ali Bakhshi"
 redirect_from: 
   - /about/
   - /about.html
