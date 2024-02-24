@@ -117,9 +117,24 @@
     {
       "@context" : "http://schema.org",
       "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
+	  "@id": "https://bakhshiali.github.io/",
       "name" : "{{ site.social.name | default: site.name }}",
+	  "givenName": "Ali",
+	  "familyName": "Bakhshi",
+	  "gender":"male",
       "url" : {{ seo_url | jsonify }},
-      "sameAs" : {{ site.social.links | jsonify }}
+      "sameAs" : {{ site.social.links | jsonify }},
+	  "image":[
+	  {
+      "@type": "ImageObject",
+      "url": "https://raw.githubusercontent.com/bakhshiali/bakhshiali.github.io/main/files/alibakhshi.jpg",
+      "width": "2039",
+      "height": "2039"},
+    {
+      "@type": "ImageObject",
+      "url": "https://raw.githubusercontent.com/bakhshiali/bakhshiali.github.io/main/files/alibakhshi2.jpg",
+      "width": "301",
+      "height": "301"}],
     }
   </script>
 {% endif %}
