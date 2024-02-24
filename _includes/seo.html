@@ -117,11 +117,12 @@
     {
       "@context" : "http://schema.org",
       "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
-	  "@id": "https://bakhshiali.github.io/",
+      "@id": "https://bakhshiali.github.io/",
       "name" : "{{ site.social.name | default: site.name }}",
-	  "givenName": "Ali",
-	  "familyName": "Bakhshi",
-	  "gender":"male",
+      "givenName": "Ali",
+      "familyName": "Bakhshi",
+      "gender":"male",
+      "birthDate": "November 1995",
       "url" : {{ seo_url | jsonify }},
       "sameAs" : {{ site.social.links | jsonify }},
       "image":[{
