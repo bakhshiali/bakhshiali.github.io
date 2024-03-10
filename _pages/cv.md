@@ -335,7 +335,6 @@ Research activities
 * Fabrication and launch of CanSat satellite to study the Earth's atmosphere and taking images of earthquake and flood damaged areas (Toka Flight Control Systems Company - Dr. Dalvand)
 * Removal of indigo dye from cellulose, protein and mineral wastewater and fibers (Azar-Sky Company)
 * Simulation and fabrication of high voltage systems (self-desired)
-* Set up a network penetration testing laboratory (self-desired)
 * Biodegradable and self-healing coatings (ongoing)
 * Braille translator in Python to solve the problems of the blind (self desired)
 * Fabrication of a charging system to convert fire heat into electricity using TEC (University of Tabriz-B.Sc)
