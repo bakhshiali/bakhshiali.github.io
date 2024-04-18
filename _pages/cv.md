@@ -368,23 +368,20 @@ Softwares
 
 Honors & Awards & Grants
 ======
-* Silver medal of 3rd "Inv." competition, International Federation of Inventors, Geneva, Switzerland, August 2023
-* Silver medal of 2nd "Inv." competition, International Federation of Inventors, Geneva, Switzerland, August 2022
-* Inventor legal title (Inv. Ali Bakhshi), International Federation of Inventors' Associations (IFIA), 2022
-* Patent Score (5.8 out of 10), Iranian Research Organization for Science and Technology, 2022
-* National entrance exam of higher education (PhD)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Nanotechnology-nanomaterials, rank 10th, 2023  
-  &nbsp;&nbsp;&nbsp;&nbsp; Nanotechnology-nanomaterials, rank 19th, 2021  
-  &nbsp;&nbsp;&nbsp;&nbsp; Materials Engineering and Metallurgy, rank 196th, 2020  
-* Distinguished student (educational), 2019 (2 years-M.Sc)
-* National Nanotechnology Competition, Nanostartup program (rank 77), 2019
-* Rank 42th, national nano entrance exam, 2018
-* Among top students of Tabriz University, 2014 (4 years-B.Sc)
-* Tutution waiver  
-  &nbsp;&nbsp;&nbsp;&nbsp; Elementary, Guidance, High schools + B.Sc. + M.Sci.  
-* Research Grants  
-  &nbsp;&nbsp;&nbsp;&nbsp; B.Sc.,  2014 + M.Sc. 2018 + Azar Sky Co., 2013 + IPM, 2021  
-* Selected rank of the 14th Scientific Festival of Distinguished, Innovative and Inventive Students, 2010  
+|Title|Organization/Honor|Date|
+|:--------|:-------:|:-------:|
+|Silver medal of 3rd "Inv." competition|International Federation of Inventors, Geneva, Switzerland|August 2023|
+|Silver medal of 2nd "Inv." competition|International Federation of Inventors, Geneva, Switzerland|August 2022|
+|Inventor legal title (Inv. Ali Bakhshi)|International Federation of Inventors' Associations (IFIA)|2022|
+|Patent Score (5.8 out of 10)|Iranian Research Organization for Science and Technology|2022|
+|National entrance exam of higher education (PhD)|Nanotechnology-nanomaterials (rank 10th), Nanotechnology-nanomaterials (rank 19th), Materials Engineering and Metallurgy (rank 196th)|2023, 2021, 2020|  
+|Distinguished/top student|IUST|2019 (2 years-M.Sc)|
+|National Nanotechnology Competition, Nanostartup program (rank 77)|INIC|2019|
+|National nano entrance exam|Rank 42th|2018|
+|4th top student|University of Tabriz|2014 (4 years-B.Sc)|
+|Tutution waiver|Elementary, Guidance, High schools + B.Sc. + M.Sci.|-|
+|Research Grants|Azar Sky Co., B.Sc., M.Sc., IPM|2013, 2014, 2018, 2021|
+|Selected rank of the 14th Scientific Festival of Distinguished, Innovative and Inventive Students|Shahid Bakery High School|2010|
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
