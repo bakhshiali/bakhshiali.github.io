@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 Quote: "Passionate about Research and Innovation"
+
 Contact Info
 ======
 
