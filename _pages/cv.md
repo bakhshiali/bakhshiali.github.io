@@ -389,7 +389,7 @@ Honors & Awards & Grants
 |:--------|:-------:|:-------:|
 | Silver medal of 3rd "Inv." competition | International Federation of Inventors' Associations (IFIA), Geneva, Switzerland | August 2023 |
 | Silver medal of 2nd "Inv." competition | International Federation of Inventors' Associations (IFIA), Geneva, Switzerland | August 2022 |
-| Inventor legal title (Inv. Ali Bakhshi) | International Federation of Inventors' Associations (IFIA), Geneva, Switzerland|2022|
+| Inventor legal title (Inv. Ali Bakhshi) | International Federation of Inventors' Associations (IFIA), Geneva, Switzerland | 2022|
 | Patent Score (5.8 out of 10)|Iranian Research Organization for Science and Technology | 2022 |
 | National entrance exam of higher education (PhD) | Nanotechnology-nanomaterials (rank 10th), Nanotechnology-nanomaterials (rank 19th), Materials Engineering and Metallurgy (rank 196th) | 2023, 2021, 2020 |
 | Distinguished (top) student | IUST | 2019 (2 years-M.Sc) |
