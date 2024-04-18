@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-
+Quote: "Passionate about Research and Innovation"
 Contact Info
 ======
 
@@ -26,7 +26,7 @@ Contact Info
 Education
 ======
 
-|Level|University / High scool  | GPA , Rank|Year|
+|Level|University / High school  | GPA , Rank|Year|
 |:--------|:-------:|:-------:|:-------:|
 |M.Sc.	|"Iran University of Science and Technology", Tehran, Iran<br>Nanotechnology-Nanomaterials, Tuition Waiver, Research grant<br><b>Thesis</b>: Manufacturing and evaluation of optical fiber based magnetic field sensor containing graphene-magnetite hybrid coating <br> Supervisor: Dr. Maisam Jalaly, score: high:=20  |17.48/20 (3.66/4.0), 1st student |2018-2020| 
 |B.Sc.|"University of Tabriz", Tabriz, Iran<br>Engineering Physics (Plasma, Laser, Solid State)<br><b>Thesis</b>: The mechanism of plasma enhanced chemical vapor deposition (PECVD) and its applications<br>Supervisor: Dr. Laya Shahrassai, score: high:=20 |15.67/20 (3.28/4.0), 4th student |2014-2018| 
@@ -144,19 +144,6 @@ Skills
 	<div class="divider div-transparent div-dot"></div>
 </div>
 
-Interests
-======
-* Nanotechnology
-* Nano-biotechnology (Genetic Engineering, Stem Cells, Lab on chip, Self-healing, Biomedical Signals, ...)
-* Quantum technology (Qubits, quantum AI, ...)
-* Cold Plasma technology (surface modification, wound healing, PAW, water/air purifiers, ...)
-* Machine learning (Big data, ANN, ...)
-* Molecular 3D printing (modified DNA, etc.)
-
-<div class="wrapper">
-	<div class="divider div-transparent div-dot"></div>
-</div>
-
 Publications
 ======
 
@@ -166,14 +153,12 @@ Publications
 
 * Wikipedia articles (nanotechnology, biotechnology, quantum physics, …)
 
-submitted:<br>
-* Nanofiber concentrator electrospinning device
-
 Never published:
 * Chitosan-PVA nanofibers antibacterial activity against resistant bacteria
 
 Under preparation:
 * Mechanical & thermal properties of nanowires : a molecular dynamics study
+* Nanofiber concentrator electrospinning device
 
 Books:<br>
 * Principles of Regenerative Medicine, 3rd ed.-10 chapter-under editing (English-to-Persian translation, Dr. Reza Moghadasali, Royan Institute)
@@ -193,7 +178,6 @@ Patents
 
 Filed (Issuing):
 * Novel Cold Plasma system, 2022 <br>
-* Novel Ice-cream, 2023 <br>
 note: real title of issuing patents would differ! <br>
 
 Never filed:<br>
@@ -234,15 +218,18 @@ Teaching
 
 Services, leaderships & Memberships
 ======
-* Iranian researchers network, researcher member, 2022-now 
-* Iranian Inventors Association, 2022-now
-* International Federation of Inventors' Associations (IFIA), Inv. membership, 2022-now
-* Iranian Society of Nanomedicine, 2019-2020
-* Github developer, 2019-now
-* National Library of Iran, 2018-now
-* Grabcad Engineer, 2018-now
-* StartUps leadership (fiberSense, spinFiber, and etc.), 2017-now
-* Self-desired Teacher for poors, ~2014-now
+|Title|Organization|Date|
+|:--------|:-------:|:-------:|
+|[researcher member](https://www.irangn.ir/invention_list.php?mid=11103)|Iranian researchers network|2022-now| 
+|[Inventor member](https://www.irinventors.ir/inventors-name/item/199-2022-01-19-15-04-10)|Iranian Inventors Association|2022-now|
+|International Federation of Inventors' Associations (IFIA), [Inv. membership](https://www.ifia.com/ir2022jan809acxb/), 2022-now|
+|[Researcher](https://usern.tums.ac.ir/User/CV/AliBakhshi)|Universal Scientific Education and Research Network (USERN)|2021-now|
+|Researcher|Iranian Society of Nanomedicine|2019-2020|
+|[developer](https://github.com/bakhshiali)|Github|2019-now|
+|Inventor Member|[National Library of Iran](https://www.nlai.ir/)|2018-now|
+|[Engineer](https://grabcad.com/inv.ali.bakhshi-1)|Grabcad|2018-now|
+|Co-founder|StartUps leadership (fiberSense, spinFiber, and etc.)|2017-now|
+|Teacher for poors|Self-desired|~2014-now|
 
 
 <div class="wrapper">
@@ -256,7 +243,7 @@ Languages
 |:--------|:-------:|
 |* Azeri and Azerbaijani Turkish                                |Mother tongue    |
 |* Persian   						        |Mother tongue    |
-|* English 							|Professional (IELTS score 5 2012)|
+|* English 							|Professional (IELTS score 5 2012), spoken at home|
 |* Turkish 							|Intermediate|
 |* Arabic 							|basic|
 |* Deutsch						        |basic|
@@ -265,7 +252,7 @@ Languages
 	<div class="divider div-transparent div-dot"></div>
 </div>
 
-Certificates (only the notable ones)
+Certificates (only the notable ones, refer to complete list of certifications in [LinkedIn](https://www.linkedin.com/in/ali-bakhshi-/))
 ======
 
 |  									|University\Institute  | Ref. |
