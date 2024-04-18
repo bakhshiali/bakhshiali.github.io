@@ -269,7 +269,7 @@ Languages
 	<div class="divider div-transparent div-dot"></div>
 </div>
 
-Certificates (only the notable ones, refer to complete list of certifications in [LinkedIn](https://www.linkedin.com/in/ali-bakhshi-/))
+Certificates (Only notables, Complete list in [LinkedIn](https://www.linkedin.com/in/ali-bakhshi-/))
 ======
 
 |  									|University\Institute  | Ref. |
