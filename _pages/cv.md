@@ -398,7 +398,7 @@ Honors & Awards & Grants
 | 4th top student | University of Tabriz | 2014 (4 years-B.Sc) |
 | Tutution waiver | Elementary, Guidance, High schools + B.Sc. + M.Sci. | - |
 | Research Grants | Azar Sky Co., B.Sc., M.Sc., IPM | 2013, 2014, 2018, 2021 |
-| Selected rank of the 14th Scientific Festival of Distinguished, Innovative and Inventive Students | Shahid Bakery High School | 2010 |
+| Selected rank of the 14th Scientific Festival of Distinguished, Innovative and Inventive Students | Ostad Shahriar governmental leading school | 2010 |
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
