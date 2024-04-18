@@ -159,7 +159,23 @@ Never published:
 
 Under preparation:
 * Mechanical & thermal properties of nanowires : a molecular dynamics study
+
+Submitted articles:
 * Nanofiber concentrator electrospinning device
+* Safarzadeh, M., Aghajari, AA., Rahimi, M., Maleki, F., Ghiyabi, E., Rezanezhad, A., Bakhshi, A., Salari, E., Shayesteh, H., Mohammadi, H. (2023). Recent Progress on Advanced Solid Adsorbents for CO2 Capture: From Mechanism to Machine Learning.
+*  Safarzadeh, M., et al., Bakhshi, A. (2024). Porous Carbon: Stupendous Structure with Great Potential for Wide Applications.
+
+Accepted Chapters:
+* Naghib, SM., Bakhshi, A., History, Introduction and Types of Quantum Dots, Elsevier, 2023.
+* Naghib, SM., Bakhshi, A., Synthesis Methods of Quantum Dots, Elsevier, 2023.
+* Naghib, SM., Bakhshi, A., Quantum Dots for Enhanced Wound Healing, Elsevier, 2023.
+* Naghib, SM., Bakhshi, A., Quantum Dots as an Advanced Nano System for Cancer Theranostics, Elsevier, 2023.
+* Bakhshi, M., Naghib, SM., Ahmadi, B., Bakhshi, A., Gold Nanoparticles Based Antibacterial and Antiviral Functional Materials, ACS, 2023.
+* Naghib, SM., Bakhshi, A., Light-Triggered Micro/Nano Drug Delivery, CRC Press, 2023.
+* Naghib, SM., Bakhshi, A., Nanotechnology based Light Materials for Bioimplant, Elsevier, 2024.
+* Naghib, SM., Bakhshi, A., Synthesis Techniques of Smart Coatings, Elsevier, 2024.
+* Bakhshi, A., Naghib, SM., Rabiee N., Antibacterial and Antiviral Nanofibrous Membranes, ACS, 2024.
+* Bakhshi, A., Bakhshi, M., Ahmadi, B., Rahdar, A., Multifunctional Theranostic Nanomedicine for Infectious Diseases, Elsevier, 2024.
 
 Books:<br>
 * Principles of Regenerative Medicine, 3rd ed.-10 chapter-under editing (English-to-Persian translation, Dr. Reza Moghadasali, Royan Institute)
