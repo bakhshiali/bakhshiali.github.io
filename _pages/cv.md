@@ -385,6 +385,7 @@ Softwares
 
 Honors & Awards & Grants
 ======
+
 |Title|Organization or Honor|Date|
 |:--------|:-------:|:-------:|
 | Silver medal of 3rd "Inv." competition | International Federation of Inventors' Associations (IFIA), Geneva, Switzerland | August 2023 |
