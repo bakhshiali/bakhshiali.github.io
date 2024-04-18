@@ -352,7 +352,7 @@ Research activities
 Softwares
 ======
 
-|software|level|
+|Software|Level|
 |* Lammps, OpenBabel, PackMOL 	|Professional|
 |* Mendeley, Endnote, … 		|Professional|
 |* Catia, Solid works, … 		|Professional|
