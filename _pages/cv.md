@@ -260,12 +260,12 @@ Languages
 
 |  								|Level  |
 |:--------|:-------:|
-|* Azeri and Azerbaijani Turkish                                |Mother tongue    |
-|* Persian   						        |Mother tongue    |
-|* English 							|Professional (IELTS score 5 2012), spoken at home|
-|* Turkish 							|Intermediate|
-|* Arabic 							|basic|
-|* Deutsch						        |basic|
+| Azeri and Azerbaijani Turkish                                |Mother tongue    |
+| Persian   						        |Mother tongue    |
+| English 							|Professional (IELTS score 5 2012), spoken at home|
+| Turkish 							|Intermediate|
+| Arabic 							|basic|
+| Deutsch						        |basic|
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
@@ -276,37 +276,37 @@ Certificates (Only notables, Complete list in [LinkedIn](https://www.linkedin.co
 
 |  									|University\Institute  | Ref. |
 |:--------|:-------:|
-|* Advanced Search & reference resources and software (Mendeley, endnote, …) |Tabriz University| - |
-|* C# programming |Tabriz University| - |
-|* Catia |Technical and Vocational Training Organization | [Persian](/files/certifications/catia.png)|
-|* LAMMPS |IUST| - |
-|* Molecular Dynamics| IUST| - |
-|* HSE |IUST| [Persian](/files/certifications/HSE.jpg) |
-|* Journalism & reportage |IUST| - |
-|* Meta-analysis and data mining |IUST| - |
-|* DLS Results Analysis |Bim Gostar Taban Company| [Persian](/files/certifications/DLS.jpg) |
-|* Inductively coupled plasma spectroscopy (ICP)|Bim Gostar Taban Company| [Persian](/files/certifications/ICP.jpg) |
-|* Nano standardization |Anabizz Company| [Persian](/files/certifications/NanoStandardization.jpg) |
-|* Nano certificate (nano mark) |Anabizz Company| [Persian](/files/certifications/NanoCertificateNanoMark.jpg) |
-|* Safety and health course of working with nanomaterials|Anabizz Company & Iran Nano Safety Network (INSN)| [Persian](/files/certifications/SafetyAndHealthCourseWorkingWithNanomaterials.jpg) |
-|* Raman spectrometer |IUST-Teksan company| [Persian](/files/certifications/raman.jpg) |
-|* programmable logic controllers (PLCs)|IUST- School of Mechanical Engineering| [English](/files/certifications/PLC.jpg) |
-|* Optical Systems Design Course (OSLO,…)|Tabriz University| - |
-|* Membrane and Nano filtration technology|Research Institute of Petroleum Industry| - |
-|* Nano porous materials in catalysts and photocatalysts|Research Institute of Petroleum Industry| - |
-|* Legal issues of patent|Tehran university- Law Association| - |
-|* Nanotechnology Economy Forum |INIC| - |
-|* Nano-startup courses |INIC| - |
-|* Bioinformatics Methods |Coursera| - |
-|* Understanding Cancer Metastasis |Coursera| - |
-|* Introduction to the Biology of Cancer |Coursera| - |
-|* Introduction to Breast Cancer |Coursera| - |
-|* Basic to advance bioinformatics |Royan Institute| [English](/files/certifications/bioinformatics.png) |
-|* Advanced Photonics Congress | OSA | [English](/files/certifications/bioinformatics.png) |
-|* Regenerative Medicine & Tissue Engineering | Royan Institute | [English](/files/certifications/RegenerativeMedicineAndTissueEngineering.png) |
-|* Introduction to the Biology of Cancer |Coursera| - |
-|* Editing Books with International Publishers |USERN |1400C12R06 |
-|* Skilled weaver (Kilim and Carpet weaving (knotting) and repairing) |Aras co. |6820 |
+| Advanced Search & reference resources and software (Mendeley, endnote, …) |Tabriz University| - |
+| C# programming |Tabriz University| - |
+| Catia |Technical and Vocational Training Organization | [Persian](/files/certifications/catia.png)|
+| LAMMPS |IUST| - |
+| Molecular Dynamics| IUST| - |
+| HSE |IUST| [Persian](/files/certifications/HSE.jpg) |
+| Journalism & reportage |IUST| - |
+| Meta-analysis and data mining |IUST| - |
+| DLS Results Analysis |Bim Gostar Taban Company| [Persian](/files/certifications/DLS.jpg) |
+| Inductively coupled plasma spectroscopy (ICP)|Bim Gostar Taban Company| [Persian](/files/certifications/ICP.jpg) |
+| Nano standardization |Anabizz Company| [Persian](/files/certifications/NanoStandardization.jpg) |
+| Nano certificate (nano mark) |Anabizz Company| [Persian](/files/certifications/NanoCertificateNanoMark.jpg) |
+| Safety and health course of working with nanomaterials|Anabizz Company & Iran Nano Safety Network (INSN)| [Persian](/files/certifications/SafetyAndHealthCourseWorkingWithNanomaterials.jpg) |
+| Raman spectrometer |IUST-Teksan company| [Persian](/files/certifications/raman.jpg) |
+| programmable logic controllers (PLCs)|IUST- School of Mechanical Engineering| [English](/files/certifications/PLC.jpg) |
+| Optical Systems Design Course (OSLO,…)|Tabriz University| - |
+| Membrane and Nano filtration technology|Research Institute of Petroleum Industry| - |
+| Nano porous materials in catalysts and photocatalysts|Research Institute of Petroleum Industry| - |
+| Legal issues of patent|Tehran university- Law Association| - |
+| Nanotechnology Economy Forum |INIC| - |
+| Nano-startup courses |INIC| - |
+| Bioinformatics Methods |Coursera| - |
+| Understanding Cancer Metastasis |Coursera| - |
+| Introduction to the Biology of Cancer |Coursera| - |
+| Introduction to Breast Cancer |Coursera| - |
+| Basic to advance bioinformatics |Royan Institute| [English](/files/certifications/bioinformatics.png) |
+| Advanced Photonics Congress | OSA | [English](/files/certifications/bioinformatics.png) |
+| Regenerative Medicine & Tissue Engineering | Royan Institute | [English](/files/certifications/RegenerativeMedicineAndTissueEngineering.png) |
+| Introduction to the Biology of Cancer |Coursera| - |
+| Editing Books with International Publishers |USERN |1400C12R06 |
+| Skilled weaver (Kilim and Carpet weaving (knotting) and repairing) |Aras co. |6820 |
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
