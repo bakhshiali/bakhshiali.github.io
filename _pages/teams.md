@@ -7,6 +7,7 @@ permalink: /teams/
 
 <h1 style="text-align: center">Teams</h1>
 
+<p style="text-align: center"><i>“If you want to go fast, go alone, if you want to go far, go together.” African Proverb</i></p>
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 
