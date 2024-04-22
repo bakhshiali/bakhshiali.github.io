@@ -258,14 +258,14 @@ Services, leaderships & Memberships
 Languages
 ======
 
-|  								|Level  |
+|Language|Level  |
 |:--------|:-------:|
-| Azeri and Azerbaijani Turkish                                |Mother tongue    |
-| Persian   						        |Mother tongue    |
-| English 							|Professional (IELTS score 5 2012), spoken at home|
-| Turkish 							|Intermediate|
-| Arabic 							|basic|
-| Deutsch						        |basic|
+| Azeri and Azerbaijani Turkish                                |Mother tongue|
+| Persian   						        |C2|
+| English 							|C1|
+| Turkish 							|C1|
+| Arabic 							|B1|
+| Deutsch						        |A2.2|
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
@@ -395,14 +395,14 @@ Honors & Awards & Grants
 
 |Title|Organization or Honor|Date|
 |:--------|:-------:|:-------:|
-| Silver medal of 3rd "Inv." competition | International Federation of Inventors' Associations (IFIA), Geneva, Switzerland | August 2023 |
-| Silver medal of 2nd "Inv." competition | International Federation of Inventors' Associations (IFIA), Geneva, Switzerland | August 2022 |
-| Inventor legal title (Inv. Ali Bakhshi) | International Federation of Inventors' Associations (IFIA), Geneva, Switzerland | 2022|
-| Patent Score (5.8 out of 10)|Iranian Research Organization for Science and Technology | 2022 |
-| Distinguished (top) student | IUST | 2019 (2 years-M.Sc) |
-| National Nanotechnology Competition, Nanostartup program (rank 77) | INIC | 2019 |
+| Silver medal of 3rd "Inv." competition | International Federation of Inventors' Associations ([IFIA](https://www.ifia.com/)), Geneva, Switzerland | August 2023 |
+| Silver medal of 2nd "Inv." competition | International Federation of Inventors' Associations ([IFIA](https://www.ifia.com/)), Geneva, Switzerland | August 2022 |
+| Inventor legal title ([Inv. Ali Bakhshi](https://www.ifia.com/ir2022jan809acxb/)) | International Federation of Inventors' Associations ([IFIA](https://www.ifia.com/)), Geneva, Switzerland | 2022|
+| Patent Score ([5.8 out of 10](https://doi.org/10.22104/IROST.1401.39))|Iranian Research Organization for Science and Technology ([IROST](https://irost.org/))| 2022 |
+| Distinguished (top) student | [IUST](http://www.iust.ac.ir/en) | 2019 (2 years-M.Sc) |
+| National Nanotechnology Competition, Nanostartup program (rank 77) | [INIC](https://en.nano.ir/) | 2019 |
 | National nano entrance exam | Rank 42th | 2018 |
-| 4th top student | University of Tabriz | 2014 (4 years-B.Sc) |
+| 4th top student | [University of Tabriz](https://tabrizu.ac.ir/en) | 2014 (4 years-B.Sc) |
 | Tutution waiver | Elementary, Guidance, High schools + B.Sc. + M.Sci. | - |
 | Research Grants | Azar Sky Co., B.Sc., M.Sc., IPM | 2013, 2014, 2018, 2021 |
 | Selected rank of the 14th Scientific Festival of Distinguished, Innovative and Inventive Students | Ostad Shahriar governmental leading school | 2010 |
