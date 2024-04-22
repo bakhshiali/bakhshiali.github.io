@@ -312,6 +312,8 @@ Certificates (Only notables, Complete list in [LinkedIn](https://www.linkedin.co
 	<div class="divider div-transparent div-dot"></div>
 </div>
 
+<details open=""> <summary>Research Projects Milestone</summary> 
+	
 Research Projects Milestone
 ======
 
@@ -345,8 +347,10 @@ Research Projects Milestone
 |Simulation and fabrication of high voltage systems |self-desired|||
 |Braille translator in Python to solve the problems of the blind|self desired|[1 Python based program](https://github.com/bakhshiali/Braille)|Jan. 2019-Now|
 |Fabrication of a charging system to convert fire heat into electricity using TEC|Thermodynamic class at University of Tabriz-B.Sc|[1 practical device](https://bakhshiali.github.io/projects/TECcharger) and 1 Patentable device (archived for a while due to high MVP price)|Sep. 2014-Jul. 2018|
-|Programming of an intelligent robot (voice and command analysis bot)|University of Tabriz-B.Sc| |[1 C# chatbot](https://bakhshiali.github.io/projects/Chatbot)|Jan. 2016- Now|
+|Programming of an intelligent robot (voice and command analysis bot)|University of Tabriz-B.Sc|[1 C# chatbot](https://bakhshiali.github.io/projects/Chatbot)|Jan. 2016- Now|
 |Temperature control system using atmega 32 |University of Tabriz-B.Sc|[lm35](https://bakhshiali.github.io/projects/SimpleTemperatureController2) and [SMT160](https://bakhshiali.github.io/projects/SimpleTemperatureController) based systems|Jan. 2016-Sep. 2018|
+
+</details>
 
 Note: The links might show demo versions.
 
