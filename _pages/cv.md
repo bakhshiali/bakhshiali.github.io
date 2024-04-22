@@ -226,9 +226,30 @@ Trade secrets:<br>
 Teaching
 ======
 
-|Title|Organization|Date|
-|:--------|:-------:|:-------:|{% for class in site.teaching reversed %}{% if class.title %}
-| <a href="{{class.url}}">{{class.title}}</a> | {{class.venue}} | {{class.date  | date_to_long_string: "ordinal", "US"}} |{% endif %}{% endfor %}
+<details>
+    <summary>Show details</summary>
+    <!-- Your content goes here -->
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Organization</th>
+				<th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+       {% for class in site.teaching reversed %}
+		<tr>
+			<td><a href="{{class.url}}">{{class.title}}</a></td>
+			<td>{{class.venue}}</td>
+			<td>{{class.date  | date_to_long_string: "ordinal", "US"}}</td>
+		</tr>
+		{% endfor %}
+			
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+</details>
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
