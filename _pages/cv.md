@@ -241,7 +241,7 @@ Services, leaderships & Memberships
 |:--------|:-------:|:-------:|
 |[researcher member](https://www.irangn.ir/invention_list.php?mid=11103)|Iranian researchers network|2022-now| 
 |[Inventor member](https://www.irinventors.ir/inventors-name/item/199-2022-01-19-15-04-10)|Iranian Inventors Association|2022-now|
-|International Federation of Inventors' Associations (IFIA), [Inv. membership](https://www.ifia.com/ir2022jan809acxb/), 2022-now|
+|[Inv. membership](https://www.ifia.com/ir2022jan809acxb/)|International Federation of Inventors' Associations (IFIA)|2022-now|
 |[Researcher](https://usern.tums.ac.ir/User/CV/AliBakhshi)|Universal Scientific Education and Research Network (USERN)|2021-now|
 |Researcher|Iranian Society of Nanomedicine|2019-2020|
 |[developer](https://github.com/bakhshiali)|Github|2019-now|
