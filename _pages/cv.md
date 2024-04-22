@@ -357,32 +357,28 @@ Note: The links might show demo versions.
 Softwares
 ======
 
-|Software|Level|
-|* Lammps, OpenBabel, PackMOL 	|Professional|
-|* Mendeley, Endnote, … 		|Professional|
-|* Catia, Solid works, … 		|Professional|
-|* Office, Open Office, Libre Office, … 						|Professional|
-|* Python, HTML, C#, Tensor Flow, Scikit-learn, keras, PyTorch |Professional|
-|* Tia Portal Siemens, WinCC 	|Professional|
-|* Proteus, Altium designer, Pspice, … |Professional|
-|* Origin, spss 				|Professional|
-|* Joomla, WordPress, WooCommerce, Bootstrap, GIMP,... |Professional|
-|* illustrator, Corel draw, after effects, Inkscape,Photoshop|Professional|
-|* Comfar 						|Intermediate|
-|* Linux (scientific, kali ,Ubuntu, Debian, …) |Intermediate|
-|* C/C++/java/PHP/Fortran 		|Intermediate|
-|* MATLAB 						|Intermediate|
-|* GROMACS, quantum atk 		|Intermediate|
-|* VMD, Ovito 					|Intermediate|
-|* Material studio 				|Intermediate|
-|* Comsol 						|Intermediate|
-|* Android studio 				|Intermediate|
-|* Rstudio, LabVIEW 			|Basic|
-|* Cadence, Code vision-AVR, Keil |Basic|
-|* Maya, blender, Anime Studio, 3dsMAX, C4D, V-ray render |Basic|
-|* Abaqus, Fluent 				|Basic|
-|* Unity engine 				|Basic|
-|* Methyl Primer Express, MetaDiSc, target, signalp, primer3, primer blast, ArgusLab, SnapGene, Gene Runner, Beacon Designer|Basic|
+<details>
+    <summary>Show details</summary>
+    <!-- Your content goes here -->
+    <table>
+        <thead>
+            <tr>
+                <th>Software</th>
+                <th>Level</th>
+            </tr>
+        </thead>
+        <tbody>
+       {% for software in site.data.cv.softwares %}
+		<tr>
+			<td>{{software.name}}</td>
+			<td>{{software.level}}</td>
+		</tr>
+		{% endfor %}
+			
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+</details>
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
