@@ -258,14 +258,28 @@ Services, leaderships & Memberships
 Languages
 ======
 
-|Language|Level  |
-|:--------|:-------:|
-| Azeri and Azerbaijani Turkish                                |Mother tongue|
-| Persian   						        |C2|
-| English 							|C1|
-| Turkish 							|C1|
-| Arabic 							|B1|
-| Deutsch						        |A2.2|
+<details>
+    <summary>Show details</summary>
+    <!-- Your content goes here -->
+    <table>
+        <thead>
+            <tr>
+                <th>Language</th>
+                <th>Level</th>
+            </tr>
+        </thead>
+        <tbody>
+       {% for lan in site.data.cv.languages %}
+		<tr>
+			<td>{{lan.language}}</td>
+			<td>{{lan.level}}</td>
+		</tr>
+		{% endfor %}
+			
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+</details>
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
