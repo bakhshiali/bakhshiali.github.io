@@ -388,26 +388,39 @@ Softwares
 	<div class="divider div-transparent div-dot"></div>
 </div>
 
+<!-- Honors & Awards & Grants --------------------------------------------------------------------------------- -->
+
 Honors & Awards & Grants
 ======
 
-|Title|Organization or Honor|Date|
-|:--------|:-------:|:-------:|
-| Silver medal of 3rd "Inv." competition | International Federation of Inventors' Associations ([IFIA](https://www.ifia.com/)), Geneva, Switzerland | August 2023 |
-| Silver medal of 2nd "Inv." competition | International Federation of Inventors' Associations ([IFIA](https://www.ifia.com/)), Geneva, Switzerland | August 2022 |
-| Inventor legal title ([Inv. Ali Bakhshi](https://www.ifia.com/ir2022jan809acxb/)) | International Federation of Inventors' Associations ([IFIA](https://www.ifia.com/)), Geneva, Switzerland | 2022|
-| Patent Score ([5.8 out of 10](https://doi.org/10.22104/IROST.1401.39))|Iranian Research Organization for Science and Technology ([IROST](https://irost.org/))| 2022 |
-| Distinguished (top) student | [IUST](http://www.iust.ac.ir/en) | 2019 (2 years-M.Sc) |
-| National Nanotechnology Competition, Nanostartup program (rank 77) | [INIC](https://en.nano.ir/) | 2019 |
-| National nano entrance exam | Rank 42th | 2018 |
-| 4th top student | [University of Tabriz](https://tabrizu.ac.ir/en) | 2014 (4 years-B.Sc) |
-| Tutution waiver | Elementary, Guidance, High schools + B.Sc. + M.Sci. | - |
-| Research Grants | Azar Sky Co., B.Sc., M.Sc., IPM | 2013, 2014, 2018, 2021 |
-| Selected rank of the 14th Scientific Festival of Distinguished, Innovative and Inventive Students | Ostad Shahriar governmental leading school | 2010 |
+<details>
+    <summary>Show details</summary>
+    <!-- Your content goes here -->
+<table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Organization / Honor</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+		{% for honor in site.data.cv.honors %}
+		<tr>
+			<td>{{honor.title}}</td>
+			<td>{{honor.organization}}</td>
+			<td>{{honor.date}}</td>
+		</tr>
+		{% endfor %}
+		</tbody>
+	</table>
+</details>
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+
+<!-- Social and extracurricular activities ------------------------------------------------------- -->
 
 Social and extracurricular activities
 ======
@@ -436,6 +449,8 @@ Social and extracurricular activities
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
+
+<!-- References -------------------------------------------------------------------------------- -->
 
 References
 ======
