@@ -312,7 +312,7 @@ Certificates (Only notables, Complete list in [LinkedIn](https://www.linkedin.co
 	<div class="divider div-transparent div-dot"></div>
 </div>
 
-<details open=""> <summary>Research Projects Milestone</summary> 
+<details> <summary>Research Projects Milestone</summary> 
 	
 Research Projects Milestone
 ======
