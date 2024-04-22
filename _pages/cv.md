@@ -29,8 +29,8 @@ Education
 
 |Level|University / High school  | GPA , Rank|Year|
 |:--------|:-------:|:-------:|:-------:|
-|M.Sc.	|"Iran University of Science and Technology", Tehran, Iran<br>Nanotechnology-Nanomaterials, Tuition Waiver, Research grant<br><b>Thesis</b>: Manufacturing and evaluation of optical fiber based magnetic field sensor containing graphene-magnetite hybrid coating <br> Supervisor: Dr. Maisam Jalaly, score: high:=20  |17.48/20 (3.66/4.0), 1st student |2018-2020| 
-|B.Sc.|"University of Tabriz", Tabriz, Iran<br>Engineering Physics (Plasma, Laser, Solid State)<br><b>Thesis</b>: The mechanism of plasma enhanced chemical vapor deposition (PECVD) and its applications<br>Supervisor: Dr. Laya Shahrassai, score: high:=20 |15.67/20 (3.28/4.0), 4th student |2014-2018| 
+|M.Sc.	|"[Iran University of Science and Technology](https://www.iust.ac.ir/en)", Tehran, Iran<br>Nanotechnology-Nanomaterials, Tuition Waiver, Research grant<br><b>Thesis</b>: Manufacturing and evaluation of optical fiber based magnetic field sensor containing graphene-magnetite hybrid coating <br> Supervisor: [Dr. Maisam Jalaly](https://www.iust.ac.ir/content/34106/Dr.-Maisam-Jalaly), score: high:=20  |17.48/20 (3.66/4.0), 1st student |2018-2020| 
+|B.Sc.|"[University of Tabriz](https://tabrizu.ac.ir/en)", Tabriz, Iran<br>Engineering Physics (Plasma, Laser, Solid State)<br><b>Thesis</b>: The mechanism of plasma enhanced chemical vapor deposition (PECVD) and its applications<br>Supervisor: Dr. Laya Shahrassai, score: high:=20 |15.67/20 (3.28/4.0), 4th student |2014-2018| 
 |Pre-university<br>High school|Shahid Hemat governmental leading school (Magnet school), Tehran, Iran<br>Mathematics and Physics, Tuition Waiver|17.88/20 (3.84/4.0)<br>19.03/20 (4.0/4.0)|2014<br>2013|
 |High school| Shahid Bakeri governmental leading school*, Mianeh, East Azerbaijan<br>Mathematics and Physics, Tuition Waiver |-| 2010-2012|
 |Middle school| Ostad Shahriar, governmental leading school*, Mianeh, East Azerbaijan<br>1st rank student, Tuition Waiver|4.0/4.0, 1st student| 2007-2010|
@@ -43,7 +43,7 @@ Research Experience
 ======
 * Researcher/Research Assistant  
 	(2021/6/22-2023/6/22)  
-	 &nbsp;&nbsp; Nanobiotechnology & Nanotechnology, "IPM (Institute For Research In Fundamental Sciences)", Tehran, Iran
+	 &nbsp;&nbsp; Nanobiotechnology & Nanotechnology, "Institute For Research In Fundamental Sciences ([IPM](https://ipm.ac.ir/))", Tehran, Iran
 	
 * Research assistant  
 	(2020-2021)  
@@ -274,8 +274,8 @@ Languages
 Certificates (Only notables, Complete list in [LinkedIn](https://www.linkedin.com/in/ali-bakhshi-/))
 ======
 
-|  									|University\Institute  | Ref. |
-|:--------|:-------:|
+|title|University\Institute| Ref. |
+|:--------|:-------:|:-------:|
 | Advanced Search & reference resources and software (Mendeley, endnote, …) |Tabriz University| - |
 | C# programming |Tabriz University| - |
 | Catia |Technical and Vocational Training Organization | [Persian](/files/certifications/catia.png)|
@@ -312,32 +312,37 @@ Certificates (Only notables, Complete list in [LinkedIn](https://www.linkedin.co
 	<div class="divider div-transparent div-dot"></div>
 </div>
 
-Research activities
+Research Projects Milestone
 ======
-* Patent analysis/landscape, Energy storage: LiS, Na-ion, ... (RA at IPM - Dr. Kashani)
-* Plasma Spectrum analyzer software (self-desired) 
-* Friction Reduction of SS and Ni-Ti orthodontic wires (RA at IPM)
-* Production and development of mechanical properties of PMMA polymer with thicknesses over 2 cm (RA at IPM)
-* Production of chitosan-polyvinyl alcohol antibacterial nanofibers-antimicrobial properties against fungi (Candida), Gram-positive (Staphylococcus) and Gram-negative (Klebsiella) bacteria (RA at IPM)
-* Fabrication of Nanofiber concentrator portable electrospinning device-sub 50 nm-drug delivery (Patent)
+
+|Project|Role/Organization|Outputs|Date|
+|:--------|:-------:|:-------:|:-------:|
+|Patent analysis/landscape, Energy storage: LiS, Na-ion, ...|RA at Innovation center of [IPM](https://ipm.ac.ir/) (Dr. Kashani)|4 battery reports, [Analyzer program](https://github.com/bakhshiali/LiSLandscape)|Sep. 2022-Jun. 2023|
+|English to Persian subtitle translation|self-desired|[PeSuT](https://github.com/bakhshiali/PeSuT): VLC Extension (in lua language), utilization with ChatGPT, local AI, google, Yandex, and bing, and real-time STT translation|Mar. 2023|
+|Plasma Spectrum analyzer software|self-desired|Database and [Python-based software](https://github.com/bakhshiali/LabCodes/blob/main/Plasma/ArgonPlasmaSpectrumAnalysis.ipynb), prediction of plasma state spectrums with 99.99 % peak accuracy and 95% FWHM|Mar. 2022|
+|Speech to text (STT) AI |self-desired|[Persian STT](https://www.linkedin.com/posts/ali-bakhshi-_nlp-asr-stt-activity-7045519238966464513-haLQ?utm_source=share&utm_medium=member_desktop) with 96% accuracy, self-supervised learning framework and Neural HMM TTS|Mar. 2023|
+|Friction Reduction of SS and Ni-Ti orthodontic wires |RA at [IPM](https://ipm.ac.ir/)|||
+|Production and development of mechanical properties of PMMA polymer|RA at [IPM](https://ipm.ac.ir/)|Thicknesses over 2 cm with cold plasma modification, novel plasma-catalysit system||
+|Production of chitosan-polyvinyl alcohol antibacterial nanofibers-antimicrobial|RA at [IPM](https://ipm.ac.ir/)|animicrobial effects against fungi (Candida), Gram-positive (Staphylococcus) and Gram-negative (Klebsiella) bacteria, On-desk electrospinning, jet spinning, and blow-spinning devices||
+|Fabrication of Nanofiber concentrator portable electrospinning device|self-desired|sub 50 nm-drug delivery carriers, [1 Patent](https://bakhshiali.github.io/patent/2), [1 medal](https://bakhshiali.github.io/patent/2)||
 * Artificial intelligence for 4 band resistor-color decoder (self-desired)
-* Plasma-assisted (spark discharge) nanoparticle synthesis (RA at IPM)
+* Plasma-assisted (spark discharge) nanoparticle synthesis (RA at [IPM](https://ipm.ac.ir/))
 * Fabrication of atmospheric cold plasma system for surface modification
-* Synthesis of chitosan and derivative oligosaccharides (IUST university-M.Sc)
+* Synthesis of chitosan and derivative oligosaccharides ([IUST](http://www.iust.ac.ir/en) university-M.Sc)
 * Artificial intelligence for breast cancer detection from CT scan images (self-desired)
-* Artificial intelligence to identify diabetic retina (RA at IPM)
-* Synthesis of graphene-magnetite nanocomposites (IUST university-M.Sc)
-* Synthesis of graphene based aerogels and hydrogels (IUST university-M.Sc)
-* Fabrication of Magnetic field sensors based on tapered optical fiber (IUST university-M.Sc-Patent)
-* Fabrication of optical fiber tapering system by heat-tensile method (IUST university-M.Sc)
-* Fiber's diameter image processing system using CCD Camera and PXR800 (IUST university-M.Sc-Faculty of Physics)
-* Optical fiber-spectrum analyzer system (IUST university-M.Sc)
+* Artificial intelligence to identify diabetic retina (RA at [IPM](https://ipm.ac.ir/))
+* Synthesis of graphene-magnetite nanocomposites ([IUST](http://www.iust.ac.ir/en) university-M.Sc)
+* Synthesis of graphene based aerogels and hydrogels ([IUST](http://www.iust.ac.ir/en) university-M.Sc)
+* Fabrication of Magnetic field sensors based on tapered optical fiber ([IUST](http://www.iust.ac.ir/en) university-M.Sc-Patent)
+* Fabrication of optical fiber tapering system by heat-tensile method ([IUST](http://www.iust.ac.ir/en) university-M.Sc)
+* Fiber's diameter image processing system using CCD Camera and PXR800 ([IUST](http://www.iust.ac.ir/en) university-M.Sc-Faculty of Physics)
+* Optical fiber-spectrum analyzer system ([IUST](http://www.iust.ac.ir/en) university-M.Sc)
 * Fabrication of a 3D printer and simple CNC (University of Tabriz-B.Sc)
 * Plasma jet bullet analysis system with tcd1304 and bpv10 sensor (University of Tabriz-B.Sc)
-* Simulation of NEMS and MEMS devices in targeted drug delivery including peristaltic and piezoelectric pump, μNeedle, membrane, degradable matrix and capacitive acceleration sensor (IUST university-M.Sc)
-* Simulation of CO2 and H2S absorption in ordered porous carbon and CNT (IUST university-M.Sc)
+* Simulation of NEMS and MEMS devices in targeted drug delivery including peristaltic and piezoelectric pump, μNeedle, membrane, degradable matrix and capacitive acceleration sensor ([IUST](http://www.iust.ac.ir/en) university-M.Sc)
+* Simulation of CO2 and H2S absorption in ordered porous carbon and CNT ([IUST](http://www.iust.ac.ir/en) university-M.Sc)
 * Simulation of graphene membrane with Nano pores created by oxygen plasma for water treatment (IUST university-M.Sc)
-* Simulation of single photon emitter quantum dot PbS in nanowire (IUST university-M.Sc)
+* Simulation of single photon emitter quantum dot PbS in nanowire ([IUST](http://www.iust.ac.ir/en) university-M.Sc)
 * Fabrication and launch of CanSat satellite to study the Earth's atmosphere and taking images of earthquake and flood damaged areas (Toka Flight Control Systems Company - Dr. Dalvand)
 * Removal of indigo dye from cellulose, protein and mineral wastewater and fibers (Azar-Sky Company)
 * Simulation and fabrication of high voltage systems (self-desired)
@@ -346,7 +351,7 @@ Research activities
 * Fabrication of a charging system to convert fire heat into electricity using TEC (University of Tabriz-B.Sc)
 * Programming of an intelligent robot (voice and command analysis bot) (University of Tabriz-B.Sc) (ongoing)
 * Temperature control by lm35 and SMT160 sensors using atmega 32 (University of Tabriz-B.Sc)
-
+Note: The links might show demo versions.
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
@@ -394,7 +399,6 @@ Honors & Awards & Grants
 | Silver medal of 2nd "Inv." competition | International Federation of Inventors' Associations (IFIA), Geneva, Switzerland | August 2022 |
 | Inventor legal title (Inv. Ali Bakhshi) | International Federation of Inventors' Associations (IFIA), Geneva, Switzerland | 2022|
 | Patent Score (5.8 out of 10)|Iranian Research Organization for Science and Technology | 2022 |
-| National entrance exam of higher education (PhD) | Nanotechnology-nanomaterials (rank 10th), Nanotechnology-nanomaterials (rank 19th), Materials Engineering and Metallurgy (rank 196th) | 2023, 2021, 2020 |
 | Distinguished (top) student | IUST | 2019 (2 years-M.Sc) |
 | National Nanotechnology Competition, Nanostartup program (rank 77) | INIC | 2019 |
 | National nano entrance exam | Rank 42th | 2018 |
@@ -409,10 +413,12 @@ Honors & Awards & Grants
 
 Social and extracurricular activities
 ======
-* Patent filing and drafter
-* Patent Analysis
-* Study of Quantum computers
-* Innovation in Cold plasma technologies
+
+* Business coaching and due diligence
+* Patent engineering (attroney, filing, drafting, and consulting)
+* Patent Analysis (landscapes, searching, clustering, visualization, and interpretation)
+* Study of Quantum computers (SET qubit, photon entanglement, quantum holography, and error correction)
+* Innovation in Cold plasma technologies (synthesis, modification, and coating)
 * Nano and quantum teaching
 * Study of biology and genetics
 * Website, application and program design
