@@ -412,20 +412,26 @@ Honors & Awards & Grants
 Social and extracurricular activities
 ======
 
-* Business coaching and due diligence
-* Patent engineering (attroney, filing, drafting, and consulting)
-* Patent Analysis (landscapes, searching, clustering, visualization, and interpretation)
-* Study of Quantum computers (SET qubit, photon entanglement, quantum holography, and error correction)
-* Innovation in Cold plasma technologies (synthesis, modification, and coating)
-* Nano and quantum teaching
-* Study of biology and genetics
-* Website, application and program design
-* Molecular dynamics teaching
-* Consulting for fabrication of nanomaterial production and analysis system
-* Analysis of nanomaterials
-* Analysis of disk diffusion, real time PCR, MBC, MIC, …
-* Genetic data mining (Bleeding-edge)
-* Robotic competitions refereeing  
+<details>
+    <summary>Show details</summary>
+    <!-- Your content goes here -->
+<ul>
+<li>Business coaching and due diligence</li>
+<li>Patent engineering (attroney, filing, drafting, and consulting)</li>
+<li>Patent Analysis (landscapes, searching, clustering, visualization, and interpretation)</li>
+<li>Study of Quantum computers (SET qubit, photon entanglement, quantum holography, and error correction)</li>
+<li>Innovation in Cold plasma technologies (synthesis, modification, and coating)</li>
+<li>Nano and quantum teaching</li>
+<li>Study of biology and genetics</li>
+<li>Website, application and program design</li>
+<li>Molecular dynamics teaching</li>
+<li>Consulting for fabrication of nanomaterial production and analysis system</li>
+<li>Analysis of nanomaterials</li>
+<li>Analysis of disk diffusion, real time PCR, MBC, MIC, …</li>
+<li>Genetic data mining (Bleeding-edge)</li>
+<li>Robotic competitions refereeing</li>
+</ul>
+</details>
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
