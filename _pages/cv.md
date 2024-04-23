@@ -258,19 +258,29 @@ Teaching
 Services, leaderships & Memberships
 ======
 
-|Title|Organization|Date|
-|:--------|:-------:|:-------:|
-|[researcher member](https://www.irangn.ir/invention_list.php?mid=11103)|Iranian researchers network|2022-now| 
-|[Inventor member](https://www.irinventors.ir/inventors-name/item/199-2022-01-19-15-04-10)|Iranian Inventors Association|2022-now|
-|[Inv. membership](https://www.ifia.com/ir2022jan809acxb/)|International Federation of Inventors' Associations (IFIA)|2022-now|
-|[Researcher](https://usern.tums.ac.ir/User/CV/AliBakhshi)|Universal Scientific Education and Research Network (USERN)|2021-now|
-|Researcher|Iranian Society of Nanomedicine|2019-2020|
-|[developer](https://github.com/bakhshiali)|Github|2019-now|
-|Inventor Member|[National Library of Iran](https://www.nlai.ir/)|2018-now|
-|[Engineer](https://grabcad.com/inv.ali.bakhshi-1)|Grabcad|2018-now|
-|Co-founder|StartUps leadership (fiberSense, spinFiber, and etc.)|2017-now|
-|Teacher for poors|Self-desired|~2014-now|
-
+<details>
+    <summary>Show details</summary>
+    <!-- Your content goes here -->
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Organization</th>
+		<th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+       {% for mem in site.data.cv.memberships %}
+		<tr>
+			<td>{{mem.title}}</td>
+			<td>{{mem.organization}}</td>
+			<td>{% if mem.date %} {{mem.date}} {% endif %}</td>
+		</tr>
+		{% endfor %}	
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+</details>
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
