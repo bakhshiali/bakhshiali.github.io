@@ -309,39 +309,31 @@ Languages
 Certificates (Only notables, Complete list in [LinkedIn](https://www.linkedin.com/in/ali-bakhshi-/))
 ======
 
-|title|University\Institute| Ref. |
-|:--------|:-------:|:-------:|
-| Advanced Search & reference resources and software (Mendeley, endnote, …) |Tabriz University| - |
-| C# programming |Tabriz University| - |
-| Catia |Technical and Vocational Training Organization | [Persian](/files/certifications/catia.png)|
-| LAMMPS |IUST| - |
-| Molecular Dynamics| IUST| - |
-| HSE |IUST| [Persian](/files/certifications/HSE.jpg) |
-| Journalism & reportage |IUST| - |
-| Meta-analysis and data mining |IUST| - |
-| DLS Results Analysis |Bim Gostar Taban Company| [Persian](/files/certifications/DLS.jpg) |
-| Inductively coupled plasma spectroscopy (ICP)|Bim Gostar Taban Company| [Persian](/files/certifications/ICP.jpg) |
-| Nano standardization |Anabizz Company| [Persian](/files/certifications/NanoStandardization.jpg) |
-| Nano certificate (nano mark) |Anabizz Company| [Persian](/files/certifications/NanoCertificateNanoMark.jpg) |
-| Safety and health course of working with nanomaterials|Anabizz Company & Iran Nano Safety Network (INSN)| [Persian](/files/certifications/SafetyAndHealthCourseWorkingWithNanomaterials.jpg) |
-| Raman spectrometer |IUST-Teksan company| [Persian](/files/certifications/raman.jpg) |
-| programmable logic controllers (PLCs)|IUST- School of Mechanical Engineering| [English](/files/certifications/PLC.jpg) |
-| Optical Systems Design Course (OSLO,…)|Tabriz University| - |
-| Membrane and Nano filtration technology|Research Institute of Petroleum Industry| - |
-| Nano porous materials in catalysts and photocatalysts|Research Institute of Petroleum Industry| - |
-| Legal issues of patent|Tehran university- Law Association| - |
-| Nanotechnology Economy Forum |INIC| - |
-| Nano-startup courses |INIC| - |
-| Bioinformatics Methods |Coursera| - |
-| Understanding Cancer Metastasis |Coursera| - |
-| Introduction to the Biology of Cancer |Coursera| - |
-| Introduction to Breast Cancer |Coursera| - |
-| Basic to advance bioinformatics |Royan Institute| [English](/files/certifications/bioinformatics.png) |
-| Advanced Photonics Congress | OSA | [English](/files/certifications/bioinformatics.png) |
-| Regenerative Medicine & Tissue Engineering | Royan Institute | [English](/files/certifications/RegenerativeMedicineAndTissueEngineering.png) |
-| Introduction to the Biology of Cancer |Coursera| - |
-| Editing Books with International Publishers |USERN |1400C12R06 |
-| Skilled weaver (Kilim and Carpet weaving (knotting) and repairing) |Aras co. |6820 |
+<details>
+    <summary>Show details</summary>
+    <!-- Your content goes here -->
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Organization</th>
+		<th>Ref.</th>
+		<th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+       {% for cert in site.data.cv.certificates %}
+		<tr>
+			<td>{{cert.title}}</td>
+			<td>{{cert.organization}}</td>
+			<td>{% if cert.ref%} <a href="{{cert.ref}}">ref 1</a> {% endif %}</td>
+			<td>{% if cert.date%} {{cert.date  | date_to_long_string: "ordinal", "US"}} {% endif %}</td>
+		</tr>
+		{% endfor %}
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+</details>
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
