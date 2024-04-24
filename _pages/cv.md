@@ -54,14 +54,14 @@ Wikipedia articles (nanotechnology, biotechnology, quantum physics, …)<br>
 Never published:
 <ul>
 <li>Chitosan-PVA nanofibers antibacterial activity against resistant bacteria</li>
-</ul><br>
+</ul>
 
 Submitted articles:
 <ul>
 <li>Nanofiber concentrator electrospinning device</li>
 <li>Safarzadeh, M., Aghajari, AA., Rahimi, M., Maleki, F., Ghiyabi, E., Rezanezhad, A., Bakhshi, A., Salari, E., Shayesteh, H., Mohammadi, H. (2023). Recent Progress on Advanced Solid Adsorbents for CO2 Capture: From Mechanism to Machine Learning.</li>
 <li>Safarzadeh, M., et al., Bakhshi, A. (2024). Porous Carbon: Stupendous Structure with Great Potential for Wide Applications.</li>
-</ul><br>
+</ul>
 
 Accepted Chapters:
 <ul>
@@ -75,8 +75,8 @@ Accepted Chapters:
 <li>Naghib, SM., Bakhshi, A., Synthesis Techniques of Smart Coatings, Elsevier, 2024.</li>
 <li>Bakhshi, A., Naghib, SM., Rabiee N., Antibacterial and Antiviral Nanofibrous Membranes, ACS, 2024.</li>
 <li>Bakhshi, A., Bakhshi, M., Ahmadi, B., Rahdar, A., Multifunctional Theranostic Nanomedicine for Infectious Diseases, Elsevier, 2024.</li>
-</ul><br>
-Books:<br>
+</ul>
+Books:
 <ul>
 <li>Principles of Regenerative Medicine, 3rd ed.-10 chapter-under editing (English-to-Persian translation, Dr. Reza Moghadasali, Royan Institute)</li>
 <li>Nanotechnology and Quantum computers (Persian)-3 of 7 chapters are prepared</li>
@@ -100,29 +100,35 @@ Patents
     <summary>Show details (Filed, never filed and trade secrets))(</summary>
 	
 Filed (Issuing):
-* Novel Cold Plasma system, 2022 <br>
+<ul>
+<li>Novel Cold Plasma system, 2022 </li>
+</ul>
 note: real title of issuing patents would differ! <br>
 
-Never filed:<br>
-* Plasma-assisted cross-link of polymers (idea-level) (IPM)
-* Plasma-assisted electrospinning (idea-level) (IPM)
-* Fabrication of multi-nozzle solution blow electrospinning (SBS) (IPM)
-* Controllable spark discharge-assisted nanoparticle/nano-alloy synthesis device (IPM)
-* Smart food spoilage label & sensing device (IPM)
-* Thick PMMA polymer formulation (IPM)
-* Industrial level agricultural PAW production design (IPM)
-* Reusable microneedle patch (idea-concept route) (self-desired)
-* Fabrication of precise optical fiber tapering device (IUST)
-* Optical fiber tapering system using motorized CCD and image processing (IUST)
-* Raman-based quality control of pharmaceutical products (BP and idea level) (IUST)
-* Special shoes to run on sands (design level) (IUST)
-* Air purifier filter & gadget using plasma + titania (idea-level) (INIC & Iran khodro)
-* Medical plants/herbs AI & database (IUST-Tabriz medical university)
-* CCD array spectrum & plasma bullet analyzer (Tabriz) <br>
+Never filed:
+<ul>
+<li>Plasma-assisted cross-link of polymers (idea-level) (IPM)</li>
+<li>Plasma-assisted electrospinning (idea-level) (IPM)</li>
+<li>Fabrication of multi-nozzle solution blow electrospinning (SBS) (IPM)</li>
+<li>Controllable spark discharge-assisted nanoparticle/nano-alloy synthesis device (IPM)</li>
+<li>Smart food spoilage label & sensing device (IPM)</li>
+<li>Thick PMMA polymer formulation (IPM)</li>
+<li>Industrial level agricultural PAW production design (IPM)</li>
+<li>Reusable microneedle patch (idea-concept route) (self-desired)</li>
+<li>Fabrication of precise optical fiber tapering device (IUST)</li>
+<li>Optical fiber tapering system using motorized CCD and image processing (IUST)</li>
+<li>Raman-based quality control of pharmaceutical products (BP and idea level) (IUST)</li>
+<li>Special shoes to run on sands (design level) (IUST)</li>
+<li>Air purifier filter & gadget using plasma + titania (idea-level) (INIC & Iran khodro)</li>
+<li>Medical plants/herbs AI & database (IUST-Tabriz medical university)</li>
+<li>CCD array spectrum & plasma bullet analyzer (Tabriz) </li>
+</ul>
 note: real name of inventions would differ! <br>
 
-Trade secrets:<br>
-* Dye removal from woven fabrics & waste water (Azar sky co.)
+Trade secrets:
+<ul>
+<li>Dye removal from woven fabrics & waste water (Azar sky co.)</li>
+</ul>
 
 </details>
 
