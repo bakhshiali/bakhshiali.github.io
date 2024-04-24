@@ -48,37 +48,43 @@ Publications
 
 <details>
     <summary>Show details (In-progress, submitted, never published, accepted, and translations)</summary>
-	
-* Wikipedia articles (nanotechnology, biotechnology, quantum physics, …)
+
+Wikipedia articles (nanotechnology, biotechnology, quantum physics, …)<br>
 
 Never published:
-* Chitosan-PVA nanofibers antibacterial activity against resistant bacteria
-
-Under preparation:
-* Mechanical & thermal properties of nanowires : a molecular dynamics study
+<ul>
+<li>Chitosan-PVA nanofibers antibacterial activity against resistant bacteria</li>
+</ul><br>
 
 Submitted articles:
-* Nanofiber concentrator electrospinning device
-* Safarzadeh, M., Aghajari, AA., Rahimi, M., Maleki, F., Ghiyabi, E., Rezanezhad, A., Bakhshi, A., Salari, E., Shayesteh, H., Mohammadi, H. (2023). Recent Progress on Advanced Solid Adsorbents for CO2 Capture: From Mechanism to Machine Learning.
-*  Safarzadeh, M., et al., Bakhshi, A. (2024). Porous Carbon: Stupendous Structure with Great Potential for Wide Applications.
+<ul>
+<li>Nanofiber concentrator electrospinning device</li>
+<li>Safarzadeh, M., Aghajari, AA., Rahimi, M., Maleki, F., Ghiyabi, E., Rezanezhad, A., Bakhshi, A., Salari, E., Shayesteh, H., Mohammadi, H. (2023). Recent Progress on Advanced Solid Adsorbents for CO2 Capture: From Mechanism to Machine Learning.</li>
+<li>Safarzadeh, M., et al., Bakhshi, A. (2024). Porous Carbon: Stupendous Structure with Great Potential for Wide Applications.</li>
+</ul><br>
 
 Accepted Chapters:
-* Naghib, SM., Bakhshi, A., History, Introduction and Types of Quantum Dots, Elsevier, 2023.
-* Naghib, SM., Bakhshi, A., Synthesis Methods of Quantum Dots, Elsevier, 2023.
-* Naghib, SM., Bakhshi, A., Quantum Dots for Enhanced Wound Healing, Elsevier, 2023.
-* Naghib, SM., Bakhshi, A., Quantum Dots as an Advanced Nano System for Cancer Theranostics, Elsevier, 2023.
-* Bakhshi, M., Naghib, SM., Ahmadi, B., Bakhshi, A., Gold Nanoparticles Based Antibacterial and Antiviral Functional Materials, ACS, 2023.
-* Naghib, SM., Bakhshi, A., Light-Triggered Micro/Nano Drug Delivery, CRC Press, 2023.
-* Naghib, SM., Bakhshi, A., Nanotechnology based Light Materials for Bioimplant, Elsevier, 2024.
-* Naghib, SM., Bakhshi, A., Synthesis Techniques of Smart Coatings, Elsevier, 2024.
-* Bakhshi, A., Naghib, SM., Rabiee N., Antibacterial and Antiviral Nanofibrous Membranes, ACS, 2024.
-* Bakhshi, A., Bakhshi, M., Ahmadi, B., Rahdar, A., Multifunctional Theranostic Nanomedicine for Infectious Diseases, Elsevier, 2024.
-
+<ul>
+<li>Naghib, SM., Bakhshi, A., History, Introduction and Types of Quantum Dots, Elsevier, 2023.</li>
+<li>Naghib, SM., Bakhshi, A., Synthesis Methods of Quantum Dots, Elsevier, 2023.</li>
+<li>Naghib, SM., Bakhshi, A., Quantum Dots for Enhanced Wound Healing, Elsevier, 2023.</li>
+<li>Naghib, SM., Bakhshi, A., Quantum Dots as an Advanced Nano System for Cancer Theranostics, Elsevier, 2023.</li>
+<li>Bakhshi, M., Naghib, SM., Ahmadi, B., Bakhshi, A., Gold Nanoparticles Based Antibacterial and Antiviral Functional Materials, ACS, 2023.</li>
+<li>Naghib, SM., Bakhshi, A., Light-Triggered Micro/Nano Drug Delivery, CRC Press, 2023.</li>
+<li>Naghib, SM., Bakhshi, A., Nanotechnology based Light Materials for Bioimplant, Elsevier, 2024.</li>
+<li>Naghib, SM., Bakhshi, A., Synthesis Techniques of Smart Coatings, Elsevier, 2024.</li>
+<li>Bakhshi, A., Naghib, SM., Rabiee N., Antibacterial and Antiviral Nanofibrous Membranes, ACS, 2024.</li>
+<li>Bakhshi, A., Bakhshi, M., Ahmadi, B., Rahdar, A., Multifunctional Theranostic Nanomedicine for Infectious Diseases, Elsevier, 2024.</li>
+</ul><br>
 Books:<br>
-* Principles of Regenerative Medicine, 3rd ed.-10 chapter-under editing (English-to-Persian translation, Dr. Reza Moghadasali, Royan Institute)
-* Nanotechnology and Quantum computers (Persian)-3 of 7 chapters are prepared
-* From Research to Invention (Persian)-3 of 20 chapters are prepared
+<ul>
+<li>Principles of Regenerative Medicine, 3rd ed.-10 chapter-under editing (English-to-Persian translation, Dr. Reza Moghadasali, Royan Institute)</li>
+<li>Nanotechnology and Quantum computers (Persian)-3 of 7 chapters are prepared</li>
+<li>From Research to Invention (Persian)-3 of 20 chapters are prepared</li>
+</ul>
+
 </details>
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
