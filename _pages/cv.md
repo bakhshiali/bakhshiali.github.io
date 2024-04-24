@@ -323,48 +323,6 @@ Certificates (Only notables, Complete list in [LinkedIn](https://www.linkedin.co
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
-	
-Research Projects Milestone
-======
-
-|Project|Role and Organization|Outputs|Date|
-|:--------|:-------:|:-------:|:-------:|
-|Patent analysis/landscape, Energy storage: LiS, Na-ion, ...|RA at Innovation center of [IPM](https://ipm.ac.ir/) (Dr. Kashani)|4 battery reports, [Analyzer program](https://github.com/bakhshiali/LiSLandscape)|Sep. 2022-Jun. 2023|
-|Automatic subtitle translation|self-desired|[PeSuT](https://github.com/bakhshiali/PeSuT): VLC Extension (in lua language), utilization with ChatGPT, local AI, google, Yandex, and bing, and real-time STT translation|Jan. 2023-Now|
-|Plasma Spectrum analyzer software|self-desired|Database and [Python-based software](https://github.com/bakhshiali/LabCodes/blob/main/Plasma/ArgonPlasmaSpectrumAnalysis.ipynb), prediction of plasma state spectrums with 99.99 % peak accuracy and 95% FWHM|Mar. 2022|
-|Speech to text (STT) AI |self-desired|[Persian STT](https://www.linkedin.com/posts/ali-bakhshi-_nlp-asr-stt-activity-7045519238966464513-haLQ?utm_source=share&utm_medium=member_desktop) with 96% accuracy, self-supervised learning framework and Neural HMM TTS|Mar. 2023|
-|Friction Reduction of SS and Ni-Ti orthodontic wires |RA at [IPM](https://ipm.ac.ir/)|Cold plasma coating and modification system|Apr. 2021|
-|Production and development of mechanical properties of PMMA polymer|RA at [IPM](https://ipm.ac.ir/)|Thicknesses over 2 cm with cold plasma modification, novel plasma-catalysit system|Mar. 2021|
-|Production of chitosan-polyvinyl alcohol antibacterial nanofibers-antimicrobial|RA at [IPM](https://ipm.ac.ir/)|animicrobial effects against fungi (Candida), Gram-positive (Staphylococcus) and Gram-negative (Klebsiella) bacteria, On-desk electrospinning, jet spinning, and blow-spinning devices|Nov. 2021|
-|Fabrication of Nanofiber concentrator portable electrospinning device|self-desired|sub 50 nm-drug delivery carriers, [1 Patent](https://bakhshiali.github.io/patent/2), [1 medal](https://bakhshiali.github.io/patent/2)|Aug. 2020-Now|
-|Artificial intelligence for electronic circuit repair|self-desired| CNN and Yolo based 4 band resistor-color decoder |Nov. 2021|
-|Plasma-assisted (spark discharge) nanoparticle synthesis|RA at [IPM](https://ipm.ac.ir/)|Novel nanoalloy synthesis system||
-|Fabrication of cold atmospheric plasma (CAP) system for surface modification|self-desired|5 CAP circuit and system|2015-Now|
-|Synthesis of chitosan and derivative oligosaccharides|([IUST](http://www.iust.ac.ir/en) university-M.Sc)|[1 patent](https://bakhshiali.github.io/patent/3)|Sep. 2020-Now|
-|Artificial intelligence for breast cancer detection from CT scan images |self-desired|-|Jan. 2020-Now|
-|Artificial intelligence to identify diabetic retina|Researcher at Bussiness Incubation center of Azad University South-Tehran Branch and RA at [IPM](https://ipm.ac.ir/)| [1 paper](https://bakhshiali.github.io/publication/6)|Jan. 2020-Now|
-|Synthesis of graphene based aerogels and hydrogels|[IUST](http://www.iust.ac.ir/en) university-M.Sc|[1 paper](https://bakhshiali.github.io/publication/2)|Jan. 2018-Jul. 2022|
-|Image processing system for shape and diameter analysis of fibers|([IUST](http://www.iust.ac.ir/en) university-M.Sc-Faculty of Physics)|[CCD Camera and PXR800](https://bakhshiali.github.io/projects/NanoMicroImageProcessing) based system|Sept. 2018-Feb. 2021|
-|Fabrication of Magnetic field sensors based on tapered optical fiber|[IUST](http://www.iust.ac.ir/en) university-M.Sc|[1 Patent](https://bakhshiali.github.io/patent/1) and [1 paper](https://bakhshiali.github.io/publication/7),Fabrication of optical fiber tapering system by heat-tensile method (sub micron and 1-10 µm), Synthesis of graphene-magnetite nanocomposites, Optical fiber-spectrum analyzer system|Jan. 2019-Feb. 2021|
-|Fabrication of a 3D printer and simple CNC |self-desired at University of Tabriz-B.Sc|G-Code based 3d printer||
-|Plasma jet bullet analysis system with tcd1304 and bpv10 sensor |University of Tabriz-B.Sc|||
-|Simulation of NEMS and MEMS devices in targeted drug delivery including peristaltic and piezoelectric pump, μNeedle, membrane, degradable matrix and capacitive acceleration sensor |[IUST](http://www.iust.ac.ir/en) university-M.Sc|||
-|Simulation of CO2 and H2S absorption in ordered porous carbon and CNT |[IUST](http://www.iust.ac.ir/en) university-M.Sc|||
-|Simulation of graphene membrane with Nano pores created by oxygen plasma for water treatment|IUST university-M.Sc|||
-|Simulation of single photon emitter quantum dot PbS in nanowire |[IUST](http://www.iust.ac.ir/en) university-M.Sc|||
-|Fabrication and launch of CanSat satellite to study the Earth's atmosphere and taking images of earthquake and flood damaged areas |(Toka Flight Control Systems Company - Dr. Dalvand)|||
-|Removal of indigo dye from cellulose, protein and mineral wastewater and fibers |Azar-Sky Rug Company|Trade secrets (at least 2 Patentable Product)|2014-2020|
-|Simulation and fabrication of high voltage systems |self-desired|||
-|Braille translator in Python to solve the problems of the blind|self desired|[1 Python based program](https://github.com/bakhshiali/Braille)|Jan. 2019-Now|
-|Fabrication of a charging system to convert fire heat into electricity using TEC|Thermodynamic class at University of Tabriz-B.Sc|[1 practical device](https://bakhshiali.github.io/projects/TECcharger) and 1 Patentable device (archived for a while due to high MVP price)|Sep. 2014-Jul. 2018|
-|Programming of an intelligent robot (voice and command analysis bot)|University of Tabriz-B.Sc|[1 C# chatbot](https://bakhshiali.github.io/projects/Chatbot)|Jan. 2016- Now|
-|Temperature control system using atmega 32 |University of Tabriz-B.Sc|[lm35](https://bakhshiali.github.io/projects/SimpleTemperatureController2) and [SMT160](https://bakhshiali.github.io/projects/SimpleTemperatureController) based systems|Jan. 2016-Sep. 2018|
-
-Note: The links might show demo versions.
-
-<div class="wrapper">
-	<div class="divider div-transparent div-dot"></div>
-</div>
 
 Softwares
 ======
