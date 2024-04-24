@@ -97,7 +97,7 @@ Patents
 | <a href="{{patent.url}}">{{patent.title}}</a> | <a href="{{patent.paperurl}}">{{patent.excerpt | split:'Patent No. : '}}</a> | {{patent.date  | date_to_long_string: "ordinal", "US"}} |{% endif %}{% endfor %}
 
 <details>
-    <summary>Show details (Filed, never filed and trade secrets))(</summary>
+    <summary>Show details (Filed, never filed and trade secrets)</summary>
 	
 Filed (Issuing):
 <ul>
