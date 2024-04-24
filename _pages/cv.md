@@ -48,6 +48,7 @@ Publications
 
 <details>
     <summary>Show details (In-progress, submitted, never published, accepted, and translations)</summary>
+	
 * Wikipedia articles (nanotechnology, biotechnology, quantum physics, …)
 
 Never published:
@@ -85,12 +86,13 @@ Books:<br>
 Patents
 ======
 
-<details>
-    <summary>Show details</summary>
 |Patent|Patent No.|Date|
 |:--------|:-------:|:-------:|{% for patent in site.patents reversed %}{% if patent.title %}
 | <a href="{{patent.url}}">{{patent.title}}</a> | <a href="{{patent.paperurl}}">{{patent.excerpt | split:'Patent No. : '}}</a> | {{patent.date  | date_to_long_string: "ordinal", "US"}} |{% endif %}{% endfor %}
 
+<details>
+    <summary>Show details (Filed, never filed and trade secrets))(</summary>
+	
 Filed (Issuing):
 * Novel Cold Plasma system, 2022 <br>
 note: real title of issuing patents would differ! <br>
@@ -115,6 +117,7 @@ note: real name of inventions would differ! <br>
 
 Trade secrets:<br>
 * Dye removal from woven fabrics & waste water (Azar sky co.)
+
 </details>
 
 <div class="wrapper">
