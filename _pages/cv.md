@@ -46,6 +46,8 @@ Publications
 |:--------|:-------:|:-------:|{% for publication in site.publications reversed %}{% if publication.title %}
 | <a href="{{publication.url}}">{{publication.title}}</a> | {{publication.venue}} | {{publication.date  | date_to_long_string: "ordinal", "US"}} |{% endif %}{% endfor %}
 
+<details>
+    <summary>Show details (In-progress, submitted, never published, accepted, and translations)</summary>
 * Wikipedia articles (nanotechnology, biotechnology, quantum physics, …)
 
 Never published:
@@ -75,7 +77,7 @@ Books:<br>
 * Principles of Regenerative Medicine, 3rd ed.-10 chapter-under editing (English-to-Persian translation, Dr. Reza Moghadasali, Royan Institute)
 * Nanotechnology and Quantum computers (Persian)-3 of 7 chapters are prepared
 * From Research to Invention (Persian)-3 of 20 chapters are prepared
-
+</details>
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 </div>
