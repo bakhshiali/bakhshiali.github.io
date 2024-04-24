@@ -39,113 +39,6 @@ Education
 	<div class="divider div-transparent div-dot"></div>
 </div>
 
-Research Experience
-======
-* Researcher/Research Assistant  
-	(2021/6/22-2023/6/22)  
-	 &nbsp;&nbsp; Nanobiotechnology & Nanotechnology, "Institute For Research In Fundamental Sciences ([IPM](https://ipm.ac.ir/))", Tehran, Iran
-	
-* Research assistant  
-	(2020-2021)  
-	 &nbsp;&nbsp; Nanotechnology-Nanomaterials "Iran University of Science and Technology (IUST)”, Tehran, Iran
-	 
-* Research and Development (R&D)  
-   &nbsp; Azar-Sky Company, 2013-2021 (~8.5 years) -R&D  
-	&nbsp;&nbsp;&nbsp;&nbsp; Color removal of industrial wastewater  
-	&nbsp;&nbsp;&nbsp;&nbsp; Development of dyeing methods for natural and synthetic fibers  
-	&nbsp;&nbsp;&nbsp;&nbsp; Development of mechanization of dyeing systems  
-	&nbsp;&nbsp;&nbsp;&nbsp; Reverse Engineering  
-	&nbsp;&nbsp;&nbsp;&nbsp; Application and website development  
-	&nbsp;&nbsp;&nbsp;&nbsp; Product design  
-* Consulting and automation  
-   &nbsp;Azerbaijan Electrical Power Company, 2016 (~2 years)  
-	&nbsp;&nbsp;&nbsp;&nbsp; Automation engineer and programmer  
-	&nbsp;&nbsp;&nbsp;&nbsp; Industrial automation  
-	&nbsp;&nbsp;&nbsp;&nbsp; UPS support units  
-* University  
-   &nbsp; IUST, Faculty of advanced Technologies 2018  
-	&nbsp;&nbsp;&nbsp;&nbsp; Scientific Assosiation Secretary (2 years)  
-	&nbsp;&nbsp;&nbsp;&nbsp; Researcher (~2.5 years)  
-   &nbsp; University of Tabriz, Faculty of Physics  
-	&nbsp;&nbsp;&nbsp;&nbsp; Active member of the Scientific Association, Talented student (among the top educational students)  
-   &nbsp; Bussiness Incubation center of Azad University South-Tehran Branch, 2020  
-        &nbsp;&nbsp;&nbsp;&nbsp; Researcher (8 months)  
-* University magazines  
-   &nbsp; Journal of Steel and Concrete, 2020 (1 year)  
-	&nbsp;&nbsp;&nbsp;&nbsp; Graphic designer  
-   &nbsp; Journal of Technologists, 2019 (2 years)  
-	&nbsp;&nbsp;&nbsp;&nbsp; Managing Director and Editor  
-* Iran Nanotechnology Innovation Council (INIC)  
-   &nbsp; INIC, 2019-2021 (2 years)  
-	&nbsp;&nbsp;&nbsp;&nbsp; Representative of INIC in IUST  
-	&nbsp;&nbsp;&nbsp;&nbsp; Industrialization Center for Applied Nanotechnology (ICAN) Ambassador  
-* Startups  
-   &nbsp; [spinFiber](https://sites.google.com/view/spinfiber/)  
-   &nbsp;&nbsp;&nbsp;&nbsp; Aim: commercialization of handheld electrospinning patent  
-   &nbsp;&nbsp;&nbsp;&nbsp; Self-funded, 2019  
-   &nbsp; [fiberSense](https://sites.google.com/view/fibersense/)  
-   &nbsp;&nbsp;&nbsp;&nbsp; Aim: commercialization of optical fiber-based sensors  
-   &nbsp;&nbsp;&nbsp;&nbsp; IUST, 2018  
-   &nbsp; online doctor, plant image processing, herbal medicine database  
-   &nbsp;&nbsp;&nbsp;&nbsp; Aim: online AI-based platform for tele-medicine, services and centralized management  
-   &nbsp;&nbsp;&nbsp;&nbsp; Tabriz University of Medical Sciences and Pharmacy, 2018  
-   &nbsp; RamanQC  
-   &nbsp;&nbsp;&nbsp;&nbsp; Aim: Tablet quality control + Raman sensor in pharmaceutical industry  
-   &nbsp;&nbsp;&nbsp;&nbsp; IUST, 2017  
-   &nbsp; quietCoat  
-   &nbsp;&nbsp;&nbsp;&nbsp; Aim: noise cancelling/sound proofing + flame retardant coatings and colors  
-   &nbsp;&nbsp;&nbsp;&nbsp; IKCO + INIC, 2017  
-   &nbsp; nanoFilter-Air purification  
-   &nbsp;&nbsp;&nbsp;&nbsp; Aim: reusable car cabin air filter  
-   &nbsp;&nbsp;&nbsp;&nbsp; INIC - Nano Startup Program, 2017  
-
-<div class="wrapper">
-	<div class="divider div-transparent div-dot"></div>
-</div>
-
-Skills
-======
-
-* Nanotechnogy  
-  &nbsp;&nbsp;&nbsp;&nbsp; Fabrication of analyzer devices and production of nanomaterials systems  
-  &nbsp;&nbsp;&nbsp;&nbsp; Synthesis of nanomaterials, nanocomposites, ...  
-  &nbsp;&nbsp;&nbsp;&nbsp; Molecular dynamics, quantum and DFT calculations  
-  &nbsp;&nbsp;&nbsp;&nbsp; Analysis of nanomaterials (BET, SEM, TEM, ...)  
-* Computer science  
-  &nbsp;&nbsp;&nbsp;&nbsp; Artificial intelligence (Tensorflow, Keras, MATLAB, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Programming (C, C++, Python, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Website design (Python-Django, ... , Wordpress, Joomla, PHP+Java+HTML, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; mini computers (Arduino, AVR-codevision, raspberry-pi, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; IC + Circuit design & manufacturing (Proteus, Spice+Pspice, Cadence,...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Development of computer systems (Qbits, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Reverse engineering of softwares  
-* Mechanical science  
-  &nbsp;&nbsp;&nbsp;&nbsp; Reverse mechanical engineering (cloud of points and CMM)  
-  &nbsp;&nbsp;&nbsp;&nbsp; System simulation  
-  &nbsp;&nbsp;&nbsp;&nbsp; Industrial Design (Catia, SolidWorks, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Industrial control and instrumentation (PLCs, PIDs, P&IDs, Sensors, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Production line (CNC (turning, milling, ...), Molding, Stamping, ...)  
-* Biotechnology  
-  &nbsp;&nbsp;&nbsp;&nbsp; 3D printing + Nanofibers  
-  &nbsp;&nbsp;&nbsp;&nbsp; Bioinformatics  
-  &nbsp;&nbsp;&nbsp;&nbsp; Microfluidics  
-  &nbsp;&nbsp;&nbsp;&nbsp; Stem Cells  
-* Patent  
-  &nbsp;&nbsp;&nbsp;&nbsp; Searching & Landscape Analysis (AI forecasting, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Drafting & Filling (Prior Art, Claims, Bubble drafting, Summary)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Law  
-* Textile  
-  &nbsp;&nbsp;&nbsp;&nbsp; Knitting, Woven Knotted (Carpet, Rug, Gabbeh, border, ...) + Non-Knotted (Zilo, Kilim, Termeh, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Antique repair & wash (burns, stains, holes, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Yarn spinning + dyeing + Finishing  
-  &nbsp;&nbsp;&nbsp;&nbsp; Carpet whitening/Stone-washed techniques  
-  &nbsp;&nbsp;&nbsp;&nbsp; Carpet Design + automated machines  
-* Research methods and scientometrics (R + Python)  
-
-<div class="wrapper">
-	<div class="divider div-transparent div-dot"></div>
-</div>
-
 Publications
 ======
 
@@ -190,6 +83,8 @@ Books:<br>
 Patents
 ======
 
+<details>
+    <summary>Show details</summary>
 |Patent|Patent No.|Date|
 |:--------|:-------:|:-------:|{% for patent in site.patents reversed %}{% if patent.title %}
 | <a href="{{patent.url}}">{{patent.title}}</a> | <a href="{{patent.paperurl}}">{{patent.excerpt | split:'Patent No. : '}}</a> | {{patent.date  | date_to_long_string: "ordinal", "US"}} |{% endif %}{% endfor %}
@@ -218,6 +113,86 @@ note: real name of inventions would differ! <br>
 
 Trade secrets:<br>
 * Dye removal from woven fabrics & waste water (Azar sky co.)
+</details>
+
+<div class="wrapper">
+	<div class="divider div-transparent div-dot"></div>
+</div>
+
+Research Experience
+======
+
+<details>
+    <summary>Show details</summary>
+    <!-- Your content goes here -->
+    <table>
+        <thead>
+            <tr>
+				<th>No.</th>
+                <th>Organization</th>
+                <th>Role</th>
+				<th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+		{% assign i = 0 %}
+		{% for org in site.data.cv.researchprojects %}
+		{% assign i = i | plus:1 %}
+		<tr>
+			<td>{{i}}</td>
+			<td>{{org.organization}}</td>
+			<td>{{org.role}}</td>
+			<td>{{org.date}}</td>
+		</tr>
+		<td style=" text-align :left;" colspan="4"><b>Outputs</b><br>{{org.outputs}}</td>
+		{% endfor %}
+        <!-- Add more rows as needed -->
+        </tbody>
+	</table>
+</details> 
+
+<div class="wrapper">
+	<div class="divider div-transparent div-dot"></div>
+</div>
+
+Skills
+======
+
+* Nanotechnogy  
+  &nbsp;&nbsp;&nbsp;&nbsp; Fabrication of analyzer devices and production of nanomaterials systems  
+  &nbsp;&nbsp;&nbsp;&nbsp; Synthesis of nanomaterials, nanocomposites, ...  
+  &nbsp;&nbsp;&nbsp;&nbsp; Molecular dynamics, quantum and DFT calculations  
+  &nbsp;&nbsp;&nbsp;&nbsp; Analysis of nanomaterials (BET, SEM, TEM, ...)  
+* Computer science  
+  &nbsp;&nbsp;&nbsp;&nbsp; Artificial intelligence (Tensorflow, Keras, MATLAB, ...)  
+  &nbsp;&nbsp;&nbsp;&nbsp; Programming (C, C++, Python, ...)  
+  &nbsp;&nbsp;&nbsp;&nbsp; Website design (Python-Django, ... , Wordpress, Joomla, PHP+Java+HTML, ...)  
+  &nbsp;&nbsp;&nbsp;&nbsp; mini computers (Arduino, AVR-codevision, raspberry-pi, ...)  
+  &nbsp;&nbsp;&nbsp;&nbsp; IC + Circuit design & manufacturing (Proteus, Spice+Pspice, Cadence,...)  
+  &nbsp;&nbsp;&nbsp;&nbsp; Development of computer systems (Qbits, ...)  
+  &nbsp;&nbsp;&nbsp;&nbsp; Reverse engineering of softwares  
+* Mechanical science  
+  &nbsp;&nbsp;&nbsp;&nbsp; Reverse mechanical engineering (cloud of points and CMM)  
+  &nbsp;&nbsp;&nbsp;&nbsp; System simulation  
+  &nbsp;&nbsp;&nbsp;&nbsp; Industrial Design (Catia, SolidWorks, ...)  
+  &nbsp;&nbsp;&nbsp;&nbsp; Industrial control and instrumentation (PLCs, PIDs, P&IDs, Sensors, ...)  
+  &nbsp;&nbsp;&nbsp;&nbsp; Production line (CNC (turning, milling, ...), Molding, Stamping, ...)  
+* Biotechnology  
+  &nbsp;&nbsp;&nbsp;&nbsp; 3D printing + Nanofibers  
+  &nbsp;&nbsp;&nbsp;&nbsp; Bioinformatics  
+  &nbsp;&nbsp;&nbsp;&nbsp; Microfluidics  
+  &nbsp;&nbsp;&nbsp;&nbsp; Stem Cells  
+* Patent  
+  &nbsp;&nbsp;&nbsp;&nbsp; Searching & Landscape Analysis (AI forecasting, ...)  
+  &nbsp;&nbsp;&nbsp;&nbsp; Drafting & Filling (Prior Art, Claims, Bubble drafting, Summary)  
+  &nbsp;&nbsp;&nbsp;&nbsp; Law  
+* Textile  
+  &nbsp;&nbsp;&nbsp;&nbsp; Knitting, Woven Knotted (Carpet, Rug, Gabbeh, border, ...) + Non-Knotted (Zilo, Kilim, Termeh, ...)  
+  &nbsp;&nbsp;&nbsp;&nbsp; Antique repair & wash (burns, stains, holes, ...)  
+  &nbsp;&nbsp;&nbsp;&nbsp; Yarn spinning + dyeing + Finishing  
+  &nbsp;&nbsp;&nbsp;&nbsp; Carpet whitening/Stone-washed techniques  
+  &nbsp;&nbsp;&nbsp;&nbsp; Carpet Design + automated machines  
+* Research methods and scientometrics (R + Python)  
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
