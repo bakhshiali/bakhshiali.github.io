@@ -145,10 +145,10 @@ Research Experience
     <table>
         <thead>
             <tr>
-				<th>No.</th>
+		<th>No.</th>
                 <th>Organization</th>
                 <th>Role</th>
-				<th>Date</th>
+		<th>Date</th>
             </tr>
         </thead>
         <tbody>
@@ -175,41 +175,14 @@ Research Experience
 Skills
 ======
 
-* Nanotechnogy  
-  &nbsp;&nbsp;&nbsp;&nbsp; Fabrication of analyzer devices and production of nanomaterials systems  
-  &nbsp;&nbsp;&nbsp;&nbsp; Synthesis of nanomaterials, nanocomposites, ...  
-  &nbsp;&nbsp;&nbsp;&nbsp; Molecular dynamics, quantum and DFT calculations  
-  &nbsp;&nbsp;&nbsp;&nbsp; Analysis of nanomaterials (BET, SEM, TEM, ...)  
-* Computer science  
-  &nbsp;&nbsp;&nbsp;&nbsp; Artificial intelligence (Tensorflow, Keras, MATLAB, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Programming (C, C++, Python, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Website design (Python-Django, ... , Wordpress, Joomla, PHP+Java+HTML, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; mini computers (Arduino, AVR-codevision, raspberry-pi, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; IC + Circuit design & manufacturing (Proteus, Spice+Pspice, Cadence,...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Development of computer systems (Qbits, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Reverse engineering of softwares  
-* Mechanical science  
-  &nbsp;&nbsp;&nbsp;&nbsp; Reverse mechanical engineering (cloud of points and CMM)  
-  &nbsp;&nbsp;&nbsp;&nbsp; System simulation  
-  &nbsp;&nbsp;&nbsp;&nbsp; Industrial Design (Catia, SolidWorks, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Industrial control and instrumentation (PLCs, PIDs, P&IDs, Sensors, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Production line (CNC (turning, milling, ...), Molding, Stamping, ...)  
-* Biotechnology  
-  &nbsp;&nbsp;&nbsp;&nbsp; 3D printing + Nanofibers  
-  &nbsp;&nbsp;&nbsp;&nbsp; Bioinformatics  
-  &nbsp;&nbsp;&nbsp;&nbsp; Microfluidics  
-  &nbsp;&nbsp;&nbsp;&nbsp; Stem Cells  
-* Patent  
-  &nbsp;&nbsp;&nbsp;&nbsp; Searching & Landscape Analysis (AI forecasting, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Drafting & Filling (Prior Art, Claims, Bubble drafting, Summary)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Law  
-* Textile  
-  &nbsp;&nbsp;&nbsp;&nbsp; Knitting, Woven Knotted (Carpet, Rug, Gabbeh, border, ...) + Non-Knotted (Zilo, Kilim, Termeh, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Antique repair & wash (burns, stains, holes, ...)  
-  &nbsp;&nbsp;&nbsp;&nbsp; Yarn spinning + dyeing + Finishing  
-  &nbsp;&nbsp;&nbsp;&nbsp; Carpet whitening/Stone-washed techniques  
-  &nbsp;&nbsp;&nbsp;&nbsp; Carpet Design + automated machines  
-* Research methods and scientometrics (R + Python)  
+<details>
+    <summary>Show details</summary>
+    <!-- Your content goes here -->
+	{% for skill in site.data.cv.skills %}
+	<p style="text-align:center; margin-bottom: 1px; margin-top: 2px;"><b>{{skill.title}}</b></p>
+    <p style="margin-bottom: 5px; margin-top: 1px;">{{ skill.skills | newline_to_br }}</p>
+	{% endfor %}
+</details> 
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
