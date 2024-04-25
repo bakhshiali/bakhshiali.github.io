@@ -111,26 +111,16 @@
   role: Independent Researcher
   outputs: |
             1) Automatic subtitle translation <br> <a href="https://github.com/bakhshiali/PeSuT">PeSuT</a>: VLC Extension (in lua language), utilization with ChatGPT, local AI, google, Yandex, and bing, and real-time STT translation (Jan. 2023-Now) <br>
-            2) Plasma spectrum analyzer software <br> Database and <a href="https://github.com/bakhshiali/LabCodes/blob/main/Plasma/ArgonPlasmaSpectrumAnalysis.ipynb">Python-based software</a>, prediction of plasma state spectrums with 99.99 % peak accuracy and 95% FWHM (Mar. 2022)<br>
-            3) Speech to text (STT) AI <br> <a href="https://www.linkedin.com/posts/ali-bakhshi-_nlp-asr-stt-activity-7045519238966464513-haLQ?utm_source=share&utm_medium=member_desktop">Persian STT </a>with 96% accuracy, self-supervised learning framework and Neural HMM TTS (Mar. 2023)<br>
-            4) Fabrication of Nanofiber concentrator portable electrospinning device <br> sub 50 nm-drug delivery carriers, <a href="https://bakhshiali.github.io/patent/2">1 Patent</a>, <a href="https://bakhshiali.github.io/patent/2">1 medal</a> (Aug. 2020-Now) <br>
-            5) Artificial intelligence for electronic circuit repair <br> CNN and Yolo based 4 band resistor-color decoder (Nov. 2021) <br>
-            6) Fabrication of cold atmospheric plasma (CAP) system for surface modification <br> 5 CAP circuit and system (2015-Now)<br>
-            7) Fabrication of a 3D printer and simple CNC <br>G-Code based 3d printer<br>
-            8) Plasma jet bullet analysis system with tcd1304 and bpv10 sensor<br>
-            9) Simulation and fabrication of high voltage systems <br>
-            10) Braille translator in Python to solve the problems of the blind <br> <a href="https://github.com/bakhshiali/Braille">1 Python based program</a> (Jan. 2019-Now)<br>
+            2) Novel Cold Plasma assisted agriculture, PATW
+            3) Plant disease detection AI (CNN) <br>
+            4) Plasma spectrum analyzer software <br> Database and <a href="https://github.com/bakhshiali/LabCodes/blob/main/Plasma/ArgonPlasmaSpectrumAnalysis.ipynb">Python-based software</a>, prediction of plasma state spectrums with 99.99 % peak accuracy and 95% FWHM (Mar. 2022)<br>
+            5) Speech to text (STT) AI <br> <a href="https://www.linkedin.com/posts/ali-bakhshi-_nlp-asr-stt-activity-7045519238966464513-haLQ?utm_source=share&utm_medium=member_desktop">Persian STT </a>with 96% accuracy, self-supervised learning framework and Neural HMM TTS (Mar. 2023)<br>
+            6) Fabrication of Nanofiber concentrator portable electrospinning device <br> sub 50 nm-drug delivery carriers, <a href="https://bakhshiali.github.io/patent/2">1 Patent</a>, <a href="https://bakhshiali.github.io/patent/2">1 medal</a> (Aug. 2020-Now) <br>
+            7) Artificial intelligence for electronic circuit repair <br> CNN and Yolo based 4 band resistor-color decoder (Nov. 2021) <br>
+            8) Fabrication of cold atmospheric plasma (CAP) system for surface modification <br> 5 CAP circuit and system (2015-Now)<br>
+            9) Fabrication of a 3D printer and simple CNC <br>G-Code based 3d printer<br>
+            10) Plasma jet bullet analysis system with tcd1304 and bpv10 sensor<br>
+            11) Simulation and fabrication of high voltage systems <br>
+            12) Braille translator in Python to solve the problems of the blind <br> <a href="https://github.com/bakhshiali/Braille">1 Python based program</a> (Jan. 2019-Now)<br>
             
   date: 2014 - Now
-
-
-
-
-
-
-
-
-
-
-
-
