@@ -15,10 +15,10 @@ Contact Info
 
 |Tel: 		| 0098-9014122529 |
 |:--------|:-------:|
-|Email 1: 	|alibakhshi255255@gmail.com|
-|Email 2:	|ali_bakhshi@alumni.iust.ac.ir|
-|Email 3:	|ali_bakhshi@ipm.ir|
-|LinkedIn:	|https://www.linkedin.com/in/ali-bakhshi-/|
+|Email 1: 	|<a href="alibakhshi255255@gmail.com">alibakhshi255255@gmail.com</a>|
+|Email 2:	|<a href="ali_bakhshi@alumni.iust.ac.ir">ali_bakhshi@alumni.iust.ac.ir</a>|
+|Email 3:	|<a href="ali_bakhshi@ipm.ir">ali_bakhshi@ipm.ir</a>|
+|LinkedIn:	|<a href="https://www.linkedin.com/in/ali-bakhshi-/">https://www.linkedin.com/in/ali-bakhshi-/</a>|
 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
