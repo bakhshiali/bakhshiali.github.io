@@ -17,7 +17,10 @@ permalink: /teams/
 <div class="grid__box" style="text-align: center">
   <img src="{{member.photo}}" width="50%" />
   <h3 width="50%">{{ member.name }}</h3>
-  <i>{{ member.info }}</i>
+  <i>{{ member.info }}</i> <br>
+  <a href="{{ member.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i></a>
+  <a href="{{ member.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
+  <a href="{{ member.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i></a>
 </div>
 </div>
 {% endfor %}<br>
