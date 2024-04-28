@@ -20,8 +20,9 @@ permalink: /teams/
   <i>{{ member.info }}</i>
 </div>
 </div>
-{% endfor %}
-Outcomes : Review Articles (Pending State)
+{% endfor %}<br>
+<p style="text-align: center"> Outcomes : Review Articles (Pending State)</p>
+
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 	
