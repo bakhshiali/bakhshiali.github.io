@@ -8,6 +8,19 @@ redirect_from:
 ---
 
 {% include base_path %}
+<script> const expandElements = shouldExpand => {
+        let detailsElements = document.querySelectorAll("details");
+        
+        detailsElements = [...detailsElements];
+
+        if (shouldExpand) {
+            detailsElements.map(item => item.setAttribute("open", shouldExpand));
+        } else {
+            detailsElements.map(item => item.removeAttribute("open"));
+        }
+    };</script>
+<button style="position: fixed; border: 0 solid #e5e7eb; box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2); background-image: linear-gradient(to bottom, #fff, #f8eedb); right: 1px; top:210px; border-radius: .5rem" onClick="expandElements(true)">+All</button>
+<button style="position: fixed; border: 0 solid #e5e7eb; box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2); background-image: linear-gradient(to bottom, #fff, #f8eedb); right: 1px; top: 250px; border-radius: .5rem" onClick="expandElements(false)">-All</button>
 Quote: "Passionate about Research and Innovation"
 
 Contact Info
