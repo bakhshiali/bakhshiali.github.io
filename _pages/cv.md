@@ -55,7 +55,7 @@ Education
 Publications
 ======
 
-|Title|Publisher|Date|
+|Title|Journal|Date|
 |:--------|:-------:|:-------:|{% for publication in site.publications reversed %}{% if publication.title %}
 | <a href="{{publication.url}}">{{publication.title}}</a> | {{publication.venue}} | {{publication.date  | date_to_long_string: "ordinal", "US"}} |{% endif %}{% endfor %}
 
