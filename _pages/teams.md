@@ -42,7 +42,25 @@ permalink: /teams/
 </div>
 {% endfor %}<br>
 <p style="text-align: center"> Outcomes : Review Articles (Pending State)</p>
-	
+
+ <div class="wrapper">
+	<div class="divider div-transparent div-dot"></div>
+{% comment %}############################################################################################################{% endcomment %}
+<h2 style="text-align: center">Immunotherapy</h2>
+{%for member in site.data.teams.immunotherapy %}
+<div class="grid__team">
+<div class="grid__box" style="text-align: center">
+  <img src="{{member.photo}}" width="50%" />
+  <h3 width="50%">{{ member.name }}</h3>
+  <i>{{ member.info }}</i> <br>
+  <a href="{{ member.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i></a>
+  <a href="{{ member.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
+  <a href="{{ member.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i></a>
+</div>
+</div>
+{% endfor %}<br>
+<p style="text-align: center"> Outcomes : Review Articles (Pending State)</p>
+	 
 <div class="wrapper">
 	<div class="divider div-transparent div-dot"></div>
 {% comment %}############################################################################################################{% endcomment %}
