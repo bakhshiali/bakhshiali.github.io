@@ -46,10 +46,6 @@ Our teams had bleeding-edge projects [<a href="https://www.linkedin.com/in/ali-b
 	<li>Quantum technologies </li>
 </ol>
 These projects demonstrate our commitment to scientific excellence and practical impact. <br>
-<figure>
-	<img src="/images/projects/ProjectsPanel.png" alt="projectspanel.png" style="width:100%">
-	<figcaption style="text-align: center; padding-left:45%;">Recent Projects Panel</figcaption>
-</figure>
 <div class="wrapper">
 	<div class="divider div-transparent div-stopper"></div>
 </div>
@@ -82,7 +78,6 @@ My updated CV links : <a href="https://bakhshiali.github.io/cv">https://bakhshia
 |:--------|:-------:|
 |Email 1: 	|alibakhshi255255@gmail.com|
 |Email 2:	|ali_bakhshi@alumni.iust.ac.ir|
-|Email 3:	|ali_bakhshi@ipm.ir|
 |LinkedIn:	|https://www.linkedin.com/in/ali-bakhshi-/|
 
 As a researcher, if you are interested in and want us to cooperate in papers, books & patents, contact us (please don’t hesitate).  
