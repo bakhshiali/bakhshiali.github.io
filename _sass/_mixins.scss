@@ -115,7 +115,7 @@
    like to collapse the duplication later, replace each block with:
 
        @include posh-card;
-       @include posh-card-hover;   /* only where the lift is wanted */
+       @include posh-card-hover;   only where the lift is wanted 
    ========================================================================== */
 
 @mixin posh-card(
