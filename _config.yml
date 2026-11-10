@@ -315,6 +315,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-remote-theme
+  - jekyll-include-cache
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -361,4 +362,6 @@ compress_html:
     envs: development
 
 theme: jekyll-theme-cayman
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin    : "default"      # start from default, we're overriding everything
+
