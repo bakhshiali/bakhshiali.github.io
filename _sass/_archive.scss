@@ -1,9 +1,13 @@
 /* ==========================================================================
-   ARCHIVE
+   ARCHIVE — THE OBSERVATORY (posh scientist-inventor edition)
+   ========================================================================== */
+
+/* ==========================================================================
+   Archive shell
    ========================================================================== */
 
 .archive {
-  margin-bottom: 2em;
+  margin-bottom: 2.4em;
 
   @include breakpoint($medium) {
     @include span(12 of 12);
@@ -16,48 +20,66 @@
 
   a {
     text-decoration: underline;
+    text-underline-offset: .15em;
+    text-decoration-thickness: 1px;
 
     &:hover {
       text-decoration: underline;
+      text-decoration-thickness: 1px;
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: $shadow-md;
       }
     }
   }
 }
 
+/* -------------------------------------------------------------------------
+   Subtitle — a chapter heading in italic serif
+   ------------------------------------------------------------------------- */
+
 .archive__subtitle {
-  margin: 1.414em 0 0;
-  padding-bottom: 0.5em;
-  font-size: $type-size-5;
-  color: mix(#fff, $gray, 25%);
-  border-bottom: 1px solid $border-color;
+  margin: 1.6em 0 0;
+  padding-bottom: .6em;
+  font-family: $serif;
+  font-size: 1em;
+  font-style: italic;
+  color: $ink-mute;
+  border-bottom: 1px solid $rule-light;
 
   + .list__item .archive__item-title {
-    margin-top: 0.5em;
+    margin-top: .6em;
   }
 }
+
+/* -------------------------------------------------------------------------
+   The specimen card
+   ------------------------------------------------------------------------- */
+
 .archive__item {
-   background-color: #F8F8F882;
-   box-shadow: 2px 2px 4px 4px lightblue;
-   border-radius: 1em;
-   padding-left: 0.5em;
-   padding-bottom: 0.25em;
+  background-color: rgba(245, 241, 230, .55);   /* $parchment @ 55% */
+  border: 1px solid $rule-light;
+  border-radius: $radius;
+  padding: .9em 1em .7em;
+  box-shadow: $shadow-sm;
+  -webkit-transition: $global-transition;
+  transition: $global-transition;
 }
+
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: .35em;
   text-align: center;
-  font-family: $sans-serif-narrow;
+  font-family: $serif;
+  font-size: 1.15em;
+  letter-spacing: .01em;
 
   a + a {
-    opacity: 0.5;
+    opacity: .5;
   }
 }
 
-/* remove border*/
+/* remove border (the posh rule: still no border-bottom on entry titles) */
 .page__content {
-
   .archive__item-title {
     margin-top: 1em;
     border-bottom: none;
@@ -66,7 +88,8 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: .8em;
+  color: $ink-mute;
 
   & + p {
     text-indent: 0;
@@ -74,26 +97,33 @@
 }
 
 .archive__item-teaser {
-  border-radius: $border-radius;
+  border-radius: $radius;
   overflow: hidden;
+
   img {
     width: 100%;
   }
 }
 
 .archive__item:hover {
-   background-color: #F5F5F582;
-   box-shadow: 2px 2px 6px 6px blue;
+  background-color: rgba(251, 249, 244, .9);    /* $ivory @ 90% */
+  border-color: $brass-lt;
+  box-shadow: 0 18px 40px -24px rgba(16, 25, 43, .4),
+              0 0 0 3px $brass-glow;
+  transform: translateY(-2px);
+
   .archive__item-teaser {
-    box-shadow: 0 0 10px rgba(#000, 0.25);
+    box-shadow: $shadow-md;
   }
 
   .archive__item-title {
     text-decoration: underline;
+    text-decoration-thickness: 1px;
+    color: $brass;
   }
 }
 
-/*
+/* ==========================================================================
    List view
    ========================================================================== */
 
@@ -110,26 +140,27 @@
     padding-right: 0;
   }
 
-  .page__meta {
-    margin: 0 0 4px;
+  .page__meta,
+  .comment__date {
+    margin: 0 0 6px;
   }
 }
 
-
-/*
+/* ==========================================================================
    Grid view
    ========================================================================== */
 
 .grid__item {
-  margin-bottom: 2em;
+  margin-bottom: 2.2em;
 
-  .page__meta {
-    margin: 0 0 4px;
+  .page__meta,
+  .comment__date {
+    margin: 0 0 6px;
   }
 
   .archive__item-title {
-    margin-top: 0.5em;
-    font-size: $type-size-5;
+    margin-top: .6em;
+    font-size: 1em;
   }
 
   .archive__item-excerpt {
@@ -138,14 +169,15 @@
 
   @include breakpoint($small) {
     @include gallery(5 of 10);
+
     .archive__item-teaser {
       max-height: 200px;
     }
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* reset before mixin does its thing*/
-    margin-right: 0; /* reset before mixin does its thing*/
+    margin-left: 0;   /* reset before mixin does its thing */
+    margin-right: 0;  /* reset before mixin does its thing */
     @include gallery(2.5 of 10);
 
     .archive__item-teaser {
@@ -154,40 +186,57 @@
 
     .archive__item-excerpt {
       display: block;
-      font-size: $type-size-6;
+      font-size: .78em;
     }
   }
 }
-/* grid-box*/
+
+/* -------------------------------------------------------------------------
+   Grid box — a lighter sibling of .archive__item, for loose grids
+   ------------------------------------------------------------------------- */
+
 .grid__box {
-   background-color: #F8F8F882;
-   box-shadow: 2px 2px 4px 4px lightblue;
-   border-radius: 1em;
-   padding-left: 0.5em;
-   padding-bottom: 0.25em;
+  background-color: rgba(245, 241, 230, .55);
+  border: 1px solid $rule-light;
+  border-radius: $radius;
+  padding: .9em 1em .7em;
+  box-shadow: $shadow-sm;
+  -webkit-transition: $global-transition;
+  transition: $global-transition;
+
+  &:hover {
+    background-color: rgba(251, 249, 244, .95);
+    border-color: $brass-lt;
+    box-shadow: 0 18px 40px -24px rgba(16, 25, 43, .4),
+                0 0 0 3px $brass-glow;
+    transform: translateY(-2px);
+  }
 }
-.grid__box:hover {
-   background-color: #F5F5F582;
-   box-shadow: 2px 2px 6px 6px blue;
-}
-/* research team grid view*/
+
+/* -------------------------------------------------------------------------
+   Research team grid — responsive auto-fill
+   ------------------------------------------------------------------------- */
+
 .grid__team {
-  display: inline-grid;
-  grid-template-columns:  12em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
 }
-/*
+
+/* ==========================================================================
    Features
    ========================================================================== */
 
 .feature__wrapper {
   @include clearfix();
-  margin-bottom: 2em;
-  border-bottom: 1px solid $border-color;
+  margin-bottom: 2.2em;
+  border-bottom: 1px solid $rule-light;
 }
 
 .feature__item {
-  margin-bottom: 2em;
-  font-size: 1.25rem;
+  margin-bottom: 2.2em;
+  font-size: 1.1rem;
 
   @include breakpoint($small) {
     margin-bottom: 0;
@@ -199,9 +248,10 @@
     }
   }
 
+  /* --- left image --------------------------------------------------- */
   &--left {
     @include full();
-    font-size: 1.25rem;
+    font-size: 1.1rem;
 
     .archive__item-teaser {
       margin-bottom: 2em;
@@ -220,9 +270,10 @@
     }
   }
 
+  /* --- right image -------------------------------------------------- */
   &--right {
     @include full();
-    font-size: 1.25rem;
+    font-size: 1.1rem;
 
     .archive__item-teaser {
       margin-bottom: 2em;
@@ -243,9 +294,10 @@
     }
   }
 
+  /* --- centered image ----------------------------------------------- */
   &--center {
     @include full();
-    font-size: 1.25rem;
+    font-size: 1.1rem;
 
     .archive__item-teaser {
       margin-bottom: 2em;
@@ -266,98 +318,106 @@
     }
   }
 }
-/* Divider / separator -->
-html code:
-<div class="wrapper">
-	<div class="divider div-transparent"></div>
-	<div class="divider div-transparent div-arrow-down"></div>
-	<div class="divider div-transparent div-tab-down"></div>
-	<div class="divider div-transparent div-stopper"></div>
-	<div class="divider div-transparent div-dot"></div>
-</div>
-===============================================================*/
 
-.wrapper
-{
-	padding-bottom: 0.5em;
+/* ==========================================================================
+   Divider ornaments
+   -------------------------------------------------------------------------
+   NOTE: these and `.wrapper { padding-bottom: .5em }` really belong in
+   `_sass/_utilities.scss`. They live here only because the upstream author
+   parked them in this file. When we reach `_utilities.scss`, cut both blocks
+   out of this file and paste them there.
+   ========================================================================== */
+
+/* html usage:
+   <div class="wrapper">
+     <div class="divider div-transparent"></div>
+     <div class="divider div-transparent div-arrow-down"></div>
+     <div class="divider div-transparent div-tab-down"></div>
+     <div class="divider div-transparent div-stopper"></div>
+     <div class="divider div-transparent div-dot"></div>
+   </div>
+*/
+
+.wrapper {
+  padding-bottom: .5em;
 }
 
-.divider
-{
-	position: relative;
-	margin-top: 2em;
-	height: 1px;
+.divider {
+  position: relative;
+  margin-top: 2.4em;
+  height: 1px;
 }
 
-.div-transparent:before
-{
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 5%;
-	right: 5%;
-	width: 90%;
-	height: 1px;
-	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+.div-transparent:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    $rule 20%,
+    $rule 80%,
+    transparent
+  );
 }
 
-.div-arrow-down:after
-{
-	content: "";
-	position: absolute;
-	z-index: 1;
-	top: -7px;
-	left: calc(50% - 7px);
-	width: 14px;
-	height: 14px;
-	transform: rotate(45deg);
-	background-color: white;
-	border-bottom: 1px solid rgb(48,49,51);
-	border-right: 1px solid rgb(48,49,51);
+.div-arrow-down:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -7px;
+  left: calc(50% - 7px);
+  width: 14px;
+  height: 14px;
+  transform: rotate(45deg);
+  background-color: $ivory;
+  border-bottom: 1px solid $brass;
+  border-right: 1px solid $brass;
 }
 
-.div-tab-down:after
-{
-	content: "";
-	position: absolute;
-	z-index: 1;
-	top: 0;
-	left: calc(50% - 10px);
-	width: 20px;
-	height: 14px;
-	background-color: white;
-	border-bottom: 1px solid rgb(48,49,51);
-	border-left: 1px solid rgb(48,49,51);
-	border-right: 1px solid rgb(48,49,51);
-	border-radius: 0 0 8px 8px;
+.div-tab-down:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: calc(50% - 10px);
+  width: 20px;
+  height: 14px;
+  background-color: $ivory;
+  border-bottom: 1px solid $brass;
+  border-left: 1px solid $brass;
+  border-right: 1px solid $brass;
+  border-radius: 0 0 8px 8px;
 }
 
-.div-stopper:after
-{
-	content: "";
-	position: absolute;
-	z-index: 1;
-	top: -6px;
-	left: calc(50% - 7px);
-	width: 14px;
-	height: 12px;
-	background-color: white;
-	border-left: 1px solid rgb(48,49,51);
-	border-right: 1px solid rgb(48,49,51);
+.div-stopper:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -6px;
+  left: calc(50% - 7px);
+  width: 14px;
+  height: 12px;
+  background-color: $ivory;
+  border-left: 1px solid $brass;
+  border-right: 1px solid $brass;
 }
 
-.div-dot:after
-{
-	content: "";
-	position: absolute;
-	z-index: 1;
-	top: -9px;
-	left: calc(50% - 9px);
-	width: 18px;
-	height: 18px;
-	background-color: goldenrod;
-	border: 1px solid rgb(48,49,51);
-	border-radius: 50%;
-	box-shadow: inset 0 0 0 2px white,
-					0 0 0 4px white;
+.div-dot:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -9px;
+  left: calc(50% - 9px);
+  width: 18px;
+  height: 18px;
+  background-color: $brass;
+  border: 1px solid $ink;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px $ivory,
+              0 0 0 4px $ivory;
 }
