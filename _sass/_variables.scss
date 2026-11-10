@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Variables
+   Variables — THE OBSERVATORY (posh scientist-inventor edition)
    ========================================================================== */
 
 /*
@@ -12,78 +12,126 @@ $doc-font-size              : 16;
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
-/* system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+/* system typefaces — posh: serif display, humanist sans body */
+$serif                      : "Cormorant Garamond", "Playfair Display",
+                              "Iowan Old Style", "Palatino Linotype",
+                              Palatino, Georgia, serif;
+$sans-serif                 : "Optima", "Gill Sans", "Gill Sans MT",
+                              -apple-system, "Segoe UI", "Helvetica Neue",
+                              Arial, sans-serif;
+$monospace                  : "JetBrains Mono", "SFMono-Regular",
+                              Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
-$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
+$helvetica                  : $sans-serif;
 
 /* serif typefaces */
 $georgia                    : Georgia, serif;
 $times                      : Times, serif;
 $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
-$garamond                   : Garamond, serif;
+$garamond                   : "Cormorant Garamond", Garamond, serif;
 
 $global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
+$header-font-family         : $serif;       // posh: display serif headings
 $caption-font-family        : $serif;
 
-/* type scale */
-$type-size-1                : 2.441em;  // ~39.056px
-$type-size-2                : 1.953em;  // ~31.248px
-$type-size-3                : 1.563em;  // ~25.008px
-$type-size-4                : 1.25em;   // ~20px
-$type-size-5                : 1em;      // ~16px
-$type-size-6                : 0.75em;   // ~12px
-$type-size-7                : 0.6875em; // ~11px
-$type-size-8                : 0.625em;  // ~10px
+/* type scale (unchanged) */
+$type-size-1                : 2.441em;
+$type-size-2                : 1.953em;
+$type-size-3                : 1.563em;
+$type-size-4                : 1.25em;
+$type-size-5                : 1em;
+$type-size-6                : 0.75em;
+$type-size-7                : 0.6875em;
+$type-size-8                : 0.625em;
 
 
-/*
-   Colors
+/* ==========================================================================
+   Posh palette (new)
+   --------------------------------------------------------------------------
+   These Sass vars are the source of truth. The :root block at the bottom of
+   this file emits the matching CSS custom properties so rules written against
+   `var(--ink)` etc. resolve.
    ========================================================================== */
 
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+/* ink & paper */
+$ink                        : #10192b;
+$ink-soft                   : #2c3a4e;
+$ink-mute                   : #5d6b7d;
+$slate                      : #7c8798;
+$ivory                      : #fbf9f4;
+$parchment                  : #f5f1e6;
+$parchment-2                : #efe9db;
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
+/* rules & metal */
+$rule                       : #dcd6c8;
+$rule-light                 : #ece7db;
+$brass                      : #a8853f;
+$brass-lt                   : #c9a961;
+$brass-glow                 : rgba(168, 133, 63, .20);
+
+/* accents */
+$teal                       : #2f6f6a;
+$crimson                    : #8c2f39;
+
+/* elevation & easing */
+$ease                       : cubic-bezier(.22, .61, .36, 1);
+$shadow-sm                  : 0 1px 2px rgba(16, 25, 43, .06),
+                              0 1px 1px rgba(16, 25, 43, .04);
+$shadow-md                  : 0 6px 24px -12px rgba(16, 25, 43, .30),
+                              0 2px 6px rgba(16, 25, 43, .06);
+$shadow-lg                  : 0 24px 60px -30px rgba(16, 25, 43, .45),
+                              0 8px 20px -12px rgba(16, 25, 43, .18);
+
+/* layout */
+$measure                    : 940px;
+$measure-wide               : 1280px;
+$radius                     : 3px;
+
+
+/* ==========================================================================
+   Colors — mapped to the posh palette
+   ========================================================================== */
+
+$gray                       : $slate;
+$dark-gray                  : mix(#000, $slate, 40%);   // ≈ #4a5159 (body text)
+$darker-gray                : mix(#000, $slate, 60%);   // ≈ #32373d (deep ink)
+$light-gray                 : $rule;
+$lighter-gray               : $parchment-2;
+
+$body-color                 : $ivory;                   // text on dark UI
+$background-color           : $ivory;
+$code-background-color      : $parchment;
+$code-background-color-dark : $parchment-2;
 $text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$border-color               : $rule-light;
 
-$primary-color              : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : #52adc8;
+$primary-color              : $ink;
+$success-color              : #4e7d52;
+$warning-color              : $brass;
+$danger-color               : $crimson;
+$info-color                 : $teal;
 
-$focus-color: $primary-color !default;
-$active-color: mix(#fff, $primary-color, 80%) !default;
-$muted-text-color: mix(#fff, $text-color, 20%) !default;
-$form-background-color: $lighter-gray !default;
-$footer-background-color: $lighter-gray !default;
+$focus-color                : $brass      !default;
+$active-color               : $parchment-2 !default;
+$muted-text-color           : $ink-mute   !default;
+$form-background-color      : $parchment  !default;
+$footer-background-color    : $ink        !default;
 
 /* YIQ color contrast */
-$yiq-contrasted-dark-default: $dark-gray !default;
-$yiq-contrasted-light-default: #fff !default;
-$yiq-contrasted-threshold: 175 !default;
-$yiq-debug: false !default;
+$yiq-contrasted-dark-default : $dark-gray !default;
+$yiq-contrasted-light-default: #fff       !default;
+$yiq-contrasted-threshold    : 175        !default;
+$yiq-debug                   : false      !default;
 
-/* customize */
-$pocket-color: #ef4056 !default;
-$hatena-color: #008fde !default;
-$blogger-color: #f57d00 !default;
+/* customize (bookmark icons) */
+$pocket-color               : #ef4056 !default;
+$hatena-color               : #008fde !default;
+$blogger-color              : #f57d00 !default;
 
-/* brands */
+/* brands (unchanged) */
 $behance-color              : #1769FF;
 $dribbble-color             : #ea4c89;
 $facebook-color             : #3b5998;
@@ -95,7 +143,7 @@ $instagram-color            : #517fa4;
 $lastfm-color               : #d51007;
 $linkedin-color             : #007bb6;
 $pinterest-color            : #cb2027;
-$rss-color                  : #fa9b39;
+$rss-color                  : #a8853f;   // posh: brass instead of orange
 $soundcloud-color           : #ff3300;
 $stackoverflow-color        : #fe7a15;
 $tumblr-color               : #32506d;
@@ -106,37 +154,35 @@ $youtube-color              : #bb0000;
 $xing-color                 : #006567;
 
 
-/* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+$link-color                 : $teal;
+$link-color-hover           : $ink;
+$link-color-visited         : mix(#fff, $teal, 25%);
+$masthead-link-color        : $ink-mute;
+$masthead-link-color-hover  : $ink;
 
 
-/*
+/* ==========================================================================
    Breakpoints
    ========================================================================== */
 
 @include breakpoint-set("to ems", true);
-/*
-$small                      : 400px;
-$medium                     : 500px;
-$medium-wide                : 550px;
-$large                      : 1200px;
-$x-large                    : 1800px;
-*/
 
 $small                      : 600px !default;
 $medium                     : 768px !default;
 $medium-wide                : 900px !default;
 $large                      : 925px !default;
 $x-large                    : 1280px !default;
-$max-width: $x-large !default;
+$max-width                  : $x-large !default;
 
-/*
+
+/* ==========================================================================
    Grid
    ========================================================================== */
+
 $right-sidebar-width-narrow : 200px;
 $right-sidebar-width        : 300px;
 $right-sidebar-width-wide   : 400px;
@@ -150,42 +196,62 @@ $susy: (
   gutter-position: after,
   container: $large,
   global-box-sizing: border-box,
-  // debug: (
-  //   image: show,
-  //   color: blue,
-  //   output: overlay,
-  //   toggle: top right,
-  // ),
 );
 
 
-/*
+/* ==========================================================================
    Other
    ========================================================================== */
 
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$border-radius              : $radius;            // 3px
+$box-shadow                 : $shadow-sm;
 $navicon-width              : 28px;
-$navicon-height             : 4px;
-$global-transition          : all 0.2s ease-in-out;
+$navicon-height             : 3px;
+$global-transition          : all 0.28s $ease;
 
-/* social icons*/
 
-.social-icons {
-  .fas,
-  .fab,
-  .far,
-  .fal {
-    color: $text-color;
-  }
+/* ==========================================================================
+   CSS custom properties
+   --------------------------------------------------------------------------
+   Emitted here so rules written against `var(--ink)` etc. resolve.
+   (The previous .social-icons block that lived at the bottom of this file
+   has been moved to `_sass/_base.scss` — see the split plan.)
+   ========================================================================== */
+
+:root {
+  /* ink & paper */
+  --ink:         #{$ink};
+  --ink-soft:    #{$ink-soft};
+  --ink-mute:    #{$ink-mute};
+  --slate:       #{$slate};
+  --ivory:       #{$ivory};
+  --parchment:   #{$parchment};
+  --parchment-2: #{$parchment-2};
+
+  /* rules & metal */
+  --rule:        #{$rule};
+  --rule-light:  #{$rule-light};
+  --brass:       #{$brass};
+  --brass-lt:    #{$brass-lt};
+  --brass-glow:  #{$brass-glow};
+
+  /* accents */
+  --teal:        #{$teal};
+  --crimson:     #{$crimson};
+
+  /* elevation & easing */
+  --shadow-sm:   #{$shadow-sm};
+  --shadow-md:   #{$shadow-md};
+  --shadow-lg:   #{$shadow-lg};
+  --ease:        #{$ease};
+
+  /* type */
+  --serif:       #{$serif};
+  --sans:        #{$sans-serif};
+  --mono:        #{$monospace};
+
+  /* layout */
+  --radius:      3px;
+  --measure:     940px;
+  --measure-wide: 1280px;
 }
-/* customize */
-  .fa-get-pocket {
-	color: $pocket-color;
-  }
-  .fa-hatena {
-   color: $hatena-color;
-  }
-  .fa-blogger {
-	color: $blogger-color;
-  }
