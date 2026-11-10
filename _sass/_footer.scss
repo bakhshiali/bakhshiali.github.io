@@ -1,5 +1,5 @@
 /* ==========================================================================
-   FOOTER
+   FOOTER — THE OBSERVATORY (posh scientist-inventor edition)
    ========================================================================== */
 
 .page__footer {
@@ -9,25 +9,42 @@
   margin-right: 0;
   width: 100%;
   clear: both;
+
   /* sticky footer fix start */
   position: absolute;
   bottom: 0em;
   height: auto;
   /* sticky footer fix end */
+
   margin-top: 3em;
-  color: mix(#fff, $gray, 25%);
-  -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
+  color: rgba($ivory, .62);
+  -webkit-animation: intro 0.5s both;
+          animation: intro 0.5s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background-color: $lighter-gray;
-  border-top: 1px solid $light-gray;
+
+  /* ink slab with a whisper of graph paper */
+  background-color: $ink;
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, .03), transparent 40%),
+    linear-gradient(rgba(201, 169, 97, .07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(201, 169, 97, .07) 1px, transparent 1px);
+  background-size: 100% 100%, 40px 40px, 40px 40px;
+
+  /* a brass thread along the top edge */
+  border-top: 3px solid transparent;
+  border-image: linear-gradient(
+    90deg,
+    transparent,
+    $brass,
+    transparent
+  ) 1;
 
   footer {
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
+    margin-top: 1.4em;
     max-width: 100%;
     padding: 0 1em 2em;
 
@@ -39,9 +56,11 @@
   a {
     color: inherit;
     text-decoration: none;
+    -webkit-transition: $global-transition;
+    transition: $global-transition;
 
     &:hover {
-      text-decoration: underline;
+      color: $brass-lt;
     }
   }
 
@@ -49,14 +68,24 @@
   .fab,
   .far,
   .fal {
-    color: mix(#fff, $gray, 25%);
+    color: $brass-lt;
   }
 }
 
+/* -------------------------------------------------------------------------
+   Copyright
+   ------------------------------------------------------------------------- */
+
 .page__footer-copyright {
   font-family: $global-font-family;
-  font-size: $type-size-7;
+  font-size: .68em;
+  letter-spacing: .08em;
+  color: rgba($ivory, .5);
 }
+
+/* -------------------------------------------------------------------------
+   Follow / social row
+   ------------------------------------------------------------------------- */
 
 .page__footer-follow {
   ul {
@@ -70,7 +99,9 @@
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: $sans-serif-narrow;
-    font-size: $type-size-6;
+    font-size: .68em;
+    font-weight: bold;
+    letter-spacing: .16em;
     text-transform: uppercase;
   }
 
@@ -80,7 +111,7 @@
   }
 
   a {
-    padding-right: 10px;
+    padding-right: 14px;
     font-weight: bold;
   }
 
@@ -89,4 +120,39 @@
       white-space: nowrap;
     }
   }
+}
+
+/* ==========================================================================
+   Colophon grid
+   -------------------------------------------------------------------------
+   Moved here from the entry file (`assets/css/main.scss`) per the split plan.
+   The footer body is laid out as a 2-column grid: QR / crest on the left,
+   links + copyright on the right.
+   ========================================================================== */
+
+div.footer-wrapper {
+  display: inline-grid !important;
+  grid-template-columns: 120px 1fr;
+  grid-template-rows: 60px;
+}
+
+img.qr-code {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  margin: 0 !important;
+  border-radius: 2px;
+  box-shadow:
+    0 6px 18px -8px rgba(0, 0, 0, .8),
+    0 0 0 1px rgba(201, 169, 97, .35);
+}
+
+ul.social-icons {
+  grid-column-start: 2;
+  grid-column-end: 1;
+  padding: 20px 0;
+}
+
+div.page__footer-copyright {
+  grid-column-start: 2;
+  grid-column-end: 2;
 }
