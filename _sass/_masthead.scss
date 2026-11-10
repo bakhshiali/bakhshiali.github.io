@@ -1,20 +1,43 @@
 /* ==========================================================================
-   MASTHEAD
+   MASTHEAD — THE OBSERVATORY (posh scientist-inventor edition)
    ========================================================================== */
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
-  -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
+  background: rgba(251, 249, 244, .92);          /* $ivory @ 92% */
+  backdrop-filter: saturate(140%) blur(8px);
+  -webkit-backdrop-filter: saturate(140%) blur(8px);
+  border-bottom: 1px solid $rule;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, .7) inset,
+    $shadow-sm;
+  -webkit-animation: intro 0.5s both;
+          animation: intro 0.5s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
 
+  /* a hairline of brass beneath the masthead */
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      $brass-lt,
+      transparent
+    );
+    opacity: .55;
+  }
+
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
+    padding: 1.1em 1em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -31,8 +54,11 @@
   }
 }
 
-.masthead__menu {
+/* ==========================================================================
+   Menu
+   ========================================================================== */
 
+.masthead__menu {
   ul {
     margin: 0;
     padding: 0;
@@ -46,8 +72,12 @@
   list-style-type: none;
   white-space: nowrap;
 
+  /* the site-title wordmark */
   &--lg {
     padding-right: 2em;
-    font-weight: 700;
+    font-family: $serif;
+    font-weight: 600;
+    font-size: 1.1em;
+    letter-spacing: .02em;
   }
 }
