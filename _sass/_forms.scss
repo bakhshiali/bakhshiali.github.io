@@ -1,5 +1,9 @@
 /* ==========================================================================
-   Forms
+   FORMS — THE OBSERVATORY (posh scientist-inventor edition)
+   ========================================================================== */
+
+/* ==========================================================================
+   Form wrapper
    ========================================================================== */
 
 form {
@@ -14,17 +18,18 @@ form {
   legend {
     display: block;
     width: 100%;
-    margin-bottom: 5px * 2;
-    *margin-left: -7px;
+    margin-bottom: 12px;
     padding: 0;
-    color: $text-color;
+    color: $ink;
+    font-family: $serif;
+    font-size: 1.1em;
     border: 0;
-    border-bottom: 1px solid mix(#fff, #000, 80%);
+    border-bottom: 1px solid $rule;
     white-space: normal;
   }
 
   p {
-    margin-bottom: 5px / 2;
+    margin-bottom: 2.5px;
   }
 
   ul {
@@ -37,6 +42,10 @@ form {
     display: none;
   }
 }
+
+/* ==========================================================================
+   Shared field typography
+   ========================================================================== */
 
 label,
 input,
@@ -55,14 +64,24 @@ textarea {
   font-family: $sans-serif;
 }
 
+/* -------------------------------------------------------------------------
+   Labels — set like a curator's caption
+   ------------------------------------------------------------------------- */
+
 label {
   display: block;
-  margin-bottom: 0.25em;
-  color: $text-color;
+  margin-bottom: .35em;
+  color: $ink-soft;
+  font-size: .78em;
+  font-weight: bold;
+  letter-spacing: .1em;
+  text-transform: uppercase;
   cursor: pointer;
 
   small {
-    font-size: $type-size-6;
+    font-size: .85em;
+    letter-spacing: 0;
+    text-transform: none;
   }
 
   input,
@@ -72,21 +91,26 @@ label {
   }
 }
 
+/* ==========================================================================
+   Fields
+   ========================================================================== */
+
 input,
 textarea,
 select {
   display: inline-block;
   width: 100%;
-  padding: 0.25em;
-  margin-bottom: 0.5em;
-  color: $text-color;
-  background-color: #fff;
-  border: 1px solid mix(#fff, #000, 80%);
+  padding: .55em .7em;
+  margin-bottom: .7em;
+  color: $ink;
+  font-size: .9em;
+  background-color: $ivory;
+  border: 1px solid $rule;
   border-radius: $border-radius;
-  box-shadow: $box-shadow;
+  box-shadow: inset 0 1px 2px rgba(16, 25, 43, .04);
 
   &:hover {
-    border-color: mix(#fff, $primary-color, 50%);
+    border-color: $brass-lt;
   }
 }
 
@@ -97,6 +121,10 @@ select {
 .input-small {
   width: 90px;
 }
+
+/* -------------------------------------------------------------------------
+   Checkboxes / radios / file / image
+   ------------------------------------------------------------------------- */
 
 input[type="image"],
 input[type="checkbox"],
@@ -151,7 +179,7 @@ input[type="file"] {
 
 select {
   width: auto;
-  background-color: #fff;
+  background-color: $ivory;
 }
 
 select[multiple],
@@ -170,6 +198,10 @@ input[type="hidden"] {
   display: none;
 }
 
+/* ==========================================================================
+   Form layout helpers
+   ========================================================================== */
+
 .form {
   position: relative;
 }
@@ -178,6 +210,9 @@ input[type="hidden"] {
 .checkbox {
   padding-left: 18px;
   font-weight: normal;
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: .85em;
 }
 
 .radio input[type="radio"],
@@ -199,8 +234,7 @@ input[type="hidden"] {
   margin-left: 10px;
 }
 
-
-/*
+/* ==========================================================================
    Disabled state
    ========================================================================== */
 
@@ -210,20 +244,20 @@ textarea[disabled],
 input[readonly],
 select[readonly],
 textarea[readonly] {
-  opacity: 0.5;
+  opacity: .5;
   cursor: not-allowed;
 }
 
-
-/*
-   Focus & active state
+/* ==========================================================================
+   Focus & active state — brass ring
    ========================================================================== */
 
 input:focus,
 textarea:focus {
-  border-color: $primary-color;
+  border-color: $brass;
   outline: 0;
-  outline: thin dotted \9;
+  outline: thin dotted \9;   /* IE6–7 only */
+  box-shadow: 0 0 0 3px $brass-glow;
 }
 
 input[type="file"]:focus,
@@ -233,20 +267,20 @@ select:focus {
   box-shadow: none;
 }
 
-
-/*
+/* ==========================================================================
    Help text
    ========================================================================== */
 
 .help-block,
 .help-inline {
-  color: $info-color;
+  color: $ink-mute;
+  font-size: .8em;
 }
 
 .help-block {
   display: block;
   margin-bottom: 1em;
-  line-height: 1em;
+  line-height: 1.4em;
 }
 
 .help-inline {
@@ -255,8 +289,7 @@ select:focus {
   padding-left: 5px;
 }
 
-
-/*
+/* ==========================================================================
    .form-inline
    ========================================================================== */
 
@@ -272,8 +305,7 @@ select:focus {
 }
 
 .form-inline .radio,
-.form-inline .checkbox,
-.form-inline .radio {
+.form-inline .checkbox {
   padding-left: 0;
   margin-bottom: 0;
   vertical-align: middle;
@@ -283,10 +315,10 @@ select:focus {
 .form-inline .checkbox input[type="checkbox"] {
   float: left;
   margin-left: 0;
-  margin-right: 3px; }
+  margin-right: 3px;
+}
 
-
-/*
+/* ==========================================================================
    .form-search
    ========================================================================== */
 
@@ -309,8 +341,7 @@ select:focus {
 }
 
 .form-search .radio,
-.form-search .checkbox,
-.form-inline .radio {
+.form-search .checkbox {
   padding-left: 0;
   margin-bottom: 0;
   vertical-align: middle;
@@ -323,8 +354,7 @@ select:focus {
   margin-right: 3px;
 }
 
-
-/*
+/* ==========================================================================
    .form--loading
    ========================================================================== */
 
@@ -342,7 +372,7 @@ select:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(251, 249, 244, .7);   /* $ivory @ 70% */
   z-index: 10;
 }
 
@@ -354,9 +384,18 @@ select:focus {
   z-index: 11;
 }
 
+/* ==========================================================================
+   Required field marker
+   -------------------------------------------------------------------------
+   Moved here from the original `_base.scss` per the split plan.
+   ========================================================================== */
 
+.required {
+  color: $crimson;
+  font-weight: bold;
+}
 
-/*
+/* ==========================================================================
    Google search form
    ========================================================================== */
 
@@ -365,6 +404,7 @@ select:focus {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
+
     li {
       list-style-type: none;
     }
@@ -377,12 +417,12 @@ select:focus {
   margin-bottom: 20px;
   padding: 8px 20px;
   display: inline-block;
-  font-size: $type-size-6;
-  background-color: #fff;
-  color: #000;
-  border-width: 2px !important;
+  font-size: .8em;
+  background-color: $ivory;
+  color: $ink;
+  border-width: 1px !important;
   border-style: solid !important;
-  border-color: lighten(#000,50);
+  border-color: $rule;
   border-radius: $border-radius;
 }
 
