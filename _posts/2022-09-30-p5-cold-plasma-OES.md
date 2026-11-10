@@ -1,6 +1,6 @@
 ---
 title: 'Cold Plasma OES'
-date: 2022-09-31
+date: 2022-09-30
 permalink: /posts/2022/09/blog-post-cold-plasma-OES/
 tags:
   - cool posts
