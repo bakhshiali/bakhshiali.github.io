@@ -1,169 +1,227 @@
 /* ==========================================================================
-   BUTTONS
+   BUTTONS — THE OBSERVATORY (posh scientist-inventor edition)
    ========================================================================== */
 
 /*
+   Social brand palette
+   -------------------------------------------------------------------------
+   Hoisted to top level (was nested inside `.btn { }` upstream). The `@each`
+   loop below reads from this map.
+   ========================================================================== */
+
+$social:
+  (facebook,    $facebook-color),
+  (twitter,     $twitter-color),
+  (google-plus, $google-plus-color),
+  (linkedin,    $linkedin-color);
+
+
+/* ==========================================================================
    Default button
    ========================================================================== */
 
-.btn {
-  /* default button */
+.btn,
+#goog-wm-sb {
   display: inline-block;
-  margin-bottom: 0.25em;
-  padding: 0.5em 1em;
-  color: #fff !important;
+  margin-bottom: .3em;
+  padding: .7em 1.5em;
+  color: $ivory !important;
   font-family: $sans-serif;
-  font-size: $type-size-6;
+  font-size: .68em;
   font-weight: bold;
+  letter-spacing: .16em;
+  text-transform: uppercase;
   text-align: center;
   text-decoration: none;
-  background-color: $primary-color;
-  border: 0 !important;
+  background-color: $ink;
+  border: 1px solid $ink !important;
   border-radius: $border-radius;
   cursor: pointer;
+  box-shadow: $shadow-sm;
+  -webkit-transition: $global-transition;
+  transition: $global-transition;
 
   &:hover {
-    background-color: mix(white, #000, 20%);
+    background-color: $brass;
+    border-color: $brass !important;
+    color: $ivory !important;
+    box-shadow: 0 8px 20px -12px $brass-glow, $shadow-sm;
   }
 
   .icon {
-    margin-right: 0.5em;
+    margin-right: .5em;
   }
 
   .icon + .hidden {
-    margin-left: -0.5em; /* override for hidden text*/
+    margin-left: -.5em; /* override for hidden text */
   }
 
-  /* fills width of parent container */
+  /* -----------------------------------------------------------------------
+     Fills width of parent container
+     ----------------------------------------------------------------------- */
 
   &--block {
     display: block;
     width: 100%;
 
     + .btn--block {
-      margin-top: 0.25em;
+      margin-top: .35em;
     }
   }
 
-  /* for dark backgrounds */
+  /* -----------------------------------------------------------------------
+     For dark backgrounds
+     ----------------------------------------------------------------------- */
 
   &--inverse {
-    color: $gray !important;
-    border: 1px solid $light-gray !important; /* override*/
-    background-color: #fff;
+    color: $ink !important;
+    border: 1px solid $rule !important;
+    background-color: transparent;
 
     &:hover {
-      color: #fff !important;
-      border-color: $gray;
+      color: $brass !important;
+      border-color: $brass !important;
+      background-color: transparent;
     }
   }
 
-  /* light outline */
+  /* -----------------------------------------------------------------------
+     Light outline
+     ----------------------------------------------------------------------- */
 
   &--light-outline {
-    border: 1px solid #fff !important; /* override*/
+    border: 1px solid rgba(251, 249, 244, .7) !important;
     background-color: transparent;
   }
 
-  /* information */
+  /* -----------------------------------------------------------------------
+     Information
+     ----------------------------------------------------------------------- */
 
   &--info {
-    background-color: $info-color;
+    background-color: $teal;
+    border-color: $teal !important;
 
     &:hover {
-      background-color: mix(#000, $info-color, 20%);
+      background-color: mix(#000, $teal, 20%);
+      border-color: mix(#000, $teal, 20%) !important;
     }
   }
 
-  /* warning */
+  /* -----------------------------------------------------------------------
+     Warning
+     ----------------------------------------------------------------------- */
 
   &--warning {
-    background-color: $warning-color;
+    background-color: $brass;
+    border-color: $brass !important;
 
     &:hover {
-      background-color: mix(#000, $warning-color, 20%);
+      background-color: mix(#000, $brass, 20%);
+      border-color: mix(#000, $brass, 20%) !important;
     }
   }
 
-  /* success */
+  /* -----------------------------------------------------------------------
+     Success
+     ----------------------------------------------------------------------- */
 
   &--success {
-    background-color: $success-color;
+    background-color: #4e7d52;
+    border-color: #4e7d52 !important;
 
     &:hover {
-      background-color: mix(#000, $success-color, 20%);
+      background-color: mix(#000, #4e7d52, 20%);
+      border-color: mix(#000, #4e7d52, 20%) !important;
     }
   }
 
-  /* danger */
+  /* -----------------------------------------------------------------------
+     Danger
+     ----------------------------------------------------------------------- */
 
   &--danger {
-    background-color: $danger-color;
+    background-color: $crimson;
+    border-color: $crimson !important;
 
     &:hover {
-      background-color: mix(#000, $danger-color, 20%);
+      background-color: mix(#000, $crimson, 20%);
+      border-color: mix(#000, $crimson, 20%) !important;
     }
   }
 
-  /* disabled */
+  /* -----------------------------------------------------------------------
+     Disabled
+     ----------------------------------------------------------------------- */
 
   &--disabled {
     pointer-events: none;
     cursor: not-allowed;
-    filter: alpha(opacity=65);
+    filter: alpha(opacity=45);
     box-shadow: none;
-    opacity: 0.65;
+    opacity: .45;
   }
 
-  /* social buttons */
-
-  $social:
-  (facebook, $facebook-color),
-  (twitter, $twitter-color),
-  (google-plus, $google-plus-color),
-  (linkedin, $linkedin-color);
+  /* -----------------------------------------------------------------------
+     Social buttons — `$social` map now lives at top of file
+     ----------------------------------------------------------------------- */
 
   @each $socialnetwork, $color in $social {
     &--#{$socialnetwork} {
       background-color: $color;
+      border-color: $color !important;
 
       &:hover {
         background-color: mix(#000, $color, 20%);
+        border-color: mix(#000, $color, 20%) !important;
       }
     }
   }
 
-  /* extra large button */
+  /* -----------------------------------------------------------------------
+     Sizes
+     ----------------------------------------------------------------------- */
 
   &--x-large {
-    font-size: $type-size-4;
+    font-size: .85em;
+    padding: .9em 2em;
   }
-
-  /* large button */
 
   &--large {
-    font-size: $type-size-5;
+    font-size: .75em;
+    padding: .8em 1.8em;
   }
-
-  /* small button */
 
   &--small {
-    font-size: $type-size-7;
+    font-size: .6em;
+    padding: .6em 1.2em;
   }
-   /* button colors */
-  $buttoncolors:
-  (primary, $primary-color),
-  (inverse, #fff),
-  (light-outline, transparent),
-  (success, $success-color),
-  (warning, $warning-color),
-  (danger, $danger-color),
-  (info, $info-color),
-  (facebook, $facebook-color),
-  (twitter, $twitter-color),
-  (google-plus, $google-plus-color),
-  (linkedin, $linkedin-color),
-  /* custom */
-  (get-pocket, $pocket-color),
-  (pinterest, $pinterest-color),
 }
+
+/*
+   Removed: the orphan `$buttoncolors` map that closed the upstream file.
+   It was never referenced, and the declaration was syntactically broken
+   (unclosed map, missing semicolon). If you want it back as a proper
+   palette-driven `@each` loop, reinstate it as:
+
+     $buttoncolors:
+       (primary,       $primary-color),
+       (inverse,       #fff),
+       (light-outline, transparent),
+       (success,       $success-color),
+       (warning,       $warning-color),
+       (danger,        $danger-color),
+       (info,          $info-color),
+       (facebook,      $facebook-color),
+       (twitter,       $twitter-color),
+       (google-plus,   $google-plus-color),
+       (linkedin,      $linkedin-color),
+       (get-pocket,    $pocket-color),
+       (pinterest,     $pinterest-color);
+
+   …and drive it with:
+
+     @each $name, $c in $buttoncolors {
+       .btn--#{$name} { background-color: $c; border-color: $c !important; }
+     }
+*/
