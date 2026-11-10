@@ -1,16 +1,17 @@
 /* ==========================================================================
-   MIXINS
+   MIXINS — THE OBSERVATORY (posh scientist-inventor edition)
    ========================================================================== */
 
+/* -------------------------------------------------------------------------
+   Focus ring — a fine brass rule, set slightly outside the element
+   ------------------------------------------------------------------------- */
+
 %tab-focus {
-  /* Default*/
-  outline: thin dotted $warning-color;
-  /* Webkit*/
-  outline: 5px auto $warning-color;
-  outline-offset: -2px;
+  outline: 1px dashed $brass;
+  outline-offset: 3px;
 }
 
-/*
+/* ==========================================================================
    em function
    ========================================================================== */
 
@@ -18,8 +19,7 @@
   @return ($target / $context) * 1em;
 }
 
-
-/*
+/* ==========================================================================
    Bourbon clearfix
    ========================================================================== */
 
@@ -51,8 +51,9 @@
     display: table;
   }
 }
-/*
-   Compass YIQ Color Contrast
+
+/* ==========================================================================
+   Compass YIQ color contrast
    https://github.com/easy-designs/yiq-color-contrast
    ========================================================================== */
 
@@ -88,4 +89,52 @@
 ) {
   background-color: $background-color;
   color: yiq-contrast-color($background-color, $dark, $light, $threshold);
+}
+
+/* ==========================================================================
+   POSH CARD — optional DRY-up helper
+   --------------------------------------------------------------------------
+   The card chrome below is repeated verbatim across .archive__item,
+   .grid__box, .notice, .well, .toc, .modal, and .page__comments-form:
+
+       background-color: rgba($parchment, .55);
+       border: 1px solid $rule-light;
+       border-radius: $radius;
+       box-shadow: $shadow-sm;
+       transition: $global-transition;
+
+   …and the hover state across the first two:
+
+       background-color: rgba($ivory, .9);
+       border-color: $brass-lt;
+       box-shadow: 0 18px 40px -24px rgba(16,25,43,.4),
+                   0 0 0 3px $brass-glow;
+       transform: translateY(-2px);
+
+   Not auto-applied — the partials still spell the properties out. If you'd
+   like to collapse the duplication later, replace each block with:
+
+       @include posh-card;
+       @include posh-card-hover;   /* only where the lift is wanted */
+   ========================================================================== */
+
+@mixin posh-card(
+  $bg: rgba(245, 241, 230, .55),
+  $border: $rule-light
+) {
+  background-color: $bg;
+  border: 1px solid $border;
+  border-radius: $radius;
+  box-shadow: $shadow-sm;
+  -webkit-transition: $global-transition;
+          transition: $global-transition;
+}
+
+@mixin posh-card-hover {
+  background-color: rgba(251, 249, 244, .9);
+  border-color: $brass-lt;
+  box-shadow:
+    0 18px 40px -24px rgba(16, 25, 43, .4),
+    0 0 0 3px $brass-glow;
+  transform: translateY(-2px);
 }
