@@ -1,5 +1,5 @@
 /* ==========================================================================
-   STYLE RESETS
+   STYLE RESETS — THE OBSERVATORY (scientist-inventor edition)
    ========================================================================== */
 
 @include border-box-sizing;
@@ -7,7 +7,7 @@
 html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
-  background-color: $background-color;
+  background-color: $ivory;
   font-size: 16px;
 
   @include breakpoint($medium) {
@@ -22,16 +22,16 @@ html {
 
 body { margin: 0; }
 
-/* Selected elements */
+/* Selected elements — brass on ivory */
 
 ::-moz-selection {
-  color: #fff;
-  background: #000;
+  color: $ivory;
+  background: $brass;
 }
 
 ::selection {
-  color: #fff;
-  background: #000;
+  color: $ivory;
+  background: $brass;
 }
 
 /* Display HTML5 elements in IE6-9 and FF3 */
@@ -67,10 +67,10 @@ audio:not([controls]) {
 }
 
 a {
-  color: $link-color;
+  color: $link-color;   /* $teal */
 }
 
-/* Apply focus state */
+/* Apply focus state — brass ring via %tab-focus */
 
 a:focus {
   @extend %tab-focus;
