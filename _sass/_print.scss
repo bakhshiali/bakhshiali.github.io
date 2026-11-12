@@ -1,18 +1,468 @@
 /* ==========================================================================
-   PRINT STYLES
-   ========================================================================== */
-
-/*
-   Hide the following elements on print
+   PRINT STYLES — THE OBSERVATORY (scientist-inventor edition)
+   --------------------------------------------------------------------------
+   A posh site should print like a reprint: black ink on white paper, no
+   chrome, no colour cast, self-contained link targets. Imported last so
+   every token from `_variables.scss` is in scope.
    ========================================================================== */
 
 @media print {
+
+  /* =====================================================================
+     Paper reset
+     ===================================================================== */
+
+  html,
+  body {
+    background: #fff !important;
+    background-image: none !important;
+    color: #000 !important;
+    padding-bottom: 0 !important;
+    margin: 0 !important;
+    font-family: $serif;
+    font-size: 11pt;
+    line-height: 1.5;
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-shadow: none !important;
+    text-shadow: none !important;
+    animation: none !important;
+    -webkit-animation: none !important;
+    transition: none !important;
+    -webkit-transition: none !important;
+    filter: none !important;
+  }
+
+  /* =====================================================================
+     Hide web chrome
+     ===================================================================== */
+
   .masthead,
+  .breadcrumbs,
   .toc,
+  .sidebar,
+  .sidebar__right,
+  .pagination,
+  .pagination--pager,
   .page__share,
   .page__related,
+  .page__comments,
+  .page__comments-form,
+  .page__comments-title,
+  .comment,
   .ads,
-  .page__footer {
+  .page__footer,
+  .footer-wrapper,
+  .skip-link,
+  .navicon,
+  .greedy-nav button,
+  .greedy-nav .hidden-links,
+  .page__hero--overlay::after,
+  .divider,
+  #goog-fixurl {
+    display: none !important;
+  }
+
+  /* =====================================================================
+     Headings — display serif, ink black
+     ===================================================================== */
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $serif;
+    color: #000 !important;
+    letter-spacing: 0;
+    page-break-after: avoid;
+  }
+
+  h1 { font-size: 22pt; line-height: 1.15; }
+  h2 { font-size: 15pt; line-height: 1.2; }
+  h3 { font-size: 12.5pt; }
+  h4 { font-size: 11pt; }
+  h5, h6 { font-size: 10pt; text-transform: none; letter-spacing: 0; }
+
+  /* the brass h2 underline becomes a plain hairline */
+  .page__content h2 {
+    border-bottom: 1px solid #000;
+    padding-bottom: .35em;
+
+    &::after {
+      display: none;
+    }
+  }
+
+  /* =====================================================================
+     Body text & links
+     ===================================================================== */
+
+  p,
+  li,
+  dl,
+  dd,
+  td,
+  th,
+  blockquote,
+  figcaption {
+    color: #000 !important;
+    font-family: $serif;
+  }
+
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+
+  a,
+  a:visited {
+    color: #000 !important;
+    text-decoration: underline;
+    text-decoration-thickness: .5pt;
+    text-underline-offset: 1.5pt;
+    border-bottom: 0 !important;
+  }
+
+  /*
+     Print the target of every external / mailto link in parentheses.
+     Delete the three `content:` rules if you'd rather suppress them.
+  */
+
+  a[href^="http"]:not([href*="//#"]):after,
+  a[href^="mailto:"]:after,
+  a[href^="/"]:after {
+    content: " (" attr(href) ")";
+    color: #555;
+    font-size: .85em;
+    font-style: italic;
+    word-break: break-all;
+  }
+
+  /* don't append URLs to internal anchors or buttons */
+  a.btn:after,
+  a.page__taxonomy-item:after,
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "" !important;
+  }
+
+  /* =====================================================================
+     Block elements — keep cards and callouts legible on paper
+     ===================================================================== */
+
+  blockquote {
+    margin: 1em 0 1em 1em;
+    padding-left: 1em;
+    border-left: 2px solid #000 !important;
+    font-style: italic;
+    page-break-inside: avoid;
+  }
+
+  hr {
+    background: none !important;
+    border: 0;
+    border-top: 1px solid #000 !important;
+    height: 0;
+    margin: 1em 0;
+  }
+
+  /* =====================================================================
+     Figures & media
+     ===================================================================== */
+
+  figure,
+  .archive__item,
+  .grid__box {
+    background: #fff !important;
+    border: 1px solid #ccc !important;
+    border-radius: 0 !important;
+    padding: .5em;
+    page-break-inside: avoid;
+    transform: none !important;
+  }
+
+  figure img,
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+  }
+
+  figcaption {
+    font-style: italic;
+    font-size: 9pt;
+    color: #333 !important;
+  }
+
+  /* =====================================================================
+     Tables — ledger pages
+     ===================================================================== */
+
+  table {
+    border: 1px solid #000 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+    font-family: $sans-serif;
+    font-size: 9pt;
+  }
+
+  thead {
+    background: #eee !important;
+    border-bottom: 1px solid #000 !important;
+  }
+
+  th,
+  td {
+    border: 1px solid #000 !important;
+    padding: .35em .5em !important;
+    color: #000 !important;
+  }
+
+  tbody tr:hover {
+    background: transparent !important;
+  }
+
+  /* =====================================================================
+     Code — monospaced but legible on paper
+     ===================================================================== */
+
+  pre,
+  code,
+  tt,
+  kbd,
+  samp {
+    font-family: $monospace;
+    font-size: 9pt;
+    background: #fff !important;
+    border: 1px solid #ccc !important;
+    border-radius: 0 !important;
+    color: #000 !important;
+  }
+
+  pre {
+    padding: .6em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    page-break-inside: avoid;
+  }
+
+  p > code,
+  li > code,
+  a > code,
+  td > code,
+  figcaption > code {
+    padding: 0 .2em;
+    border: 0 !important;
+    background: #f5f5f5 !important;
+  }
+
+  /* neutralize syntax highlighting */
+  .highlight,
+  div.highlighter-rouge,
+  figure.highlight {
+    background: #fff !important;
+    border: 1px solid #ccc !important;
+    border-left: 2px solid #000 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+
+  div.highlighter-rouge:before,
+  figure.highlight:before {
     display: none;
+  }
+
+  .highlight .c,
+  .highlight .cm,
+  .highlight .c1,
+  .highlight .sb,
+  .highlight .sd,
+  .highlight .sh {
+    color: #666 !important;
+    font-style: italic;
+  }
+
+  .highlight .k,
+  .highlight .o,
+  .highlight .cp,
+  .highlight .cs,
+  .highlight .kn,
+  .highlight .kp,
+  .highlight .ow,
+  .highlight .gi,
+  .highlight .kt {
+    color: #000 !important;
+    font-weight: bold;
+  }
+
+  .highlight .m,
+  .highlight .mf,
+  .highlight .mh,
+  .highlight .mi,
+  .highlight .mo,
+  .highlight .s,
+  .highlight .sc,
+  .highlight .s1,
+  .highlight .s2,
+  .highlight .si,
+  .highlight .sr,
+  .highlight .sx,
+  .highlight .ss,
+  .highlight .il {
+    color: #333 !important;
+  }
+
+  /* =====================================================================
+     Notices, wells, cards
+     ===================================================================== */
+
+  .notice,
+  .notice--primary,
+  .notice--info,
+  .notice--warning,
+  .notice--success,
+  .notice--danger,
+  .well {
+    background: #fff !important;
+    border: 1px solid #000 !important;
+    border-left: 3px solid #000 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+    color: #000 !important;
+
+    a {
+      color: #000 !important;
+      border-bottom: 1px solid #000 !important;
+    }
+
+    code {
+      background: #f5f5f5 !important;
+    }
+  }
+
+  .archive__item,
+  .archive__item:hover,
+  .grid__box,
+  .grid__box:hover {
+    background: #fff !important;
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+    transform: none !important;
+  }
+
+  .archive__item:hover .archive__item-title {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+
+  /* =====================================================================
+     Buttons — flattened
+     ===================================================================== */
+
+  .btn,
+  #goog-wm-sb {
+    background: transparent !important;
+    border: 1px solid #000 !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+
+  /* =====================================================================
+     Hero — flatten the overlay to a light wash
+     ===================================================================== */
+
+  .page__hero--overlay {
+    background: #fff !important;
+    background-image: none !important;
+    padding: 1em 0 !important;
+    color: #000 !important;
+    border-bottom: 1px solid #000;
+
+    .page__title,
+    .page__meta,
+    .comment__date,
+    .page__lead,
+    .btn {
+      color: #000 !important;
+      text-shadow: none !important;
+    }
+
+    .page__lead {
+      color: #333 !important;
+    }
+  }
+
+  .page__hero-caption {
+    position: static;
+    background: transparent !important;
+    color: #000 !important;
+    border: 0;
+    opacity: 1;
+    text-align: left;
+    padding: 0;
+    margin-top: .35em;
+
+    a {
+      color: #000 !important;
+    }
+  }
+
+  /* =====================================================================
+     Taxonomy pills — quiet outlines
+     ===================================================================== */
+
+  .page__taxonomy-item {
+    background: #fff !important;
+    border: 1px solid #999 !important;
+    border-radius: 999px !important;
+    color: #000 !important;
+    box-shadow: none !important;
+  }
+
+  /* =====================================================================
+     Page-break hints
+     ===================================================================== */
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  h2, h3 {
+    page-break-before: auto;
+  }
+
+  figure,
+  table,
+  blockquote,
+  pre,
+  .notice,
+  .well {
+    page-break-inside: avoid;
+  }
+
+  /* =====================================================================
+     Print the URL of the document in the header of every printed page
+     (via a fixed element that most browsers replicate per page)
+     ===================================================================== */
+
+  body::before {
+    content: attr(data-print-title);
+    display: block;
+    font-family: $sans-serif;
+    font-size: 8pt;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-bottom: 1em;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #ccc;
   }
 }
