@@ -1,14 +1,14 @@
 /* ==========================================================================
-   SINGLE PAGE/POST
+   SINGLE PAGE/POST — THE OBSERVATORY (scientist-inventor edition)
    ========================================================================== */
 
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
+  margin-top: 2.4em;
   padding-left: 0.1em;
   padding-right: 1em;
-  animation: intro 0.3s both;
+  animation: intro 0.5s both;
   animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
@@ -24,46 +24,72 @@
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
-	 //padding-left: 0.1em;
   }
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
-	margin-right: 0;
+    margin-right: 0;
   }
+
   .page__inner-wrap {
     @include full();
 
     .page__content,
     .page__meta,
+    .comment__date,
     .page__share {
       @include full();
     }
   }
 }
+
 .text-justify {
   text-align: justify;
 }
 
+/* ==========================================================================
+   Title & lead
+   ========================================================================== */
+
 .page__title {
   margin-top: 0;
-  line-height: 1;
+  line-height: 1.08;
+  font-family: $serif;
+  font-size: 2.4em;
+  letter-spacing: -.005em;
 
-  & + .page__meta {
-    margin-top: -0.5em;
+  & + .page__meta,
+  & + .comment__date {
+    margin-top: -.4em;
   }
 }
 
 .page__lead {
-  font-family: $global-font-family;
-  font-size: $type-size-4;
+  font-family: $serif;
+  font-size: 1.35em;
+  font-style: italic;
+  line-height: 1.55;
+  color: $ink-mute;
 }
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
 
 .page__content {
 
   h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
+    padding-bottom: .5em;
+    border-bottom: 1px solid $rule-light;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 3.2em;
+      height: 1px;
+      margin-top: .5em;
+      background: $brass;
+    }
   }
 
   p, li, dl {
@@ -74,7 +100,7 @@
   p {
     margin: 0 0 $indent-var;
 
-    /* sibling indentation*/
+    /* sibling indentation */
     @if $paragraph-indent == true {
       & + p {
         text-indent: $indent-var;
@@ -84,31 +110,42 @@
   }
 
   a {
-    text-decoration: underline;
+    color: $teal;
+    text-decoration: none;
+    border-bottom: 1px solid rgba($teal, .28);
+    -webkit-transition: border-color .25s $ease, color .25s $ease;
+            transition: border-color .25s $ease, color .25s $ease;
 
     &:hover {
-      text-decoration: underline;
+      color: $ink;
+      border-bottom-color: $brass;
+      text-decoration: none;
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: $shadow-md;
       }
     }
   }
 
   dt {
-    margin-top: 1em;
+    margin-top: 1.2em;
     font-family: $sans-serif;
+    font-size: .78em;
     font-weight: bold;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: $ink;
   }
 
   dd {
     margin-left: 1em;
     font-family: $sans-serif;
-    font-size: $type-size-6;
+    font-size: .85em;
+    color: $ink-mute;
   }
 
   .small {
-    font-size: $type-size-6;
+    font-size: .75em;
   }
 
   /* blockquote citations */
@@ -118,31 +155,51 @@
   }
 }
 
+/* ==========================================================================
+   Hero
+   ========================================================================== */
+
 .page__hero {
   position: relative;
-  margin-bottom: 2em;
+  margin-bottom: 2.2em;
   @include clearfix;
-  animation: intro 0.3s both;
+  animation: intro 0.5s both;
   animation-delay: 0.25s;
 
   &--overlay {
     position: relative;
-    margin-bottom: 2em;
-    padding: 3em 0;
+    margin-bottom: 2.4em;
+    padding: 3.6em 0;
     @include clearfix;
-    background-size: cover;
+    background-color: $ink;
+    background-image:
+      linear-gradient(180deg, rgba(16, 25, 43, .72), rgba(16, 25, 43, .88)),
+      linear-gradient(rgba(201, 169, 97, .12) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(201, 169, 97, .12) 1px, transparent 1px);
+    background-size: cover, 40px 40px, 40px 40px;
     background-repeat: no-repeat;
     background-position: center;
-    animation: intro 0.3s both;
+    animation: intro 0.5s both;
     animation-delay: 0.25s;
 
+    /* brass hairline along the lower edge */
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 3px;
+      background: linear-gradient(90deg, transparent, $brass, transparent);
+    }
+
     a {
-      color: #fff;
+      color: $brass-lt;
     }
 
     .wrapper {
-      padding-left: 1em;
-      padding-right: 1em;
+      padding-left: 1.4em;
+      padding-right: 1.4em;
 
       @include breakpoint($x-large) {
         max-width: $x-large;
@@ -151,21 +208,25 @@
 
     .page__title,
     .page__meta,
+    .comment__date,
     .page__lead,
     .btn {
-      color: #fff;
-      text-shadow: 1px 1px 4px rgba(#000, 0.5);
+      /* #goog-wm-sb inherits via @extend .btn in _buttons.scss */
+      color: $ivory;
+      text-shadow: 0 2px 24px rgba(#000, .5);
     }
 
     .page__lead {
       max-width: $medium;
+      color: rgba($ivory, .82);
     }
 
     .page__title {
-      font-size: $type-size-2;
+      font-size: 2.1em;
+      letter-spacing: -.01em;
 
       @include breakpoint($small) {
-        font-size: $type-size-1;
+        font-size: 2.8em;
       }
     }
   }
@@ -182,37 +243,38 @@
   bottom: 0;
   right: 0;
   margin: 0 auto;
-  padding: 2px 5px;
-  color: #fff;
+  padding: 4px 10px;
+  color: $ivory;
   font-family: $caption-font-family;
-  font-size: $type-size-7;
-  background: #000;
+  font-size: .7em;
+  font-style: italic;
+  background: rgba($ink, .8);
   text-align: right;
   z-index: 5;
-  opacity: 0.5;
   border-radius: $border-radius 0 $border-radius 0;
 
   @include breakpoint($large) {
-    padding: 5px 10px;
+    padding: 6px 12px;
   }
 
   a {
-    color: #fff;
+    color: $brass-lt;
     text-decoration: none;
   }
 }
 
-/*
+/* ==========================================================================
    Social sharing
    ========================================================================== */
 
 .page__share {
-  margin-top: 2em;
-  padding-top: 1em;
-  border-top: 1px solid $border-color;
+  margin-top: 2.4em;
+  padding-top: 1.4em;
+  border-top: 1px solid $rule-light;
 
   @include breakpoint(max-width $small) {
-    .btn span {
+    .btn span,
+    #goog-wm-sb span {
       border: 0;
       clip: rect(0 0 0 0);
       height: 1px;
@@ -223,24 +285,33 @@
       width: 1px;
     }
   }
+
+  /* moved here from the entry file */
+  .btn,
+  #goog-wm-sb {
+    width: calc(96% / 6);
+  }
 }
 
 .page__share-title {
-  margin-bottom: 10px;
-  font-size: $type-size-6;
+  margin-bottom: 12px;
+  font-size: .66em;
+  font-weight: bold;
+  letter-spacing: .22em;
   text-transform: uppercase;
+  color: $ink-mute;
 }
 
-
-/*
+/* ==========================================================================
    Page meta
    ========================================================================== */
 
 .page__meta {
-  margin-top: 2em;
-  color: mix(#fff, $gray, 25%);
+  margin-top: 2.2em;
+  color: $ink-mute;
   font-family: $sans-serif;
-  font-size: $type-size-6;
+  font-size: .72em;
+  letter-spacing: .06em;
 
   p {
     margin: 0;
@@ -248,17 +319,26 @@
 
   a {
     color: inherit;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: $global-transition;
+            transition: $global-transition;
+
+    &:hover {
+      color: $brass;
+    }
   }
 }
 
 .page__meta-title {
-  margin-bottom: 10px;
-  font-size: $type-size-6;
+  margin-bottom: 12px;
+  font-size: .66em;
+  font-weight: bold;
+  letter-spacing: .22em;
   text-transform: uppercase;
+  color: $ink-mute;
 }
 
-
-/*
+/* ==========================================================================
    Page taxonomy
    ========================================================================== */
 
@@ -274,21 +354,28 @@
 
 .page__taxonomy-item {
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 6px;
   margin-bottom: 8px;
-  padding: 5px 10px;
+  padding: 5px 12px;
+  font-size: .82em;
+  letter-spacing: .06em;
   text-decoration: none;
-  border: 1px solid $light-gray;
-  border-radius: $border-radius;
+  color: $ink-mute;
+  background: $ivory;
+  border: 1px solid $rule;
+  border-radius: 999px;
+  -webkit-transition: $global-transition;
+          transition: $global-transition;
 
   &:hover {
     text-decoration: none;
-    color: $link-color-hover;
+    color: $brass;
+    border-color: $brass-lt;
+    box-shadow: 0 0 0 3px $brass-glow;
   }
 }
 
-
-/*
+/* ==========================================================================
    Comments
    ========================================================================== */
 
@@ -298,16 +385,21 @@
 
 .page__comments-title {
   margin-top: 2rem;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   padding-top: 2rem;
-  font-size: $type-size-6;
-  border-top: 1px solid $border-color;
+  font-size: .66em;
+  font-weight: bold;
+  letter-spacing: .22em;
+  border-top: 1px solid $rule-light;
   text-transform: uppercase;
+  color: $ink-mute;
 }
 
 .page__comments-form {
-  padding: 1em;
-  background: $lighter-gray;
+  padding: 1.3em;
+  background: $parchment;
+  border: 1px solid $rule-light;
+  border-radius: $border-radius;
   transition: $global-transition;
 
   &.disabled {
@@ -317,19 +409,19 @@
     label {
       pointer-events: none;
       cursor: not-allowed;
-      filter: alpha(opacity=65);
+      filter: alpha(opacity=50);
       box-shadow: none;
-      opacity: 0.65;
+      opacity: .5;
     }
   }
 }
 
 .comment {
   @include clearfix();
-  margin: 1em 0;
+  margin: 1.2em 0;
 
   &:not(:last-child) {
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid $rule-light;
   }
 }
 
@@ -352,8 +444,9 @@
   @include breakpoint($large) {
     width: 80px;
     height: 80px;
-    padding: 5px;
-    border: 1px solid $border-color;
+    padding: 4px;
+    background: $ivory;
+    border: 1px solid $brass-lt;
   }
 }
 
@@ -368,6 +461,7 @@
 
 .comment__author {
   margin: 0;
+  font-family: $serif;
 
   a {
     text-decoration: none;
@@ -383,15 +477,14 @@
   }
 }
 
-
-/*
+/* ==========================================================================
    Related
    ========================================================================== */
 
 .page__related {
-  margin-top: 2em;
-  padding-top: 1em;
-  border-top: 1px solid $border-color;
+  margin-top: 2.4em;
+  padding-top: 1.4em;
+  border-top: 1px solid $rule-light;
   @include clearfix();
   float: left;
 
@@ -406,11 +499,15 @@
 }
 
 .page__related-title {
-  margin-bottom: 10px;
-  font-size: $type-size-6;
+  margin-bottom: 12px;
+  font-size: .66em;
+  font-weight: bold;
+  letter-spacing: .22em;
   text-transform: uppercase;
+  color: $ink-mute;
 }
-/*
+
+/* ==========================================================================
    Wide Pages
    ========================================================================== */
 
