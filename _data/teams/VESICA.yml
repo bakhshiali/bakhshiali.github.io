@@ -1,0 +1,66 @@
+- name: Prof. Dr. Seyed Morteza Naghib
+  photo: https://i1.rgstatic.net/ii/profile.image/11431282486641809-1793097618863_Q128/Seyed-Morteza-Naghib.jpg
+  info: Ph.D. Biomedical Engineering
+  joined: 2021-12-22
+  left:            # omit (or null) if still active
+  email: Naghib@iust.ac.ir
+  bio: Associate Professor at Iran University of Science and Technology
+  researchgate: https://www.researchgate.net/profile/Seyed-Morteza-Naghib
+  googlescholar: https://scholar.google.com/citations?user=gCXAPcAAAAAJ
+  linkedin: https://www.linkedin.com/in/seyed-morteza-naghib-7538ba66/
+  Since:
+  
+- name: Prof. Dr. Abbas Rahdar
+  photo: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=soFjq1oAAAAJ&citpid=21
+  info: Ph.D. Nanoscience and nanotechnology
+  joined: 2021-12-22
+  left:           # omit (or null) if still active
+  email: a.rahdarnanophysics@gmail.com
+  bio: Associate Professor at Zabol University
+  researchgate: 
+  googlescholar: https://scholar.google.com/citations?user=soFjq1oAAAAJ&hl=en
+  linkedin: https://www.linkedin.com/in/abbas-rahdar-189a27167/
+  
+- name: Prof. Dr. Ali Samadi
+  photo: https://i1.rgstatic.net/ii/profile.image/1026119897731072-1621657456184_Q128/Ali-Samadi-11.jpg
+  info: Ph.D. Anatomy
+  joined: 2024-08-13
+  left:            # omit (or null) if still active
+  email: alisamadi23@yahoo.com
+  bio: Assistant Professor at Bam University of Medical Sciences
+  researchgate: https://www.researchgate.net/profile/Ali-Samadi-11
+  googlescholar: https://scholar.google.com/citations?hl=en&user=0-lZiuQAAAAJ
+  linkedin: https://www.linkedin.com/in/dr-ali-samadi-44631788/?originalSubdomain=ir
+  
+- name: Mojtaba Hosseine
+  photo: https://i1.rgstatic.net/ii/profile.image/865185866719233-1583287793857_Q128/Mojtaba-Hosseine.jpg
+  info: M.Sc. Chemical and Biomedical Engineer
+  joined: 2023-09-30
+  left:            # omit (or null) if still active
+  email: mojtabahosseine97@ut.ac.ir
+  bio: Researcher at University of Tehran
+  researchgate: https://www.researchgate.net/profile/Mojtaba-Hosseine
+  googlescholar: https://scholar.google.com/citations?hl=en&user=RcTYWz8AAAAJ
+  linkedin: https://www.linkedin.com/in/mojtaba-hosseine
+  
+- name: Mahya Bakhshi
+  photo: https://i1.rgstatic.net/ii/profile.image/11431281212682412-1702731138253_Q128/Mahya-Bakhshi-2.jpg
+  info: M.Sc. Genetic engineering
+  joined: 2021-12-22
+  left:           # omit (or null) if still active
+  email: mahya2001911@gmail.com
+  bio: student
+  researchgate: https://www.researchgate.net/profile/Mahya-Bakhshi-2
+  googlescholar: https://scholar.google.com/citations?user=I2Ezyg4AAAAJ
+  linkedin: https://www.linkedin.com/in/mahya-bakhshi-1b574b223/
+  
+- name: Inv. Ali Bakhshi
+  photo: https://raw.githubusercontent.com/bakhshiali/bakhshiali.github.io/main/images/alibakhshi.jpg
+  info: M.Sc. nanotechnology-nanomaterials
+  joined: 2021-12-22
+  left:            # omit (or null) if still active
+  email: alibakhshi255255@gmail.com
+  bio: Research Assistant at Iran University of Science and Technology
+  researchgate: https://www.researchgate.net/profile/Ali-Bakhshi-6
+  googlescholar: https://scholar.google.com/citations?user=JHn_W_wAAAAJ
+  linkedin: https://www.linkedin.com/in/ali-bakhshi-/
