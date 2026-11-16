@@ -1,0 +1,45 @@
+---
+layout: single
+---
+
+{% assign members = site.data.teams[page.team_key] %}
+
+<div class="team-page-header">
+  <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="team-page-header__image" />
+  
+</div>
+
+{% if content != "" %}
+  <div class="team-page-intro">
+    {{ content }}
+  </div>
+{% endif %}
+
+<h2>Members</h2>
+<div class="grid__team">
+  {% for member in members %}
+    <div class="grid__box" style="text-align: center">
+      <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" />
+      <h3>{{ member.name }}</h3>
+      <i>{{ member.info }}</i>
+	  <div class="team-member-tenure">
+  {% if member.joined %}
+    <span class="tenure-badge tenure-badge--{% if member.left %}past{% else %}current{% endif %}">
+      {{ member.joined | date: "%b %Y" }}
+      —
+      {% if member.left %}{{ member.left | date: "%b %Y" }}{% else %}present{% endif %}
+    </span>
+  {% endif %}
+</div>
+      <div class="team-block__links">
+        {% if member.researchgate %}<a href="{{ member.researchgate }}" aria-label="ResearchGate"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i></a>{% endif %}
+        {% if member.googlescholar %}<a href="{{ member.googlescholar }}" aria-label="Google Scholar"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i></a>{% endif %}
+        {% if member.linkedin %}<a href="{{ member.linkedin }}" aria-label="LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i></a>{% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<p style="text-align: center; margin-top: 2em;">
+  <a href="{{ '/teams/' | relative_url }}" class="btn btn--inverse">← All teams</a>
+</p>

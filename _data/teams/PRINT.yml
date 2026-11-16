@@ -1,0 +1,32 @@
+- name: Dr. Mohammad Sadegh Asgari
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=cdywhO4AAAAJ&citpid=4
+  info: Ph.D. Organic chemistry
+  joined: 2023-12-22
+  left:            # omit (or null) if still active
+  email: masgari@iust.ac.ir
+  bio: Laboratory Expert at Iran University of Science and Technology
+  researchgate: https://www.researchgate.net/profile/Mohammad-Sadegh-Asgari-2
+  googlescholar: https://scholar.google.com/citations?user=cdywhO4AAAAJ
+  linkedin: https://www.linkedin.com/in/mohammad-sadegh-asgari-01a63a260/
+  
+- name: Mehrdad Roshan
+  photo: https://i1.rgstatic.net/ii/profile.image/11431281331831884-1743231469500_Q128/Mehrdad-Roshan-2.jpg
+  info: M.Sc. nanotechnology-nanomaterials
+  joined:  2023-12-22
+  left:           # omit (or null) if still active
+  email: mehrdaderoshan@gmail.com
+  bio: Research Assistant at Iran University of Science and Technology
+  researchgate: https://www.researchgate.net/profile/Mehrdad-Roshan-2
+  googlescholar: https://scholar.google.com/citations?hl=en&user=SFWqtA8AAAAJ
+  linkedin: https://www.linkedin.com/in/mehrdad-roshan
+  
+- name: Inv. Ali Bakhshi
+  photo: https://raw.githubusercontent.com/bakhshiali/bakhshiali.github.io/main/images/alibakhshi.jpg
+  info: M.Sc. nanotechnology-nanomaterials
+  joined: 2023-12-22
+  left:            # omit (or null) if still active
+  email: alibakhshi255255@gmail.com
+  bio: Research Assistant at Iran University of Science and Technology
+  researchgate: https://www.researchgate.net/profile/Ali-Bakhshi-6
+  googlescholar: https://scholar.google.com/citations?user=JHn_W_wAAAAJ
+  linkedin: https://www.linkedin.com/in/ali-bakhshi-/

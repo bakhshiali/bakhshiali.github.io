@@ -1,0 +1,77 @@
+- name: Lammps, OpenBabel, PackMOL
+  level: Professional
+  
+- name: Mendeley, Endnote, …
+  level: Professional
+
+- name: Catia, Solid works, …
+  level: Professional
+  
+- name: Office, Open Office, Libre Office, …
+  level: Professional
+  
+- name: Python, HTML, C#, Tensor Flow, Scikit-learn, keras, PyTorch
+  level: Professional
+
+- name: Tia Portal Siemens, WinCC
+  level: Professional
+
+- name: Proteus, Altium designer, Pspice, …
+  level: Professional
+
+- name: Origin, spss
+  level: Professional
+
+- name: Joomla, WordPress, WooCommerce, Bootstrap, GIMP,…
+  level: Professional
+
+- name: illustrator, Corel draw, after effects, Inkscape,Photoshop
+  level: Professional
+
+- name: Comfar
+  level: Intermediate
+
+- name: Linux (scientific, kali ,Ubuntu, Debian, …)
+  level: Intermediate
+
+- name: C/C++/java/PHP/Fortran
+  level: Intermediate
+
+- name: C/C++/java/PHP/Fortran
+  level: Intermediate
+
+- name: MATLAB
+  level: Intermediate
+
+- name: GROMACS, quantum atk
+  level: Intermediate
+
+- name: VMD, Ovito
+  level: Intermediate
+  
+- name: Material studio
+  level: Intermediate
+  
+- name: Comsol
+  level: Intermediate
+
+- name: Android studio
+  level: Intermediate
+  
+- name: Rstudio, LabVIEW
+  level: Basic
+  
+- name: Cadence, Code vision-AVR, Keil
+  level: Basic
+
+- name: Maya, blender, Anime Studio, 3dsMAX, C4D, V-ray render
+  level: Basic
+
+- name: Abaqus, Fluent
+  level: Basic
+
+- name: Unity engine
+  level: Basic
+
+- name: Methyl Primer Express, MetaDiSc, target, signalp, primer3, primer blast, ArgusLab, SnapGene, Gene Runner, Beacon Designer
+  level: Basic

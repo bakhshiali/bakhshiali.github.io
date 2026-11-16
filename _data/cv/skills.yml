@@ -1,0 +1,180 @@
+- title: Nanotechnogy
+  skills: |
+            Fabrication of analyzer devices and production of nanomaterials systems
+            Synthesis of nanomaterials, nanocomposites, nanomagnetic materials, …
+            self-assembly
+            Nanofabrication techniques (lithography)
+            Nanosensors, nanoelectronics, nanophotonics (Plasmonics), and nanomechanical systems (NEMS)
+            surface modification and functionalization techniques
+            Nanobiotechnology (drug delivery systems, biosensors, tissue engineering scaffolds, and diagnostic tools)
+            Finite element analysis (FEA), Molecular dynamics, quantum and DFT calculations
+            Roll-to-roll processing
+            Nanoparticle synthesis scale-up and nanofabrication mass production methods
+            Nano standards
+            HSE (general, electrical safety, nanomaterials, radiations, fire, biosafety)
+
+- title: Computer science
+  skills: | 
+     Quantum computing and programming (Qiskit, Cirq)
+     Quantum machine learning (PennyLane)
+     Classical artificial intelligence (Tensorflow, Keras, MATLAB, Pytorch, OpenCV, YOLO, CNN, LSTM, …)
+     Programming (C, C++, C#, Python, JS, Lua, VBA, …)
+     Website design (Python-Django, … , Jekyll, Wordpress, Joomla, PHP+Java+HTML, …)
+     mini computers (Arduino, AVR-codevision, raspberry-pi, PICs, …)
+     PLCs (Tiaportal, Logo 8, ...)
+     IC + Circuit design & manufacturing (Proteus, Altium designer, Spice+Pspice, Cadence,…)
+     Reverse engineering of softwares
+     Research methods and scientometrics (R + Python)
+     Animations (Blender, after effects, ...)
+     Illustrations (Inkscape, adobe Illustrator, Ovito, VMD, chemOffice, Corel Draw, ...)
+     Prezi, Office, Libre office, and Open Office Software
+     Linux operating system distributions (Ubuntu, scientific, ...)
+     Simulations (SolidWorks, COMSOL, FDTD, LAMMPS, Avogadro, MATLAB, Materials Studio, Gaussian, etc.)
+     CanSat satellite developer (design, programming, and manufacturing)
+
+- title: Mechanical science
+  skills: |
+     Reverse mechanical engineering (cloud of points and CMM)
+     System simulation
+     Industrial Design (Catia, SolidWorks, …)
+     Industrial control and instrumentation (PLCs, PIDs, P&IDs, Sensors, …)
+     Production line (CNC (turning, milling, …), Molding, Stamping, …)
+
+- title: Biotechnology
+  skills: |
+     3D and 4D printing
+     RT-PCR
+     Scaffolds (Nanofibers, Films...)
+     Crosslinking and click chemistry
+     Nanocarriers and Encapsulation (lipids NPs, Polymeric NPs (chitosan, chitosan oligosaccharides))
+     Bioinformatics (BLAST, databases, visualizations)
+     Microfluidics (PDMS, valves, Pumps (micro peristaltic))
+     Nanobiosensors (Electrochemical, photon-based)
+
+- title: Patent
+  skills: |
+     Due diligence (Legal, Technology, Strategic, Operational, HR, Financial, ...)
+     Searching (WIPO, USPTO, Lens, google patent, EPO, FPO, PatentScope, SciFinder, ...)
+     Landscape Analysis (AI forecasting, companies, ...)
+     Drafting (Prior Art, Claims, Bubble drafting, Summary, ...)
+     Evaluation (Search, classification, Prior Art, citation, family, cost-based, market-based, technology mapping, FTO, Portfolio, and experts)
+     Filing (PCT, eHague, national scope, ...)
+     Law
+     Innovation / Research (R&D, standards, brain-storming, critical thinking, etc.)
+     Copyrights, IP, contracts, trademarks
+
+- title: Analytical Methods
+  skills: |
+     Spectroscopy
+        &nbsp;&nbsp; Optical Absorption Spectroscopy (Fourier-transform Infrared (FTIR), Ultraviolet-Visible (UV-Vis))
+        &nbsp;&nbsp; Emission Spectroscopy (Fluorescence Spectroscop(PL))
+        &nbsp;&nbsp; Raman Spectroscopy
+        &nbsp;&nbsp; Diffuse Reflectance Spectroscopy (DRS)- absorption, transmission, and scattering characteristics
+        &nbsp;&nbsp; Nuclear Magnetic Resonance (NMR)-Proton and carbon-13
+        &nbsp;&nbsp; Mass Spectrometry (MS)
+        &nbsp;&nbsp; X-ray Spectroscopy
+            &nbsp;&nbsp; &nbsp;&nbsp; X-ray Photoelectron Spectroscopy (XPS)
+            &nbsp;&nbsp; &nbsp;&nbsp; X-ray Absorption Spectroscopy (XAS)
+            &nbsp;&nbsp; &nbsp;&nbsp; Energy-dispersive X-ray spectroscopy (EDS)
+        &nbsp;&nbsp; Electron Spectroscopy (Auger Electron Spectroscopy (AES))
+     Microscopy
+        &nbsp;&nbsp; Optical Microscopy (Brightfield, Darkfield, Phase Contrast, Differential Interference Contrast (DIC))
+        &nbsp;&nbsp; Fluorescence Microscopy
+        &nbsp;&nbsp; Electron Microscopy 
+            &nbsp;&nbsp; &nbsp;&nbsp; Scanning Electron Microscopy (SEM)
+            &nbsp;&nbsp; &nbsp;&nbsp; Transmission Electron Microscopy (TEM)
+        &nbsp; &nbsp; Atomic Force Microscopy (AFM)-Contact Mode, Non-contact Mode, Dynamic
+        &nbsp; &nbsp; Scanning Probe Microscopy (SPM)
+            &nbsp; &nbsp; &nbsp; &nbsp; Scanning Tunneling Microscopy (STM), AFM
+            &nbsp; &nbsp; &nbsp; &nbsp; Near-field Scanning Optical Microscopy (NSOM)
+     Chromatography (Gas (GC), Liquid (LC), Thin-Layer (TLC))
+     Diffraction (X-ray (XRD and XRF), Electron (EBSD), Optical (Fraunhofer, spectrometers, grating), Acoustic)
+     Hydrogen production analysis (Innovative instruments)
+     Porosity
+        &nbsp; &nbsp; Mercury Intrusion Porosimetry (MIP)
+        &nbsp; &nbsp; Gas Adsorption (BET (adsorption-desorption Isotherms, MP-Plot))
+        &nbsp; &nbsp; Image analysis
+     Electrochemistry
+        &nbsp; &nbsp; Voltammetry 
+        &nbsp; &nbsp; &nbsp; &nbsp; Cyclic (CV), Linear sweep (LSV), Square Wave (SWV)
+        &nbsp; &nbsp; &nbsp; &nbsp; Differential Pulse (DPV), Staircase, Stripping (anodic and cathodic)
+        &nbsp; &nbsp; Electrochemical Impedance Spectroscopy (EIS)
+        &nbsp; &nbsp; Potentiometry, Amperometry
+        &nbsp; &nbsp; Electrochemical Coupled Techniques, Electrochemical Sensors
+        &nbsp; &nbsp; Photoelectrochemistry
+            &nbsp; &nbsp; &nbsp; &nbsp; Bandgap anlysis (Eg from DRS and positions from Mott-Schottky)
+            &nbsp; &nbsp; &nbsp; &nbsp; Mott-Schottky (Flat-band potential, Doping density, Dopant type, Interface capacitance)
+            &nbsp; &nbsp; &nbsp; &nbsp; Photocurrent, Photovoltage, Photoluminescence 
+            &nbsp; &nbsp; &nbsp; &nbsp; EIS under Illumination
+            &nbsp; &nbsp; &nbsp; &nbsp; Quantum Efficiency Measurement
+     Mechanical Tests (nanocomposites)
+        &nbsp; &nbsp; Hardness (Rockwell, Brinell, Vickers, Knoop, Shore, Barcol, Scratch)
+        &nbsp; &nbsp; Instrumented Indentation Hardness Test (Nanoscratch)
+        &nbsp; &nbsp; Tensile (Uniaxial, Axial, Dogbone, Strain-Rate, Elevated Temperature, Creep)
+        &nbsp; &nbsp; EDS analysis on fracture surface
+        
+- title: Laboratory Skills
+  skills: | 
+     LASERs (pulsed lasers, solid-state lasers, gas, fiber coupling, fusion splicer, ...)
+     Interferometer setups (Michelson, Mach-Zehnder, Fizeau, Sagnac, Twyman-Green, Fabry-Pérot, ...)
+     Tapering optical fibers (Heat-tensile, plasma discharge, etching, ...)
+     Cold Plasma setups (impedance matching)
+     &nbsp; &nbsp; Dielectric Barrier Discharge (DBD)
+     &nbsp; &nbsp; Glow discharge plasma, Microwave
+     &nbsp; &nbsp; Inductively Coupled Plasma (ICP)
+     &nbsp; &nbsp; Surface Wave Plasma (SWP)
+     &nbsp; &nbsp; Capacitive Coupled Plasma (CCP)
+     &nbsp; &nbsp; Atmospheric Pressure Plasma Jet (APPJ)
+     Nanofiber Setups (blow, melt, sol-gel, electrospinning, rotary spinning)
+     Hydrogen Production (Electrocatalysis, electrolysis, Photolysis, thermolysis)
+     Porous material synthesis 
+     &nbsp; &nbsp; sol-gel, template, emulsion
+     &nbsp; &nbsp; foaming, breath figure templating
+     &nbsp; &nbsp; hydrothermal/solvothermal, electrospinning
+     &nbsp; &nbsp; self-activation
+     Self-activation porous carbon setup
+     &nbsp; &nbsp; On-desk self-condensing method
+     &nbsp; &nbsp; Localized Laser heating (disordered to ordered and graphene)
+     Coating methods
+     &nbsp; &nbsp; Chemical methods
+     &nbsp; &nbsp; &nbsp; &nbsp; Chemical Vapor Deposition (CVD)
+     &nbsp; &nbsp; &nbsp; &nbsp; Atomic Layer Deposition (ALD)
+     &nbsp; &nbsp; &nbsp; &nbsp; Chemical Bath Deposition (CBD) 
+     &nbsp; &nbsp; &nbsp; &nbsp; Chemical Solution Deposition (CSD) and sol-gel
+     &nbsp; &nbsp; &nbsp; &nbsp; Simple methods (drop-casting, spin-coating, dip-coating)
+     &nbsp; &nbsp; &nbsp; &nbsp; Electroless Plating/autocatalytic plating
+     &nbsp; &nbsp; Physical methods 
+     &nbsp; &nbsp; &nbsp; &nbsp; Physical Vapor Deposition (PVD)-Magnetron, DC, and RF Sputtering
+     &nbsp; &nbsp; &nbsp; &nbsp; Thermal Spraying (Plasma, Flame, HVOF, Arc))
+     &nbsp; &nbsp; Electrochemical methods 
+     &nbsp; &nbsp; &nbsp; &nbsp; Electroplating, Electrodeposition, anodizing
+     &nbsp; &nbsp; &nbsp; &nbsp; Electropolishing
+     Wire cut electric discharge machine
+     Spark plasma sintering (SPS)
+     Plasma Discharge synthesis (nanoalloys)
+     Novel methods for quantum dot synthesis
+
+- title: Publishing 
+  skills: |
+     ethics, journal selection, illustrations
+     editing, bibliometric analysis
+     journalism & reportage
+     book and chapters
+
+- title: Business
+  skills: |
+     Product Design and Development
+     Project Management
+     Relationship Management
+     Problem Solving
+     Business intelligence
+     Leadership
+
+- title: Textile
+  skills: | 
+     Knitting, Woven Knotted (Carpet, Rug, Gabbeh, border, …)
+     Non-Knotted (Zilo, Kilim, Termeh, …)
+     Antique repair & wash (burns, stains, holes, …)
+     Yarn spinning + dyeing + Finishing
+     Carpet whitening/Stone-washed techniques
+     Carpet Design + automated machines
