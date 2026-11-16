@@ -1,0 +1,272 @@
+/* ==========================================================================
+   SIDEBAR — THE OBSERVATORY
+   ========================================================================== */
+
+/* ==========================================================================
+   Default
+   ========================================================================== */
+
+.sidebar {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+
+  @include clearfix();
+  margin-bottom: 1em;
+
+  @include breakpoint($large) {
+    @include span(2 of 12);
+    opacity: 1;
+    -webkit-transition: opacity .25s $ease;
+            transition: opacity .25s $ease;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  @include breakpoint($x-large) {
+    padding-right: 0;
+  }
+
+  h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+    font-family: $serif;
+  }
+
+  h3, h4 {
+    font-size: 1em;
+  }
+
+  p, li {
+    font-family: $sans-serif;
+    font-size: .78em;
+    line-height: 1.55;
+    color: $ink-mute;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Right-hand sidebar (sticky TOC column)
+   ========================================================================== */
+
+.sidebar__right {
+  margin-bottom: 1em;
+
+  @include breakpoint($large) {
+    position: relative;
+    float: right;
+    width: $right-sidebar-width-narrow;
+    margin-left: span(0.5 of 12);
+    margin-right: -1.1 * $right-sidebar-width-narrow;
+    z-index: 10;
+
+    &.sticky {
+      @include clearfix();
+      position: -webkit-sticky;
+      position: sticky;
+      top: 2em;
+      float: right;
+
+      .toc {
+        .toc__menu {
+          overflow-y: auto;
+          max-height: calc(100vh - 7em);
+        }
+      }
+    }
+  }
+
+  @include breakpoint($x-large) {
+    width: $right-sidebar-width;
+    margin-right: -1.6 * $right-sidebar-width-narrow;
+  }
+}
+
+/* ==========================================================================
+   Author profile and links
+   ========================================================================== */
+
+.author__avatar {
+  display: table-cell;
+  vertical-align: top;
+  width: 36px;
+  // set width only, for non-square avatars
+  // height: 36px;
+
+  @include breakpoint($large) {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
+  img {
+    max-width: 175px;
+    border-radius: 50%;
+
+    @include breakpoint($large) {
+      padding: 5px;
+      background: $ivory;
+      border: 1px solid $brass-lt;
+      box-shadow:
+        0 0 0 4px $ivory,
+        0 0 0 5px $rule,
+        $shadow-sm;
+    }
+  }
+}
+
+.author__content {
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 15px;
+  padding-right: 25px;
+  line-height: 1.3;
+
+  @include breakpoint($large) {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.author__name {
+  margin: 0;
+
+  @include breakpoint($large) {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+}
+
+.sidebar .author__name {
+  font-family: $serif;
+  font-size: 1.1em;
+  letter-spacing: .01em;
+}
+
+.author__bio {
+  margin: 0;
+  font-size: .82em;
+  color: $ink-mute;
+
+  @include breakpoint($large) {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+/* ==========================================================================
+   Author link list (and dropdown)
+   ========================================================================== */
+
+.author__urls-wrapper {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: $sans-serif;
+  z-index: 10;
+  cursor: pointer;
+
+  li:last-child {
+    a {
+      margin-bottom: 0;
+    }
+  }
+
+  @include breakpoint($large) {
+    display: block;
+  }
+
+  button {
+    margin-bottom: 0;
+
+    @include breakpoint($large) {
+      display: none;
+    }
+  }
+}
+
+.author__urls {
+  display: none;
+  position: absolute;
+  right: 0;
+  margin-top: 15px;
+  padding: 10px;
+  list-style-type: none;
+  border: 1px solid $rule;
+  border-radius: $border-radius;
+  background: $ivory;
+  z-index: -1;
+  box-shadow: $shadow-md;
+  cursor: default;
+
+  @include breakpoint($large) {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  &:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -11px;
+    left: calc(50% - 10px);
+    width: 0;
+    border-style: solid;
+    border-width: 0 10px 10px;
+    border-color: $rule transparent;
+    z-index: 0;
+
+    @include breakpoint($large) {
+      display: none;
+    }
+  }
+
+  &:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: calc(50% - 10px);
+    width: 0;
+    border-style: solid;
+    border-width: 0 10px 10px;
+    border-color: $ivory transparent;
+    z-index: 1;
+
+    @include breakpoint($large) {
+      display: none;
+    }
+  }
+
+  li {
+    white-space: nowrap;
+  }
+
+  a {
+    display: block;
+    margin-bottom: 5px;
+    padding: 3px 6px 3px 0;
+    color: inherit;
+    font-size: .95em;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: $global-transition;
+            transition: $global-transition;
+
+    &:hover {
+      color: $brass;
+      border-bottom-color: $brass-lt;
+    }
+  }
+}

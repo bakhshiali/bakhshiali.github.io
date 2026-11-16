@@ -1,0 +1,50 @@
+/* ==========================================================================
+   TABLES — THE OBSERVATORY
+   ========================================================================== */
+
+table {
+  margin-bottom: 1.2em;
+  width: 100%;
+  font-family: $global-font-family;
+  font-size: .8em;
+  border-collapse: collapse;
+  border: 1px solid $rule;
+  border-radius: $border-radius;
+  overflow: hidden;                /* so the radius clips the corners */
+  box-shadow: $shadow-sm;
+
+  & + table {
+    margin-top: 1.2em;
+  }
+}
+
+thead {
+  background-color: $parchment-2;
+  border-bottom: 1px solid $rule;
+}
+
+th {
+  padding: .75em .9em;
+  font-weight: bold;
+  font-size: .92em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: $ink;
+  text-align: left;
+  border-right: 1px solid $rule-light;
+}
+
+td {
+  padding: .75em .9em;
+  border-bottom: 1px solid $rule-light;
+  border-right: 1px solid $rule-light;
+}
+
+/* a faint ledger-row highlight on hover */
+tbody tr:hover {
+  background-color: rgba($parchment, .6);
+}
+
+tr, td, th {
+  vertical-align: middle;
+}

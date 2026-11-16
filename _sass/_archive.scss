@@ -1,0 +1,650 @@
+/* ==========================================================================
+   ARCHIVE — THE OBSERVATORY
+   ========================================================================== */
+
+/* ==========================================================================
+   Archive shell
+   ========================================================================== */
+
+.archive {
+  margin-bottom: 2.4em;
+
+  @include breakpoint($medium) {
+    @include span(12 of 12);
+  }
+
+  @include breakpoint($large) {
+    @include span(10 of 12 last);
+    @include prefix(0.5 of 12);
+  }
+
+  a {
+    text-decoration: underline;
+    text-underline-offset: .15em;
+    text-decoration-thickness: 1px;
+
+    &:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+
+      img {
+        box-shadow: $shadow-md;
+      }
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------
+   Subtitle — a chapter heading in italic serif
+   ------------------------------------------------------------------------- */
+
+.archive__subtitle {
+  margin: 1.6em 0 0;
+  padding-bottom: .6em;
+  font-family: $serif;
+  font-size: 1em;
+  font-style: italic;
+  color: $ink-mute;
+  border-bottom: 1px solid $rule-light;
+
+  + .list__item .archive__item-title {
+    margin-top: .6em;
+  }
+}
+
+/* -------------------------------------------------------------------------
+   The specimen card
+   ------------------------------------------------------------------------- */
+
+.archive__item {
+  background-color: rgba(245, 241, 230, .55);   /* $parchment @ 55% */
+  border: 1px solid $rule-light;
+  border-radius: $radius;
+  padding: .9em 1em .7em;
+  box-shadow: $shadow-sm;
+  -webkit-transition: $global-transition;
+  transition: $global-transition;
+}
+
+.archive__item-title {
+  margin-bottom: .35em;
+  text-align: center;
+  font-family: $serif;
+  font-size: 1.15em;
+  letter-spacing: .01em;
+
+  a + a {
+    opacity: .5;
+  }
+}
+
+/* remove border (the posh rule: still no border-bottom on entry titles) */
+.page__content {
+  .archive__item-title {
+    margin-top: 1em;
+    border-bottom: none;
+  }
+}
+
+.archive__item-excerpt {
+  margin-top: 0;
+  font-size: .8em;
+  color: $ink-mute;
+
+  & + p {
+    text-indent: 0;
+  }
+}
+
+.archive__item-teaser {
+  border-radius: $radius;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
+}
+
+.archive__item:hover {
+  background-color: rgba(251, 249, 244, .9);    /* $ivory @ 90% */
+  border-color: $brass-lt;
+  box-shadow: 0 18px 40px -24px rgba(16, 25, 43, .4),
+              0 0 0 3px $brass-glow;
+  transform: translateY(-2px);
+
+  .archive__item-teaser {
+    box-shadow: $shadow-md;
+  }
+
+  .archive__item-title {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    color: $brass;
+  }
+}
+
+/* ==========================================================================
+   List view
+   ========================================================================== */
+
+.list__item {
+  @include breakpoint($medium) {
+    padding-right: 0;
+  }
+
+  @include breakpoint($large) {
+    padding-right: 0;
+  }
+
+  @include breakpoint($x-large) {
+    padding-right: 0;
+  }
+
+  .page__meta,
+  .comment__date {
+    margin: 0 0 6px;
+  }
+}
+
+/* ==========================================================================
+   Grid view
+   ========================================================================== */
+
+.grid__item {
+  margin-bottom: 2.2em;
+
+  .page__meta,
+  .comment__date {
+    margin: 0 0 6px;
+  }
+
+  .archive__item-title {
+    margin-top: .6em;
+    font-size: 1em;
+  }
+
+  .archive__item-excerpt {
+    display: none;
+  }
+
+  @include breakpoint($small) {
+    @include gallery(5 of 10);
+
+    .archive__item-teaser {
+      max-height: 200px;
+    }
+  }
+
+  @include breakpoint($medium) {
+    margin-left: 0;   /* reset before mixin does its thing */
+    margin-right: 0;  /* reset before mixin does its thing */
+    @include gallery(2.5 of 10);
+
+    .archive__item-teaser {
+      max-height: 120px;
+    }
+
+    .archive__item-excerpt {
+      display: block;
+      font-size: .78em;
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------
+   Grid box — a lighter sibling of .archive__item, for loose grids
+   ------------------------------------------------------------------------- */
+
+.grid__box {
+  background-color: rgba(245, 241, 230, .55);
+  border: 1px solid $rule-light;
+  border-radius: $radius;
+  padding: .9em 1em .7em;
+  box-shadow: $shadow-sm;
+  -webkit-transition: $global-transition;
+  transition: $global-transition;
+
+  &:hover {
+    background-color: rgba(251, 249, 244, .95);
+    border-color: $brass-lt;
+    box-shadow: 0 18px 40px -24px rgba(16, 25, 43, .4),
+                0 0 0 3px $brass-glow;
+    transform: translateY(-2px);
+  }
+}
+
+/* -------------------------------------------------------------------------
+   Research team grid — responsive auto-fill
+   ------------------------------------------------------------------------- */
+
+.grid__team {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+}
+/* ==========================================================================
+   Team index — grid of 6 clickable cards
+   ========================================================================== */
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2em;
+  margin: 2em 0 3em;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(245, 241, 230, .55);
+  border: 1px solid $rule-light;
+  border-radius: $radius;
+  box-shadow: $shadow-sm;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: $global-transition;
+          transition: $global-transition;
+
+  &:hover {
+    background-color: rgba(251, 249, 244, .9);
+    border-color: $brass-lt;
+    box-shadow:
+      0 18px 40px -24px rgba(16, 25, 43, .4),
+      0 0 0 3px $brass-glow;
+    transform: translateY(-3px);
+
+    .team-card__name { color: $brass; }
+    .team-card__image img { transform: scale(1.04); }
+  }
+}
+
+.team-card__image {
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: $parchment;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    -webkit-transition: transform .4s $ease;
+            transition: transform .4s $ease;
+  }
+}
+
+.team-card__body {
+  padding: 1.2em 1.4em 1.4em;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-card__name {
+  text-align: center;
+  margin: 0 0 .25em;
+  font-family: $serif;
+  font-size: 1.15em;
+  font-weight: 600;
+  color: $ink;
+  -webkit-transition: $global-transition;
+          transition: $global-transition;
+}
+
+.team-card__subtitle {
+  margin: 0 0 .6em;
+  font-family: $serif;
+  font-size: .92em;
+  font-style: italic;
+  color: $ink-soft;
+  line-height: 1.4;
+}
+
+.team-card__excerpt {
+  margin: 0 0 1em;
+  font-family: $sans-serif;
+  font-size: .85em;
+  color: $ink-mute;
+  line-height: 1.55;
+  flex: 1;
+}
+
+.team-card__count {
+  display: inline-block;
+  align-self: flex-start;
+  padding: .15em .7em;
+  font-family: $sans-serif;
+  font-size: .65em;
+  font-weight: bold;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: $brass;
+  border: 1px solid $brass-lt;
+  border-radius: 999px;
+}
+
+/* ==========================================================================
+   Individual team page header
+   ========================================================================== */
+
+.team-page-header {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin: 1em 0 2.4em;
+  padding-bottom: 1.6em;
+  border-bottom: 1px solid $rule-light;
+
+  @media (max-width: 48em) {
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+  }
+}
+
+.team-page-header__image {
+  flex: 0 1 auto;          // grow: 0, shrink: 1, basis: auto → uses natural width
+  width: auto;             // let the image define its own width
+  height: auto;            // keep aspect ratio from the file
+  max-width: 100%;         // safety: never overflow the container on small screens
+  border-radius: $radius;
+  border: 1px solid $brass-lt;
+  box-shadow:
+    0 0 0 4px $ivory,
+    0 0 0 5px $rule,
+    $shadow-sm;
+
+}
+
+.team-page-header__content {
+  flex: 1;
+  min-width: 0;
+
+  h1 {
+    margin: 0 0 .3em;
+    font-family: $serif;
+    font-size: 2.2em;
+    letter-spacing: -.005em;
+    color: $ink;
+  }
+
+  .epigraph {
+    margin: 0;
+    font-family: $serif;
+    font-size: 1.05em;
+    font-style: italic;
+    color: $ink-mute;
+    line-height: 1.5;
+  }
+
+}
+.lab-index-header {
+  text-align: center;
+  margin: 1em 0 2.4em;}
+  
+.team-page-intro {
+  margin-bottom: 1.6em;
+
+  p { font-size: 1em; }
+}
+
+.team-page-header + .team-page-intro {
+  /* no double border under the header */
+  border-top: 0;
+}
+/* ==========================================================================
+   Features
+   ========================================================================== */
+
+.feature__wrapper {
+  @include clearfix();
+  margin-bottom: 2.2em;
+  border-bottom: 1px solid $rule-light;
+}
+
+.feature__item {
+  margin-bottom: 2.2em;
+  font-size: 1.1rem;
+
+  @include breakpoint($small) {
+    margin-bottom: 0;
+    @include gallery(4 of 12);
+
+    .feature__item-teaser {
+      max-height: 200px;
+      overflow: hidden;
+    }
+  }
+
+  /* --- left image --------------------------------------------------- */
+  &--left {
+    @include full();
+    font-size: 1.1rem;
+
+    .archive__item-teaser {
+      margin-bottom: 2em;
+    }
+
+    @include breakpoint($small) {
+      .archive__item-teaser {
+        @include span(5 of 12);
+      }
+
+      .archive__item-body {
+        @include span(7 of 12 last);
+        @include prefix(0.5 of 12);
+        @include suffix(1 of 12);
+      }
+    }
+  }
+
+  /* --- right image -------------------------------------------------- */
+  &--right {
+    @include full();
+    font-size: 1.1rem;
+
+    .archive__item-teaser {
+      margin-bottom: 2em;
+    }
+
+    @include breakpoint($small) {
+      text-align: right;
+
+      .archive__item-teaser {
+        @include span(5 of 12 rtl);
+      }
+
+      .archive__item-body {
+        @include span(7 of 12 last rtl);
+        @include prefix(0.5 of 12);
+        @include suffix(1 of 12);
+      }
+    }
+  }
+
+  /* --- centered image ----------------------------------------------- */
+  &--center {
+    @include full();
+    font-size: 1.1rem;
+
+    .archive__item-teaser {
+      margin-bottom: 2em;
+    }
+
+    @include breakpoint($small) {
+      text-align: center;
+
+      .archive__item-teaser {
+        margin: 0 auto;
+        width: span(5 of 12);
+      }
+
+      .archive__item-body {
+        margin: 0 auto;
+        width: span(7 of 12);
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+   Divider ornaments
+   -------------------------------------------------------------------------
+   NOTE: these and `.wrapper { padding-bottom: .5em }` really belong in
+   `_sass/_utilities.scss`. They live here only because the upstream author
+   parked them in this file. When we reach `_utilities.scss`, cut both blocks
+   out of this file and paste them there.
+   ========================================================================== */
+
+/* html usage:
+   <div class="wrapper">
+     <div class="divider div-transparent"></div>
+     <div class="divider div-transparent div-arrow-down"></div>
+     <div class="divider div-transparent div-tab-down"></div>
+     <div class="divider div-transparent div-stopper"></div>
+     <div class="divider div-transparent div-dot"></div>
+   </div>
+*/
+
+.wrapper {
+  padding-bottom: .5em;
+}
+
+.divider {
+  position: relative;
+  margin-top: 2.4em;
+  height: 1px;
+}
+
+.div-transparent:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    $rule 20%,
+    $rule 80%,
+    transparent
+  );
+}
+
+.div-arrow-down:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -7px;
+  left: calc(50% - 7px);
+  width: 14px;
+  height: 14px;
+  transform: rotate(45deg);
+  background-color: $ivory;
+  border-bottom: 1px solid $brass;
+  border-right: 1px solid $brass;
+}
+
+.div-tab-down:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: calc(50% - 10px);
+  width: 20px;
+  height: 14px;
+  background-color: $ivory;
+  border-bottom: 1px solid $brass;
+  border-left: 1px solid $brass;
+  border-right: 1px solid $brass;
+  border-radius: 0 0 8px 8px;
+}
+
+.div-stopper:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -6px;
+  left: calc(50% - 7px);
+  width: 14px;
+  height: 12px;
+  background-color: $ivory;
+  border-left: 1px solid $brass;
+  border-right: 1px solid $brass;
+}
+
+.div-dot:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -9px;
+  left: calc(50% - 9px);
+  width: 18px;
+  height: 18px;
+  background-color: $brass;
+  border: 1px solid $ink;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px $ivory,
+              0 0 0 4px $ivory;
+}
+/* ==========================================================================
+   Member tenure — joined / left dates
+   ========================================================================== */
+
+.team-member-tenure {
+  display: flex;
+  justify-content: center;
+  gap: .4em;
+  flex-wrap: wrap;
+  margin: .5em 0 .55em;
+}
+
+.tenure-badge {
+  display: inline-block;
+  padding: .18em .7em;
+  font-family: $sans-serif;
+  font-size: .62em;
+  font-weight: bold;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  white-space: nowrap;
+  -webkit-transition: $global-transition;
+          transition: $global-transition;
+}
+
+/* Style A — range badge */
+.tenure-badge--current {
+  color: $teal;
+  border: 1px solid rgba(47, 111, 106, .45);
+  background: rgba(47, 111, 106, .06);
+}
+
+.tenure-badge--past {
+  color: $ink-mute;
+  border: 1px solid $rule;
+  background: rgba(220, 214, 200, .3);
+}
+
+/* Style B — separate joined / left / current */
+.tenure-badge--joined {
+  color: $brass;
+  border: 1px solid $brass-lt;
+  background: rgba(201, 169, 97, .08);
+}
+
+.tenure-badge--left {
+  color: $ink-mute;
+  border: 1px solid $rule;
+  background: rgba(220, 214, 200, .3);
+}
+
+/* shared hover — the card livening up on hover */
+.grid__box:hover .tenure-badge--current {
+  border-color: $teal;
+  background: rgba(47, 111, 106, .12);
+}

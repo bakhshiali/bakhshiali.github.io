@@ -1,0 +1,478 @@
+/* ==========================================================================
+   NAVIGATION — THE OBSERVATORY
+   ========================================================================== */
+
+/* ==========================================================================
+   Breadcrumb navigation links
+   ========================================================================== */
+
+.breadcrumbs {
+  @include container;
+  @include clearfix;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-family: $sans-serif;
+  -webkit-animation: intro 0.5s both;
+          animation: intro 0.5s both;
+  -webkit-animation-delay: 0.30s;
+          animation-delay: 0.30s;
+
+  @include breakpoint($large) {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  @include breakpoint($x-large) {
+    max-width: $x-large;
+  }
+
+  ol {
+    padding: 0;
+    list-style: none;
+    font-size: .7em;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: $ink-mute;
+
+    @include breakpoint($large) {
+      @include span(10 of 12 last);
+    }
+
+    @include breakpoint($x-large) {
+      @include prefix(0.5 of 12);
+    }
+  }
+
+  li {
+    display: inline;
+  }
+
+  .current {
+    font-weight: bold;
+    color: $ink;
+  }
+}
+
+
+/* ==========================================================================
+   Post pagination navigation links
+   ========================================================================== */
+
+.pagination {
+  @include full();
+  @include clearfix();
+  margin-top: 1em;
+  padding-top: 1em;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: $sans-serif;
+  }
+
+  li {
+    display: block;
+    float: left;
+    margin-left: -1px;
+
+    a {
+      margin-bottom: .25em;
+      padding: .55em 1.05em;
+      font-family: $sans-serif;
+      font-size: .72em;
+      font-weight: bold;
+      letter-spacing: .12em;
+      line-height: 1.5;
+      text-align: center;
+      text-decoration: none;
+      color: $ink-mute;
+      background: $ivory;
+      border: 1px solid $rule;
+      border-radius: 0;
+
+      &:hover {
+        color: $brass;
+        border-color: $brass-lt;
+      }
+
+      &.current {
+        color: $ivory;
+        background: $ink;
+        border-color: $ink;
+      }
+
+      &.disabled {
+        color: $rule;
+        pointer-events: none;
+        cursor: not-allowed;
+        background: transparent;
+      }
+    }
+
+    &:first-child {
+      margin-left: 0;
+
+      a {
+        border-top-left-radius: $border-radius;
+        border-bottom-left-radius: $border-radius;
+      }
+    }
+
+    &:last-child {
+      a {
+        border-top-right-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
+      }
+    }
+  }
+
+  /* next/previous buttons */
+  &--pager {
+    display: block;
+    padding: 1em 2em;
+    float: left;
+    width: 50%;
+    font-family: $sans-serif;
+    font-size: .85em;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-align: center;
+    text-decoration: none;
+    color: $ink-mute;
+    background: $ivory;
+    border: 1px solid $rule;
+    border-radius: $border-radius;
+
+    &:hover {
+      color: $brass;
+      border-color: $brass-lt;
+    }
+
+    &:first-child {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    &:last-child {
+      margin-left: -1px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    &.disabled {
+      color: $rule;
+      pointer-events: none;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.page__content + .pagination,
+.page__meta + .pagination,
+.comment__date + .pagination,
+.page__share + .pagination,
+.page__comments + .pagination {
+  margin-top: 2em;
+  padding-top: 2em;
+  border-top: 1px solid $rule-light;
+}
+
+
+/* ==========================================================================
+   Priority plus navigation
+   ========================================================================== */
+
+.greedy-nav {
+  position: relative;
+  min-width: 250px;
+  background: transparent;
+
+  a {
+    display: block;
+    margin: 0 1rem;
+    padding: .55rem 0;
+    color: $ink-mute;
+    font-size: .78em;
+    font-weight: 600;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    &:hover {
+      color: $ink;
+    }
+  }
+
+  button {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    padding: 0 .6rem;
+    border: 0;
+    outline: none;
+    background-color: $ink;
+    color: $ivory;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $brass;
+    }
+  }
+
+  .visible-links {
+    display: table;
+
+    li {
+      display: table-cell;
+      vertical-align: middle;
+
+      &:first-child {
+        font-weight: 700;
+
+        a {
+          margin-left: 0;
+        }
+      }
+
+      &:last-child {
+        a {
+          margin-right: 0;
+        }
+      }
+    }
+
+    a {
+      position: relative;
+
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 2px;
+        height: 1px;
+        background: $brass;
+        width: 100%;
+        -webkit-transition: transform .35s $ease;
+                transition: transform .35s $ease;
+        -webkit-transform: scaleX(0);
+            -ms-transform: scaleX(0);
+                transform: scaleX(0);
+        -webkit-transform-origin: right;
+            -ms-transform-origin: right;
+                transform-origin: right;
+      }
+
+      &:hover:before {
+        -webkit-transform: scaleX(1);
+            -ms-transform: scaleX(1);
+                transform: scaleX(1);
+        -webkit-transform-origin: left;
+            -ms-transform-origin: left;
+                transform-origin: left;
+      }
+    }
+  }
+
+  .hidden-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 15px;
+    padding: 6px;
+    border: 1px solid $rule;
+    border-radius: $border-radius;
+    background: $ivory;
+    box-shadow: $shadow-md;
+
+    a {
+      margin: 0;
+      padding: 10px 20px;
+      font-size: .9em;
+
+      &:hover {
+        color: $ink;
+        background: $parchment;
+      }
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: -11px;
+      right: 10px;
+      width: 0;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      border-color: $rule transparent;
+      display: block;
+      z-index: 0;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: -10px;
+      right: 10px;
+      width: 0;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      border-color: $ivory transparent;
+      display: block;
+      z-index: 1;
+    }
+
+    li {
+      display: block;
+      border-bottom: 1px solid $rule-light;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+
+/* ==========================================================================
+   Navigation list
+   ========================================================================== */
+
+.nav__list {
+  font-size: 1rem;
+
+  ul {
+    margin-bottom: 1em;
+  }
+
+  a {
+    display: block;
+    padding: .18em 0;
+    color: inherit;
+    font-size: .9em;
+
+    &:hover {
+      color: $brass;
+      text-decoration: none;
+    }
+  }
+
+  .active {
+    margin-left: -.6em;
+    padding: .12em .6em;
+    color: $ivory;
+    font-weight: bold;
+    background: $ink;
+    border-radius: $border-radius;
+
+    &:hover {
+      color: $ivory;
+    }
+  }
+}
+
+.nav__title {
+  margin: 0;
+  padding: .5rem 1rem;
+  font-family: $serif;
+  font-size: 1.05em;
+  font-weight: 600;
+}
+
+.nav__sub-title {
+  display: block;
+  margin: .5rem 0;
+  padding: .5rem 0;
+  font-family: $sans-serif-narrow;
+  font-size: .68em;
+  font-weight: bold;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: $ink-mute;
+  border-bottom: 1px solid $rule-light;
+}
+
+
+/* ==========================================================================
+   Table of contents navigation
+   ========================================================================== */
+
+.toc {
+  font-family: $sans-serif-narrow;
+  color: $ink-soft;
+  background-color: $ivory;
+  border: 1px solid $rule;
+  border-radius: $border-radius;
+  -webkit-box-shadow: $shadow-sm;
+          box-shadow: $shadow-sm;
+  overflow: hidden;
+  
+  .nav__title {
+    color: $ivory;
+    font-size: .66em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    background: $ink;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+  }
+
+  /* Scrollspy marks toc items as .active when they are in focus */
+  .active a {
+    background-color: $parchment-2;
+    color: $ink;
+  }
+}
+
+.toc__menu {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  font-size: .66em;
+
+  @include breakpoint($large) {
+    font-size: .72em;
+  }
+
+  a {
+    display: block;
+    padding: .5rem .85rem;
+    color: $ink-mute;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    border-bottom: 1px solid $rule-light;
+
+    &:hover {
+      color: $brass;
+    }
+  }
+
+  li:last-child > a {
+    border-bottom: none;
+  }
+
+  li ul > li a {
+    padding-left: 1.25rem;
+    font-weight: normal;
+  }
+
+  li ul li ul > li a {
+    padding-left: 1.75rem;
+  }
+
+  li ul li ul li ul > li a {
+    padding-left: 2.25rem;
+  }
+
+  li ul li ul li ul li ul > li a {
+    padding-left: 2.75rem;
+  }
+
+  li ul li ul li ul li ul li ul > li a {
+    padding-left: 3.25rem;
+  }
+}

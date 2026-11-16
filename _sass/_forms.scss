@@ -1,0 +1,431 @@
+/* ==========================================================================
+   FORMS — THE OBSERVATORY
+   ========================================================================== */
+
+/* ==========================================================================
+   Form wrapper
+   ========================================================================== */
+
+form {
+  margin: 0 0 5px 0;
+
+  fieldset {
+    margin-bottom: 5px;
+    padding: 0;
+    border-width: 0;
+  }
+
+  legend {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 0;
+    color: $ink;
+    font-family: $serif;
+    font-size: 1.1em;
+    border: 0;
+    border-bottom: 1px solid $rule;
+    white-space: normal;
+  }
+
+  p {
+    margin-bottom: 2.5px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0 0 5px 0;
+    padding: 0;
+  }
+
+  br {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Shared field typography
+   ========================================================================== */
+
+label,
+input,
+button,
+select,
+textarea {
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+input,
+button,
+select,
+textarea {
+  box-sizing: border-box;
+  font-family: $sans-serif;
+}
+
+/* -------------------------------------------------------------------------
+   Labels — set like a curator's caption
+   ------------------------------------------------------------------------- */
+
+label {
+  display: block;
+  margin-bottom: .35em;
+  color: $ink-soft;
+  font-size: .78em;
+  font-weight: bold;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  small {
+    font-size: .85em;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+
+  input,
+  textarea,
+  select {
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   Fields
+   ========================================================================== */
+
+input,
+textarea,
+select {
+  display: inline-block;
+  width: 100%;
+  padding: .55em .7em;
+  margin-bottom: .7em;
+  color: $ink;
+  font-size: .9em;
+  background-color: $ivory;
+  border: 1px solid $rule;
+  border-radius: $border-radius;
+  box-shadow: inset 0 1px 2px rgba(16, 25, 43, .04);
+
+  &:hover {
+    border-color: $brass-lt;
+  }
+}
+
+.input-mini {
+  width: 60px;
+}
+
+.input-small {
+  width: 90px;
+}
+
+/* -------------------------------------------------------------------------
+   Checkboxes / radios / file / image
+   ------------------------------------------------------------------------- */
+
+input[type="image"],
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 3px 0;
+  *margin-top: 0;
+  line-height: normal;
+  cursor: pointer;
+  border-radius: 0;
+  border: 0 \9;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *width: 13px;
+  *height: 13px;
+}
+
+input[type="image"] {
+  border: 0;
+  box-shadow: none;
+}
+
+input[type="file"] {
+  width: auto;
+  padding: initial;
+  line-height: initial;
+  border: initial;
+  background-color: transparent;
+  background-color: initial;
+  box-shadow: none;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  *overflow: visible;
+}
+
+select,
+input[type="file"] {
+  *margin-top: 4px;
+}
+
+select {
+  width: auto;
+  background-color: $ivory;
+}
+
+select[multiple],
+select[size] {
+  height: auto;
+}
+
+textarea {
+  resize: vertical;
+  height: auto;
+  overflow: auto;
+  vertical-align: top;
+}
+
+input[type="hidden"] {
+  display: none;
+}
+
+/* ==========================================================================
+   Form layout helpers
+   ========================================================================== */
+
+.form {
+  position: relative;
+}
+
+.radio,
+.checkbox {
+  padding-left: 18px;
+  font-weight: normal;
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: .85em;
+}
+
+.radio input[type="radio"],
+.checkbox input[type="checkbox"] {
+  float: left;
+  margin-left: -18px;
+}
+
+.radio.inline,
+.checkbox.inline {
+  display: inline-block;
+  padding-top: 5px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.radio.inline + .radio.inline,
+.checkbox.inline + .checkbox.inline {
+  margin-left: 10px;
+}
+
+/* ==========================================================================
+   Disabled state
+   ========================================================================== */
+
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly],
+select[readonly],
+textarea[readonly] {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+/* ==========================================================================
+   Focus & active state — brass ring
+   ========================================================================== */
+
+input:focus,
+textarea:focus {
+  border-color: $brass;
+  outline: 0;
+  outline: thin dotted \9;   /* IE6–7 only */
+  box-shadow: 0 0 0 3px $brass-glow;
+}
+
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus,
+select:focus {
+  box-shadow: none;
+}
+
+/* ==========================================================================
+   Help text
+   ========================================================================== */
+
+.help-block,
+.help-inline {
+  color: $ink-mute;
+  font-size: .8em;
+}
+
+.help-block {
+  display: block;
+  margin-bottom: 1em;
+  line-height: 1.4em;
+}
+
+.help-inline {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
+/* ==========================================================================
+   .form-inline
+   ========================================================================== */
+
+.form-inline input,
+.form-inline textarea,
+.form-inline select {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.form-inline label {
+  display: inline-block;
+}
+
+.form-inline .radio,
+.form-inline .checkbox {
+  padding-left: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.form-inline .radio input[type="radio"],
+.form-inline .checkbox input[type="checkbox"] {
+  float: left;
+  margin-left: 0;
+  margin-right: 3px;
+}
+
+/* ==========================================================================
+   .form-search
+   ========================================================================== */
+
+.form-search input,
+.form-search textarea,
+.form-search select {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.form-search .search-query {
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-bottom: 0;
+  border-radius: 14px;
+}
+
+.form-search label {
+  display: inline-block;
+}
+
+.form-search .radio,
+.form-search .checkbox {
+  padding-left: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.form-search .radio input[type="radio"],
+.form-search .checkbox input[type="checkbox"] {
+  float: left;
+  margin-left: 0;
+  margin-right: 3px;
+}
+
+/* ==========================================================================
+   .form--loading
+   ========================================================================== */
+
+.form--loading:before {
+  content: '';
+}
+
+.form--loading .form__spinner {
+  display: block;
+}
+
+.form:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(251, 249, 244, .7);   /* $ivory @ 70% */
+  z-index: 10;
+}
+
+.form__spinner {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 11;
+}
+
+/* ==========================================================================
+   Required field marker
+   -------------------------------------------------------------------------
+   Moved here from the original `_base.scss` per the split plan.
+   ========================================================================== */
+
+.required {
+  color: $crimson;
+  font-weight: bold;
+}
+
+/* ==========================================================================
+   Google search form
+   ========================================================================== */
+
+#goog-fixurl {
+  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+
+    li {
+      list-style-type: none;
+    }
+  }
+}
+
+#goog-wm-qt {
+  width: auto;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 8px 20px;
+  display: inline-block;
+  font-size: .8em;
+  background-color: $ivory;
+  color: $ink;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: $rule;
+  border-radius: $border-radius;
+}
+
+#goog-wm-sb {
+  @extend .btn;
+}

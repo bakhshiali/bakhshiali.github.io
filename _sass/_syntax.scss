@@ -1,0 +1,193 @@
+/* ==========================================================================
+   SYNTAX HIGHLIGHTING — THE OBSERVATORY
+   ========================================================================== */
+
+/* ==========================================================================
+   Code block container
+   ========================================================================== */
+
+div.highlighter-rouge,
+figure.highlight {
+  position: relative;
+  margin-bottom: 1.4em;
+  padding: 1.2em;
+  border: 1px solid $rule-light;
+  border-left: 3px solid $brass-lt;   /* the brass margin */
+  border-radius: $border-radius;
+  background-color: $parchment;
+  box-shadow: $shadow-sm;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .5em .8em;
+    background-color: $parchment-2;
+    color: $ink-mute;
+    content: "\f121";                /* the code icon */
+    font-family: "fontawesome" !important;
+    font-size: .7em;
+    line-height: 1;
+    text-transform: none;
+    speak: none;
+    border-bottom-left-radius: $border-radius;
+  }
+
+  .highlight {
+    margin: 0;
+    font-family: $monospace;
+    font-size: .72em;
+    line-height: 1.85;
+    background: transparent;
+  }
+}
+
+.highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+
+
+/* ==========================================================================
+   Studio palette
+   --------------------------------------------------------------------------
+   A quiet ink-and-pigment scheme for the working scientist's code. Roles
+   match Solarized's token taxonomy; the colours come from THE OBSERVATORY
+   palette instead.
+
+     warm gray   #8a8578   comments
+     ink-soft    #2c3a4e   default body
+     ink-mute    #5d6b7d   literal dates / quiet
+     deep navy   #2c4a6e   declarations, classes, functions
+     crimson     #8c2f39   keywords, operators, errors, types
+     warm rust   #a3562f   constants, escapes, regex, exceptions
+     teal        #2f6f6a   strings & numbers
+     brass       #a8853f   builtins
+   ========================================================================== */
+
+/* — comments ———————————————————————————————————————————— */
+
+.highlight .c,
+.highlight .cm,
+.highlight .c1,
+.highlight .sb {
+  color: #8a8578;
+  font-style: italic;
+}
+
+/* — errors —————————————————————————————————————————————— */
+
+.highlight .err {
+  color: $crimson;
+}
+
+/* — default body / punctuation / labels ——————————————————— */
+
+.highlight .g,
+.highlight .l,
+.highlight .n,
+.highlight .p,
+.highlight .go,
+.highlight .gp,
+.highlight .gt,
+.highlight .gs,
+.highlight .nl,
+.highlight .nn,
+.highlight .nx,
+.highlight .py,
+.highlight .w,
+.highlight .sd,
+.highlight .sh,
+.highlight .na {
+  color: $ink-soft;
+}
+
+.highlight .gs {
+  font-weight: bold;
+}
+
+/* — keywords & operators ————————————————————————————————— */
+
+.highlight .k,
+.highlight .o,
+.highlight .cp,
+.highlight .cs,
+.highlight .gi,
+.highlight .kn,
+.highlight .kp,
+.highlight .ow {
+  color: $crimson;
+}
+
+/* — constants, escapes, regex, exceptions —————————————————— */
+
+.highlight .x,
+.highlight .gr,
+.highlight .gh,
+.highlight .gu,
+.highlight .kc,
+.highlight .no,
+.highlight .ni,
+.highlight .ne,
+.highlight .se,
+.highlight .sr {
+  color: #a3562f;
+}
+
+/* — strings & numbers ——————————————————————————————————— */
+
+.highlight .m,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .s,
+.highlight .sc,
+.highlight .s2,
+.highlight .si,
+.highlight .sx,
+.highlight .s1,
+.highlight .ss,
+.highlight .il,
+.highlight .gd {
+  color: $teal;
+}
+
+/* — builtins ————————————————————————————————————————————— */
+
+.highlight .nb {
+  color: $brass;
+}
+
+/* — declarations, classes, functions, tags, variables ————— */
+
+.highlight .kd,
+.highlight .kr,
+.highlight .nc,
+.highlight .nd,
+.highlight .nf,
+.highlight .nt,
+.highlight .nv,
+.highlight .bp,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi {
+  color: #2c4a6e;
+}
+
+/* — emphasis ————————————————————————————————————————————— */
+
+.highlight .ge {
+  color: $ink-soft;
+  font-style: italic;
+}
+
+/* — types ———————————————————————————————————————————————— */
+
+.highlight .kt {
+  color: $crimson;
+}
+
+/* — literal date / quiet metadata ——————————————————————— */
+
+.highlight .ld {
+  color: $ink-mute;
+}

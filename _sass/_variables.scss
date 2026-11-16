@@ -1,0 +1,257 @@
+/* ==========================================================================
+   Variables — THE OBSERVATORY
+   ========================================================================== */
+
+/*
+   Typography
+   ========================================================================== */
+
+$doc-font-size              : 16;
+
+/* paragraph indention */
+$paragraph-indent           : false; // true, false (default)
+$indent-var                 : 1.3em;
+
+/* system typefaces — posh: serif display, humanist sans body */
+$serif                      : "Cormorant Garamond", "Playfair Display",
+                              "Iowan Old Style", "Palatino Linotype",
+                              Palatino, Georgia, serif;
+$sans-serif                 : "Optima", "Gill Sans", "Gill Sans MT",
+                              -apple-system, "Segoe UI", "Helvetica Neue",
+                              Arial, sans-serif;
+$monospace                  : "JetBrains Mono", "SFMono-Regular",
+                              Consolas, "Lucida Console", monospace;
+
+/* sans serif typefaces */
+$sans-serif-narrow          : $sans-serif;
+$helvetica                  : $sans-serif;
+
+/* serif typefaces */
+$georgia                    : Georgia, serif;
+$times                      : Times, serif;
+$bodoni                     : "Bodoni MT", serif;
+$calisto                    : "Calisto MT", serif;
+$garamond                   : "Cormorant Garamond", Garamond, serif;
+
+$global-font-family         : $sans-serif;
+$header-font-family         : $serif;       // posh: display serif headings
+$caption-font-family        : $serif;
+
+/* type scale (unchanged) */
+$type-size-1                : 2.441em;
+$type-size-2                : 1.953em;
+$type-size-3                : 1.563em;
+$type-size-4                : 1.25em;
+$type-size-5                : 1em;
+$type-size-6                : 0.75em;
+$type-size-7                : 0.6875em;
+$type-size-8                : 0.625em;
+
+
+/* ==========================================================================
+   Posh palette (new)
+   --------------------------------------------------------------------------
+   These Sass vars are the source of truth. The :root block at the bottom of
+   this file emits the matching CSS custom properties so rules written against
+   `var(--ink)` etc. resolve.
+   ========================================================================== */
+
+/* ink & paper */
+$ink                        : #10192b;
+$ink-soft                   : #2c3a4e;
+$ink-mute                   : #5d6b7d;
+$slate                      : #7c8798;
+$ivory                      : #fbf9f4;
+$parchment                  : #f5f1e6;
+$parchment-2                : #efe9db;
+
+/* rules & metal */
+$rule                       : #dcd6c8;
+$rule-light                 : #ece7db;
+$brass                      : #a8853f;
+$brass-lt                   : #c9a961;
+$brass-glow                 : rgba(168, 133, 63, .20);
+
+/* accents */
+$teal                       : #2f6f6a;
+$crimson                    : #8c2f39;
+
+/* elevation & easing */
+$ease                       : cubic-bezier(.22, .61, .36, 1);
+$shadow-sm                  : 0 1px 2px rgba(16, 25, 43, .06),
+                              0 1px 1px rgba(16, 25, 43, .04);
+$shadow-md                  : 0 6px 24px -12px rgba(16, 25, 43, .30),
+                              0 2px 6px rgba(16, 25, 43, .06);
+$shadow-lg                  : 0 24px 60px -30px rgba(16, 25, 43, .45),
+                              0 8px 20px -12px rgba(16, 25, 43, .18);
+
+/* layout */
+$measure                    : 940px;
+$measure-wide               : 1280px;
+$radius                     : 3px;
+
+
+/* ==========================================================================
+   Colors — mapped to the posh palette
+   ========================================================================== */
+
+$gray                       : $slate;
+$dark-gray                  : mix(#000, $slate, 40%);   // ≈ #4a5159 (body text)
+$darker-gray                : mix(#000, $slate, 60%);   // ≈ #32373d (deep ink)
+$light-gray                 : $rule;
+$lighter-gray               : $parchment-2;
+
+$body-color                 : $ivory;                   // text on dark UI
+$background-color           : $ivory;
+$code-background-color      : $parchment;
+$code-background-color-dark : $parchment-2;
+$text-color                 : $dark-gray;
+$border-color               : $rule-light;
+
+$primary-color              : $ink;
+$success-color              : #4e7d52;
+$warning-color              : $brass;
+$danger-color               : $crimson;
+$info-color                 : $teal;
+
+$focus-color                : $brass      !default;
+$active-color               : $parchment-2 !default;
+$muted-text-color           : $ink-mute   !default;
+$form-background-color      : $parchment  !default;
+$footer-background-color    : $ink        !default;
+
+/* YIQ color contrast */
+$yiq-contrasted-dark-default : $dark-gray !default;
+$yiq-contrasted-light-default: #fff       !default;
+$yiq-contrasted-threshold    : 175        !default;
+$yiq-debug                   : false      !default;
+
+/* customize (bookmark icons) */
+$pocket-color               : #ef4056 !default;
+$hatena-color               : #008fde !default;
+$blogger-color              : #f57d00 !default;
+
+/* brands (unchanged) */
+$behance-color              : #1769FF;
+$dribbble-color             : #ea4c89;
+$facebook-color             : #3b5998;
+$flickr-color               : #ff0084;
+$foursquare-color           : #0072b1;
+$github-color               : #171516;
+$google-plus-color          : #dd4b39;
+$instagram-color            : #517fa4;
+$lastfm-color               : #d51007;
+$linkedin-color             : #007bb6;
+$pinterest-color            : #cb2027;
+$rss-color                  : #a8853f;   // posh: brass instead of orange
+$soundcloud-color           : #ff3300;
+$stackoverflow-color        : #fe7a15;
+$tumblr-color               : #32506d;
+$twitter-color              : #55acee;
+$vimeo-color                : #1ab7ea;
+$vine-color                 : #00bf8f;
+$youtube-color              : #bb0000;
+$xing-color                 : #006567;
+
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+$link-color                 : $teal;
+$link-color-hover           : $ink;
+$link-color-visited         : mix(#fff, $teal, 25%);
+$masthead-link-color        : $ink-mute;
+$masthead-link-color-hover  : $ink;
+
+
+/* ==========================================================================
+   Breakpoints
+   ========================================================================== */
+
+@include breakpoint-set("to ems", true);
+
+$small                      : 600px !default;
+$medium                     : 768px !default;
+$medium-wide                : 900px !default;
+$large                      : 925px !default;
+$x-large                    : 1280px !default;
+$max-width                  : $x-large !default;
+
+
+/* ==========================================================================
+   Grid
+   ========================================================================== */
+
+$right-sidebar-width-narrow : 200px;
+$right-sidebar-width        : 300px;
+$right-sidebar-width-wide   : 400px;
+
+$susy: (
+  columns: 12,
+  column-width: 120px,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  container: $large,
+  global-box-sizing: border-box,
+);
+
+
+/* ==========================================================================
+   Other
+   ========================================================================== */
+
+$border-radius              : $radius;            // 3px
+$box-shadow                 : $shadow-sm;
+$navicon-width              : 28px;
+$navicon-height             : 3px;
+$global-transition          : all 0.28s $ease;
+
+
+/* ==========================================================================
+   CSS custom properties
+   --------------------------------------------------------------------------
+   Emitted here so rules written against `var(--ink)` etc. resolve.
+   (The previous .social-icons block that lived at the bottom of this file
+   has been moved to `_sass/_base.scss` — see the split plan.)
+   ========================================================================== */
+
+:root {
+  /* ink & paper */
+  --ink:         #{$ink};
+  --ink-soft:    #{$ink-soft};
+  --ink-mute:    #{$ink-mute};
+  --slate:       #{$slate};
+  --ivory:       #{$ivory};
+  --parchment:   #{$parchment};
+  --parchment-2: #{$parchment-2};
+
+  /* rules & metal */
+  --rule:        #{$rule};
+  --rule-light:  #{$rule-light};
+  --brass:       #{$brass};
+  --brass-lt:    #{$brass-lt};
+  --brass-glow:  #{$brass-glow};
+
+  /* accents */
+  --teal:        #{$teal};
+  --crimson:     #{$crimson};
+
+  /* elevation & easing */
+  --shadow-sm:   #{$shadow-sm};
+  --shadow-md:   #{$shadow-md};
+  --shadow-lg:   #{$shadow-lg};
+  --ease:        #{$ease};
+
+  /* type */
+  --serif:       #{$serif};
+  --sans:        #{$sans-serif};
+  --mono:        #{$monospace};
+
+  /* layout */
+  --radius:      3px;
+  --measure:     940px;
+  --measure-wide: 1280px;
+}
