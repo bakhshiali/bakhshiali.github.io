@@ -1,0 +1,72 @@
+---
+---
+
+/*
+ *    Minimal Mistakes Jekyll Theme
+*/
+
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
+
+@import "reset";
+@import "base";
+
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
+
+@import "forms";
+
+@import "page";
+@import "archive";
+@import "sidebar";
+
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
+@include breakpoint(max-width ($large - 1px)) {
+}
+.hatena {
+    &:before {
+        content: "B!";
+        font-family: Verdana;
+		font-style: normal;
+        font-weight: bold;
+    }
+}
+
+.page__share {
+	.btn {
+		width : calc(96% / 6);
+    }
+}
+div.footer-wrapper {
+    display: inline-grid !important;
+    grid-template-columns: 120px 1fr;
+    grid-template-rows: 60px;
+}
+img.qr-code {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin: 0 !important;
+    box-shadow: 0 5px 15px -5px rgba(0,0,0,.8);
+}
+ul.social-icons {
+    grid-column-start: 2;
+    grid-column-end: 1;
+    padding: 20px 0;
+}
+div.page__footer-copyright {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
