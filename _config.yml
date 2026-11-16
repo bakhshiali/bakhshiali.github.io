@@ -4,9 +4,9 @@ title                    : "Ali Bakhshi"
 title_separator          : "-"
 name                     : &name "Ali Bakhshi"
 description              : &description "Nanotechnology, Biotechnology, R&D Management"
-url                      : http://localhost:4000/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://bakhshiali.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "bakhshiali/bakhshiali.github.io"
+repository               : " bakhshiali/bakhshiali.github.io "
 teaser                   : "alibakhshi.jpg"# filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -111,7 +111,7 @@ author:
   flickr           : "photos/199068913@N05"
   facebook         : "profile.php?id=100017730216353"
   foursquare       :
-  github           : [metadata]
+  github           : "bakhshiali"
   google_plus      :
   keybase          :
   instagram        : "ali_bakhshi1995/"
